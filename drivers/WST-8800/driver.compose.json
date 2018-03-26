@@ -1,0 +1,12 @@
+{
+    "id": "WST-8800",
+    "name": {
+        "en": "WST-8800"
+    },
+    "$extends": [
+        "defaults.png",
+        "kakuold",
+        "wall_switch",
+        "wall_switch.flows.single"
+    ]
+}

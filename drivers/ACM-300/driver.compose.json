@@ -1,0 +1,12 @@
+{
+    "id": "ACM-300",
+    "name": {
+        "en": "ACM-300"
+    },
+    "$extends": [
+        "socket",
+        "defaults.png",
+        "dim",
+        "build_in.pair"
+    ]
+}

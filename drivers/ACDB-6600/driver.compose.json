@@ -1,0 +1,10 @@
+{
+    "id": "ACDB-6600",
+    "name": {
+        "en": "ACDB-6600"
+    },
+    "$extends": [
+        "defaults",
+        "doorbell"
+    ]
+}

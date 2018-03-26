@@ -1,0 +1,13 @@
+{
+    "id": "AWMR-230",
+    "name": {
+        "en": "AWMR-230"
+    },
+    "$extends": [
+        "socket",
+        "kaku",
+        "defaults.png",
+        "onoff",
+        "build_in.pair"
+    ]
+}

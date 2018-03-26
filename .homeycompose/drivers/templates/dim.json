@@ -1,0 +1,32 @@
+{
+    "capabilities": [
+        "onoff",
+        "dim"
+    ],
+    "rf": {
+        "debounceTimeout": 500,
+        "signal": "kakudim",
+        "alternativeSignal": "kaku"
+    },
+    "$devices": [
+        "ACM-300",
+        "AGDR-300",
+        "AC-300N",
+        "AGDR-200",
+        "ACM-250",
+        "ACM-LV24",
+        "ACD-300",
+        "AWMR-210",
+        "AWMD-250",
+        "ACM-100",
+        "ALED-2009",
+        "ACM-LV10",
+        "ALED-2709",
+        "ALED-MR2705",
+        "AFR-100",
+        "ALED-G2706",
+        "ACD-200",
+        "AILD-250"
+    ],
+    "$hash": "migrate.14.69e846f5eeb35647f55888c7dd75a803"
+}

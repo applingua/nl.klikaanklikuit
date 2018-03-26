@@ -1,0 +1,27 @@
+{
+    "pairOptions": {
+        "rf.choice": {
+            "title": "rf.pair.choice.title.switch",
+            "body": "rf.pair.choice.body.switch",
+            "svgHeight": "65vh",
+            "choices": [
+                {
+                    "name": "rf.pair.choice.buttons.copy.default",
+                    "view": "rf.imitate",
+                    "svg": "{{driverPath}}/pair/assets/svg/AYCT-102_pair.svg"
+                },
+                {
+                    "name": "rf.pair.choice.buttons.generate.default",
+                    "view": "rf.program",
+                    "svg": "{{driverPath}}/pair/assets/svg/AC-300_pair.svg"
+                }
+            ]
+        }
+    },
+    "$devices": [
+        "AC-3500",
+        "AC-1000",
+        "AC-300N"
+    ],
+    "$hash": "migrate.8.f08e61f930757a0df766d6b02ef7e6a0"
+}

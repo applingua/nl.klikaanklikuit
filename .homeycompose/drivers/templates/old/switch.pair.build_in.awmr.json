@@ -1,0 +1,26 @@
+{
+    "pairOptions": {
+        "rf.choice": {
+            "title": "rf.pair.choice.title.switch",
+            "body": "rf.pair.choice.body.switch",
+            "svgHeight": "65vh",
+            "choices": [
+                {
+                    "name": "rf.pair.choice.buttons.copy.default",
+                    "view": "rf.imitate",
+                    "svg": "{{driverPath}}/pair/assets/svg/AYCT-102_pair.svg"
+                },
+                {
+                    "name": "rf.pair.choice.buttons.generate.default",
+                    "view": "rf.program",
+                    "svg": "{{driverPath}}/pair/assets/svg/AWMR-210_pair.svg"
+                }
+            ]
+        }
+    },
+    "$devices": [
+        "AWMD-250",
+        "AWMR-230"
+    ],
+    "$hash": "migrate.23.7ef911173a113c7eb5cb1bf74bd602ac"
+}

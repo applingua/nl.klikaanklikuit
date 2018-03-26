@@ -1,0 +1,12 @@
+{
+    "id": "KCT-510",
+    "name": {
+        "en": "KCT-510"
+    },
+    "$extends": [
+        "defaults",
+        "kakuold",
+        "remote",
+        "wall_switch.flows.single"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "id": "AGDR-200",
+    "name": {
+        "en": "AGDR-200"
+    },
+    "$extends": [
+        "defaults",
+        "socket",
+        "dim",
+        "socket.pair"
+    ]
+}

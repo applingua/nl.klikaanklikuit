@@ -1,0 +1,12 @@
+{
+    "id": "ACM-LV24",
+    "name": {
+        "en": "ACM-LV24"
+    },
+    "$extends": [
+        "defaults",
+        "socket",
+        "dim",
+        "build_in.pair"
+    ]
+}

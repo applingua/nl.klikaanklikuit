@@ -1,0 +1,12 @@
+{
+    "id": "AWMT-003",
+    "name": {
+        "en": "AWMT-003"
+    },
+    "$extends": [
+        "defaults",
+        "kaku",
+        "wall_switch",
+        "wall_switch.flows"
+    ]
+}

@@ -20,12 +20,12 @@ module.exports = {
 							buttons: [{
 									name: 'views.generic_choice.buttons.copy',
 									view: 'generic_imitate',
-									svg: '../433_generator/assets/YCT-102/icon.svg'
+									svg: '../433_generator/assets/YCT-102/pair.svg'
 								},
 								{
 									name: 'deviceClasses.generic_codewheel_switch.views.generic_choice.buttons.generic_codewheel',
 									view: 'generic_codewheel',
-									svg: '../433_generator/assets/SUN-500/icon.svg'
+									svg: '../433_generator/assets/SUN-500/pair.svg'
 								}
 							],
 							prepend: [],
@@ -225,12 +225,12 @@ module.exports = {
 							buttons: [{
 									name: 'views.generic_choice.buttons.copy',
 									view: 'generic_imitate',
-									svg: '../433_generator/assets/AYCT-102/remote.svg'
+									svg: '../433_generator/assets/AYCT-102/pair.svg'
 								},
 								{
 									name: 'views.generic_choice.buttons.generate',
 									view: 'generic_program',
-									svg: '../433_generator/assets/ACD-200/socket.svg'
+									svg: '../433_generator/assets/ACD-200/pair.svg'
 								}
 							],
 							prepend: [],
@@ -252,7 +252,7 @@ module.exports = {
 							body: 'deviceClasses.socket.views.generic_imitate.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/AYCT-102/remote_pair.svg',
+							svg: '../433_generator/assets/AYCT-102/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -276,7 +276,6 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.generic_socket.views.generic_test_switch.title',
 							body: 'deviceClasses.generic_socket.views.generic_test_switch_2.body',
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							previous: true
@@ -311,7 +310,7 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.generic_socket.views.generic_program.title',
 							body: 'deviceClasses.socket.views.generic_program.body',
-							svg: '../433_generator/assets/ACD-200/socket.svg',
+							svg: '../433_generator/assets/ACD-200/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -334,7 +333,6 @@ module.exports = {
 							body: 'deviceClasses.generic_socket.views.generic_test_switch.body',
 							prepend: [],
 							append: [],
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: true,
@@ -381,9 +379,8 @@ module.exports = {
 			id: 'ACD-3500',
 			signal: 'kaku',
 			class: 'socket',
-			alternativeSignal: 'kaku',
 			name: 'devices.ACD-3500.name',
-			icon: '../433_generator/assets/ACD-200/socket.svg'
+			icon: '../433_generator/assets/ACD-200/icon.svg'
 		},
 		'AC-3500': {
 			icon: '../433_generator/assets/AC-300/icon.svg',
@@ -407,12 +404,12 @@ module.exports = {
 							buttons: [{
 									name: 'views.generic_choice.buttons.copy',
 									view: 'generic_imitate',
-									svg: '../433_generator/assets/AYCT-102/remote.svg'
+									svg: '../433_generator/assets/AYCT-102/pair.svg'
 								},
 								{
 									name: 'views.generic_choice.buttons.generate',
 									view: 'generic_program',
-									svg: '../433_generator/assets/AC-300/icon.svg'
+									svg: '../433_generator/assets/AC-300/pair.svg'
 								}
 							],
 							prepend: [],
@@ -434,7 +431,7 @@ module.exports = {
 							body: 'deviceClasses.socket.views.generic_imitate.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/AYCT-102/remote_pair.svg',
+							svg: '../433_generator/assets/AYCT-102/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -458,7 +455,6 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.generic_socket.views.generic_test_switch.title',
 							body: 'deviceClasses.generic_socket.views.generic_test_switch_2.body',
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							previous: true
@@ -516,7 +512,6 @@ module.exports = {
 							body: 'deviceClasses.generic_socket.views.generic_test_switch.body',
 							prepend: [],
 							append: [],
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: true,
@@ -563,7 +558,6 @@ module.exports = {
 			id: 'AC-3500',
 			signal: 'kaku',
 			class: 'socket',
-			alternativeSignal: 'kaku',
 			name: 'devices.AC-3500.name',
 			images: {
 				large: '../433_generator/assets/AC-300/images/large.png',
@@ -588,12 +582,12 @@ module.exports = {
 							buttons: [{
 									name: 'views.generic_choice.buttons.copy',
 									view: 'generic_imitate',
-									svg: '../433_generator/assets/AYCT-102/remote.svg'
+									svg: '../433_generator/assets/AYCT-102/pair.svg'
 								},
 								{
 									name: 'views.generic_choice.buttons.generate',
 									view: 'generic_program',
-									svg: '../433_generator/assets/ASUN-650/pairbutton.svg'
+									svg: '../433_generator/assets/ASUN-650/pair.svg'
 								}
 							],
 							prepend: [],
@@ -614,7 +608,7 @@ module.exports = {
 							body: 'deviceClasses.blinds.views.generic_imitate.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/AYCT-102/remote_pair.svg',
+							svg: '../433_generator/assets/AYCT-102/pair.svg',
 							title: 'views.generic_imitate.title',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
@@ -662,7 +656,7 @@ module.exports = {
 							previous: 'generic_choice',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/ASUN-650/pairbutton.svg',
+							svg: '../433_generator/assets/ASUN-650/pair.svg',
 							title: 'views.generic_program.title',
 							body: 'views.generic_program.body',
 							svgWidth: '80vw',
@@ -771,7 +765,7 @@ module.exports = {
 							buttons: [{
 									name: 'views.generic_choice.buttons.copy',
 									view: 'generic_imitate',
-									svg: '../433_generator/assets/AYCT-102/remote.svg'
+									svg: '../433_generator/assets/AYCT-102/pair.svg'
 								},
 								{
 									name: 'views.generic_choice.buttons.generate',
@@ -798,7 +792,7 @@ module.exports = {
 							body: 'devices.AFR-100.views.generic_imitate.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/AYCT-102/remote_pair.svg',
+							svg: '../433_generator/assets/AYCT-102/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -822,7 +816,6 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.generic_socket.views.generic_test_switch.title',
 							body: 'devices.AFR-100.views.generic_test_switch_2.body',
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							previous: true
@@ -868,7 +861,6 @@ module.exports = {
 							body: 'devices.AFR-100.views.generic_test_switch.body',
 							prepend: [],
 							append: [],
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: true,
@@ -959,7 +951,7 @@ module.exports = {
 							body: 'deviceClasses.generic_wall_switch.views.generic_imitate.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/AWMT-003/switch_pair.svg',
+							svg: '../433_generator/assets/AWMT-003/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -982,7 +974,7 @@ module.exports = {
 							append: [{
 								scripts: '\n$(\'<div>\').append(\n\t$(\'<input id="invert-checkbox" type="checkbox" style="position: relative; bottom: 1px; vertical-align: middle;">\')\n\t\t.on(\'change\', function(){ \n\t\t\tvar newSettings = { rotated: this.checked ? \'180\' : \'0\'};\n\t\t\tHomey.emit(\'set_settings\', newSettings, function(){\n\t\t\t\tHomey.highlight(newSettings);\n\t\t\t});\n\t\t}),\n\t$(\'<label for="invert-checkbox" style="padding: 0 1em;">\')\n\t\t.html(__(\'deviceClasses.wall_switch.settings.rotated.label\'))\n).insertAfter(\'[data-id="generic_test_remote"] .centered-container > #image-container\')'
 							}],
-							svg: '../433_generator/assets/AWMT-003/switch.svg',
+							svg: '../433_generator/assets/AWMT-003/test.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -1048,7 +1040,7 @@ module.exports = {
 							body: 'deviceClasses.generic_remote.views.generic_imitate.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/TMT-502/remote_pair.svg',
+							svg: '../433_generator/assets/TMT-502/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -1065,7 +1057,7 @@ module.exports = {
 					{
 						template: './lib/pair/test_remote.html',
 						options: {
-							svg: '../433_generator/assets/TMT-502/remote.svg',
+							svg: '../433_generator/assets/TMT-502/test.svg',
 							prepend: [],
 							append: [],
 							title: 'views.generic_test_remote.title',
@@ -1224,12 +1216,12 @@ module.exports = {
 							buttons: [{
 									name: 'views.generic_choice.buttons.copy',
 									view: 'generic_imitate',
-									svg: '../433_generator/assets/AYCT-102/remote.svg'
+									svg: '../433_generator/assets/AYCT-102/pair.svg'
 								},
 								{
 									name: 'views.generic_choice.buttons.generate',
 									view: 'generic_program',
-									svg: '../433_generator/assets/AC-300/icon.svg'
+									svg: '../433_generator/assets/AC-300/pair.svg'
 								}
 							],
 							prepend: [],
@@ -1251,7 +1243,7 @@ module.exports = {
 							body: 'deviceClasses.socket.views.generic_imitate.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/AYCT-102/remote_pair.svg',
+							svg: '../433_generator/assets/AYCT-102/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -1275,7 +1267,6 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.generic_socket.views.generic_test_switch.title',
 							body: 'deviceClasses.generic_socket.views.generic_test_switch_2.body',
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							previous: true
@@ -1333,7 +1324,6 @@ module.exports = {
 							body: 'deviceClasses.generic_socket.views.generic_test_switch.body',
 							prepend: [],
 							append: [],
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: true,
@@ -1380,7 +1370,6 @@ module.exports = {
 			id: 'AC-1000',
 			signal: 'kaku',
 			class: 'socket',
-			alternativeSignal: 'kaku',
 			name: 'devices.AC-1000.name',
 			icon: '../433_generator/assets/AC-300/icon.svg'
 		},
@@ -1406,7 +1395,7 @@ module.exports = {
 							buttons: [{
 									name: 'views.generic_choice.buttons.copy',
 									view: 'generic_imitate',
-									svg: '../433_generator/assets/AYCT-102/remote.svg'
+									svg: '../433_generator/assets/AYCT-102/pair.svg'
 								},
 								{
 									name: 'views.generic_choice.buttons.generate',
@@ -1433,7 +1422,7 @@ module.exports = {
 							body: 'deviceClasses.build_in.views.generic_imitate.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/AYCT-102/remote_pair.svg',
+							svg: '../433_generator/assets/AYCT-102/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -1457,7 +1446,6 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.build_in.views.generic_test_switch.title',
 							body: 'deviceClasses.build_in.views.generic_test_switch_2.body',
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							previous: true
@@ -1515,7 +1503,6 @@ module.exports = {
 							body: 'deviceClasses.build_in.views.generic_test_switch.body',
 							prepend: [],
 							append: [],
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: true,
@@ -1589,12 +1576,12 @@ module.exports = {
 							buttons: [{
 									name: 'views.generic_choice.buttons.copy',
 									view: 'generic_imitate',
-									svg: '../433_generator/assets/AYCT-102/remote.svg'
+									svg: '../433_generator/assets/AYCT-102/pair.svg'
 								},
 								{
 									name: 'views.generic_choice.buttons.generate',
 									view: 'generic_program',
-									svg: '../433_generator/assets/AGDR-300/icon.svg'
+									svg: '../433_generator/assets/AGDR-300/pair.svg'
 								}
 							],
 							prepend: [],
@@ -1616,7 +1603,7 @@ module.exports = {
 							body: 'deviceClasses.socket.views.generic_imitate.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/AYCT-102/remote_pair.svg',
+							svg: '../433_generator/assets/AYCT-102/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -1640,7 +1627,6 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.generic_socket.views.generic_test_switch.title',
 							body: 'deviceClasses.generic_socket.views.generic_test_switch_2.body',
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							previous: true
@@ -1698,7 +1684,6 @@ module.exports = {
 							body: 'deviceClasses.generic_socket.views.generic_test_switch.body',
 							prepend: [],
 							append: [],
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: true,
@@ -2088,7 +2073,7 @@ module.exports = {
 							body: 'deviceClasses.generic_wall_switch.views.generic_imitate.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/WST-8800/switch_pair.svg',
+							svg: '../433_generator/assets/WST-8800/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -2111,7 +2096,7 @@ module.exports = {
 							append: [{
 								scripts: '\n$(\'<div>\').append(\n\t$(\'<input id="invert-checkbox" type="checkbox" style="position: relative; bottom: 1px; vertical-align: middle;">\')\n\t\t.on(\'change\', function(){ \n\t\t\tvar newSettings = { rotated: this.checked ? \'180\' : \'0\'};\n\t\t\tHomey.emit(\'set_settings\', newSettings, function(){\n\t\t\t\tHomey.highlight(newSettings);\n\t\t\t});\n\t\t}),\n\t$(\'<label for="invert-checkbox" style="padding: 0 1em;">\')\n\t\t.html(__(\'deviceClasses.wall_switch.settings.rotated.label\'))\n).insertAfter(\'[data-id="generic_test_remote"] .centered-container > #image-container\')'
 							}],
-							svg: '../433_generator/assets/WST-8800/switch.svg',
+							svg: '../433_generator/assets/WST-8800/test.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -2212,12 +2197,12 @@ module.exports = {
 							buttons: [{
 									name: 'views.generic_choice.buttons.copy',
 									view: 'generic_imitate',
-									svg: '../433_generator/assets/AYCT-102/remote.svg'
+									svg: '../433_generator/assets/AYCT-102/pair.svg'
 								},
 								{
 									name: 'views.generic_choice.buttons.generate',
 									view: 'generic_program',
-									svg: '../433_generator/assets/AC-300/icon.svg'
+									svg: '../433_generator/assets/AC-300/pair.svg'
 								}
 							],
 							prepend: [],
@@ -2239,7 +2224,7 @@ module.exports = {
 							body: 'deviceClasses.socket.views.generic_imitate.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/AYCT-102/remote_pair.svg',
+							svg: '../433_generator/assets/AYCT-102/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -2263,7 +2248,6 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.generic_socket.views.generic_test_switch.title',
 							body: 'deviceClasses.generic_socket.views.generic_test_switch_2.body',
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							previous: true
@@ -2321,7 +2305,6 @@ module.exports = {
 							body: 'deviceClasses.generic_socket.views.generic_test_switch.body',
 							prepend: [],
 							append: [],
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: true,
@@ -2395,12 +2378,12 @@ module.exports = {
 							buttons: [{
 									name: 'views.generic_choice.buttons.copy',
 									view: 'generic_imitate',
-									svg: '../433_generator/assets/AYCT-102/remote.svg'
+									svg: '../433_generator/assets/AYCT-102/pair.svg'
 								},
 								{
 									name: 'views.generic_choice.buttons.generate',
 									view: 'generic_program',
-									svg: '../433_generator/assets/AGDR-300/icon.svg'
+									svg: '../433_generator/assets/AGDR-300/pair.svg'
 								}
 							],
 							prepend: [],
@@ -2422,7 +2405,7 @@ module.exports = {
 							body: 'deviceClasses.socket.views.generic_imitate.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/AYCT-102/remote_pair.svg',
+							svg: '../433_generator/assets/AYCT-102/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -2446,7 +2429,6 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.generic_socket.views.generic_test_switch.title',
 							body: 'deviceClasses.generic_socket.views.generic_test_switch_2.body',
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							previous: true
@@ -2504,7 +2486,6 @@ module.exports = {
 							body: 'deviceClasses.generic_socket.views.generic_test_switch.body',
 							prepend: [],
 							append: [],
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: true,
@@ -2581,12 +2562,12 @@ module.exports = {
 							buttons: [{
 									name: 'views.generic_choice.buttons.copy',
 									view: 'generic_imitate',
-									svg: '../433_generator/assets/APA2-2300R/icon.svg'
+									svg: '../433_generator/assets/APA2-2300R/pair.svg'
 								},
 								{
 									name: 'views.generic_choice.buttons.generate',
 									view: 'generic_program',
-									svg: '../433_generator/assets/ACD-200/socket.svg'
+									svg: '../433_generator/assets/ACD-200/pair.svg'
 								}
 							],
 							prepend: [],
@@ -2632,7 +2613,6 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.generic_socket.views.generic_test_switch.title',
 							body: 'deviceClasses.generic_socket.views.generic_test_switch_2.body',
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							previous: true
@@ -2667,7 +2647,7 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.generic_socket.views.generic_program.title',
 							body: 'deviceClasses.simple_socket.views.generic_program.body',
-							svg: '../433_generator/assets/ACD-200/socket.svg',
+							svg: '../433_generator/assets/ACD-200/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -2690,7 +2670,6 @@ module.exports = {
 							body: 'deviceClasses.generic_socket.views.generic_test_switch.body',
 							prepend: [],
 							append: [],
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: true,
@@ -2742,7 +2721,7 @@ module.exports = {
 				small: '../433_generator/assets/APA2-2300RS/images/small.jpg'
 			},
 			name: 'devices.APA2-2300RS.name',
-			icon: '../433_generator/assets/ACD-200/socket.svg'
+			icon: '../433_generator/assets/ACD-200/icon.svg'
 		},
 		'ACM-250': {
 			capabilities: ['onoff', 'dim'],
@@ -2764,7 +2743,7 @@ module.exports = {
 							buttons: [{
 									name: 'views.generic_choice.buttons.copy',
 									view: 'generic_imitate',
-									svg: '../433_generator/assets/AYCT-102/remote.svg'
+									svg: '../433_generator/assets/AYCT-102/pair.svg'
 								},
 								{
 									name: 'views.generic_choice.buttons.generate',
@@ -2791,7 +2770,7 @@ module.exports = {
 							body: 'deviceClasses.build_in.views.generic_imitate.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/AYCT-102/remote_pair.svg',
+							svg: '../433_generator/assets/AYCT-102/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -2815,7 +2794,6 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.build_in.views.generic_test_switch.title',
 							body: 'deviceClasses.build_in.views.generic_test_switch_2.body',
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							previous: true
@@ -2873,7 +2851,6 @@ module.exports = {
 							body: 'deviceClasses.build_in.views.generic_test_switch.body',
 							prepend: [],
 							append: [],
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: true,
@@ -2951,12 +2928,12 @@ module.exports = {
 							buttons: [{
 									name: 'views.generic_choice.buttons.copy',
 									view: 'generic_imitate',
-									svg: '../433_generator/assets/AYCT-102/remote.svg'
+									svg: '../433_generator/assets/AYCT-102/pair.svg'
 								},
 								{
 									name: 'views.generic_choice.buttons.generate',
 									view: 'generic_program',
-									svg: '../433_generator/assets/ACM-LV24/icon.svg'
+									svg: '../433_generator/assets/ACM-LV24/pair.svg'
 								}
 							],
 							prepend: [],
@@ -2978,7 +2955,7 @@ module.exports = {
 							body: 'deviceClasses.build_in.views.generic_imitate.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/AYCT-102/remote_pair.svg',
+							svg: '../433_generator/assets/AYCT-102/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -3002,7 +2979,6 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.build_in.views.generic_test_switch.title',
 							body: 'deviceClasses.build_in.views.generic_test_switch_2.body',
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							previous: true
@@ -3037,7 +3013,7 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.build_in.views.generic_program.title',
 							body: 'deviceClasses.build_in.views.generic_program.body',
-							svg: '../433_generator/assets/ACM-LV24/icon.svg',
+							svg: '../433_generator/assets/ACM-LV24/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -3060,7 +3036,6 @@ module.exports = {
 							body: 'deviceClasses.build_in.views.generic_test_switch.body',
 							prepend: [],
 							append: [],
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: true,
@@ -3183,7 +3158,7 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.doorbell.views.generic_test_button.title',
 							body: 'deviceClasses.doorbell.views.generic_test_button_2.body',
-							svg: '../433_generator/assets/ACDB-7000C/bell.svg',
+							svg: '../433_generator/assets/ACDB-7000C/test.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							previous: true,
@@ -3233,7 +3208,7 @@ module.exports = {
 							body: 'deviceClasses.doorbell.views.generic_test_button.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/ACDB-7000C/bell.svg',
+							svg: '../433_generator/assets/ACDB-7000C/test.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: true,
@@ -3367,7 +3342,7 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.doorbell.views.generic_test_button.title',
 							body: 'deviceClasses.doorbell.views.generic_test_button_2.body',
-							svg: '../433_generator/assets/ACDB-7000C/bell.svg',
+							svg: '../433_generator/assets/ACDB-7000C/test.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							previous: true,
@@ -3417,7 +3392,7 @@ module.exports = {
 							body: 'deviceClasses.doorbell.views.generic_test_button.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/ACDB-7000C/bell.svg',
+							svg: '../433_generator/assets/ACDB-7000C/test.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: true,
@@ -3507,7 +3482,7 @@ module.exports = {
 							buttons: [{
 									name: 'views.generic_choice.buttons.copy',
 									view: 'generic_imitate',
-									svg: '../433_generator/assets/AYCT-102/remote.svg'
+									svg: '../433_generator/assets/AYCT-102/pair.svg'
 								},
 								{
 									name: 'views.generic_choice.buttons.generate',
@@ -3534,7 +3509,7 @@ module.exports = {
 							body: 'deviceClasses.socket.views.generic_imitate.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/AYCT-102/remote_pair.svg',
+							svg: '../433_generator/assets/AYCT-102/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -3558,7 +3533,6 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.generic_socket.views.generic_test_switch.title',
 							body: 'deviceClasses.generic_socket.views.generic_test_switch_2.body',
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							previous: true
@@ -3593,7 +3567,7 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.generic_socket.views.generic_program.title',
 							body: 'deviceClasses.socket.views.generic_program.body',
-							svg: '../433_generator/assets/APCR-2300/program.svg',
+							svg: '../433_generator/assets/APCR-2300/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -3616,7 +3590,6 @@ module.exports = {
 							body: 'deviceClasses.generic_socket.views.generic_test_switch.body',
 							prepend: [],
 							append: [],
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: true,
@@ -3663,7 +3636,6 @@ module.exports = {
 			id: 'APCR-2300',
 			signal: 'kaku',
 			class: 'socket',
-			alternativeSignal: 'kaku',
 			name: 'devices.APCR-2300.name',
 			icon: '../433_generator/assets/APCR-2300/icon.svg'
 		},
@@ -3692,12 +3664,12 @@ module.exports = {
 							buttons: [{
 									name: 'views.generic_choice.buttons.copy',
 									view: 'generic_imitate',
-									svg: '../433_generator/assets/YCT-102/icon.svg'
+									svg: '../433_generator/assets/YCT-102/pair.svg'
 								},
 								{
 									name: 'deviceClasses.generic_codewheel_switch.views.generic_choice.buttons.generic_codewheel',
 									view: 'generic_codewheel',
-									svg: '../433_generator/assets/YC-400/icon.svg'
+									svg: '../433_generator/assets/YC-400/pair.svg'
 								}
 							],
 							prepend: [],
@@ -3743,7 +3715,6 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.generic_socket.views.generic_test_switch.title',
 							body: 'deviceClasses.generic_socket.views.generic_test_switch_2.body',
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							previous: true
@@ -3818,7 +3789,6 @@ module.exports = {
 							body: 'deviceClasses.generic_socket.views.generic_test_switch.body',
 							prepend: [],
 							append: [],
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: true,
@@ -3869,7 +3839,7 @@ module.exports = {
 			icon: '../433_generator/assets/YC-400/icon.svg'
 		},
 		'ACD-300': {
-			icon: '../433_generator/assets/ACD-200/socket.svg',
+			icon: '../433_generator/assets/ACD-200/icon.svg',
 			debounceTimeout: 500,
 			driver: '../433_generator/drivers/kaku/dimmer.js',
 			pair: {
@@ -3890,12 +3860,12 @@ module.exports = {
 							buttons: [{
 									name: 'views.generic_choice.buttons.copy',
 									view: 'generic_imitate',
-									svg: '../433_generator/assets/AYCT-102/remote.svg'
+									svg: '../433_generator/assets/AYCT-102/pair.svg'
 								},
 								{
 									name: 'views.generic_choice.buttons.generate',
 									view: 'generic_program',
-									svg: '../433_generator/assets/ACD-200/socket.svg'
+									svg: '../433_generator/assets/ACD-200/pair.svg'
 								}
 							],
 							prepend: [],
@@ -3917,7 +3887,7 @@ module.exports = {
 							body: 'deviceClasses.socket.views.generic_imitate.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/AYCT-102/remote_pair.svg',
+							svg: '../433_generator/assets/AYCT-102/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -3941,7 +3911,6 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.generic_socket.views.generic_test_switch.title',
 							body: 'deviceClasses.generic_socket.views.generic_test_switch_2.body',
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							previous: true
@@ -3976,7 +3945,7 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.generic_socket.views.generic_program.title',
 							body: 'deviceClasses.socket.views.generic_program.body',
-							svg: '../433_generator/assets/ACD-200/socket.svg',
+							svg: '../433_generator/assets/ACD-200/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -3999,7 +3968,6 @@ module.exports = {
 							body: 'deviceClasses.generic_socket.views.generic_test_switch.body',
 							prepend: [],
 							append: [],
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: true,
@@ -4166,7 +4134,7 @@ module.exports = {
 							buttons: [{
 									name: 'views.generic_choice.buttons.copy',
 									view: 'generic_imitate',
-									svg: '../433_generator/assets/AYCT-102/remote.svg'
+									svg: '../433_generator/assets/AYCT-102/pair.svg'
 								},
 								{
 									name: 'views.generic_choice.buttons.generate',
@@ -4193,7 +4161,7 @@ module.exports = {
 							body: 'deviceClasses.build_in.views.generic_imitate.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/AYCT-102/remote_pair.svg',
+							svg: '../433_generator/assets/AYCT-102/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -4217,7 +4185,6 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.build_in.views.generic_test_switch.title',
 							body: 'deviceClasses.build_in.views.generic_test_switch_2.body',
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							previous: true
@@ -4275,7 +4242,6 @@ module.exports = {
 							body: 'deviceClasses.build_in.views.generic_test_switch.body',
 							prepend: [],
 							append: [],
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: true,
@@ -4351,7 +4317,7 @@ module.exports = {
 							buttons: [{
 									name: 'views.generic_choice.buttons.copy',
 									view: 'generic_imitate',
-									svg: '../433_generator/assets/AYCT-102/remote.svg'
+									svg: '../433_generator/assets/AYCT-102/pair.svg'
 								},
 								{
 									name: 'views.generic_choice.buttons.generate',
@@ -4378,7 +4344,7 @@ module.exports = {
 							body: 'deviceClasses.build_in.views.generic_imitate.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/AYCT-102/remote_pair.svg',
+							svg: '../433_generator/assets/AYCT-102/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -4402,7 +4368,6 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.build_in.views.generic_test_switch.title',
 							body: 'deviceClasses.build_in.views.generic_test_switch_2.body',
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							previous: true
@@ -4460,7 +4425,6 @@ module.exports = {
 							body: 'deviceClasses.build_in.views.generic_test_switch.body',
 							prepend: [],
 							append: [],
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: true,
@@ -4531,7 +4495,7 @@ module.exports = {
 							body: 'deviceClasses.generic_wall_switch.views.generic_imitate.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/AWST-8802/switch_pair.svg',
+							svg: '../433_generator/assets/AWST-8802/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -4554,7 +4518,7 @@ module.exports = {
 							append: [{
 								scripts: '\n$(\'<div>\').append(\n\t$(\'<input id="invert-checkbox" type="checkbox" style="position: relative; bottom: 1px; vertical-align: middle;">\')\n\t\t.on(\'change\', function(){ \n\t\t\tvar newSettings = { rotated: this.checked ? \'180\' : \'0\'};\n\t\t\tHomey.emit(\'set_settings\', newSettings, function(){\n\t\t\t\tHomey.highlight(newSettings);\n\t\t\t});\n\t\t}),\n\t$(\'<label for="invert-checkbox" style="padding: 0 1em;">\')\n\t\t.html(__(\'deviceClasses.wall_switch.settings.rotated.label\'))\n).insertAfter(\'[data-id="generic_test_remote"] .centered-container > #image-container\')'
 							}],
-							svg: '../433_generator/assets/AWST-8802/switch.svg',
+							svg: '../433_generator/assets/AWST-8802/test.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -4655,7 +4619,7 @@ module.exports = {
 							body: 'deviceClasses.generic_wall_switch.views.generic_imitate.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/WST-8700/switch_pair.svg',
+							svg: '../433_generator/assets/WST-8700/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -4678,7 +4642,7 @@ module.exports = {
 							append: [{
 								scripts: '\n$(\'<div>\').append(\n\t$(\'<input id="invert-checkbox" type="checkbox" style="position: relative; bottom: 1px; vertical-align: middle;">\')\n\t\t.on(\'change\', function(){ \n\t\t\tvar newSettings = { rotated: this.checked ? \'180\' : \'0\'};\n\t\t\tHomey.emit(\'set_settings\', newSettings, function(){\n\t\t\t\tHomey.highlight(newSettings);\n\t\t\t});\n\t\t}),\n\t$(\'<label for="invert-checkbox" style="padding: 0 1em;">\')\n\t\t.html(__(\'deviceClasses.wall_switch.settings.rotated.label\'))\n).insertAfter(\'[data-id="generic_test_remote"] .centered-container > #image-container\')'
 							}],
-							svg: '../433_generator/assets/WST-8700/switch.svg',
+							svg: '../433_generator/assets/WST-8700/test.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -4778,12 +4742,12 @@ module.exports = {
 							buttons: [{
 									name: 'views.generic_choice.buttons.copy',
 									view: 'generic_imitate',
-									svg: '../433_generator/assets/APA3-1500R/icon.svg'
+									svg: '../433_generator/assets/APA3-1500R/pair.svg'
 								},
 								{
 									name: 'views.generic_choice.buttons.generate',
 									view: 'generic_program',
-									svg: '../433_generator/assets/APA3-1500RS/icon.svg'
+									svg: '../433_generator/assets/APA3-1500RS/pair.svg'
 								}
 							],
 							prepend: [],
@@ -4829,7 +4793,6 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.generic_socket.views.generic_test_switch.title',
 							body: 'deviceClasses.generic_socket.views.generic_test_switch_2.body',
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							previous: true
@@ -4887,7 +4850,6 @@ module.exports = {
 							body: 'deviceClasses.generic_socket.views.generic_test_switch.body',
 							prepend: [],
 							append: [],
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: true,
@@ -5041,12 +5003,12 @@ module.exports = {
 							buttons: [{
 									name: 'views.generic_choice.buttons.copy',
 									view: 'generic_imitate',
-									svg: '../433_generator/assets/AYCT-102/remote.svg'
+									svg: '../433_generator/assets/AYCT-102/pair.svg'
 								},
 								{
 									name: 'views.generic_choice.buttons.generate',
 									view: 'generic_program',
-									svg: '../433_generator/assets/ACM-100/icon.svg'
+									svg: '../433_generator/assets/ACM-100/pair.svg'
 								}
 							],
 							prepend: [],
@@ -5068,7 +5030,7 @@ module.exports = {
 							body: 'deviceClasses.build_in.views.generic_imitate.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/AYCT-102/remote_pair.svg',
+							svg: '../433_generator/assets/AYCT-102/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -5092,7 +5054,6 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.build_in.views.generic_test_switch.title',
 							body: 'deviceClasses.build_in.views.generic_test_switch_2.body',
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							previous: true
@@ -5127,7 +5088,7 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.build_in.views.generic_program.title',
 							body: 'deviceClasses.build_in.views.generic_program.body',
-							svg: '../433_generator/assets/ACM-100/icon.svg',
+							svg: '../433_generator/assets/ACM-100/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -5150,7 +5111,6 @@ module.exports = {
 							body: 'deviceClasses.build_in.views.generic_test_switch.body',
 							prepend: [],
 							append: [],
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: true,
@@ -5255,7 +5215,7 @@ module.exports = {
 							body: 'deviceClasses.generic_wall_switch.views.generic_imitate.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/AWMT-003/switch_pair.svg',
+							svg: '../433_generator/assets/AWMT-003/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -5278,7 +5238,7 @@ module.exports = {
 							append: [{
 								scripts: '\n$(\'<div>\').append(\n\t$(\'<input id="invert-checkbox" type="checkbox" style="position: relative; bottom: 1px; vertical-align: middle;">\')\n\t\t.on(\'change\', function(){ \n\t\t\tvar newSettings = { rotated: this.checked ? \'180\' : \'0\'};\n\t\t\tHomey.emit(\'set_settings\', newSettings, function(){\n\t\t\t\tHomey.highlight(newSettings);\n\t\t\t});\n\t\t}),\n\t$(\'<label for="invert-checkbox" style="padding: 0 1em;">\')\n\t\t.html(__(\'deviceClasses.wall_switch.settings.rotated.label\'))\n).insertAfter(\'[data-id="generic_test_remote"] .centered-container > #image-container\')'
 							}],
-							svg: '../433_generator/assets/AWMT-003/switch.svg',
+							svg: '../433_generator/assets/AWMT-003/test.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -5353,7 +5313,7 @@ module.exports = {
 							buttons: [{
 									name: 'views.generic_choice.buttons.copy',
 									view: 'generic_imitate',
-									svg: '../433_generator/assets/AYCT-102/remote.svg'
+									svg: '../433_generator/assets/AYCT-102/pair.svg'
 								},
 								{
 									name: 'views.generic_choice.buttons.generate',
@@ -5380,7 +5340,7 @@ module.exports = {
 							body: 'deviceClasses.build_in.views.generic_imitate.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/AYCT-102/remote_pair.svg',
+							svg: '../433_generator/assets/AYCT-102/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -5404,7 +5364,6 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.build_in.views.generic_test_switch.title',
 							body: 'deviceClasses.build_in.views.generic_test_switch_2.body',
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							previous: true
@@ -5462,7 +5421,6 @@ module.exports = {
 							body: 'deviceClasses.build_in.views.generic_test_switch.body',
 							prepend: [],
 							append: [],
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: true,
@@ -5537,7 +5495,7 @@ module.exports = {
 							buttons: [{
 									name: 'views.generic_choice.buttons.copy',
 									view: 'generic_imitate',
-									svg: '../433_generator/assets/AYCT-102/remote.svg'
+									svg: '../433_generator/assets/AYCT-102/pair.svg'
 								},
 								{
 									name: 'views.generic_choice.buttons.generate',
@@ -5564,7 +5522,7 @@ module.exports = {
 							body: 'deviceClasses.build_in.views.generic_imitate.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/AYCT-102/remote_pair.svg',
+							svg: '../433_generator/assets/AYCT-102/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -5588,7 +5546,6 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.build_in.views.generic_test_switch.title',
 							body: 'deviceClasses.build_in.views.generic_test_switch_2.body',
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							previous: true
@@ -5646,7 +5603,6 @@ module.exports = {
 							body: 'deviceClasses.build_in.views.generic_test_switch.body',
 							prepend: [],
 							append: [],
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: true,
@@ -5724,12 +5680,12 @@ module.exports = {
 							buttons: [{
 									name: 'views.generic_choice.buttons.copy',
 									view: 'generic_imitate',
-									svg: '../433_generator/assets/AYCT-102/remote.svg'
+									svg: '../433_generator/assets/AYCT-102/pair.svg'
 								},
 								{
 									name: 'views.generic_choice.buttons.generate',
 									view: 'generic_program',
-									svg: '../433_generator/assets/ALED-003/icon.svg'
+									svg: '../433_generator/assets/ALED-003/pair.svg'
 								}
 							],
 							prepend: [],
@@ -5751,7 +5707,7 @@ module.exports = {
 							body: 'devices.ALED-2709.views.generic_imitate.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/AYCT-102/remote_pair.svg',
+							svg: '../433_generator/assets/AYCT-102/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -5775,7 +5731,6 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.generic_socket.views.generic_test_switch.title',
 							body: 'devices.ALED-2709.views.generic_test_switch_2.body',
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							previous: true
@@ -5798,7 +5753,7 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.generic_socket.views.generic_program.title',
 							body: 'devices.ALED-003.views.generic_program.body',
-							svg: '../433_generator/assets/ALED-003/icon.svg',
+							svg: '../433_generator/assets/ALED-003/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -5821,7 +5776,6 @@ module.exports = {
 							body: 'devices.ALED-2709.views.generic_test_switch.body',
 							prepend: [],
 							append: [],
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: true,
@@ -5928,7 +5882,7 @@ module.exports = {
 							body: 'deviceClasses.generic_remote.views.generic_imitate.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/AYCT-202/remote_pair.svg',
+							svg: '../433_generator/assets/AYCT-202/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -5945,7 +5899,7 @@ module.exports = {
 					{
 						template: './lib/pair/test_remote.html',
 						options: {
-							svg: '../433_generator/assets/AYCT-202/remote.svg',
+							svg: '../433_generator/assets/AYCT-202/test.svg',
 							prepend: [],
 							append: [],
 							title: 'views.generic_test_remote.title',
@@ -6009,12 +5963,12 @@ module.exports = {
 							buttons: [{
 									name: 'views.generic_choice.buttons.copy',
 									view: 'generic_imitate',
-									svg: '../433_generator/assets/AYCT-102/remote.svg'
+									svg: '../433_generator/assets/AYCT-102/pair.svg'
 								},
 								{
 									name: 'views.generic_choice.buttons.generate',
 									view: 'generic_program',
-									svg: '../433_generator/assets/ALED-2709/icon.svg'
+									svg: '../433_generator/assets/ALED-2709/pair.svg'
 								}
 							],
 							prepend: [],
@@ -6036,7 +5990,7 @@ module.exports = {
 							body: 'devices.ALED-2709.views.generic_imitate.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/AYCT-102/remote_pair.svg',
+							svg: '../433_generator/assets/AYCT-102/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -6060,7 +6014,6 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.generic_socket.views.generic_test_switch.title',
 							body: 'devices.ALED-2709.views.generic_test_switch_2.body',
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							previous: true
@@ -6083,7 +6036,7 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.generic_socket.views.generic_program.title',
 							body: 'devices.ALED-2709.views.generic_program.body',
-							svg: '../433_generator/assets/ALED-2709/icon.svg',
+							svg: '../433_generator/assets/ALED-2709/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -6106,7 +6059,6 @@ module.exports = {
 							body: 'devices.ALED-2709.views.generic_test_switch.body',
 							prepend: [],
 							append: [],
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: true,
@@ -6165,12 +6117,12 @@ module.exports = {
 							buttons: [{
 									name: 'views.generic_choice.buttons.copy',
 									view: 'generic_imitate',
-									svg: '../433_generator/assets/AYCT-102/remote.svg'
+									svg: '../433_generator/assets/AYCT-102/pair.svg'
 								},
 								{
 									name: 'views.generic_choice.buttons.generate',
 									view: 'generic_program',
-									svg: '../433_generator/assets/ACM-LV10/icon.svg'
+									svg: '../433_generator/assets/ACM-LV10/pair.svg'
 								}
 							],
 							prepend: [],
@@ -6192,7 +6144,7 @@ module.exports = {
 							body: 'deviceClasses.build_in.views.generic_imitate.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/AYCT-102/remote_pair.svg',
+							svg: '../433_generator/assets/AYCT-102/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -6216,7 +6168,6 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.build_in.views.generic_test_switch.title',
 							body: 'deviceClasses.build_in.views.generic_test_switch_2.body',
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							previous: true
@@ -6251,7 +6202,7 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.build_in.views.generic_program.title',
 							body: 'deviceClasses.build_in.views.generic_program.body',
-							svg: '../433_generator/assets/ACM-LV10/icon.svg',
+							svg: '../433_generator/assets/ACM-LV10/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -6274,7 +6225,6 @@ module.exports = {
 							body: 'deviceClasses.build_in.views.generic_test_switch.body',
 							prepend: [],
 							append: [],
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: true,
@@ -6350,12 +6300,12 @@ module.exports = {
 							buttons: [{
 									name: 'views.generic_choice.buttons.copy',
 									view: 'generic_imitate',
-									svg: '../433_generator/assets/AYCT-102/remote.svg'
+									svg: '../433_generator/assets/AYCT-102/pair.svg'
 								},
 								{
 									name: 'views.generic_choice.buttons.generate',
 									view: 'generic_program',
-									svg: '../433_generator/assets/ACM-2300H/icon.svg'
+									svg: '../433_generator/assets/ACM-2300H/pair.svg'
 								}
 							],
 							prepend: [],
@@ -6377,7 +6327,7 @@ module.exports = {
 							body: 'deviceClasses.build_in.views.generic_imitate.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/AYCT-102/remote_pair.svg',
+							svg: '../433_generator/assets/AYCT-102/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -6401,7 +6351,6 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.build_in.views.generic_test_switch.title',
 							body: 'deviceClasses.build_in.views.generic_test_switch_2.body',
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							previous: true
@@ -6436,7 +6385,7 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.build_in.views.generic_program.title',
 							body: 'deviceClasses.build_in.views.generic_program.body',
-							svg: '../433_generator/assets/ACM-2300H/icon.svg',
+							svg: '../433_generator/assets/ACM-2300H/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -6459,7 +6408,6 @@ module.exports = {
 							body: 'deviceClasses.build_in.views.generic_test_switch.body',
 							prepend: [],
 							append: [],
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: true,
@@ -6534,12 +6482,12 @@ module.exports = {
 							buttons: [{
 									name: 'views.generic_choice.buttons.copy',
 									view: 'generic_imitate',
-									svg: '../433_generator/assets/YCT-102/icon.svg'
+									svg: '../433_generator/assets/YCT-102/pair.svg'
 								},
 								{
 									name: 'deviceClasses.generic_codewheel_switch.views.generic_choice.buttons.generic_codewheel',
 									view: 'generic_codewheel',
-									svg: '../433_generator/assets/YC-400/icon.svg'
+									svg: '../433_generator/assets/YC-400/pair.svg'
 								}
 							],
 							prepend: [],
@@ -6585,7 +6533,6 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.generic_socket.views.generic_test_switch.title',
 							body: 'deviceClasses.generic_socket.views.generic_test_switch_2.body',
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							previous: true
@@ -6660,7 +6607,6 @@ module.exports = {
 							body: 'deviceClasses.generic_socket.views.generic_test_switch.body',
 							prepend: [],
 							append: [],
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: true,
@@ -6727,7 +6673,7 @@ module.exports = {
 							body: 'deviceClasses.generic_wall_switch.views.generic_imitate.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/AWST-8800/switch_pair.svg',
+							svg: '../433_generator/assets/AWST-8800/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -6750,7 +6696,7 @@ module.exports = {
 							append: [{
 								scripts: '\n$(\'<div>\').append(\n\t$(\'<input id="invert-checkbox" type="checkbox" style="position: relative; bottom: 1px; vertical-align: middle;">\')\n\t\t.on(\'change\', function(){ \n\t\t\tvar newSettings = { rotated: this.checked ? \'180\' : \'0\'};\n\t\t\tHomey.emit(\'set_settings\', newSettings, function(){\n\t\t\t\tHomey.highlight(newSettings);\n\t\t\t});\n\t\t}),\n\t$(\'<label for="invert-checkbox" style="padding: 0 1em;">\')\n\t\t.html(__(\'deviceClasses.wall_switch.settings.rotated.label\'))\n).insertAfter(\'[data-id="generic_test_remote"] .centered-container > #image-container\')'
 							}],
-							svg: '../433_generator/assets/AWST-8800/switch.svg',
+							svg: '../433_generator/assets/AWST-8800/test.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -7061,12 +7007,12 @@ module.exports = {
 							buttons: [{
 									name: 'views.generic_choice.buttons.copy',
 									view: 'generic_imitate',
-									svg: '../433_generator/assets/YCT-102/icon.svg'
+									svg: '../433_generator/assets/YCT-102/pair.svg'
 								},
 								{
 									name: 'deviceClasses.generic_codewheel_switch.views.generic_choice.buttons.generic_codewheel',
 									view: 'generic_codewheel',
-									svg: '../433_generator/assets/YC-400/icon.svg'
+									svg: '../433_generator/assets/YC-400/pair.svg'
 								}
 							],
 							prepend: [],
@@ -7112,7 +7058,6 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.generic_socket.views.generic_test_switch.title',
 							body: 'deviceClasses.generic_socket.views.generic_test_switch_2.body',
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							previous: true
@@ -7187,7 +7132,6 @@ module.exports = {
 							body: 'deviceClasses.generic_socket.views.generic_test_switch.body',
 							prepend: [],
 							append: [],
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: true,
@@ -7502,7 +7446,7 @@ module.exports = {
 							body: 'deviceClasses.generic_remote.views.generic_imitate.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/ATMT-502/remote_pair.svg',
+							svg: '../433_generator/assets/ATMT-502/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -7519,7 +7463,7 @@ module.exports = {
 					{
 						template: './lib/pair/test_remote.html',
 						options: {
-							svg: '../433_generator/assets/ATMT-502/remote.svg',
+							svg: '../433_generator/assets/ATMT-502/test.svg',
 							prepend: [],
 							append: [],
 							title: 'views.generic_test_remote.title',
@@ -7673,12 +7617,12 @@ module.exports = {
 							buttons: [{
 									name: 'views.generic_choice.buttons.copy',
 									view: 'generic_imitate',
-									svg: '../433_generator/assets/AYCT-102/remote.svg'
+									svg: '../433_generator/assets/AYCT-102/pair.svg'
 								},
 								{
 									name: 'views.generic_choice.buttons.generate',
 									view: 'generic_program',
-									svg: '../433_generator/assets/ALED-2709/icon.svg'
+									svg: '../433_generator/assets/ALED-2709/pair.svg'
 								}
 							],
 							prepend: [],
@@ -7700,7 +7644,7 @@ module.exports = {
 							body: 'devices.ALED-2709.views.generic_imitate.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/AYCT-102/remote_pair.svg',
+							svg: '../433_generator/assets/AYCT-102/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -7724,7 +7668,6 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.generic_socket.views.generic_test_switch.title',
 							body: 'devices.ALED-2709.views.generic_test_switch_2.body',
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							previous: true
@@ -7747,7 +7690,7 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.generic_socket.views.generic_program.title',
 							body: 'devices.ALED-2709.views.generic_program.body',
-							svg: '../433_generator/assets/ALED-2709/icon.svg',
+							svg: '../433_generator/assets/ALED-2709/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -7770,7 +7713,6 @@ module.exports = {
 							body: 'devices.ALED-2709.views.generic_test_switch.body',
 							prepend: [],
 							append: [],
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: true,
@@ -7823,7 +7765,7 @@ module.exports = {
 							body: 'deviceClasses.generic_remote.views.generic_imitate.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/AYCT-102/remote_pair.svg',
+							svg: '../433_generator/assets/AYCT-102/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -7840,7 +7782,7 @@ module.exports = {
 					{
 						template: './lib/pair/test_remote.html',
 						options: {
-							svg: '../433_generator/assets/AYCT-102/remote.svg',
+							svg: '../433_generator/assets/AYCT-102/test.svg',
 							prepend: [],
 							append: [],
 							title: 'views.generic_test_remote.title',
@@ -7949,7 +7891,7 @@ module.exports = {
 			driver: '../433_generator/drivers/kaku/remote',
 			signal: 'kaku',
 			name: 'devices.AYCT-102.name',
-			icon: '../433_generator/assets/AYCT-102/remote.svg'
+			icon: '../433_generator/assets/AYCT-102/icon.svg'
 		},
 		'AILS-3500': {
 			capabilities: ['onoff'],
@@ -7971,7 +7913,7 @@ module.exports = {
 							buttons: [{
 									name: 'views.generic_choice.buttons.copy',
 									view: 'generic_imitate',
-									svg: '../433_generator/assets/AYCT-102/remote.svg'
+									svg: '../433_generator/assets/AYCT-102/pair.svg'
 								},
 								{
 									name: 'views.generic_choice.buttons.generate',
@@ -7998,7 +7940,7 @@ module.exports = {
 							body: 'deviceClasses.build_in.views.generic_imitate.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/AYCT-102/remote_pair.svg',
+							svg: '../433_generator/assets/AYCT-102/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -8022,7 +7964,6 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.build_in.views.generic_test_switch.title',
 							body: 'deviceClasses.build_in.views.generic_test_switch_2.body',
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							previous: true
@@ -8080,7 +8021,6 @@ module.exports = {
 							body: 'deviceClasses.build_in.views.generic_test_switch.body',
 							prepend: [],
 							append: [],
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: true,
@@ -8155,12 +8095,12 @@ module.exports = {
 							buttons: [{
 									name: 'views.generic_choice.buttons.copy',
 									view: 'generic_imitate',
-									svg: '../433_generator/assets/AYCT-102/remote.svg'
+									svg: '../433_generator/assets/AYCT-102/pair.svg'
 								},
 								{
 									name: 'views.generic_choice.buttons.generate',
 									view: 'generic_program',
-									svg: '../433_generator/assets/ALED-MR2705/icon.svg'
+									svg: '../433_generator/assets/ALED-MR2705/pair.svg'
 								}
 							],
 							prepend: [],
@@ -8182,7 +8122,7 @@ module.exports = {
 							body: 'devices.ALED-2709.views.generic_imitate.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/AYCT-102/remote_pair.svg',
+							svg: '../433_generator/assets/AYCT-102/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -8206,7 +8146,6 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.generic_socket.views.generic_test_switch.title',
 							body: 'devices.ALED-2709.views.generic_test_switch_2.body',
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							previous: true
@@ -8229,7 +8168,7 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.generic_socket.views.generic_program.title',
 							body: 'devices.ALED-2709.views.generic_program.body',
-							svg: '../433_generator/assets/ALED-MR2705/icon.svg',
+							svg: '../433_generator/assets/ALED-MR2705/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -8252,7 +8191,6 @@ module.exports = {
 							body: 'devices.ALED-2709.views.generic_test_switch.body',
 							prepend: [],
 							append: [],
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: true,
@@ -8314,12 +8252,12 @@ module.exports = {
 							buttons: [{
 									name: 'views.generic_choice.buttons.copy',
 									view: 'generic_imitate',
-									svg: '../433_generator/assets/YCT-102/icon.svg'
+									svg: '../433_generator/assets/YCT-102/pair.svg'
 								},
 								{
 									name: 'deviceClasses.generic_codewheel_switch.views.generic_choice.buttons.generic_codewheel',
 									view: 'generic_codewheel',
-									svg: '../433_generator/assets/YC-400/icon.svg'
+									svg: '../433_generator/assets/YC-400/pair.svg'
 								}
 							],
 							prepend: [],
@@ -8365,7 +8303,6 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.generic_socket.views.generic_test_switch.title',
 							body: 'deviceClasses.generic_socket.views.generic_test_switch_2.body',
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							previous: true
@@ -8440,7 +8377,6 @@ module.exports = {
 							body: 'deviceClasses.generic_socket.views.generic_test_switch.body',
 							prepend: [],
 							append: [],
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: true,
@@ -8513,7 +8449,7 @@ module.exports = {
 							buttons: [{
 									name: 'views.generic_choice.buttons.copy',
 									view: 'generic_imitate',
-									svg: '../433_generator/assets/AYCT-102/remote.svg'
+									svg: '../433_generator/assets/AYCT-102/pair.svg'
 								},
 								{
 									name: 'views.generic_choice.buttons.generate',
@@ -8540,7 +8476,7 @@ module.exports = {
 							body: 'devices.AFR-100.views.generic_imitate.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/AYCT-102/remote_pair.svg',
+							svg: '../433_generator/assets/AYCT-102/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -8564,7 +8500,6 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.generic_socket.views.generic_test_switch.title',
 							body: 'devices.AFR-100.views.generic_test_switch_2.body',
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							previous: true
@@ -8610,7 +8545,6 @@ module.exports = {
 							body: 'devices.AFR-100.views.generic_test_switch.body',
 							prepend: [],
 							append: [],
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: true,
@@ -8655,7 +8589,7 @@ module.exports = {
 			icon: '../433_generator/assets/AFR-100/icon.svg'
 		},
 		'ACD-1000': {
-			icon: '../433_generator/assets/ACD-200/socket.svg',
+			icon: '../433_generator/assets/ACD-200/icon.svg',
 			debounceTimeout: 500,
 			driver: '../433_generator/drivers/kaku/socket',
 			pair: {
@@ -8676,12 +8610,12 @@ module.exports = {
 							buttons: [{
 									name: 'views.generic_choice.buttons.copy',
 									view: 'generic_imitate',
-									svg: '../433_generator/assets/AYCT-102/remote.svg'
+									svg: '../433_generator/assets/AYCT-102/pair.svg'
 								},
 								{
 									name: 'views.generic_choice.buttons.generate',
 									view: 'generic_program',
-									svg: '../433_generator/assets/ACD-200/socket.svg'
+									svg: '../433_generator/assets/ACD-200/pair.svg'
 								}
 							],
 							prepend: [],
@@ -8703,7 +8637,7 @@ module.exports = {
 							body: 'deviceClasses.socket.views.generic_imitate.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/AYCT-102/remote_pair.svg',
+							svg: '../433_generator/assets/AYCT-102/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -8727,7 +8661,6 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.generic_socket.views.generic_test_switch.title',
 							body: 'deviceClasses.generic_socket.views.generic_test_switch_2.body',
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							previous: true
@@ -8762,7 +8695,7 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.generic_socket.views.generic_program.title',
 							body: 'deviceClasses.socket.views.generic_program.body',
-							svg: '../433_generator/assets/ACD-200/socket.svg',
+							svg: '../433_generator/assets/ACD-200/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -8785,7 +8718,6 @@ module.exports = {
 							body: 'deviceClasses.generic_socket.views.generic_test_switch.body',
 							prepend: [],
 							append: [],
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: true,
@@ -8832,7 +8764,6 @@ module.exports = {
 			id: 'ACD-1000',
 			signal: 'kaku',
 			class: 'socket',
-			alternativeSignal: 'kaku',
 			name: 'devices.ACD-1000.name',
 			images: {
 				large: '../433_generator/assets/ACD-200/images/large.png',
@@ -8859,12 +8790,12 @@ module.exports = {
 							buttons: [{
 									name: 'views.generic_choice.buttons.copy',
 									view: 'generic_imitate',
-									svg: '../433_generator/assets/AYCT-102/remote.svg'
+									svg: '../433_generator/assets/AYCT-102/pair.svg'
 								},
 								{
 									name: 'views.generic_choice.buttons.generate',
 									view: 'generic_program',
-									svg: '../433_generator/assets/AWMR-300/icon.svg'
+									svg: '../433_generator/assets/AWMR-300/pair.svg'
 								}
 							],
 							prepend: [],
@@ -8886,7 +8817,7 @@ module.exports = {
 							body: 'deviceClasses.build_in.views.generic_imitate.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/AYCT-102/remote_pair.svg',
+							svg: '../433_generator/assets/AYCT-102/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -8910,7 +8841,6 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.build_in.views.generic_test_switch.title',
 							body: 'deviceClasses.build_in.views.generic_test_switch_2.body',
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							previous: true
@@ -8945,7 +8875,7 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.build_in.views.generic_program.title',
 							body: 'deviceClasses.build_in.views.generic_program.body',
-							svg: '../433_generator/assets/AWMR-300/icon.svg',
+							svg: '../433_generator/assets/AWMR-300/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -8968,7 +8898,6 @@ module.exports = {
 							body: 'deviceClasses.build_in.views.generic_test_switch.body',
 							prepend: [],
 							append: [],
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: true,
@@ -9043,7 +8972,7 @@ module.exports = {
 							buttons: [{
 									name: 'views.generic_choice.buttons.copy',
 									view: 'generic_imitate',
-									svg: '../433_generator/assets/AYCT-102/remote.svg'
+									svg: '../433_generator/assets/AYCT-102/pair.svg'
 								},
 								{
 									name: 'views.generic_choice.buttons.generate',
@@ -9070,7 +8999,7 @@ module.exports = {
 							body: 'deviceClasses.build_in.views.generic_imitate.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/AYCT-102/remote_pair.svg',
+							svg: '../433_generator/assets/AYCT-102/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -9094,7 +9023,6 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.build_in.views.generic_test_switch.title',
 							body: 'deviceClasses.build_in.views.generic_test_switch_2.body',
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							previous: true
@@ -9152,7 +9080,6 @@ module.exports = {
 							body: 'deviceClasses.build_in.views.generic_test_switch.body',
 							prepend: [],
 							append: [],
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: true,
@@ -9421,12 +9348,12 @@ module.exports = {
 							buttons: [{
 									name: 'views.generic_choice.buttons.copy',
 									view: 'generic_imitate',
-									svg: '../433_generator/assets/AYCT-102/remote.svg'
+									svg: '../433_generator/assets/AYCT-102/pair.svg'
 								},
 								{
 									name: 'views.generic_choice.buttons.generate',
 									view: 'generic_program',
-									svg: '../433_generator/assets/AGDR-300/icon.svg'
+									svg: '../433_generator/assets/AGDR-300/pair.svg'
 								}
 							],
 							prepend: [],
@@ -9448,7 +9375,7 @@ module.exports = {
 							body: 'deviceClasses.socket.views.generic_imitate.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/AYCT-102/remote_pair.svg',
+							svg: '../433_generator/assets/AYCT-102/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -9472,7 +9399,6 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.generic_socket.views.generic_test_switch.title',
 							body: 'deviceClasses.generic_socket.views.generic_test_switch_2.body',
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							previous: true
@@ -9530,7 +9456,6 @@ module.exports = {
 							body: 'deviceClasses.generic_socket.views.generic_test_switch.body',
 							prepend: [],
 							append: [],
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: true,
@@ -9582,7 +9507,6 @@ module.exports = {
 			debounceTimeout: 500,
 			driver: '../433_generator/drivers/kaku/socket',
 			signal: 'kaku',
-			alternativeSignal: 'kaku',
 			name: 'devices.AGDR-3500.name',
 			icon: '../433_generator/assets/AGDR-300/icon.svg'
 		},
@@ -9606,12 +9530,12 @@ module.exports = {
 							buttons: [{
 									name: 'views.generic_choice.buttons.copy',
 									view: 'generic_imitate',
-									svg: '../433_generator/assets/PA3-1000R/icon.svg'
+									svg: '../433_generator/assets/PA3-1000R/pair.svg'
 								},
 								{
 									name: 'deviceClasses.generic_codewheel_switch.views.generic_choice.buttons.generic_codewheel',
 									view: 'generic_codewheel',
-									svg: '../433_generator/assets/PAR-1000/icon.svg'
+									svg: '../433_generator/assets/PAR-1000/pair.svg'
 								}
 							],
 							prepend: [],
@@ -9657,7 +9581,6 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.generic_socket.views.generic_test_switch.title',
 							body: 'deviceClasses.generic_socket.views.generic_test_switch_2.body',
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							previous: true
@@ -9712,7 +9635,6 @@ module.exports = {
 							body: 'deviceClasses.generic_socket.views.generic_test_switch.body',
 							prepend: [],
 							append: [],
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: true,
@@ -9787,12 +9709,12 @@ module.exports = {
 							buttons: [{
 									name: 'views.generic_choice.buttons.copy',
 									view: 'generic_imitate',
-									svg: '../433_generator/assets/AYCT-102/remote.svg'
+									svg: '../433_generator/assets/AYCT-102/pair.svg'
 								},
 								{
 									name: 'views.generic_choice.buttons.generate',
 									view: 'generic_program',
-									svg: '../433_generator/assets/ALED-G2706/icon.svg'
+									svg: '../433_generator/assets/ALED-G2706/pair.svg'
 								}
 							],
 							prepend: [],
@@ -9814,7 +9736,7 @@ module.exports = {
 							body: 'devices.ALED-2709.views.generic_imitate.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/AYCT-102/remote_pair.svg',
+							svg: '../433_generator/assets/AYCT-102/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -9838,7 +9760,6 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.generic_socket.views.generic_test_switch.title',
 							body: 'devices.ALED-2709.views.generic_test_switch_2.body',
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							previous: true
@@ -9861,7 +9782,7 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.generic_socket.views.generic_program.title',
 							body: 'devices.ALED-2709.views.generic_program.body',
-							svg: '../433_generator/assets/ALED-G2706/icon.svg',
+							svg: '../433_generator/assets/ALED-G2706/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -9884,7 +9805,6 @@ module.exports = {
 							body: 'devices.ALED-2709.views.generic_test_switch.body',
 							prepend: [],
 							append: [],
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: true,
@@ -9946,12 +9866,12 @@ module.exports = {
 							buttons: [{
 									name: 'views.generic_choice.buttons.copy',
 									view: 'generic_imitate',
-									svg: '../433_generator/assets/AYCT-102/remote.svg'
+									svg: '../433_generator/assets/AYCT-102/pair.svg'
 								},
 								{
 									name: 'views.generic_choice.buttons.generate',
 									view: 'generic_program',
-									svg: '../433_generator/assets/ACD-200/socket.svg'
+									svg: '../433_generator/assets/ACD-200/pair.svg'
 								}
 							],
 							prepend: [],
@@ -9973,7 +9893,7 @@ module.exports = {
 							body: 'deviceClasses.socket.views.generic_imitate.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/AYCT-102/remote_pair.svg',
+							svg: '../433_generator/assets/AYCT-102/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -9997,7 +9917,6 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.generic_socket.views.generic_test_switch.title',
 							body: 'deviceClasses.generic_socket.views.generic_test_switch_2.body',
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							previous: true
@@ -10032,7 +9951,7 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.generic_socket.views.generic_program.title',
 							body: 'deviceClasses.socket.views.generic_program.body',
-							svg: '../433_generator/assets/ACD-200/socket.svg',
+							svg: '../433_generator/assets/ACD-200/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -10055,7 +9974,6 @@ module.exports = {
 							body: 'deviceClasses.generic_socket.views.generic_test_switch.body',
 							prepend: [],
 							append: [],
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: true,
@@ -10109,7 +10027,7 @@ module.exports = {
 			signal: 'kakudim',
 			alternativeSignal: 'kaku',
 			name: 'devices.ACD-200.name',
-			icon: '../433_generator/assets/ACD-200/socket.svg'
+			icon: '../433_generator/assets/ACD-200/icon.svg'
 		},
 		'AILD-250': {
 			capabilities: ['onoff', 'dim'],
@@ -10131,7 +10049,7 @@ module.exports = {
 							buttons: [{
 									name: 'views.generic_choice.buttons.copy',
 									view: 'generic_imitate',
-									svg: '../433_generator/assets/AYCT-102/remote.svg'
+									svg: '../433_generator/assets/AYCT-102/pair.svg'
 								},
 								{
 									name: 'views.generic_choice.buttons.generate',
@@ -10158,7 +10076,7 @@ module.exports = {
 							body: 'deviceClasses.build_in.views.generic_imitate.body',
 							prepend: [],
 							append: [],
-							svg: '../433_generator/assets/AYCT-102/remote_pair.svg',
+							svg: '../433_generator/assets/AYCT-102/pair.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: false,
@@ -10182,7 +10100,6 @@ module.exports = {
 							append: [],
 							title: 'deviceClasses.build_in.views.generic_test_switch.title',
 							body: 'deviceClasses.build_in.views.generic_test_switch_2.body',
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							previous: true
@@ -10240,7 +10157,6 @@ module.exports = {
 							body: 'deviceClasses.build_in.views.generic_test_switch.body',
 							prepend: [],
 							append: [],
-							svg: './../assets/433_generator/images/light.svg',
 							svgWidth: '80vw',
 							svgHeight: '70vh',
 							initWithDeviceData: true,

@@ -1,0 +1,13 @@
+{
+    "id": "ACD-1000",
+    "name": {
+        "en": "ACD-1000"
+    },
+    "$extends": [
+        "socket",
+        "kaku",
+        "defaults.png",
+        "onoff",
+        "socket.pair"
+    ]
+}

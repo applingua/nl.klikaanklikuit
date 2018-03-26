@@ -1,0 +1,13 @@
+{
+    "id": "AGDR-3500",
+    "name": {
+        "en": "AGDR-3500"
+    },
+    "$extends": [
+        "defaults",
+        "socket",
+        "kaku",
+        "onoff",
+        "socket.pair"
+    ]
+}

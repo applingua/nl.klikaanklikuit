@@ -1,0 +1,86 @@
+{
+    "id": "APA2-2300RS",
+    "name": {
+        "en": "APA2-2300R"
+    },
+    "pair": [
+        {
+            "id": "rf.choice",
+            "$template": "rf.choice",
+            "options": {
+                "title": "rf.pair.choice.title.switch",
+                "body": "rf.pair.choice.body.switch",
+                "svgHeight": "65vh",
+                "choices": [
+                    {
+                        "name": "rf.pair.choice.buttons.copy.default",
+                        "view": "rf.imitate",
+                        "svg": "{{driverPath}}/pair/assets/svg/APA2-2300R_pair.svg"
+                    },
+                    {
+                        "name": "rf.pair.choice.buttons.generate.default",
+                        "view": "rf.program",
+                        "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "rf.imitate",
+            "$template": "rf.imitate",
+            "options": {
+                "title": "rf.pair.imitate.title.socket",
+                "body": "rf.pair.imitate.body.socket",
+                "svg": "{{driverPath}}/pair/assets/svg/APA2-2300R_pair.svg",
+                "initWithDeviceData": "[DEPRECATED]: false"
+            }
+        },
+        {
+            "id": "rf.test_switch.2",
+            "$template": "rf.test_switch",
+            "options": {
+                "initWithDeviceData": true,
+                "sendToggleOnInit": "[DEPRECATED]: false",
+                "title": "rf.pair.test_switch.title.socket",
+                "body": "rf.pair.test_switch.body.socket"
+            }
+        },
+        {
+            "id": "choose_slave.2",
+            "template": "choose_slave"
+        },
+        {
+            "id": "rf.program",
+            "$template": "rf.program",
+            "options": {
+                "title": "rf.pair.program.title.socket",
+                "body": "rf.pair.program.body.simple_socket",
+                "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+            }
+        },
+        {
+            "id": "rf.test_switch",
+            "$template": "rf.test_switch",
+            "options": {
+                "title": "rf.pair.test_switch.title.socket",
+                "body": "rf.pair.test_switch.body.socket",
+                "initWithDeviceData": true,
+                "sendToggleOnInit": "[DEPRECATED]: false"
+            }
+        },
+        {
+            "id": "choose_slave",
+            "template": "choose_slave"
+        },
+        {
+            "id": "rf.done",
+            "$template": "rf.done"
+        }
+    ],
+    "$extends": [
+        "defaults",
+        "socket",
+        "kaku",
+        "onoff",
+    ]
+}

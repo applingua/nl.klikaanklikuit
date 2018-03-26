@@ -1,0 +1,12 @@
+{
+    "id": "AWST-6000",
+    "name": {
+        "en": "AWST-6000"
+    },
+    "$extends": [
+        "kaku",
+        "defaults.png",
+        "sensor",
+        "motion_alarm"
+    ]
+}

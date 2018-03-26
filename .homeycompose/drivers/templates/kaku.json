@@ -1,0 +1,36 @@
+{
+    "rf": {
+        "debounceTimeout": 500,
+        "signal": "kaku"
+    },
+    "$devices": [
+        "ACD-3500",
+        "AC-3500",
+        "ASUN-650",
+        "AWMT-003",
+        "AC-1000",
+        "APA2-2300R",
+        "APIR-2150",
+        "APA2-2300RS",
+        "APCR-2300",
+        "AKCT-510",
+        "AWST-8802",
+        "APA3-1500RS",
+        "ABST-604",
+        "AWMT-230",
+        "ACM-1000",
+        "AWMR-230",
+        "ACM-2300H",
+        "AWST-8800",
+        "AWST-6000",
+        "ATMT-502",
+        "AYCT-102",
+        "AILS-3500",
+        "ACD-1000",
+        "AWMR-300",
+        "AWS-3500",
+        "APA3-1500R",
+        "AGDR-3500"
+    ],
+    "$hash": "migrate.7.a1828884d4840bb84da012229b1c2eb8"
+}

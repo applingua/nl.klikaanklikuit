@@ -1,0 +1,12 @@
+{
+    "id": "AWST-8800",
+    "name": {
+        "en": "AWST-8800"
+    },
+    "$extends": [
+        "kaku",
+        "defaults.png",
+        "wall_switch",
+        "wall_switch.flows.single"
+    ]
+}

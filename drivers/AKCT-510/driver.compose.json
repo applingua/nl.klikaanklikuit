@@ -1,0 +1,12 @@
+{
+    "id": "AKCT-510",
+    "name": {
+        "en": "AKCT-510"
+    },
+    "$extends": [
+        "defaults",
+        "kaku",
+        "remote",
+        "wall_switch.flows.single"
+    ]
+}

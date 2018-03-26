@@ -1,0 +1,12 @@
+{
+    "id": "ALED-G2706",
+    "name": {
+        "en": "ALED-G2706"
+    },
+    "$extends": [
+        "defaults",
+        "dim",
+        "light",
+        "light.pair"
+    ]
+}

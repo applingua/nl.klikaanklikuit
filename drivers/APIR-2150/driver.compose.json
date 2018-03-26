@@ -1,0 +1,12 @@
+{
+    "id": "APIR-2150",
+    "name": {
+        "en": "APIR-2150"
+    },
+    "$extends": [
+        "kaku",
+        "defaults.png",
+        "sensor",
+        "motion_alarm"
+    ]
+}

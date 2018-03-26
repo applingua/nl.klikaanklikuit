@@ -1,0 +1,75 @@
+{
+    "pair": [
+        {
+            "id": "rf.choice",
+            "$template": "rf.choice",
+            "options": {
+                "title": "rf.pair.choice.title.switch",
+                "body": "rf.pair.choice.body.switch",
+                "svgHeight": "65vh",
+                "choices": [
+                    {
+                        "name": "rf.pair.choice.buttons.copy.default",
+                        "view": "rf.imitate",
+                        "svg": "{{driverPath}}/pair/assets/svg/AYCT-102_pair.svg"
+                    },
+                    {
+                        "name": "rf.pair.choice.buttons.generate.default",
+                        "view": "rf.program",
+                        "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "rf.imitate",
+            "$template": "rf.imitate",
+            "options": {
+                "title": "rf.pair.imitate.title.socket",
+                "body": "rf.pair.imitate.body.ALED-2709",
+                "svg": "{{driverPath}}/pair/assets/svg/AYCT-102_pair.svg",
+                "initWithDeviceData": "[DEPRECATED]: false"
+            }
+        },
+        {
+            "id": "rf.test_switch.2",
+            "$template": "rf.test_switch",
+            "options": {
+                "initWithDeviceData": true,
+                "sendToggleOnInit": "[DEPRECATED]: false",
+                "title": "rf.pair.test_switch.title.socket",
+                "body": "rf.pair.test_switch.body.ALED-2709"
+            }
+        },
+        {
+            "id": "rf.program",
+            "$template": "rf.program",
+            "options": {
+                "title": "rf.pair.program.title.socket",
+                "body": "rf.pair.program.body.ALED-2709",
+                "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+            }
+        },
+        {
+            "id": "rf.test_switch",
+            "$template": "rf.test_switch",
+            "options": {
+                "title": "rf.pair.test_switch.title.ALED-2709",
+                "body": "rf.pair.test_switch.body.ALED-2709",
+                "initWithDeviceData": true,
+                "sendToggleOnInit": "[DEPRECATED]: false"
+            }
+        },
+        {
+            "id": "rf.done",
+            "$template": "rf.done"
+        }
+    ],
+    "$devices": [
+        "ALED-2009",
+        "ALED-2709",
+        "ALED-MR2705",
+        "ALED-G2706"
+    ],
+    "$hash": "migrate.23.afbb809e3b9780fcdad8dab8adf01d34"
+}

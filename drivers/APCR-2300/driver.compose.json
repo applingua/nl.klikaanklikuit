@@ -1,0 +1,13 @@
+{
+    "id": "APCR-2300",
+    "name": {
+        "en": "APCR-2300"
+    },
+    "$extends": [
+        "defaults",
+        "socket",
+        "kaku",
+        "onoff",
+        "socket.pair"
+    ]
+}

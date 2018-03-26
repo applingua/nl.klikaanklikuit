@@ -3,11 +3,8 @@
 module.exports = {
 	views: {},
 	deviceClasses: {
-		defaults: {
-			debounceTimeout: 500,
-		},
 		kaku_old: {
-			extends: 'defaults',
+			debounceTimeout: 500,
 			driver: './drivers/kakuold/socket.js',
 			signal: {
 				id: 'kakuold',
@@ -26,10 +23,11 @@ module.exports = {
 			},
 		},
 		kaku: {
-			extends: 'defaults',
+			debounceTimeout: 500,
 			driver: './drivers/kaku/socket',
 			signal: {
 				id: 'kaku',
+				agc: [],
 				sof: [225, 2774], // Start of frame
 				eof: [236], // End of frame
 				words: [
@@ -44,7 +42,7 @@ module.exports = {
 			},
 		},
 		kaku_dim: {
-			extends: 'defaults',
+			debounceTimeout: 500,
 			signal: {
 				id: 'kakudim',
 				sof: [225, 2774], // Start of frame

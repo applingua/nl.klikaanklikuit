@@ -1,0 +1,13 @@
+{
+    "id": "YC-412",
+    "name": {
+        "en": "YC-412"
+    },
+    "$extends": [
+        "defaults",
+        "socket",
+        "onoff",
+        "kakuold",
+        "codewheel.switch"
+    ]
+}

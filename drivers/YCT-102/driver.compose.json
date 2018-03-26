@@ -1,0 +1,12 @@
+{
+    "id": "YCT-102",
+    "name": {
+        "en": "YCT-102"
+    },
+    "$extends": [
+        "defaults.png",
+        "kakuold",
+        "remote",
+        "remote.flows"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "id": "ACM-2300H",
+    "name": {
+        "en": "ACM-2300H"
+    },
+    "$extends": [
+        "defaults",
+        "socket",
+        "kaku",
+        "onoff",
+        "build_in.pair"
+    ]
+}

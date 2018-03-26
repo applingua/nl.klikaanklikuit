@@ -1,0 +1,108 @@
+{
+    "id": "PAR-1000",
+    "name": {
+        "en": "PAR-1000"
+    },
+    "pair": [
+        {
+            "id": "rf.choice",
+            "$template": "rf.choice",
+            "options": {
+                "title": "rf.pair.choice.title.switch",
+                "body": "rf.pair.choice.body.codewheel_switch",
+                "svgHeight": "65vh",
+                "choices": [
+                    {
+                        "name": "rf.pair.choice.buttons.copy.default",
+                        "view": "rf.imitate",
+                        "svg": "{{driverPath}}/pair/assets/svg/PA3-1000R_pair.svg"
+                    },
+                    {
+                        "name": "rf.pair.choice.buttons.codewheel.codewheel_switch",
+                        "view": "rf.codewheel",
+                        "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "rf.imitate",
+            "$template": "rf.imitate",
+            "options": {
+                "title": "rf.pair.imitate.title.socket",
+                "body": "rf.pair.imitate.body.socket",
+                "svg": "{{driverPath}}/pair/assets/svg/PA3-1000R_pair.svg",
+                "initWithDeviceData": "[DEPRECATED]: false"
+            }
+        },
+        {
+            "id": "rf.test_switch.2",
+            "$template": "rf.test_switch",
+            "options": {
+                "initWithDeviceData": true,
+                "sendToggleOnInit": "[DEPRECATED]: false",
+                "title": "rf.pair.test_switch.title.socket",
+                "body": "rf.pair.test_switch.body.socket"
+            }
+        },
+        {
+            "id": "choose_slave.2",
+            "template": "choose_slave"
+        },
+        {
+            "id": "rf.codewheel",
+            "$template": "rf.codewheel",
+            "options": {
+                "codewheelList": [
+                    {
+                        "series": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            2,
+                            3,
+                            1,
+                            2,
+                            3,
+                            1,
+                            2,
+                            3
+                        ],
+                        "mapOddToDot": "[DEPRECATED]: false",
+                        "quadrants": [
+                            "[DEPRECATED]: A",
+                            "[DEPRECATED]: B",
+                            "[DEPRECATED]: C",
+                            "[DEPRECATED]: D"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "rf.test_switch",
+            "$template": "rf.test_switch",
+            "options": {
+                "title": "rf.pair.test_switch.title.socket",
+                "body": "rf.pair.test_switch.body.socket",
+                "initWithDeviceData": true,
+                "sendToggleOnInit": "[DEPRECATED]: false"
+            }
+        },
+        {
+            "id": "choose_slave",
+            "template": "choose_slave"
+        },
+        {
+            "id": "rf.done",
+            "$template": "rf.done"
+        }
+    ],
+    "$extends": [
+        "defaults",
+        "socket",
+        "onoff",
+        "kakuold"
+    ]
+}

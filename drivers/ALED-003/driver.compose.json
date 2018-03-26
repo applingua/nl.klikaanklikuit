@@ -1,0 +1,19 @@
+{
+    "id": "ALED-003",
+    "name": {
+        "en": "ALED-003"
+    },
+    "pairOptions": {
+        "rf.program": {
+            "title": "rf.pair.program.title.socket",
+            "body": "rf.pair.program.body.ALED-003",
+            "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+        }
+    },
+    "$extends": [
+        "defaults",
+        "onoff",
+        "light",
+        "light.pair"
+    ]
+}

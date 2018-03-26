@@ -1,0 +1,30 @@
+{
+    "pairOptions": {
+        "rf.choice": {
+            "title": "rf.pair.choice.title.switch",
+            "body": "rf.pair.choice.body.switch",
+            "svgHeight": "65vh",
+            "choices": [
+                {
+                    "name": "rf.pair.choice.buttons.copy.default",
+                    "view": "rf.imitate",
+                    "svg": "{{driverPath}}/pair/assets/svg/AYCT-102_pair.svg"
+                },
+                {
+                    "name": "rf.pair.choice.buttons.generate.default",
+                    "view": "rf.program",
+                    "svg": "{{driverPath}}/pair/assets/svg/AGDR-300_pair.svg"
+                }
+            ]
+        }
+    },
+    "$devices": [
+        "AGDR-200",
+        "AGDR-3500"
+    ],
+    "$extend": [
+        "AWMD-250",
+        "AWMR-230"
+    ],
+    "$hash": "migrate.20.666ea2848c7115c27c5f7b5c25017b09"
+}

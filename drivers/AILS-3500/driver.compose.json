@@ -1,0 +1,13 @@
+{
+    "id": "AILS-3500",
+    "name": {
+        "en": "AILD-3500"
+    },
+    "$extends": [
+        "socket",
+        "kaku",
+        "defaults.png",
+        "onoff",
+        "build_in.pair"
+    ]
+}

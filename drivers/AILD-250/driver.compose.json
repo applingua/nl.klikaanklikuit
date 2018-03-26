@@ -1,0 +1,12 @@
+{
+    "id": "AILD-250",
+    "name": {
+        "en": "AILD-250"
+    },
+    "$extends": [
+        "socket",
+        "defaults.png",
+        "dim",
+        "build_in.pair"
+    ]
+}

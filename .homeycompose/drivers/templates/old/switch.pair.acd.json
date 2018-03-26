@@ -1,0 +1,27 @@
+{
+    "pairOptions": {
+        "rf.choice": {
+            "title": "rf.pair.choice.title.switch",
+            "body": "rf.pair.choice.body.switch",
+            "svgHeight": "65vh",
+            "choices": [
+                {
+                    "name": "rf.pair.choice.buttons.copy.default",
+                    "view": "rf.imitate",
+                    "svg": "{{driverPath}}/pair/assets/svg/AYCT-102_pair.svg"
+                },
+                {
+                    "name": "rf.pair.choice.buttons.generate.default",
+                    "view": "rf.program",
+                    "svg": "{{driverPath}}/pair/assets/svg/ACD-200_pair.svg"
+                }
+            ]
+        }
+    },
+    "$devices": [
+        "ACD-3500",
+        "ACD-300",
+        "ACD-1000"
+    ],
+    "$hash": "migrate.6.3bcf0d78e650d48dfaec30d41b16d794"
+}

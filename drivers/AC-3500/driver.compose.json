@@ -1,0 +1,13 @@
+{
+    "id": "AC-3500",
+    "name": {
+        "en": "AC-3500"
+    },
+    "$extends": [
+        "socket",
+        "kaku",
+        "defaults.png",
+        "onoff",
+        "socket.pair"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "class": "light",
+    "rf": {
+        "debounceTimeout": 500,
+        "signal": "kakudim",
+        "alternativeSignal": "kaku"
+    },
+    "$devices": [
+        "AFR-060",
+        "ALED-003",
+        "ALED-2009",
+        "ALED-2709",
+        "ALED-MR2705",
+        "AFR-100",
+        "ALED-G2706"
+    ],
+    "$hash": "migrate.8.b173f1db96ed6fbbb23fc0e927601947"
+}

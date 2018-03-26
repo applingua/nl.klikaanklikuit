@@ -1,0 +1,76 @@
+{
+    "rf": {
+        "pair": {
+            "choice": {
+                "buttons": {
+                    "codewheel": {
+                        "codewheel_switch": "Handmatig lettercodeshijf instellen\u0000"
+                    },
+                    "imitate": {
+                        "ACDB-6600": "Kopieer deurbel signaal"
+                    }
+                },
+                "body": {
+                    "doorbell": "Kies of je het signaal van je deurbel wil kopiëren of dat je de deurbel wil programmeren met een nieuw signaal van Homey.",
+                    "codewheel_switch": "Kies of je het signaal van een gekoppelde afstandsbediening wil kopiëren of dat je handmatig de lettercodeshijf wil instellen.\u0000"
+                }
+            },
+            "imitate": {
+                "body": {
+                    "old_blinds": "Druk op de omhoog/omlaag knop van de afstandsbediening waarmee de zonnewering gekoppeld is.",
+                    "socket": "Druk op de knop van de afstandsbediening waarmee het apparaat gekoppeld is.<p class=\"notice\">(Let op. Homey ondersteund voor dit apparaat alleen afstandsbedieningen waarvan de productcode begint met een A. Als u een oude afstandsbediening gebruikt laat Homey dan zelf een nieuw signaal genereren voor het apparaat)</p>",
+                    "blinds": "Druk op de omhoog/omlaag knop van de afstandsbediening waarmee de zonnewering gekoppeld is.<p class=\"notice\">(Let op. Homey ondersteund voor dit apparaat alleen afstandsbedieningen waarvan de productcode begint met een A. Als u een oude afstandsbediening gebruikt laat Homey dan zelf een nieuw signaal genereren voor het apparaat)</p>",
+                    "AFR-100": "Druk op de knop die gekoppeld is met de fitting.",
+                    "build_in": "Druk op de knop van de afstandsbediening waarmee het apparaat gekoppeld is.",
+                    "sensor": "Schuif de LEARN knop naar DEL en terug naar SET.",
+                    "doorbell": "Druk op de deurbel knop.",
+                    "ALED-2709": "Druk op de knop die gekoppeld is met de lamp.",
+                    "AMST-606": "Houd beide delen van de contactsensor bij elkaar en haal deze weer van elkaar af."
+                },
+                "title": {
+                    "socket": "Kopieer het signaal van je afstandsbediening\u0000",
+                    "motion_sensor": "Koppel de bewegingssensor",
+                    "ABST-604": "Koppel de nachtsensor",
+                    "AMST-606": "Koppel de contactsensor"
+                }
+            },
+            "test_switch": {
+                "title": {
+                    "blinds": "Test de zonnewering",
+                    "socket": "Test je contactdoos\u0000",
+                    "AFR-100": "Test de fitting",
+                    "build_in": "Test je apparaat",
+                    "ALED-2709": "Test de lamp"
+                },
+                "body": {
+                    "blinds": "Gebruik de bovenstaande knoppen om de zonnewering te testen. Klik op volgende om verder te gaan.",
+                    "socket": "Gebruik de bovenstaande knop om je contactdoos te testen. Klik op volgende om verder te gaan.\u0000",
+                    "AFR-100": "Gebruik de bovenstaande schakelaar om de fitting te testen. Klik op volgende om verder te gaan.",
+                    "build_in": "Gebruik de bovenstaande knop om het apparaat te testen. Klik op volgende om verder te gaan.",
+                    "ALED-2709": "Gebruik de bovenstaande schakelaar om de lamp te testen. Klik op volgende om verder te gaan."
+                }
+            },
+            "program": {
+                "body": {
+                    "socket": "Druk op de programmeer knop, het lampje op de contactdoos moet gaan knipperen wanneer de knop losgelaten wordt. Klik daarna op volgende.<p class=\"notice\">(Let op. Als je problemen ondervind bij het koppelen van je apparaat probeer het apparaat te resetten door de programmeer knop 10 seconden in te houden tot het lampje gaat knipperen en vervolgens de programmeer nog 1 keer in te drukken.)</p>",
+                    "AFR-100": "Druk op de programmeer knop van de fitting. Het lampje op de fitting hoort te gaan knipperen wanneer het knopje losgelaten wordt. Klik op volgende wanneer de fitting in programmeer modus zit.",
+                    "build_in": "Druk op de programmeer knop van het apparaat om hem in programeer modus te zetten. Klik daarna op volgende.",
+                    "simple_socket": "Haal de contactdoos uit het stopcontact voor een aantal seconden en plaats hem terug in het stopcontact. Het rode lampje zou nu moeten knipperen. Wanneer het apparaat in koppelmodus is klik op volgende.<p class=\"notice\">(Let op. Als je problemen ondervind bij het koppelen van je apparaat probeer het apparaat te resetten door hem in pairing modus te zetten en vervolgens de groep knop op de afstandsbediening 5 seconden in te houden. Alle addressen zullen nu van de contactdoos verwijderd moeten zijn.)</p>",
+                    "ALED-003": "Verwijder een batterij uit de lamp en stop deze terug om de lamp in programmeer modus te zetten. De lamp zal nu langzaam aan en uit gaan. Klik vervolgens op volgende.",
+                    "ALED-2709": "Zet de stroom van de lamp 3 keer aan en uit, of gebruik de afstandsbediening om de lamp 5 keer aan en uit te zetten, binnen 15 seconden om de lamp in pair modus te zetten. De lamp zou nu moeten knipperen. Klik vervolgens op volgende."
+                },
+                "title": {
+                    "build_in": "Zet het apparaat in programmeer modus"
+                }
+            },
+            "test_button": {
+                "title": {
+                    "doorbell": "Test de deurbel"
+                },
+                "body": {
+                    "doorbell": "Gebruik de bovenstaande knop om de deurbel te testen. Klik op volgende om verder te gaan."
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "id": "AWMR-210",
+    "name": {
+        "en": "AWMR-210"
+    },
+    "$extends": [
+        "socket",
+        "defaults.png",
+        "dim",
+        "build_in.pair"
+    ]
+}

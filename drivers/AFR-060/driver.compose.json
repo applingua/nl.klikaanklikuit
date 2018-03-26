@@ -1,0 +1,12 @@
+{
+    "id": "AFR-060",
+    "name": {
+        "en": "AFR-060"
+    },
+    "$extends": [
+        "defaults",
+        "onoff",
+        "light",
+        "light.pair.afr"
+    ]
+}

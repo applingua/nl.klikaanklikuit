@@ -1,0 +1,12 @@
+{
+    "id": "AYCT-102",
+    "name": {
+        "en": "AYCT-102"
+    },
+    "$extends": [
+        "defaults",
+        "kaku",
+        "remote",
+        "remote.flows"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "capabilities": [
+        "onoff"
+    ],
+    "$devices": [
+        "ACD-3500",
+        "AC-3500",
+        "AFR-060",
+        "AC-1000",
+        "APA2-2300RS",
+        "APCR-2300",
+        "YC-3500",
+        "APA3-1500RS",
+        "ACM-1000",
+        "AWMR-230",
+        "ALED-003",
+        "ACM-2300H",
+        "AC-300",
+        "YC-412",
+        "AILS-3500",
+        "YC-1000",
+        "ACD-1000",
+        "AWMR-300",
+        "AWS-3500",
+        "AGDR-3500",
+        "PAR-1000"
+    ],
+    "$hash": "migrate.4.b5876e2af4a49af966af22dd27307657"
+}

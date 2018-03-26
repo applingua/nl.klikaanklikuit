@@ -1,0 +1,3470 @@
+{
+    "devices": {
+        "SUN-650": {
+            "id": "SUN-650",
+            "name": {
+                "en": "SUN-500"
+            },
+            "pair": [
+                {
+                    "id": "rf.choice",
+                    "$template": "rf.choice",
+                    "options": {
+                        "title": "rf.pair.choice.title.switch",
+                        "body": "rf.pair.choice.body.switch",
+                        "svgHeight": "65vh",
+                        "choices": [
+                            {
+                                "name": "rf.pair.choice.buttons.copy.default",
+                                "view": "rf.imitate",
+                                "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                            },
+                            {
+                                "name": "rf.pair.choice.buttons.codewheel.codewheel_switch",
+                                "view": "rf.codewheel",
+                                "svg": "{{driverPath}}/pair/assets/svg/SUN-500_pair.svg"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "rf.imitate",
+                    "$template": "rf.imitate",
+                    "options": {
+                        "body": "rf.pair.imitate.body.old_blinds",
+                        "svg": "{{driverPath}}/pair/assets/svg/pair.svg",
+                        "initWithDeviceData": "[DEPRECATED]: false"
+                    }
+                },
+                {
+                    "id": "rf.test_switch.2",
+                    "$template": "rf.test_switch",
+                    "options": {
+                        "initWithDeviceData": true,
+                        "sendToggleOnInit": "[DEPRECATED]: false",
+                        "append": [
+                            {
+                                "scripts": "[DEPRECATED]: \n$('<div>').append(\n\t$('<input id=\"invert-checkbox\" type=\"checkbox\" style=\"position: relative; bottom: 1px; vertical-align: middle;\">')\n\t\t.on('change', function(){ \n\t\t\tvar newSettings = { rotated: this.checked ? '180' : '0'};\n\t\t\tHomey.emit('set_settings', newSettings, function(){\n\t\t\t\tHomey.highlight(newSettings);\n\t\t\t});\n\t\t}),\n\t$('<label for=\"invert-checkbox\" style=\"padding: 0 1em;\">')\n\t\t.html(__('deviceClasses.blinds.settings.rotated.label'))\n).insertAfter('[data-id=\"generic_test_switch_2\"] .centered-container > #image-container')"
+                            }
+                        ],
+                        "title": "rf.pair.test_switch.title.blinds",
+                        "body": "rf.pair.test_switch.body.blinds",
+                        "svg": "{{driverPath}}/pair/assets/svg/test.svg"
+                    }
+                },
+                {
+                    "id": "rf.codewheel",
+                    "$template": "rf.codewheel",
+                    "options": {
+                        "codewheelList": [
+                            {
+                                "series": [
+                                    "A",
+                                    "B",
+                                    "C",
+                                    "D",
+                                    "E",
+                                    "F",
+                                    "G",
+                                    "H",
+                                    "I",
+                                    "J",
+                                    "K",
+                                    "L",
+                                    "M",
+                                    "N",
+                                    "O",
+                                    "P"
+                                ],
+                                "mapOddToDot": "[DEPRECATED]: true"
+                            },
+                            {
+                                "series": [
+                                    "[DEPRECATED]: 1",
+                                    "[DEPRECATED]: 2",
+                                    "[DEPRECATED]: 3",
+                                    "[DEPRECATED]: 4",
+                                    "[DEPRECATED]: 5",
+                                    "[DEPRECATED]: 6",
+                                    "[DEPRECATED]: 7",
+                                    "[DEPRECATED]: 8",
+                                    "[DEPRECATED]: 9",
+                                    "[DEPRECATED]: 10",
+                                    "[DEPRECATED]: 11",
+                                    "[DEPRECATED]: 12",
+                                    "[DEPRECATED]: 13",
+                                    "[DEPRECATED]: 14",
+                                    "[DEPRECATED]: 15",
+                                    "[DEPRECATED]: 16"
+                                ],
+                                "mapOddToDot": "[DEPRECATED]: true"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "rf.test_switch",
+                    "$template": "rf.test_switch",
+                    "options": {
+                        "title": "rf.pair.test_switch.title.blinds",
+                        "body": "rf.pair.test_switch.body.blinds",
+                        "append": [
+                            {
+                                "scripts": "[DEPRECATED]: \n$('<div>').append(\n\t$('<input id=\"invert-checkbox\" type=\"checkbox\" style=\"position: relative; bottom: 1px; vertical-align: middle;\">')\n\t\t.on('change', function(){ \n\t\t\tvar newSettings = { rotated: this.checked ? '180' : '0'};\n\t\t\tHomey.emit('set_settings', newSettings, function(){\n\t\t\t\tHomey.highlight(newSettings);\n\t\t\t});\n\t\t}),\n\t$('<label for=\"invert-checkbox\" style=\"padding: 0 1em;\">')\n\t\t.html(__('deviceClasses.blinds.settings.rotated.label'))\n).insertAfter('[data-id=\"generic_test_switch\"] .centered-container > #image-container')"
+                            }
+                        ],
+                        "svg": "{{driverPath}}/pair/assets/svg/test.svg",
+                        "initWithDeviceData": true,
+                        "sendToggleOnInit": "[DEPRECATED]: false"
+                    }
+                },
+                {
+                    "id": "rf.done",
+                    "$template": "rf.done"
+                }
+            ],
+            "$extends": [
+                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.2.90196a7e090a63d1a116660f71786d35",
+                "migrate.1.84837b2352892393687d83b6d92129a6"
+            ]
+        },
+        "ACD-3500": {
+            "id": "ACD-3500",
+            "name": {
+                "en": "ACD-3500"
+            },
+            "$extends": [
+                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.4.b5876e2af4a49af966af22dd27307657",
+                "migrate.6.9ac248f9555a15a013c70d0cf89e1397"
+            ]
+        },
+        "AC-3500": {
+            "id": "AC-3500",
+            "name": {
+                "en": "AC-3500"
+            },
+            "$extends": [
+                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.4.b5876e2af4a49af966af22dd27307657",
+                "migrate.6.9ac248f9555a15a013c70d0cf89e1397"
+            ]
+        },
+        "ASUN-650": {
+            "id": "ASUN-650",
+            "name": {
+                "en": "ASUN-650"
+            },
+            "pair": [
+                {
+                    "id": "rf.choice",
+                    "$template": "rf.choice",
+                    "options": {
+                        "title": "rf.pair.choice.title.switch",
+                        "body": "rf.pair.choice.body.switch",
+                        "svgHeight": "65vh",
+                        "choices": [
+                            {
+                                "name": "rf.pair.choice.buttons.copy.default",
+                                "view": "rf.imitate",
+                                "svg": "{{driverPath}}/pair/assets/svg/AYCT-102_pair.svg"
+                            },
+                            {
+                                "name": "rf.pair.choice.buttons.generate.default",
+                                "view": "rf.program",
+                                "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "rf.imitate",
+                    "$template": "rf.imitate",
+                    "options": {
+                        "body": "rf.pair.imitate.body.blinds",
+                        "svg": "{{driverPath}}/pair/assets/svg/AYCT-102_pair.svg",
+                        "initWithDeviceData": "[DEPRECATED]: false"
+                    }
+                },
+                {
+                    "id": "rf.test_switch.2",
+                    "$template": "rf.test_switch",
+                    "options": {
+                        "initWithDeviceData": true,
+                        "sendToggleOnInit": "[DEPRECATED]: false",
+                        "append": [
+                            {
+                                "scripts": "[DEPRECATED]: \n$('<div>').append(\n\t$('<input id=\"invert-checkbox\" type=\"checkbox\" style=\"position: relative; bottom: 1px; vertical-align: middle;\">')\n\t\t.on('change', function(){ \n\t\t\tvar newSettings = { rotated: this.checked ? '180' : '0'};\n\t\t\tHomey.emit('set_settings', newSettings, function(){\n\t\t\t\tHomey.highlight(newSettings);\n\t\t\t});\n\t\t}),\n\t$('<label for=\"invert-checkbox\" style=\"padding: 0 1em;\">')\n\t\t.html(__('deviceClasses.blinds.settings.rotated.label'))\n).insertAfter('[data-id=\"generic_test_switch_2\"] .centered-container > #image-container')"
+                            }
+                        ],
+                        "title": "rf.pair.test_switch.title.blinds",
+                        "body": "rf.pair.test_switch.body.blinds",
+                        "svg": "{{driverPath}}/pair/assets/svg/test.svg"
+                    }
+                },
+                {
+                    "id": "rf.program",
+                    "$template": "rf.program",
+                    "options": {
+                        "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                    }
+                },
+                {
+                    "id": "rf.test_switch",
+                    "$template": "rf.test_switch",
+                    "options": {
+                        "title": "rf.pair.test_switch.title.blinds",
+                        "body": "rf.pair.test_switch.body.blinds",
+                        "append": [
+                            {
+                                "scripts": "[DEPRECATED]: \n$('<div>').append(\n\t$('<input id=\"invert-checkbox\" type=\"checkbox\" style=\"position: relative; bottom: 1px; vertical-align: middle;\">')\n\t\t.on('change', function(){ \n\t\t\tvar newSettings = { rotated: this.checked ? '180' : '0'};\n\t\t\tHomey.emit('set_settings', newSettings, function(){\n\t\t\t\tHomey.highlight(newSettings);\n\t\t\t});\n\t\t}),\n\t$('<label for=\"invert-checkbox\" style=\"padding: 0 1em;\">')\n\t\t.html(__('deviceClasses.blinds.settings.rotated.label'))\n).insertAfter('[data-id=\"generic_test_switch\"] .centered-container > #image-container')"
+                            }
+                        ],
+                        "svg": "{{driverPath}}/pair/assets/svg/test.svg",
+                        "initWithDeviceData": true,
+                        "sendToggleOnInit": "[DEPRECATED]: false"
+                    }
+                },
+                {
+                    "id": "rf.done",
+                    "$template": "rf.done"
+                }
+            ],
+            "$extends": [
+                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.1.84837b2352892393687d83b6d92129a6"
+            ]
+        },
+        "AFR-060": {
+            "id": "AFR-060",
+            "name": {
+                "en": "AFR-060"
+            },
+            "$extends": [
+                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.4.b5876e2af4a49af966af22dd27307657",
+                "migrate.8.b173f1db96ed6fbbb23fc0e927601947",
+                "migrate.9.486eb345cfa24596731248e8894db30e"
+            ]
+        },
+        "AWMT-003": {
+            "id": "AWMT-003",
+            "name": {
+                "en": "AWMT-003"
+            },
+            "$extends": [
+                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.10.6da3080df4210ee54976a7aaa2fa45b8",
+                "migrate.11.1c6d7b58ef05decc8b5d9cbc6fe5a61c"
+            ]
+        },
+        "TMT-502": {
+            "id": "TMT-502",
+            "name": {
+                "en": "TMT-502"
+            },
+            "$extends": [
+                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.2.90196a7e090a63d1a116660f71786d35",
+                "migrate.12.963ec48a1d59be252037f6fd9b6f0e2d",
+                "migrate.13.c9ea8a2b37803febfbef30d3d8e7daf7"
+            ]
+        },
+        "AC-1000": {
+            "id": "AC-1000",
+            "name": {
+                "en": "AC-1000"
+            },
+            "$extends": [
+                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.4.b5876e2af4a49af966af22dd27307657",
+                "migrate.6.9ac248f9555a15a013c70d0cf89e1397"
+            ]
+        },
+        "ACM-300": {
+            "id": "ACM-300",
+            "name": {
+                "en": "ACM-300"
+            },
+            "$extends": [
+                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.14.69e846f5eeb35647f55888c7dd75a803",
+                "migrate.15.12878468c6f5bfb6cef91df973d7610f"
+            ]
+        },
+        "AGDR-300": {
+            "id": "AGDR-300",
+            "name": {
+                "en": "AGDR-300"
+            },
+            "$extends": [
+                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.14.69e846f5eeb35647f55888c7dd75a803",
+                "migrate.6.9ac248f9555a15a013c70d0cf89e1397"
+            ]
+        },
+        "APA2-2300R": {
+            "id": "APA2-2300R",
+            "flows": {
+                "triggers": [
+                    {
+                        "id": "{{driverId}}:received",
+                        "title": {
+                            "en": "Button is pressed",
+                            "nl": "Knop is ingedrukt"
+                        },
+                        "args": [
+                            {
+                                "name": "unit",
+                                "type": "dropdown",
+                                "values": [
+                                    {
+                                        "id": "00",
+                                        "label": {
+                                            "en": "Button 1",
+                                            "nl": "Knop 1"
+                                        }
+                                    },
+                                    {
+                                        "id": "01",
+                                        "label": {
+                                            "en": "Button 2",
+                                            "nl": "Knop 2"
+                                        }
+                                    },
+                                    {
+                                        "id": "g",
+                                        "label": {
+                                            "en": "Group Button",
+                                            "nl": "Groep Knop"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "state",
+                                "type": "dropdown",
+                                "values": [
+                                    {
+                                        "id": "1",
+                                        "label": {
+                                            "en": "On",
+                                            "nl": "Aan"
+                                        }
+                                    },
+                                    {
+                                        "id": "0",
+                                        "label": {
+                                            "en": "Off",
+                                            "nl": "Uit"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "$extends": [
+                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.12.963ec48a1d59be252037f6fd9b6f0e2d",
+                "migrate.16.dcd7d67ff8183ba0ab5411142b3186fc"
+            ]
+        },
+        "APIR-2150": {
+            "id": "APIR-2150",
+            "name": {
+                "en": "APIR-2150"
+            },
+            "$extends": [
+                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.17.0f2343384df78404d5a53651bc54f9ac",
+                "migrate.18.eac8040c9f3665ec53560206a6b3f497"
+            ]
+        },
+        "KCT-510": {
+            "id": "KCT-510",
+            "name": {
+                "en": "KCT-510"
+            },
+            "$extends": [
+                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.2.90196a7e090a63d1a116660f71786d35",
+                "migrate.12.963ec48a1d59be252037f6fd9b6f0e2d",
+                "migrate.19.fbe6092a417bd082c9cdc106fcd05bcd"
+            ]
+        },
+        "WST-8800": {
+            "id": "WST-8800",
+            "name": {
+                "en": "WST-8800"
+            },
+            "$extends": [
+                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.2.90196a7e090a63d1a116660f71786d35",
+                "migrate.10.6da3080df4210ee54976a7aaa2fa45b8",
+                "migrate.19.fbe6092a417bd082c9cdc106fcd05bcd"
+            ]
+        },
+        "AC-300N": {
+            "id": "AC-300N",
+            "name": {
+                "en": "AC-300"
+            },
+            "$extends": [
+                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.14.69e846f5eeb35647f55888c7dd75a803",
+                "migrate.6.9ac248f9555a15a013c70d0cf89e1397"
+            ]
+        },
+        "AGDR-200": {
+            "id": "AGDR-200",
+            "name": {
+                "en": "AGDR-200"
+            },
+            "$extends": [
+                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.14.69e846f5eeb35647f55888c7dd75a803",
+                "migrate.6.9ac248f9555a15a013c70d0cf89e1397"
+            ]
+        },
+        "APA2-2300RS": {
+            "id": "APA2-2300RS",
+            "pair": [
+                {
+                    "id": "rf.choice",
+                    "$template": "rf.choice",
+                    "options": {
+                        "title": "rf.pair.choice.title.switch",
+                        "body": "rf.pair.choice.body.switch",
+                        "svgHeight": "65vh",
+                        "choices": [
+                            {
+                                "name": "rf.pair.choice.buttons.copy.default",
+                                "view": "rf.imitate",
+                                "svg": "{{driverPath}}/pair/assets/svg/APA2-2300R_pair.svg"
+                            },
+                            {
+                                "name": "rf.pair.choice.buttons.generate.default",
+                                "view": "rf.program",
+                                "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "rf.imitate",
+                    "$template": "rf.imitate",
+                    "options": {
+                        "title": "rf.pair.imitate.title.socket",
+                        "body": "rf.pair.imitate.body.socket",
+                        "svg": "{{driverPath}}/pair/assets/svg/APA2-2300R_pair.svg",
+                        "initWithDeviceData": "[DEPRECATED]: false"
+                    }
+                },
+                {
+                    "id": "rf.test_switch.2",
+                    "$template": "rf.test_switch",
+                    "options": {
+                        "initWithDeviceData": true,
+                        "sendToggleOnInit": "[DEPRECATED]: false",
+                        "title": "rf.pair.test_switch.title.socket",
+                        "body": "rf.pair.test_switch.body.socket"
+                    }
+                },
+                {
+                    "id": "choose_slave.2",
+                    "template": "choose_slave"
+                },
+                {
+                    "id": "rf.program",
+                    "$template": "rf.program",
+                    "options": {
+                        "title": "rf.pair.program.title.socket",
+                        "body": "rf.pair.program.body.simple_socket",
+                        "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                    }
+                },
+                {
+                    "id": "rf.test_switch",
+                    "$template": "rf.test_switch",
+                    "options": {
+                        "title": "rf.pair.test_switch.title.socket",
+                        "body": "rf.pair.test_switch.body.socket",
+                        "initWithDeviceData": true,
+                        "sendToggleOnInit": "[DEPRECATED]: false"
+                    }
+                },
+                {
+                    "id": "choose_slave",
+                    "template": "choose_slave"
+                },
+                {
+                    "id": "rf.done",
+                    "$template": "rf.done"
+                }
+            ],
+            "$extends": [
+                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.4.b5876e2af4a49af966af22dd27307657",
+                "migrate.16.dcd7d67ff8183ba0ab5411142b3186fc"
+            ]
+        },
+        "ACM-250": {
+            "id": "ACM-250",
+            "name": {
+                "en": "ACM-250"
+            },
+            "$extends": [
+                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.14.69e846f5eeb35647f55888c7dd75a803",
+                "migrate.15.12878468c6f5bfb6cef91df973d7610f"
+            ]
+        },
+        "ACM-LV24": {
+            "id": "ACM-LV24",
+            "name": {
+                "en": "ACM-LV24"
+            },
+            "$extends": [
+                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.14.69e846f5eeb35647f55888c7dd75a803",
+                "migrate.15.12878468c6f5bfb6cef91df973d7610f"
+            ]
+        },
+        "ACDB-7000C": {
+            "id": "ACDB-7000C",
+            "name": {
+                "en": "ACDB-7000C"
+            },
+            "$extends": [
+                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.20.689e722907fb7735d774938558373e60"
+            ]
+        },
+        "ACDB-6600": {
+            "id": "ACDB-6600",
+            "name": {
+                "en": "ACDB-6600"
+            },
+            "$extends": [
+                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.20.689e722907fb7735d774938558373e60"
+            ]
+        },
+        "APCR-2300": {
+            "id": "APCR-2300",
+            "name": {
+                "en": "APCR-2300"
+            },
+            "$extends": [
+                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.4.b5876e2af4a49af966af22dd27307657",
+                "migrate.6.9ac248f9555a15a013c70d0cf89e1397"
+            ]
+        },
+        "YC-3500": {
+            "id": "YC-3500",
+            "name": {
+                "en": "YC-3500"
+            },
+            "$extends": [
+                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.4.b5876e2af4a49af966af22dd27307657",
+                "migrate.2.90196a7e090a63d1a116660f71786d35",
+                "migrate.21.d95cdafc8c7529a6989173ed4551ef53"
+            ]
+        },
+        "ACD-300": {
+            "id": "ACD-300",
+            "name": {
+                "en": "ACD-300"
+            },
+            "$extends": [
+                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.14.69e846f5eeb35647f55888c7dd75a803",
+                "migrate.6.9ac248f9555a15a013c70d0cf89e1397"
+            ]
+        },
+        "AKCT-510": {
+            "id": "AKCT-510",
+            "name": {
+                "en": "AKCT-510"
+            },
+            "$extends": [
+                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.12.963ec48a1d59be252037f6fd9b6f0e2d",
+                "migrate.19.fbe6092a417bd082c9cdc106fcd05bcd"
+            ]
+        },
+        "AWMR-210": {
+            "id": "AWMR-210",
+            "name": {
+                "en": "AWMR-210"
+            },
+            "$extends": [
+                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.14.69e846f5eeb35647f55888c7dd75a803",
+                "migrate.15.12878468c6f5bfb6cef91df973d7610f"
+            ]
+        },
+        "AWMD-250": {
+            "id": "AWMD-250",
+            "name": {
+                "en": "AWMD-250"
+            },
+            "$extends": [
+                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.14.69e846f5eeb35647f55888c7dd75a803",
+                "migrate.15.12878468c6f5bfb6cef91df973d7610f"
+            ]
+        },
+        "AWST-8802": {
+            "id": "AWST-8802",
+            "name": {
+                "en": "AWST-8802"
+            },
+            "flows": {
+                "triggers": [
+                    {
+                        "id": "{{driverId}}:received",
+                        "title": {
+                            "en": "Button is pressed",
+                            "nl": "Knop is ingedrukt"
+                        },
+                        "args": [
+                            {
+                                "name": "unit",
+                                "type": "dropdown",
+                                "values": [
+                                    {
+                                        "id": "10",
+                                        "label": {
+                                            "en": "Left Button",
+                                            "nl": "Linker Knop"
+                                        }
+                                    },
+                                    {
+                                        "id": "11",
+                                        "label": {
+                                            "en": "Right Button",
+                                            "nl": "Rechter Knop"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "state",
+                                "type": "dropdown",
+                                "values": [
+                                    {
+                                        "id": "1",
+                                        "label": {
+                                            "en": "On",
+                                            "nl": "Aan"
+                                        }
+                                    },
+                                    {
+                                        "id": "0",
+                                        "label": {
+                                            "en": "Off",
+                                            "nl": "Uit"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "$extends": [
+                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.10.6da3080df4210ee54976a7aaa2fa45b8"
+            ]
+        },
+        "WST-8700": {
+            "id": "WST-8700",
+            "name": {
+                "en": "WST-8700"
+            },
+            "$extends": [
+                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.2.90196a7e090a63d1a116660f71786d35",
+                "migrate.10.6da3080df4210ee54976a7aaa2fa45b8",
+                "migrate.19.fbe6092a417bd082c9cdc106fcd05bcd"
+            ]
+        },
+        "APA3-1500RS": {
+            "id": "APA3-1500RS",
+            "pair": [
+                {
+                    "id": "rf.choice",
+                    "$template": "rf.choice",
+                    "options": {
+                        "title": "rf.pair.choice.title.switch",
+                        "body": "rf.pair.choice.body.switch",
+                        "svgHeight": "65vh",
+                        "choices": [
+                            {
+                                "name": "rf.pair.choice.buttons.copy.default",
+                                "view": "rf.imitate",
+                                "svg": "{{driverPath}}/pair/assets/svg/APA3-1500R_pair.svg"
+                            },
+                            {
+                                "name": "rf.pair.choice.buttons.generate.default",
+                                "view": "rf.program",
+                                "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "rf.imitate",
+                    "$template": "rf.imitate",
+                    "options": {
+                        "title": "rf.pair.imitate.title.socket",
+                        "body": "rf.pair.imitate.body.socket",
+                        "svg": "{{driverPath}}/pair/assets/svg/APA3-1500R_pair.svg",
+                        "initWithDeviceData": "[DEPRECATED]: false"
+                    }
+                },
+                {
+                    "id": "rf.test_switch.2",
+                    "$template": "rf.test_switch",
+                    "options": {
+                        "initWithDeviceData": true,
+                        "sendToggleOnInit": "[DEPRECATED]: false",
+                        "title": "rf.pair.test_switch.title.socket",
+                        "body": "rf.pair.test_switch.body.socket"
+                    }
+                },
+                {
+                    "id": "choose_slave.2",
+                    "template": "choose_slave"
+                },
+                {
+                    "id": "rf.program",
+                    "$template": "rf.program",
+                    "options": {
+                        "title": "rf.pair.program.title.socket",
+                        "body": "rf.pair.program.body.simple_socket",
+                        "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                    }
+                },
+                {
+                    "id": "rf.test_switch",
+                    "$template": "rf.test_switch",
+                    "options": {
+                        "title": "rf.pair.test_switch.title.socket",
+                        "body": "rf.pair.test_switch.body.socket",
+                        "initWithDeviceData": true,
+                        "sendToggleOnInit": "[DEPRECATED]: false"
+                    }
+                },
+                {
+                    "id": "choose_slave",
+                    "template": "choose_slave"
+                },
+                {
+                    "id": "rf.done",
+                    "$template": "rf.done"
+                }
+            ],
+            "$extends": [
+                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.4.b5876e2af4a49af966af22dd27307657",
+                "migrate.22.1d05e86ad9bc9908256d38ab46598727"
+            ]
+        },
+        "ABST-604": {
+            "id": "ABST-604",
+            "name": {
+                "en": "ABST-604"
+            },
+            "capabilities": [
+                "alarm_night"
+            ],
+            "pair": [
+                {
+                    "id": "rf.imitate",
+                    "$template": "rf.imitate",
+                    "options": {
+                        "body": "rf.pair.imitate.body.sensor",
+                        "svg": "{{driverPath}}/pair/assets/svg/pair.svg",
+                        "title": "rf.pair.imitate.title.ABST-604",
+                        "initWithDeviceData": "[DEPRECATED]: false"
+                    }
+                },
+                {
+                    "id": "rf.test",
+                    "$template": "rf.test",
+                    "options": {
+                        "body": "rf.pair.test.body.sensor",
+                        "initWithDeviceData": true,
+                        "svg": "{{driverPath}}/pair/assets/svg/test.svg",
+                        "title": "rf.pair.test.title.ABST-604"
+                    }
+                },
+                {
+                    "id": "rf.done",
+                    "$template": "rf.done"
+                }
+            ],
+            "flows": {
+                "conditions": [
+                    {
+                        "id": "{{driverId}}:state",
+                        "title": {
+                            "en": "[Deprecated] Sensor detects !{{night|day}}",
+                            "nl": "[Verouderd] Sensor detecteert !{{nacht|dag}}"
+                        },
+                        "args": []
+                    }
+                ]
+            },
+            "$extends": [
+                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.17.0f2343384df78404d5a53651bc54f9ac"
+            ]
+        },
+        "ACM-100": {
+            "id": "ACM-100",
+            "name": {
+                "en": "ACM-100"
+            },
+            "$extends": [
+                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.14.69e846f5eeb35647f55888c7dd75a803",
+                "migrate.15.12878468c6f5bfb6cef91df973d7610f"
+            ]
+        },
+        "AWMT-230": {
+            "id": "AWMT-230",
+            "name": {
+                "en": "AWMT-230"
+            },
+            "$extends": [
+                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.10.6da3080df4210ee54976a7aaa2fa45b8",
+                "migrate.11.1c6d7b58ef05decc8b5d9cbc6fe5a61c"
+            ]
+        },
+        "ACM-1000": {
+            "id": "ACM-1000",
+            "name": {
+                "en": "ACM-1000"
+            },
+            "$extends": [
+                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.4.b5876e2af4a49af966af22dd27307657",
+                "migrate.15.12878468c6f5bfb6cef91df973d7610f"
+            ]
+        },
+        "AWMR-230": {
+            "id": "AWMR-230",
+            "name": {
+                "en": "AWMR-230"
+            },
+            "$extends": [
+                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.4.b5876e2af4a49af966af22dd27307657",
+                "migrate.15.12878468c6f5bfb6cef91df973d7610f"
+            ]
+        },
+        "ALED-003": {
+            "id": "ALED-003",
+            "name": {
+                "en": "ALED-003"
+            },
+            "pairOptions": {
+                "rf.program": {
+                    "title": "rf.pair.program.title.socket",
+                    "body": "rf.pair.program.body.ALED-003",
+                    "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                }
+            },
+            "$extends": [
+                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.4.b5876e2af4a49af966af22dd27307657",
+                "migrate.8.b173f1db96ed6fbbb23fc0e927601947",
+                "migrate.23.afbb809e3b9780fcdad8dab8adf01d34"
+            ]
+        },
+        "AYCT-202": {
+            "id": "AYCT-202",
+            "name": {
+                "en": "AYCT-202"
+            },
+            "rf": {
+                "debounceTimeout": 500,
+                "signal": "kakudim"
+            },
+            "flows": {
+                "triggers": [
+                    {
+                        "id": "{{driverId}}:received",
+                        "title": {
+                            "en": "Button is pressed",
+                            "nl": "Knop is ingedrukt"
+                        },
+                        "args": [
+                            {
+                                "name": "channel",
+                                "type": "dropdown",
+                                "values": [
+                                    {
+                                        "id": "00",
+                                        "label": {
+                                            "en": "Button 1",
+                                            "nl": "Knop 1"
+                                        }
+                                    },
+                                    {
+                                        "id": "10",
+                                        "label": {
+                                            "en": "Button 2",
+                                            "nl": "Knop 2"
+                                        }
+                                    },
+                                    {
+                                        "id": "01",
+                                        "label": {
+                                            "en": "Button 3",
+                                            "nl": "Knop 3"
+                                        }
+                                    },
+                                    {
+                                        "id": "11",
+                                        "label": {
+                                            "en": "Button 4",
+                                            "nl": "Knop 4"
+                                        }
+                                    },
+                                    {
+                                        "id": "g",
+                                        "label": {
+                                            "en": "Group Button",
+                                            "nl": "Groep Knop"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "state",
+                                "type": "dropdown",
+                                "values": [
+                                    {
+                                        "id": "1",
+                                        "label": {
+                                            "en": "On",
+                                            "nl": "Aan"
+                                        }
+                                    },
+                                    {
+                                        "id": "0",
+                                        "label": {
+                                            "en": "Off",
+                                            "nl": "Uit"
+                                        }
+                                    },
+                                    {
+                                        "id": "dimup",
+                                        "label": {
+                                            "en": "Increase Brightness",
+                                            "nl": "Helderheid Omhoog"
+                                        }
+                                    },
+                                    {
+                                        "id": "dimdown",
+                                        "label": {
+                                            "en": "Decrease Brightness",
+                                            "nl": "Helderheid Omlaag"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "$extends": [
+                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.12.963ec48a1d59be252037f6fd9b6f0e2d"
+            ]
+        },
+        "ALED-2009": {
+            "id": "ALED-2009",
+            "name": {
+                "en": "ALED-2009"
+            },
+            "$extends": [
+                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.14.69e846f5eeb35647f55888c7dd75a803",
+                "migrate.8.b173f1db96ed6fbbb23fc0e927601947",
+                "migrate.23.afbb809e3b9780fcdad8dab8adf01d34"
+            ]
+        },
+        "ACM-LV10": {
+            "id": "ACM-LV10",
+            "name": {
+                "en": "ACM-LV10"
+            },
+            "$extends": [
+                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.14.69e846f5eeb35647f55888c7dd75a803",
+                "migrate.15.12878468c6f5bfb6cef91df973d7610f"
+            ]
+        },
+        "ACM-2300H": {
+            "id": "ACM-2300H",
+            "name": {
+                "en": "ACM-2300H"
+            },
+            "$extends": [
+                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.4.b5876e2af4a49af966af22dd27307657",
+                "migrate.15.12878468c6f5bfb6cef91df973d7610f"
+            ]
+        },
+        "AC-300": {
+            "id": "AC-300",
+            "name": {
+                "en": "YC-400"
+            },
+            "$extends": [
+                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.4.b5876e2af4a49af966af22dd27307657",
+                "migrate.2.90196a7e090a63d1a116660f71786d35",
+                "migrate.21.d95cdafc8c7529a6989173ed4551ef53"
+            ]
+        },
+        "AWST-8800": {
+            "id": "AWST-8800",
+            "name": {
+                "en": "AWST-8800"
+            },
+            "$extends": [
+                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.10.6da3080df4210ee54976a7aaa2fa45b8",
+                "migrate.19.fbe6092a417bd082c9cdc106fcd05bcd"
+            ]
+        },
+        "KCT-101": {
+            "id": "KCT-101",
+            "name": {
+                "en": "KCT-101"
+            },
+            "$extends": [
+                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.2.90196a7e090a63d1a116660f71786d35",
+                "migrate.12.963ec48a1d59be252037f6fd9b6f0e2d",
+                "migrate.19.fbe6092a417bd082c9cdc106fcd05bcd"
+            ]
+        },
+        "AWST-6000": {
+            "id": "AWST-6000",
+            "name": {
+                "en": "AWST-6000"
+            },
+            "$extends": [
+                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.17.0f2343384df78404d5a53651bc54f9ac",
+                "migrate.18.eac8040c9f3665ec53560206a6b3f497"
+            ]
+        },
+        "YC-412": {
+            "id": "YC-412",
+            "name": {
+                "en": "YC-412"
+            },
+            "$extends": [
+                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.4.b5876e2af4a49af966af22dd27307657",
+                "migrate.2.90196a7e090a63d1a116660f71786d35",
+                "migrate.21.d95cdafc8c7529a6989173ed4551ef53"
+            ]
+        },
+        "PA3-1000R": {
+            "id": "PA3-1000R",
+            "name": {
+                "en": "PA3-1000R"
+            },
+            "flows": {
+                "triggers": [
+                    {
+                        "id": "{{driverId}}:received",
+                        "title": {
+                            "en": "Button is pressed",
+                            "nl": "Knop is ingedrukt"
+                        },
+                        "args": [
+                            {
+                                "name": "unit",
+                                "type": "dropdown",
+                                "values": [
+                                    {
+                                        "id": "00",
+                                        "label": {
+                                            "en": "Button 1",
+                                            "nl": "Knop 1"
+                                        }
+                                    },
+                                    {
+                                        "id": "01",
+                                        "label": {
+                                            "en": "Button 2",
+                                            "nl": "Knop 2"
+                                        }
+                                    },
+                                    {
+                                        "id": "10",
+                                        "label": {
+                                            "en": "Button 3",
+                                            "nl": "Knop 3"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "state",
+                                "type": "dropdown",
+                                "values": [
+                                    {
+                                        "id": "1",
+                                        "label": {
+                                            "en": "On",
+                                            "nl": "Aan"
+                                        }
+                                    },
+                                    {
+                                        "id": "0",
+                                        "label": {
+                                            "en": "Off",
+                                            "nl": "Uit"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "$extends": [
+                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.2.90196a7e090a63d1a116660f71786d35",
+                "migrate.12.963ec48a1d59be252037f6fd9b6f0e2d"
+            ]
+        },
+        "YCT-102": {
+            "id": "YCT-102",
+            "name": {
+                "en": "YCT-102"
+            },
+            "$extends": [
+                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.2.90196a7e090a63d1a116660f71786d35",
+                "migrate.12.963ec48a1d59be252037f6fd9b6f0e2d",
+                "migrate.24.4558b77bbd94c3202e8104b430a3a590"
+            ]
+        },
+        "ATMT-502": {
+            "id": "ATMT-502",
+            "name": {
+                "en": "ATMT-502"
+            },
+            "$extends": [
+                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.12.963ec48a1d59be252037f6fd9b6f0e2d",
+                "migrate.13.c9ea8a2b37803febfbef30d3d8e7daf7"
+            ]
+        },
+        "ALED-2709": {
+            "id": "ALED-2709",
+            "name": {
+                "en": "ALED-2709"
+            },
+            "$extends": [
+                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.14.69e846f5eeb35647f55888c7dd75a803",
+                "migrate.8.b173f1db96ed6fbbb23fc0e927601947",
+                "migrate.23.afbb809e3b9780fcdad8dab8adf01d34"
+            ]
+        },
+        "AYCT-102": {
+            "id": "AYCT-102",
+            "name": {
+                "en": "AYCT-102"
+            },
+            "$extends": [
+                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.12.963ec48a1d59be252037f6fd9b6f0e2d",
+                "migrate.24.4558b77bbd94c3202e8104b430a3a590"
+            ]
+        },
+        "AILS-3500": {
+            "id": "AILS-3500",
+            "name": {
+                "en": "AILD-3500"
+            },
+            "$extends": [
+                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.4.b5876e2af4a49af966af22dd27307657",
+                "migrate.15.12878468c6f5bfb6cef91df973d7610f"
+            ]
+        },
+        "ALED-MR2705": {
+            "id": "ALED-MR2705",
+            "name": {
+                "en": "ALED-MR2705"
+            },
+            "$extends": [
+                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.14.69e846f5eeb35647f55888c7dd75a803",
+                "migrate.8.b173f1db96ed6fbbb23fc0e927601947",
+                "migrate.23.afbb809e3b9780fcdad8dab8adf01d34"
+            ]
+        },
+        "YC-1000": {
+            "id": "YC-1000",
+            "name": {
+                "en": "YC-1000"
+            },
+            "$extends": [
+                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.4.b5876e2af4a49af966af22dd27307657",
+                "migrate.2.90196a7e090a63d1a116660f71786d35",
+                "migrate.21.d95cdafc8c7529a6989173ed4551ef53"
+            ]
+        },
+        "AFR-100": {
+            "id": "AFR-100",
+            "name": {
+                "en": "AFR-100"
+            },
+            "$extends": [
+                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.14.69e846f5eeb35647f55888c7dd75a803",
+                "migrate.8.b173f1db96ed6fbbb23fc0e927601947",
+                "migrate.9.486eb345cfa24596731248e8894db30e"
+            ]
+        },
+        "ACD-1000": {
+            "id": "ACD-1000",
+            "name": {
+                "en": "ACD-1000"
+            },
+            "$extends": [
+                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.4.b5876e2af4a49af966af22dd27307657",
+                "migrate.6.9ac248f9555a15a013c70d0cf89e1397"
+            ]
+        },
+        "AWMR-300": {
+            "id": "AWMR-300",
+            "name": {
+                "en": "AWMR-300"
+            },
+            "$extends": [
+                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.4.b5876e2af4a49af966af22dd27307657",
+                "migrate.15.12878468c6f5bfb6cef91df973d7610f"
+            ]
+        },
+        "AWS-3500": {
+            "id": "AWS-3500",
+            "name": {
+                "en": "AWS-3500"
+            },
+            "$extends": [
+                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.4.b5876e2af4a49af966af22dd27307657",
+                "migrate.15.12878468c6f5bfb6cef91df973d7610f"
+            ]
+        },
+        "APA3-1500R": {
+            "id": "APA3-1500R",
+            "flows": {
+                "triggers": [
+                    {
+                        "id": "{{driverId}}:received",
+                        "title": {
+                            "en": "Button is pressed",
+                            "nl": "Knop is ingedrukt"
+                        },
+                        "args": [
+                            {
+                                "name": "unit",
+                                "type": "dropdown",
+                                "values": [
+                                    {
+                                        "id": "00",
+                                        "label": {
+                                            "en": "Button 1",
+                                            "nl": "Knop 1"
+                                        }
+                                    },
+                                    {
+                                        "id": "01",
+                                        "label": {
+                                            "en": "Button 2",
+                                            "nl": "Knop 2"
+                                        }
+                                    },
+                                    {
+                                        "id": "10",
+                                        "label": {
+                                            "en": "Button 3",
+                                            "nl": "Knop 3"
+                                        }
+                                    },
+                                    {
+                                        "id": "g",
+                                        "label": {
+                                            "en": "Group Button",
+                                            "nl": "Groep Knop"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "state",
+                                "type": "dropdown",
+                                "values": [
+                                    {
+                                        "id": "1",
+                                        "label": {
+                                            "en": "On",
+                                            "nl": "Aan"
+                                        }
+                                    },
+                                    {
+                                        "id": "0",
+                                        "label": {
+                                            "en": "Off",
+                                            "nl": "Uit"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "$extends": [
+                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.12.963ec48a1d59be252037f6fd9b6f0e2d",
+                "migrate.22.1d05e86ad9bc9908256d38ab46598727"
+            ]
+        },
+        "AMST-606": {
+            "id": "AMST-606",
+            "name": {
+                "en": "AMST-606"
+            },
+            "capabilities": [
+                "alarm_contact"
+            ],
+            "pair": [
+                {
+                    "id": "rf.imitate",
+                    "$template": "rf.imitate",
+                    "options": {
+                        "body": "rf.pair.imitate.body.AMST-606",
+                        "svg": "{{driverPath}}/pair/assets/svg/pair.svg",
+                        "title": "rf.pair.imitate.title.AMST-606",
+                        "svgWidth": "50vw",
+                        "initWithDeviceData": "[DEPRECATED]: false"
+                    }
+                },
+                {
+                    "id": "rf.test",
+                    "$template": "rf.test",
+                    "options": {
+                        "body": "rf.pair.test.body.AMST-606",
+                        "initWithDeviceData": true,
+                        "svg": "{{driverPath}}/pair/assets/svg/test.svg",
+                        "title": "rf.pair.test.title.AMST-606",
+                        "svgWidth": "50vw"
+                    }
+                },
+                {
+                    "id": "rf.done",
+                    "$template": "rf.done"
+                }
+            ],
+            "rf": {
+                "debounceTimeout": 500,
+                "signal": "kakulong"
+            },
+            "flows": {
+                "conditions": [
+                    {
+                        "id": "{{driverId}}:state",
+                        "title": {
+                            "en": "[Deprecated] Sensor has !{{no contact|contact}}",
+                            "nl": "[Verouderd] Sensor heeft !{{geen contact|contact}}"
+                        },
+                        "args": []
+                    }
+                ]
+            },
+            "$extends": [
+                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.17.0f2343384df78404d5a53651bc54f9ac"
+            ]
+        },
+        "AGDR-3500": {
+            "id": "AGDR-3500",
+            "name": {
+                "en": "AGDR-3500"
+            },
+            "$extends": [
+                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.4.b5876e2af4a49af966af22dd27307657",
+                "migrate.6.9ac248f9555a15a013c70d0cf89e1397"
+            ]
+        },
+        "PAR-1000": {
+            "id": "PAR-1000",
+            "name": {
+                "en": "PAR-1000"
+            },
+            "pair": [
+                {
+                    "id": "rf.choice",
+                    "$template": "rf.choice",
+                    "options": {
+                        "title": "rf.pair.choice.title.switch",
+                        "body": "rf.pair.choice.body.codewheel_switch",
+                        "svgHeight": "65vh",
+                        "choices": [
+                            {
+                                "name": "rf.pair.choice.buttons.copy.default",
+                                "view": "rf.imitate",
+                                "svg": "{{driverPath}}/pair/assets/svg/PA3-1000R_pair.svg"
+                            },
+                            {
+                                "name": "rf.pair.choice.buttons.codewheel.codewheel_switch",
+                                "view": "rf.codewheel",
+                                "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "rf.imitate",
+                    "$template": "rf.imitate",
+                    "options": {
+                        "title": "rf.pair.imitate.title.socket",
+                        "body": "rf.pair.imitate.body.socket",
+                        "svg": "{{driverPath}}/pair/assets/svg/PA3-1000R_pair.svg",
+                        "initWithDeviceData": "[DEPRECATED]: false"
+                    }
+                },
+                {
+                    "id": "rf.test_switch.2",
+                    "$template": "rf.test_switch",
+                    "options": {
+                        "initWithDeviceData": true,
+                        "sendToggleOnInit": "[DEPRECATED]: false",
+                        "title": "rf.pair.test_switch.title.socket",
+                        "body": "rf.pair.test_switch.body.socket"
+                    }
+                },
+                {
+                    "id": "choose_slave.2",
+                    "template": "choose_slave"
+                },
+                {
+                    "id": "rf.codewheel",
+                    "$template": "rf.codewheel",
+                    "options": {
+                        "codewheelList": [
+                            {
+                                "series": [
+                                    1,
+                                    2,
+                                    3,
+                                    1,
+                                    2,
+                                    3,
+                                    1,
+                                    2,
+                                    3,
+                                    1,
+                                    2,
+                                    3
+                                ],
+                                "mapOddToDot": "[DEPRECATED]: false",
+                                "quadrants": [
+                                    "[DEPRECATED]: A",
+                                    "[DEPRECATED]: B",
+                                    "[DEPRECATED]: C",
+                                    "[DEPRECATED]: D"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "rf.test_switch",
+                    "$template": "rf.test_switch",
+                    "options": {
+                        "title": "rf.pair.test_switch.title.socket",
+                        "body": "rf.pair.test_switch.body.socket",
+                        "initWithDeviceData": true,
+                        "sendToggleOnInit": "[DEPRECATED]: false"
+                    }
+                },
+                {
+                    "id": "choose_slave",
+                    "template": "choose_slave"
+                },
+                {
+                    "id": "rf.done",
+                    "$template": "rf.done"
+                }
+            ],
+            "$extends": [
+                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.4.b5876e2af4a49af966af22dd27307657",
+                "migrate.2.90196a7e090a63d1a116660f71786d35"
+            ]
+        },
+        "ALED-G2706": {
+            "id": "ALED-G2706",
+            "name": {
+                "en": "ALED-G2706"
+            },
+            "$extends": [
+                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.14.69e846f5eeb35647f55888c7dd75a803",
+                "migrate.8.b173f1db96ed6fbbb23fc0e927601947",
+                "migrate.23.afbb809e3b9780fcdad8dab8adf01d34"
+            ]
+        },
+        "ACD-200": {
+            "id": "ACD-200",
+            "name": {
+                "en": "ACD-200"
+            },
+            "$extends": [
+                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.14.69e846f5eeb35647f55888c7dd75a803",
+                "migrate.6.9ac248f9555a15a013c70d0cf89e1397"
+            ]
+        },
+        "AILD-250": {
+            "id": "AILD-250",
+            "name": {
+                "en": "AILD-250"
+            },
+            "$extends": [
+                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.14.69e846f5eeb35647f55888c7dd75a803",
+                "migrate.15.12878468c6f5bfb6cef91df973d7610f"
+            ]
+        }
+    },
+    "locales": {
+        "en": {
+            "rf": {
+                "pair": {
+                    "choice": {
+                        "buttons": {
+                            "codewheel": {
+                                "codewheel_switch": "Manually set codewheels\u0000"
+                            },
+                            "imitate": {
+                                "ACDB-6600": "Copy doorbell signal"
+                            }
+                        },
+                        "body": {
+                            "doorbell": "Choose if you want to copy the signal from your doorbell or if you want to generate a new signal to pair your doorbell with.",
+                            "codewheel_switch": "Choose if you want to copy an existing signal from a paired remote or if you want manually set the codewheels to pair this device.\u0000"
+                        }
+                    },
+                    "imitate": {
+                        "body": {
+                            "old_blinds": "Press the up/down button that is paired to your blinds.",
+                            "socket": "Press the button that is paired to your socket.<p class=\"notice\">(Note. Homey only supports transmitters of which the product code starts with an A. If you use an old remote for this device please let Homey generate a new signal for the device)</p>",
+                            "blinds": "Press the up/down button that is paired to your blinds.<p class=\"notice\">(Note. For this device Homey only supports transmitters of which the product code starts with an A. If you use an old remote for this device please let Homey generate a new signal for the device)</p>",
+                            "AFR-100": "Press the button that is paired to your fitting.",
+                            "build_in": "Press the button that is paired to your device.",
+                            "sensor": "Trigger your sensor manually or toggle the learn switch to DEL and then back to SET.",
+                            "doorbell": "Press your doorbell button.",
+                            "ALED-2709": "Press the button that is paired to your lamp.",
+                            "AMST-606": "Connect and then disconnect the two parts of your sensor."
+                        },
+                        "title": {
+                            "socket": "Copy your remote signal\u0000",
+                            "motion_sensor": "Pair your motion sensor",
+                            "ABST-604": "Pair your night sensor",
+                            "AMST-606": "Pair your constact sensor"
+                        }
+                    },
+                    "test_switch": {
+                        "title": {
+                            "blinds": "Test your blinds",
+                            "socket": "Test your socket\u0000",
+                            "AFR-100": "Test your fitting",
+                            "build_in": "Test your device",
+                            "ALED-2709": "Test your lamp"
+                        },
+                        "body": {
+                            "blinds": "Use the buttons above to test your blinds. Press next to continue.",
+                            "socket": "Use the switch above to test your socket. Press next to continue.\u0000",
+                            "AFR-100": "Use the switch above to test your fitting. Press next to continue.",
+                            "build_in": "Use the switch above to test your device. Press next to continue.",
+                            "ALED-2709": "Use the switch above to test your lamp. Press next to continue."
+                        }
+                    },
+                    "program": {
+                        "body": {
+                            "socket": "Press the program button on your socket, the light on your socket should start blinking when you release the button. When it is in pairing mode click next.<p class=\"notice\">(Note. If you experience difficulties pairing try to reset your device by holding the program button for 10 seconds when it is blinking and then pressing the program button once.)</p>",
+                            "AFR-100": "Press the program button on your fitting, the light on your fitting should start blinking when you release the button. When it is in pairing mode click next.<p class=\"notice\">(Note. If you experience difficulties pairing try to reset your device by holding the program button for 10 seconds when it is blinking and then pressing the program button once.)</p>",
+                            "build_in": "Press the program button on your device to put it in pairing mode, then click next.<p class=\"notice\">(Note. If you experience difficulties pairing try to reset your device by holding the program button for 10 seconds when it is blinking and then pressing the program button once.)</p>",
+                            "simple_socket": "Unplug the socket for a couple of seconds and plug it back in, the light should now be blinking. When it is in pairing mode click next.<p class=\"notice\">(Note. If you experience diffuculties pairing try to reset your device by putting it in pairing mode and holding the group button on the remote for 5 seconds. All addresses should now be cleared from the socket.)</p>",
+                            "ALED-003": "Remove the one battery from the lamp and insert it again to put it in pairing mode. The light should now slowly blink. Then click next.",
+                            "ALED-2709": "Turn the power to the light on and off 3 times, or turn the light on and off with your remote 5 times, within 15 seconds to put the lamp in pairing mode. The lamp should now be blinking. Then click next."
+                        },
+                        "title": {
+                            "build_in": "Put the device in pairing mode"
+                        }
+                    },
+                    "test_button": {
+                        "title": {
+                            "doorbell": "Test your doorbell"
+                        },
+                        "body": {
+                            "doorbell": "Use the button above to test your doorbell. Press next to continue."
+                        }
+                    }
+                }
+            }
+        },
+        "nl": {
+            "rf": {
+                "pair": {
+                    "choice": {
+                        "buttons": {
+                            "codewheel": {
+                                "codewheel_switch": "Handmatig lettercodeshijf instellen\u0000"
+                            },
+                            "imitate": {
+                                "ACDB-6600": "Kopieer deurbel signaal"
+                            }
+                        },
+                        "body": {
+                            "doorbell": "Kies of je het signaal van je deurbel wil kopiëren of dat je de deurbel wil programmeren met een nieuw signaal van Homey.",
+                            "codewheel_switch": "Kies of je het signaal van een gekoppelde afstandsbediening wil kopiëren of dat je handmatig de lettercodeshijf wil instellen.\u0000"
+                        }
+                    },
+                    "imitate": {
+                        "body": {
+                            "old_blinds": "Druk op de omhoog/omlaag knop van de afstandsbediening waarmee de zonnewering gekoppeld is.",
+                            "socket": "Druk op de knop van de afstandsbediening waarmee het apparaat gekoppeld is.<p class=\"notice\">(Let op. Homey ondersteund voor dit apparaat alleen afstandsbedieningen waarvan de productcode begint met een A. Als u een oude afstandsbediening gebruikt laat Homey dan zelf een nieuw signaal genereren voor het apparaat)</p>",
+                            "blinds": "Druk op de omhoog/omlaag knop van de afstandsbediening waarmee de zonnewering gekoppeld is.<p class=\"notice\">(Let op. Homey ondersteund voor dit apparaat alleen afstandsbedieningen waarvan de productcode begint met een A. Als u een oude afstandsbediening gebruikt laat Homey dan zelf een nieuw signaal genereren voor het apparaat)</p>",
+                            "AFR-100": "Druk op de knop die gekoppeld is met de fitting.",
+                            "build_in": "Druk op de knop van de afstandsbediening waarmee het apparaat gekoppeld is.",
+                            "sensor": "Schuif de LEARN knop naar DEL en terug naar SET.",
+                            "doorbell": "Druk op de deurbel knop.",
+                            "ALED-2709": "Druk op de knop die gekoppeld is met de lamp.",
+                            "AMST-606": "Houd beide delen van de contactsensor bij elkaar en haal deze weer van elkaar af."
+                        },
+                        "title": {
+                            "socket": "Kopieer het signaal van je afstandsbediening\u0000",
+                            "motion_sensor": "Koppel de bewegingssensor",
+                            "ABST-604": "Koppel de nachtsensor",
+                            "AMST-606": "Koppel de contactsensor"
+                        }
+                    },
+                    "test_switch": {
+                        "title": {
+                            "blinds": "Test de zonnewering",
+                            "socket": "Test je contactdoos\u0000",
+                            "AFR-100": "Test de fitting",
+                            "build_in": "Test je apparaat",
+                            "ALED-2709": "Test de lamp"
+                        },
+                        "body": {
+                            "blinds": "Gebruik de bovenstaande knoppen om de zonnewering te testen. Klik op volgende om verder te gaan.",
+                            "socket": "Gebruik de bovenstaande knop om je contactdoos te testen. Klik op volgende om verder te gaan.\u0000",
+                            "AFR-100": "Gebruik de bovenstaande schakelaar om de fitting te testen. Klik op volgende om verder te gaan.",
+                            "build_in": "Gebruik de bovenstaande knop om het apparaat te testen. Klik op volgende om verder te gaan.",
+                            "ALED-2709": "Gebruik de bovenstaande schakelaar om de lamp te testen. Klik op volgende om verder te gaan."
+                        }
+                    },
+                    "program": {
+                        "body": {
+                            "socket": "Druk op de programmeer knop, het lampje op de contactdoos moet gaan knipperen wanneer de knop losgelaten wordt. Klik daarna op volgende.<p class=\"notice\">(Let op. Als je problemen ondervind bij het koppelen van je apparaat probeer het apparaat te resetten door de programmeer knop 10 seconden in te houden tot het lampje gaat knipperen en vervolgens de programmeer nog 1 keer in te drukken.)</p>",
+                            "AFR-100": "Druk op de programmeer knop van de fitting. Het lampje op de fitting hoort te gaan knipperen wanneer het knopje losgelaten wordt. Klik op volgende wanneer de fitting in programmeer modus zit.",
+                            "build_in": "Druk op de programmeer knop van het apparaat om hem in programeer modus te zetten. Klik daarna op volgende.",
+                            "simple_socket": "Haal de contactdoos uit het stopcontact voor een aantal seconden en plaats hem terug in het stopcontact. Het rode lampje zou nu moeten knipperen. Wanneer het apparaat in koppelmodus is klik op volgende.<p class=\"notice\">(Let op. Als je problemen ondervind bij het koppelen van je apparaat probeer het apparaat te resetten door hem in pairing modus te zetten en vervolgens de groep knop op de afstandsbediening 5 seconden in te houden. Alle addressen zullen nu van de contactdoos verwijderd moeten zijn.)</p>",
+                            "ALED-003": "Verwijder een batterij uit de lamp en stop deze terug om de lamp in programmeer modus te zetten. De lamp zal nu langzaam aan en uit gaan. Klik vervolgens op volgende.",
+                            "ALED-2709": "Zet de stroom van de lamp 3 keer aan en uit, of gebruik de afstandsbediening om de lamp 5 keer aan en uit te zetten, binnen 15 seconden om de lamp in pair modus te zetten. De lamp zou nu moeten knipperen. Klik vervolgens op volgende."
+                        },
+                        "title": {
+                            "build_in": "Zet het apparaat in programmeer modus"
+                        }
+                    },
+                    "test_button": {
+                        "title": {
+                            "doorbell": "Test de deurbel"
+                        },
+                        "body": {
+                            "doorbell": "Gebruik de bovenstaande knop om de deurbel te testen. Klik op volgende om verder te gaan."
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "signals": {
+        "433": {
+            "kakuold": {
+                "sof": [],
+                "eof": [
+                    312
+                ],
+                "words": [
+                    [
+                        312,
+                        1090,
+                        312,
+                        1090
+                    ],
+                    [
+                        312,
+                        1090,
+                        990,
+                        400
+                    ],
+                    [
+                        312,
+                        1090,
+                        312,
+                        380
+                    ]
+                ],
+                "interval": 11000,
+                "repetitions": 20,
+                "sensitivity": 0.5,
+                "minimalLength": 12,
+                "maximalLength": 12
+            },
+            "kaku": {
+                "sof": [
+                    225,
+                    2774
+                ],
+                "eof": [
+                    236
+                ],
+                "words": [
+                    [
+                        240,
+                        308,
+                        240,
+                        1348
+                    ],
+                    [
+                        240,
+                        1338,
+                        240,
+                        320
+                    ]
+                ],
+                "interval": 10150,
+                "sensitivity": 0.5,
+                "repetitions": 20,
+                "minimalLength": 32,
+                "maximalLength": 32
+            },
+            "kakudim": {
+                "sof": [
+                    225,
+                    2774
+                ],
+                "eof": [
+                    236
+                ],
+                "words": [
+                    [
+                        240,
+                        308,
+                        240,
+                        1348
+                    ],
+                    [
+                        240,
+                        1338,
+                        240,
+                        320
+                    ],
+                    [
+                        240,
+                        308,
+                        240,
+                        308
+                    ]
+                ],
+                "interval": 10150,
+                "sensitivity": 0.5,
+                "repetitions": 20,
+                "minimalLength": 32,
+                "maximalLength": 36
+            },
+            "kakulong": {
+                "sof": [
+                    210,
+                    2724
+                ],
+                "eof": [
+                    210
+                ],
+                "words": [
+                    [
+                        210,
+                        320,
+                        210,
+                        1320
+                    ],
+                    [
+                        210,
+                        1320,
+                        210,
+                        320
+                    ]
+                ],
+                "interval": 10150,
+                "sensitivity": 0.5,
+                "repetitions": 10,
+                "minimalLength": 32,
+                "maximalLength": 36
+            }
+        }
+    },
+    "driverTemplates": {
+        "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b": {
+            "key": "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
+            "config": {
+                "images": {
+                    "large": "{{driverPath}}/assets/images/large.jpg",
+                    "small": "{{driverPath}}/assets/images/small.jpg"
+                },
+                "icon": "{{driverPath}}/assets/icon.svg"
+            },
+            "devices": [
+                "SUN-650",
+                "AFR-060",
+                "AWMT-003",
+                "TMT-502",
+                "AGDR-300",
+                "APA2-2300R",
+                "KCT-510",
+                "AGDR-200",
+                "APA2-2300RS",
+                "ACM-LV24",
+                "ACDB-6600",
+                "APCR-2300",
+                "YC-3500",
+                "AKCT-510",
+                "AWST-8802",
+                "WST-8700",
+                "APA3-1500RS",
+                "ACM-100",
+                "AWMT-230",
+                "ALED-003",
+                "AYCT-202",
+                "ALED-2009",
+                "ACM-LV10",
+                "ACM-2300H",
+                "AC-300",
+                "KCT-101",
+                "YC-412",
+                "PA3-1000R",
+                "ATMT-502",
+                "ALED-2709",
+                "AYCT-102",
+                "ALED-MR2705",
+                "YC-1000",
+                "AFR-100",
+                "AWMR-300",
+                "APA3-1500R",
+                "AGDR-3500",
+                "PAR-1000",
+                "ALED-G2706"
+            ]
+        },
+        "migrate.1.84837b2352892393687d83b6d92129a6": {
+            "key": "migrate.1.84837b2352892393687d83b6d92129a6",
+            "config": {
+                "class": "windowcoverings",
+                "capabilities": [
+                    "windowcoverings_state"
+                ],
+                "settings": [
+                    {
+                        "type": "group",
+                        "label": {
+                            "en": "General settings",
+                            "nl": "Algemene instellingen"
+                        },
+                        "children": [
+                            {
+                                "id": "rotated",
+                                "type": "radio",
+                                "value": "0",
+                                "label": {
+                                    "en": "Invert up/down signal",
+                                    "nl": "Inverteer omhoog/omlaag signaal"
+                                },
+                                "values": [
+                                    {
+                                        "id": "0",
+                                        "label": {
+                                            "en": "No",
+                                            "nl": "Nee"
+                                        }
+                                    },
+                                    {
+                                        "id": "180",
+                                        "label": {
+                                            "en": "Yes",
+                                            "nl": "Ja"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "devices": [
+                "SUN-650",
+                "ASUN-650"
+            ]
+        },
+        "migrate.2.90196a7e090a63d1a116660f71786d35": {
+            "key": "migrate.2.90196a7e090a63d1a116660f71786d35",
+            "config": {
+                "rf": {
+                    "debounceTimeout": 500,
+                    "signal": "kakuold"
+                }
+            },
+            "devices": [
+                "SUN-650",
+                "TMT-502",
+                "KCT-510",
+                "WST-8800",
+                "YC-3500",
+                "WST-8700",
+                "AC-300",
+                "KCT-101",
+                "YC-412",
+                "PA3-1000R",
+                "YCT-102",
+                "YC-1000",
+                "PAR-1000"
+            ]
+        },
+        "migrate.3.0aa53b09543a731c75c70d20127d66dc": {
+            "key": "migrate.3.0aa53b09543a731c75c70d20127d66dc",
+            "config": {
+                "images": {
+                    "large": "{{driverPath}}/assets/images/large.png",
+                    "small": "{{driverPath}}/assets/images/small.png"
+                },
+                "icon": "{{driverPath}}/assets/icon.svg"
+            },
+            "devices": [
+                "ACD-3500",
+                "AC-3500",
+                "ASUN-650",
+                "AC-1000",
+                "ACM-300",
+                "APIR-2150",
+                "WST-8800",
+                "AC-300N",
+                "ACM-250",
+                "ACDB-7000C",
+                "ACD-300",
+                "AWMR-210",
+                "AWMD-250",
+                "ABST-604",
+                "ACM-1000",
+                "AWMR-230",
+                "AWST-8800",
+                "AWST-6000",
+                "YCT-102",
+                "AILS-3500",
+                "ACD-1000",
+                "AWS-3500",
+                "AMST-606",
+                "ACD-200",
+                "AILD-250"
+            ]
+        },
+        "migrate.4.b5876e2af4a49af966af22dd27307657": {
+            "key": "migrate.4.b5876e2af4a49af966af22dd27307657",
+            "config": {
+                "capabilities": [
+                    "onoff"
+                ]
+            },
+            "devices": [
+                "ACD-3500",
+                "AC-3500",
+                "AFR-060",
+                "AC-1000",
+                "APA2-2300RS",
+                "APCR-2300",
+                "YC-3500",
+                "APA3-1500RS",
+                "ACM-1000",
+                "AWMR-230",
+                "ALED-003",
+                "ACM-2300H",
+                "AC-300",
+                "YC-412",
+                "AILS-3500",
+                "YC-1000",
+                "ACD-1000",
+                "AWMR-300",
+                "AWS-3500",
+                "AGDR-3500",
+                "PAR-1000"
+            ]
+        },
+        "migrate.5.66c6d3fca1cc30013cd40841d146d643": {
+            "key": "migrate.5.66c6d3fca1cc30013cd40841d146d643",
+            "config": {
+                "class": "socket"
+            },
+            "devices": [
+                "ACD-3500",
+                "AC-3500",
+                "AC-1000",
+                "ACM-300",
+                "AGDR-300",
+                "AC-300N",
+                "AGDR-200",
+                "APA2-2300RS",
+                "ACM-250",
+                "ACM-LV24",
+                "APCR-2300",
+                "YC-3500",
+                "ACD-300",
+                "AWMR-210",
+                "AWMD-250",
+                "APA3-1500RS",
+                "ACM-100",
+                "ACM-1000",
+                "AWMR-230",
+                "ACM-LV10",
+                "ACM-2300H",
+                "AC-300",
+                "YC-412",
+                "AILS-3500",
+                "YC-1000",
+                "ACD-1000",
+                "AWMR-300",
+                "AWS-3500",
+                "AGDR-3500",
+                "PAR-1000",
+                "ACD-200",
+                "AILD-250"
+            ]
+        },
+        "migrate.6.9ac248f9555a15a013c70d0cf89e1397": {
+            "key": "migrate.6.9ac248f9555a15a013c70d0cf89e1397",
+            "config": {
+                "pair": [
+                    {
+                        "id": "rf.choice",
+                        "$template": "rf.choice",
+                        "options": {
+                            "title": "rf.pair.choice.title.switch",
+                            "body": "rf.pair.choice.body.switch",
+                            "svgHeight": "65vh",
+                            "choices": [
+                                {
+                                    "name": "rf.pair.choice.buttons.copy.default",
+                                    "view": "rf.imitate",
+                                    "svg": "{{driverPath}}/pair/assets/svg/AYCT-102_pair.svg"
+                                },
+                                {
+                                    "name": "rf.pair.choice.buttons.generate.default",
+                                    "view": "rf.program",
+                                    "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "rf.imitate",
+                        "$template": "rf.imitate",
+                        "options": {
+                            "title": "rf.pair.imitate.title.socket",
+                            "body": "rf.pair.imitate.body.socket",
+                            "svg": "{{driverPath}}/pair/assets/svg/AYCT-102_pair.svg",
+                            "initWithDeviceData": "[DEPRECATED]: false"
+                        }
+                    },
+                    {
+                        "id": "rf.test_switch.2",
+                        "$template": "rf.test_switch",
+                        "options": {
+                            "initWithDeviceData": true,
+                            "sendToggleOnInit": "[DEPRECATED]: false",
+                            "title": "rf.pair.test_switch.title.socket",
+                            "body": "rf.pair.test_switch.body.socket"
+                        }
+                    },
+                    {
+                        "id": "choose_slave.2",
+                        "template": "choose_slave"
+                    },
+                    {
+                        "id": "rf.program",
+                        "$template": "rf.program",
+                        "options": {
+                            "title": "rf.pair.program.title.socket",
+                            "body": "rf.pair.program.body.socket",
+                            "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                        }
+                    },
+                    {
+                        "id": "rf.test_switch",
+                        "$template": "rf.test_switch",
+                        "options": {
+                            "title": "rf.pair.test_switch.title.socket",
+                            "body": "rf.pair.test_switch.body.socket",
+                            "initWithDeviceData": true,
+                            "sendToggleOnInit": "[DEPRECATED]: false"
+                        }
+                    },
+                    {
+                        "id": "choose_slave",
+                        "template": "choose_slave"
+                    },
+                    {
+                        "id": "rf.done",
+                        "$template": "rf.done"
+                    }
+                ]
+            },
+            "devices": [
+                "ACD-3500",
+                "AC-3500",
+                "AC-1000",
+                "AGDR-300",
+                "AC-300N",
+                "AGDR-200",
+                "APCR-2300",
+                "ACD-300",
+                "ACD-1000",
+                "AGDR-3500",
+                "ACD-200"
+            ]
+        },
+        "migrate.7.a1828884d4840bb84da012229b1c2eb8": {
+            "key": "migrate.7.a1828884d4840bb84da012229b1c2eb8",
+            "config": {
+                "rf": {
+                    "debounceTimeout": 500,
+                    "signal": "kaku"
+                }
+            },
+            "devices": [
+                "ACD-3500",
+                "AC-3500",
+                "ASUN-650",
+                "AWMT-003",
+                "AC-1000",
+                "APA2-2300R",
+                "APIR-2150",
+                "APA2-2300RS",
+                "APCR-2300",
+                "AKCT-510",
+                "AWST-8802",
+                "APA3-1500RS",
+                "ABST-604",
+                "AWMT-230",
+                "ACM-1000",
+                "AWMR-230",
+                "ACM-2300H",
+                "AWST-8800",
+                "AWST-6000",
+                "ATMT-502",
+                "AYCT-102",
+                "AILS-3500",
+                "ACD-1000",
+                "AWMR-300",
+                "AWS-3500",
+                "APA3-1500R",
+                "AGDR-3500"
+            ]
+        },
+        "migrate.8.b173f1db96ed6fbbb23fc0e927601947": {
+            "key": "migrate.8.b173f1db96ed6fbbb23fc0e927601947",
+            "config": {
+                "class": "light",
+                "rf": {
+                    "debounceTimeout": 500,
+                    "signal": "kakudim",
+                    "alternativeSignal": "kaku"
+                }
+            },
+            "devices": [
+                "AFR-060",
+                "ALED-003",
+                "ALED-2009",
+                "ALED-2709",
+                "ALED-MR2705",
+                "AFR-100",
+                "ALED-G2706"
+            ]
+        },
+        "migrate.9.486eb345cfa24596731248e8894db30e": {
+            "key": "migrate.9.486eb345cfa24596731248e8894db30e",
+            "config": {
+                "pair": [
+                    {
+                        "id": "rf.choice",
+                        "$template": "rf.choice",
+                        "options": {
+                            "title": "rf.pair.choice.title.switch",
+                            "body": "rf.pair.choice.body.switch",
+                            "svgHeight": "65vh",
+                            "choices": [
+                                {
+                                    "name": "rf.pair.choice.buttons.copy.default",
+                                    "view": "rf.imitate",
+                                    "svg": "{{driverPath}}/pair/assets/svg/AYCT-102_pair.svg"
+                                },
+                                {
+                                    "name": "rf.pair.choice.buttons.generate.default",
+                                    "view": "rf.program",
+                                    "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "rf.imitate",
+                        "$template": "rf.imitate",
+                        "options": {
+                            "title": "rf.pair.imitate.title.socket",
+                            "body": "rf.pair.imitate.body.AFR-100",
+                            "svg": "{{driverPath}}/pair/assets/svg/AYCT-102_pair.svg",
+                            "initWithDeviceData": "[DEPRECATED]: false"
+                        }
+                    },
+                    {
+                        "id": "rf.test_switch.2",
+                        "$template": "rf.test_switch",
+                        "options": {
+                            "initWithDeviceData": true,
+                            "sendToggleOnInit": "[DEPRECATED]: false",
+                            "title": "rf.pair.test_switch.title.socket",
+                            "body": "rf.pair.test_switch.body.AFR-100"
+                        }
+                    },
+                    {
+                        "id": "rf.program",
+                        "$template": "rf.program",
+                        "options": {
+                            "title": "rf.pair.program.title.socket",
+                            "body": "rf.pair.program.body.AFR-100",
+                            "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                        }
+                    },
+                    {
+                        "id": "rf.test_switch",
+                        "$template": "rf.test_switch",
+                        "options": {
+                            "title": "rf.pair.test_switch.title.AFR-100",
+                            "body": "rf.pair.test_switch.body.AFR-100",
+                            "initWithDeviceData": true,
+                            "sendToggleOnInit": "[DEPRECATED]: false"
+                        }
+                    },
+                    {
+                        "id": "rf.done",
+                        "$template": "rf.done"
+                    }
+                ]
+            },
+            "devices": [
+                "AFR-060",
+                "AFR-100"
+            ]
+        },
+        "migrate.10.6da3080df4210ee54976a7aaa2fa45b8": {
+            "key": "migrate.10.6da3080df4210ee54976a7aaa2fa45b8",
+            "config": {
+                "settings": [
+                    {
+                        "type": "group",
+                        "label": {
+                            "en": "General settings",
+                            "nl": "Algemene instellingen"
+                        },
+                        "children": [
+                            {
+                                "id": "rotated",
+                                "type": "radio",
+                                "value": "0",
+                                "label": {
+                                    "en": "Rotate wall switch",
+                                    "nl": "Roteer wandschakelaar"
+                                },
+                                "values": [
+                                    {
+                                        "id": "0",
+                                        "label": {
+                                            "en": "Right Side Up",
+                                            "nl": "Rechtop"
+                                        }
+                                    },
+                                    {
+                                        "id": "180",
+                                        "label": {
+                                            "en": "Upside Down",
+                                            "nl": "Ondersteboven"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "pair": [
+                    {
+                        "id": "rf.imitate",
+                        "$template": "rf.imitate",
+                        "options": {
+                            "title": "rf.pair.imitate.title.wall_switch",
+                            "body": "rf.pair.imitate.body.wall_switch",
+                            "svg": "{{driverPath}}/pair/assets/svg/pair.svg",
+                            "initWithDeviceData": "[DEPRECATED]: false"
+                        }
+                    },
+                    {
+                        "id": "rf.test",
+                        "$template": "rf.test",
+                        "options": {
+                            "title": "rf.pair.test.title.wall_switch",
+                            "body": "rf.pair.test.body.wall_switch",
+                            "append": [
+                                {
+                                    "scripts": "[DEPRECATED]: \n$('<div>').append(\n\t$('<input id=\"invert-checkbox\" type=\"checkbox\" style=\"position: relative; bottom: 1px; vertical-align: middle;\">')\n\t\t.on('change', function(){ \n\t\t\tvar newSettings = { rotated: this.checked ? '180' : '0'};\n\t\t\tHomey.emit('set_settings', newSettings, function(){\n\t\t\t\tHomey.highlight(newSettings);\n\t\t\t});\n\t\t}),\n\t$('<label for=\"invert-checkbox\" style=\"padding: 0 1em;\">')\n\t\t.html(__('deviceClasses.wall_switch.settings.rotated.label'))\n).insertAfter('[data-id=\"generic_test\"] .centered-container > #image-container')"
+                                }
+                            ],
+                            "svg": "{{driverPath}}/pair/assets/svg/test.svg"
+                        }
+                    },
+                    {
+                        "id": "rf.done",
+                        "$template": "rf.done"
+                    }
+                ],
+                "class": "other"
+            },
+            "devices": [
+                "AWMT-003",
+                "WST-8800",
+                "AWST-8802",
+                "WST-8700",
+                "AWMT-230",
+                "AWST-8800"
+            ]
+        },
+        "migrate.11.1c6d7b58ef05decc8b5d9cbc6fe5a61c": {
+            "key": "migrate.11.1c6d7b58ef05decc8b5d9cbc6fe5a61c",
+            "config": {
+                "flows": {
+                    "triggers": [
+                        {
+                            "id": "{{driverId}}:received",
+                            "title": {
+                                "en": "Button is pressed",
+                                "nl": "Knop is ingedrukt"
+                            },
+                            "args": [
+                                {
+                                    "name": "unit",
+                                    "type": "dropdown",
+                                    "values": [
+                                        {
+                                            "id": "00",
+                                            "label": {
+                                                "en": "Left Button",
+                                                "nl": "Linker Knop"
+                                            }
+                                        },
+                                        {
+                                            "id": "01",
+                                            "label": {
+                                                "en": "Right Button",
+                                                "nl": "Rechter Knop"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "state",
+                                    "type": "dropdown",
+                                    "values": [
+                                        {
+                                            "id": "1",
+                                            "label": {
+                                                "en": "On",
+                                                "nl": "Aan"
+                                            }
+                                        },
+                                        {
+                                            "id": "0",
+                                            "label": {
+                                                "en": "Off",
+                                                "nl": "Uit"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "devices": [
+                "AWMT-003",
+                "AWMT-230"
+            ]
+        },
+        "migrate.12.963ec48a1d59be252037f6fd9b6f0e2d": {
+            "key": "migrate.12.963ec48a1d59be252037f6fd9b6f0e2d",
+            "config": {
+                "pair": [
+                    {
+                        "id": "rf.imitate",
+                        "$template": "rf.imitate",
+                        "options": {
+                            "title": "rf.pair.imitate.title.remote",
+                            "body": "rf.pair.imitate.body.remote",
+                            "svg": "{{driverPath}}/pair/assets/svg/pair.svg",
+                            "initWithDeviceData": "[DEPRECATED]: false"
+                        }
+                    },
+                    {
+                        "id": "rf.test",
+                        "$template": "rf.test",
+                        "options": {
+                            "svg": "{{driverPath}}/pair/assets/svg/test.svg"
+                        }
+                    },
+                    {
+                        "id": "rf.done",
+                        "$template": "rf.done"
+                    }
+                ],
+                "class": "other"
+            },
+            "devices": [
+                "TMT-502",
+                "APA2-2300R",
+                "KCT-510",
+                "AKCT-510",
+                "AYCT-202",
+                "KCT-101",
+                "PA3-1000R",
+                "YCT-102",
+                "ATMT-502",
+                "AYCT-102",
+                "APA3-1500R"
+            ]
+        },
+        "migrate.13.c9ea8a2b37803febfbef30d3d8e7daf7": {
+            "key": "migrate.13.c9ea8a2b37803febfbef30d3d8e7daf7",
+            "config": {
+                "flows": {
+                    "triggers": [
+                        {
+                            "id": "{{driverId}}:received",
+                            "title": {
+                                "en": "Button is pressed",
+                                "nl": "Knop is ingedrukt"
+                            },
+                            "args": [
+                                {
+                                    "name": "unitchannel",
+                                    "type": "dropdown",
+                                    "values": [
+                                        {
+                                            "id": "0000",
+                                            "label": {
+                                                "en": "Unit 1",
+                                                "nl": "Unit 1"
+                                            }
+                                        },
+                                        {
+                                            "id": "1000",
+                                            "label": {
+                                                "en": "Unit 2",
+                                                "nl": "Unit 2"
+                                            }
+                                        },
+                                        {
+                                            "id": "0100",
+                                            "label": {
+                                                "en": "Unit 3",
+                                                "nl": "Unit 3"
+                                            }
+                                        },
+                                        {
+                                            "id": "1100",
+                                            "label": {
+                                                "en": "Unit 4",
+                                                "nl": "Unit 4"
+                                            }
+                                        },
+                                        {
+                                            "id": "0010",
+                                            "label": {
+                                                "en": "Unit 5",
+                                                "nl": "Unit 5"
+                                            }
+                                        },
+                                        {
+                                            "id": "1010",
+                                            "label": {
+                                                "en": "Unit 6",
+                                                "nl": "Unit 6"
+                                            }
+                                        },
+                                        {
+                                            "id": "0110",
+                                            "label": {
+                                                "en": "Unit 7",
+                                                "nl": "Unit 7"
+                                            }
+                                        },
+                                        {
+                                            "id": "1110",
+                                            "label": {
+                                                "en": "Unit 8",
+                                                "nl": "Unit 8"
+                                            }
+                                        },
+                                        {
+                                            "id": "0001",
+                                            "label": {
+                                                "en": "Unit 9",
+                                                "nl": "Unit 9"
+                                            }
+                                        },
+                                        {
+                                            "id": "1001",
+                                            "label": {
+                                                "en": "Unit 10",
+                                                "nl": "Unit 10"
+                                            }
+                                        },
+                                        {
+                                            "id": "0101",
+                                            "label": {
+                                                "en": "Unit 11",
+                                                "nl": "Unit 11"
+                                            }
+                                        },
+                                        {
+                                            "id": "1101",
+                                            "label": {
+                                                "en": "Unit 12",
+                                                "nl": "Unit 12"
+                                            }
+                                        },
+                                        {
+                                            "id": "0011",
+                                            "label": {
+                                                "en": "Unit 13",
+                                                "nl": "Unit 13"
+                                            }
+                                        },
+                                        {
+                                            "id": "1011",
+                                            "label": {
+                                                "en": "Unit 14",
+                                                "nl": "Unit 14"
+                                            }
+                                        },
+                                        {
+                                            "id": "0111",
+                                            "label": {
+                                                "en": "Unit 15",
+                                                "nl": "Unit 15"
+                                            }
+                                        },
+                                        {
+                                            "id": "1111",
+                                            "label": {
+                                                "en": "Unit 16",
+                                                "nl": "Unit 16"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "state",
+                                    "type": "dropdown",
+                                    "values": [
+                                        {
+                                            "id": "1",
+                                            "label": {
+                                                "en": "On",
+                                                "nl": "Aan"
+                                            }
+                                        },
+                                        {
+                                            "id": "0",
+                                            "label": {
+                                                "en": "Off",
+                                                "nl": "Uit"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "devices": [
+                "TMT-502",
+                "ATMT-502"
+            ]
+        },
+        "migrate.14.69e846f5eeb35647f55888c7dd75a803": {
+            "key": "migrate.14.69e846f5eeb35647f55888c7dd75a803",
+            "config": {
+                "capabilities": [
+                    "onoff",
+                    "dim"
+                ],
+                "rf": {
+                    "debounceTimeout": 500,
+                    "signal": "kakudim",
+                    "alternativeSignal": "kaku"
+                }
+            },
+            "devices": [
+                "ACM-300",
+                "AGDR-300",
+                "AC-300N",
+                "AGDR-200",
+                "ACM-250",
+                "ACM-LV24",
+                "ACD-300",
+                "AWMR-210",
+                "AWMD-250",
+                "ACM-100",
+                "ALED-2009",
+                "ACM-LV10",
+                "ALED-2709",
+                "ALED-MR2705",
+                "AFR-100",
+                "ALED-G2706",
+                "ACD-200",
+                "AILD-250"
+            ]
+        },
+        "migrate.15.12878468c6f5bfb6cef91df973d7610f": {
+            "key": "migrate.15.12878468c6f5bfb6cef91df973d7610f",
+            "config": {
+                "pair": [
+                    {
+                        "id": "rf.choice",
+                        "$template": "rf.choice",
+                        "options": {
+                            "title": "rf.pair.choice.title.switch",
+                            "body": "rf.pair.choice.body.switch",
+                            "svgHeight": "65vh",
+                            "choices": [
+                                {
+                                    "name": "rf.pair.choice.buttons.copy.default",
+                                    "view": "rf.imitate",
+                                    "svg": "{{driverPath}}/pair/assets/svg/AYCT-102_pair.svg"
+                                },
+                                {
+                                    "name": "rf.pair.choice.buttons.generate.default",
+                                    "view": "rf.program",
+                                    "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "rf.imitate",
+                        "$template": "rf.imitate",
+                        "options": {
+                            "title": "rf.pair.imitate.title.socket",
+                            "body": "rf.pair.imitate.body.build_in",
+                            "svg": "{{driverPath}}/pair/assets/svg/AYCT-102_pair.svg",
+                            "initWithDeviceData": "[DEPRECATED]: false"
+                        }
+                    },
+                    {
+                        "id": "rf.test_switch.2",
+                        "$template": "rf.test_switch",
+                        "options": {
+                            "initWithDeviceData": true,
+                            "sendToggleOnInit": "[DEPRECATED]: false",
+                            "title": "rf.pair.test_switch.title.build_in",
+                            "body": "rf.pair.test_switch.body.build_in"
+                        }
+                    },
+                    {
+                        "id": "choose_slave.2",
+                        "template": "choose_slave"
+                    },
+                    {
+                        "id": "rf.program",
+                        "$template": "rf.program",
+                        "options": {
+                            "title": "rf.pair.program.title.build_in",
+                            "body": "rf.pair.program.body.build_in",
+                            "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                        }
+                    },
+                    {
+                        "id": "rf.test_switch",
+                        "$template": "rf.test_switch",
+                        "options": {
+                            "title": "rf.pair.test_switch.title.build_in",
+                            "body": "rf.pair.test_switch.body.build_in",
+                            "initWithDeviceData": true,
+                            "sendToggleOnInit": "[DEPRECATED]: false"
+                        }
+                    },
+                    {
+                        "id": "choose_slave",
+                        "template": "choose_slave"
+                    },
+                    {
+                        "id": "rf.done",
+                        "$template": "rf.done"
+                    }
+                ]
+            },
+            "devices": [
+                "ACM-300",
+                "ACM-250",
+                "ACM-LV24",
+                "AWMR-210",
+                "AWMD-250",
+                "ACM-100",
+                "ACM-1000",
+                "AWMR-230",
+                "ACM-LV10",
+                "ACM-2300H",
+                "AILS-3500",
+                "AWMR-300",
+                "AWS-3500",
+                "AILD-250"
+            ]
+        },
+        "migrate.16.dcd7d67ff8183ba0ab5411142b3186fc": {
+            "key": "migrate.16.dcd7d67ff8183ba0ab5411142b3186fc",
+            "config": {
+                "name": {
+                    "en": "APA2-2300R"
+                }
+            },
+            "devices": [
+                "APA2-2300R",
+                "APA2-2300RS"
+            ]
+        },
+        "migrate.17.0f2343384df78404d5a53651bc54f9ac": {
+            "key": "migrate.17.0f2343384df78404d5a53651bc54f9ac",
+            "config": {
+                "class": "sensor"
+            },
+            "devices": [
+                "APIR-2150",
+                "ABST-604",
+                "AWST-6000",
+                "AMST-606"
+            ]
+        },
+        "migrate.18.eac8040c9f3665ec53560206a6b3f497": {
+            "key": "migrate.18.eac8040c9f3665ec53560206a6b3f497",
+            "config": {
+                "flows": {
+                    "conditions": [
+                        {
+                            "id": "{{driverId}}:state",
+                            "title": {
+                                "en": "[Deprecated] Sensor detects !{{motion|no motion}}",
+                                "nl": "[Verouderd] Sensor detecteert !{{beweging|geen beweging}}"
+                            },
+                            "args": []
+                        }
+                    ]
+                },
+                "pair": [
+                    {
+                        "id": "rf.imitate",
+                        "$template": "rf.imitate",
+                        "options": {
+                            "body": "rf.pair.imitate.body.sensor",
+                            "svg": "{{driverPath}}/pair/assets/svg/pair.svg",
+                            "title": "rf.pair.imitate.title.motion_sensor",
+                            "initWithDeviceData": "[DEPRECATED]: false"
+                        }
+                    },
+                    {
+                        "id": "rf.test",
+                        "$template": "rf.test",
+                        "options": {
+                            "body": "rf.pair.test.body.sensor",
+                            "initWithDeviceData": true,
+                            "svg": "{{driverPath}}/pair/assets/svg/test.svg",
+                            "title": "rf.pair.test.title.motion_sensor"
+                        }
+                    },
+                    {
+                        "id": "rf.done",
+                        "$template": "rf.done"
+                    }
+                ],
+                "settings": [
+                    {
+                        "type": "group",
+                        "label": {
+                            "en": "Advanced settings",
+                            "nl": "Geadvanceerde instellingen"
+                        },
+                        "children": [
+                            {
+                                "id": "timeout",
+                                "type": "dropdown",
+                                "value": "0",
+                                "label": {
+                                    "en": "Force stop motion after",
+                                    "nl": "Forceer stop beweging na"
+                                },
+                                "values": [
+                                    {
+                                        "id": "0",
+                                        "label": {
+                                            "en": "never",
+                                            "nl": "nooit"
+                                        }
+                                    },
+                                    {
+                                        "id": "1",
+                                        "label": {
+                                            "en": "1 Minute",
+                                            "nl": "1 Minuut"
+                                        }
+                                    },
+                                    {
+                                        "id": "2",
+                                        "label": {
+                                            "en": "2 Minutes",
+                                            "nl": "2 Minuten"
+                                        }
+                                    },
+                                    {
+                                        "id": "5",
+                                        "label": {
+                                            "en": "5 Minutes",
+                                            "nl": "5 Minuten"
+                                        }
+                                    },
+                                    {
+                                        "id": "10",
+                                        "label": {
+                                            "en": "10 Minutes",
+                                            "nl": "10 Minuten"
+                                        }
+                                    },
+                                    {
+                                        "id": "15",
+                                        "label": {
+                                            "en": "15 Minutes",
+                                            "nl": "15 Minuten"
+                                        }
+                                    },
+                                    {
+                                        "id": "30",
+                                        "label": {
+                                            "en": "30 Minutes",
+                                            "nl": "30 Minuten"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "capabilities": [
+                    "alarm_motion"
+                ]
+            },
+            "devices": [
+                "APIR-2150",
+                "AWST-6000"
+            ]
+        },
+        "migrate.19.fbe6092a417bd082c9cdc106fcd05bcd": {
+            "key": "migrate.19.fbe6092a417bd082c9cdc106fcd05bcd",
+            "config": {
+                "flows": {
+                    "triggers": [
+                        {
+                            "id": "{{driverId}}:received",
+                            "title": {
+                                "en": "Button is pressed",
+                                "nl": "Knop is ingedrukt"
+                            },
+                            "args": [
+                                {
+                                    "name": "state",
+                                    "type": "dropdown",
+                                    "values": [
+                                        {
+                                            "id": "1",
+                                            "label": {
+                                                "en": "On",
+                                                "nl": "Aan"
+                                            }
+                                        },
+                                        {
+                                            "id": "0",
+                                            "label": {
+                                                "en": "Off",
+                                                "nl": "Uit"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "devices": [
+                "KCT-510",
+                "WST-8800",
+                "AKCT-510",
+                "WST-8700",
+                "AWST-8800",
+                "KCT-101"
+            ]
+        },
+        "migrate.20.689e722907fb7735d774938558373e60": {
+            "key": "migrate.20.689e722907fb7735d774938558373e60",
+            "config": {
+                "flows": {
+                    "triggers": [
+                        {
+                            "id": "{{driverId}}:received",
+                            "title": {
+                                "en": "Doorbell is pressed",
+                                "nl": "Deurbel knop is ingedrukt"
+                            },
+                            "args": []
+                        }
+                    ],
+                    "actions": [
+                        {
+                            "id": "{{driverId}}:send",
+                            "title": {
+                                "en": "Trigger Doorbell",
+                                "nl": "Laat deurbel afgaan"
+                            },
+                            "args": []
+                        }
+                    ]
+                },
+                "rf": {
+                    "debounceTimeout": 1000,
+                    "signal": "kaku"
+                },
+                "pair": [
+                    {
+                        "id": "rf.choice",
+                        "$template": "rf.choice",
+                        "options": {
+                            "title": "rf.pair.choice.title.switch",
+                            "body": "rf.pair.choice.body.doorbell",
+                            "svgHeight": "65vh",
+                            "choices": [
+                                {
+                                    "name": "rf.pair.choice.buttons.imitate.ACDB-6600",
+                                    "view": "rf.imitate",
+                                    "svg": "{{driverPath}}/pair/assets/svg/doorbell.svg"
+                                },
+                                {
+                                    "name": "rf.pair.choice.buttons.generate.default",
+                                    "view": "rf.program",
+                                    "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "rf.imitate",
+                        "$template": "rf.imitate",
+                        "options": {
+                            "body": "rf.pair.imitate.body.doorbell",
+                            "svg": "{{driverPath}}/pair/assets/svg/doorbell.svg",
+                            "initWithDeviceData": "[DEPRECATED]: false"
+                        }
+                    },
+                    {
+                        "id": "rf.test_button.2",
+                        "$template": "rf.test_button",
+                        "options": {
+                            "initWithDeviceData": true,
+                            "sendToggleOnInit": "[DEPRECATED]: false",
+                            "title": "rf.pair.test_button.title.doorbell",
+                            "body": "rf.pair.test_button.body.doorbell",
+                            "svg": "{{driverPath}}/pair/assets/svg/test.svg",
+                            "buttonLabel": "test"
+                        }
+                    },
+                    {
+                        "id": "rf.program",
+                        "$template": "rf.program",
+                        "options": {
+                            "body": "rf.pair.program.body.socket",
+                            "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                        }
+                    },
+                    {
+                        "id": "rf.test_button",
+                        "$template": "rf.test_button",
+                        "options": {
+                            "title": "rf.pair.test_button.title.doorbell",
+                            "body": "rf.pair.test_button.body.doorbell",
+                            "svg": "{{driverPath}}/pair/assets/svg/test.svg",
+                            "initWithDeviceData": true,
+                            "sendToggleOnInit": "[DEPRECATED]: false",
+                            "buttonLabel": "test"
+                        }
+                    },
+                    {
+                        "id": "rf.done",
+                        "$template": "rf.done"
+                    }
+                ],
+                "capabilities": [
+                    "alarm_generic"
+                ],
+                "class": "doorbell"
+            },
+            "devices": [
+                "ACDB-7000C",
+                "ACDB-6600"
+            ]
+        },
+        "migrate.21.d95cdafc8c7529a6989173ed4551ef53": {
+            "key": "migrate.21.d95cdafc8c7529a6989173ed4551ef53",
+            "config": {
+                "pair": [
+                    {
+                        "id": "rf.choice",
+                        "$template": "rf.choice",
+                        "options": {
+                            "title": "rf.pair.choice.title.switch",
+                            "body": "rf.pair.choice.body.codewheel_switch",
+                            "svgHeight": "65vh",
+                            "choices": [
+                                {
+                                    "name": "rf.pair.choice.buttons.copy.default",
+                                    "view": "rf.imitate",
+                                    "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                                },
+                                {
+                                    "name": "rf.pair.choice.buttons.codewheel.codewheel_switch",
+                                    "view": "rf.codewheel",
+                                    "svg": "{{driverPath}}/pair/assets/svg/YC-400_pair.svg"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "rf.imitate",
+                        "$template": "rf.imitate",
+                        "options": {
+                            "title": "rf.pair.imitate.title.socket",
+                            "body": "rf.pair.imitate.body.socket",
+                            "svg": "{{driverPath}}/pair/assets/svg/pair.svg",
+                            "initWithDeviceData": "[DEPRECATED]: false"
+                        }
+                    },
+                    {
+                        "id": "rf.test_switch.2",
+                        "$template": "rf.test_switch",
+                        "options": {
+                            "initWithDeviceData": true,
+                            "sendToggleOnInit": "[DEPRECATED]: false",
+                            "title": "rf.pair.test_switch.title.socket",
+                            "body": "rf.pair.test_switch.body.socket"
+                        }
+                    },
+                    {
+                        "id": "choose_slave.2",
+                        "template": "choose_slave"
+                    },
+                    {
+                        "id": "rf.codewheel",
+                        "$template": "rf.codewheel",
+                        "options": {
+                            "codewheelList": [
+                                {
+                                    "series": [
+                                        "A",
+                                        "B",
+                                        "C",
+                                        "D",
+                                        "E",
+                                        "F",
+                                        "G",
+                                        "H",
+                                        "I",
+                                        "J",
+                                        "K",
+                                        "L",
+                                        "M",
+                                        "N",
+                                        "O",
+                                        "P"
+                                    ],
+                                    "mapOddToDot": "[DEPRECATED]: true"
+                                },
+                                {
+                                    "series": [
+                                        "[DEPRECATED]: 1",
+                                        "[DEPRECATED]: 2",
+                                        "[DEPRECATED]: 3",
+                                        "[DEPRECATED]: 4",
+                                        "[DEPRECATED]: 5",
+                                        "[DEPRECATED]: 6",
+                                        "[DEPRECATED]: 7",
+                                        "[DEPRECATED]: 8",
+                                        "[DEPRECATED]: 9",
+                                        "[DEPRECATED]: 10",
+                                        "[DEPRECATED]: 11",
+                                        "[DEPRECATED]: 12",
+                                        "[DEPRECATED]: 13",
+                                        "[DEPRECATED]: 14",
+                                        "[DEPRECATED]: 15",
+                                        "[DEPRECATED]: 16"
+                                    ],
+                                    "mapOddToDot": "[DEPRECATED]: true"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "rf.test_switch",
+                        "$template": "rf.test_switch",
+                        "options": {
+                            "title": "rf.pair.test_switch.title.socket",
+                            "body": "rf.pair.test_switch.body.socket",
+                            "initWithDeviceData": true,
+                            "sendToggleOnInit": "[DEPRECATED]: false"
+                        }
+                    },
+                    {
+                        "id": "choose_slave",
+                        "template": "choose_slave"
+                    },
+                    {
+                        "id": "rf.done",
+                        "$template": "rf.done"
+                    }
+                ]
+            },
+            "devices": [
+                "YC-3500",
+                "AC-300",
+                "YC-412",
+                "YC-1000"
+            ]
+        },
+        "migrate.22.1d05e86ad9bc9908256d38ab46598727": {
+            "key": "migrate.22.1d05e86ad9bc9908256d38ab46598727",
+            "config": {
+                "name": {
+                    "en": "APA3-1500R"
+                }
+            },
+            "devices": [
+                "APA3-1500RS",
+                "APA3-1500R"
+            ]
+        },
+        "migrate.23.afbb809e3b9780fcdad8dab8adf01d34": {
+            "key": "migrate.23.afbb809e3b9780fcdad8dab8adf01d34",
+            "config": {
+                "pair": [
+                    {
+                        "id": "rf.choice",
+                        "$template": "rf.choice",
+                        "options": {
+                            "title": "rf.pair.choice.title.switch",
+                            "body": "rf.pair.choice.body.switch",
+                            "svgHeight": "65vh",
+                            "choices": [
+                                {
+                                    "name": "rf.pair.choice.buttons.copy.default",
+                                    "view": "rf.imitate",
+                                    "svg": "{{driverPath}}/pair/assets/svg/AYCT-102_pair.svg"
+                                },
+                                {
+                                    "name": "rf.pair.choice.buttons.generate.default",
+                                    "view": "rf.program",
+                                    "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "rf.imitate",
+                        "$template": "rf.imitate",
+                        "options": {
+                            "title": "rf.pair.imitate.title.socket",
+                            "body": "rf.pair.imitate.body.ALED-2709",
+                            "svg": "{{driverPath}}/pair/assets/svg/AYCT-102_pair.svg",
+                            "initWithDeviceData": "[DEPRECATED]: false"
+                        }
+                    },
+                    {
+                        "id": "rf.test_switch.2",
+                        "$template": "rf.test_switch",
+                        "options": {
+                            "initWithDeviceData": true,
+                            "sendToggleOnInit": "[DEPRECATED]: false",
+                            "title": "rf.pair.test_switch.title.socket",
+                            "body": "rf.pair.test_switch.body.ALED-2709"
+                        }
+                    },
+                    {
+                        "id": "rf.program",
+                        "$template": "rf.program",
+                        "options": {
+                            "title": "rf.pair.program.title.socket",
+                            "body": "rf.pair.program.body.ALED-2709",
+                            "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                        }
+                    },
+                    {
+                        "id": "rf.test_switch",
+                        "$template": "rf.test_switch",
+                        "options": {
+                            "title": "rf.pair.test_switch.title.ALED-2709",
+                            "body": "rf.pair.test_switch.body.ALED-2709",
+                            "initWithDeviceData": true,
+                            "sendToggleOnInit": "[DEPRECATED]: false"
+                        }
+                    },
+                    {
+                        "id": "rf.done",
+                        "$template": "rf.done"
+                    }
+                ]
+            },
+            "devices": [
+                "ALED-2009",
+                "ALED-2709",
+                "ALED-MR2705",
+                "ALED-G2706"
+            ]
+        },
+        "migrate.24.4558b77bbd94c3202e8104b430a3a590": {
+            "key": "migrate.24.4558b77bbd94c3202e8104b430a3a590",
+            "config": {
+                "flows": {
+                    "triggers": [
+                        {
+                            "id": "{{driverId}}:received",
+                            "title": {
+                                "en": "Button is pressed",
+                                "nl": "Knop is ingedrukt"
+                            },
+                            "args": [
+                                {
+                                    "name": "channel",
+                                    "type": "dropdown",
+                                    "values": [
+                                        {
+                                            "id": "00",
+                                            "label": {
+                                                "en": "Channel I",
+                                                "nl": "Kanaal I"
+                                            }
+                                        },
+                                        {
+                                            "id": "01",
+                                            "label": {
+                                                "en": "Channel II",
+                                                "nl": "Kanaal II"
+                                            }
+                                        },
+                                        {
+                                            "id": "10",
+                                            "label": {
+                                                "en": "Channel III",
+                                                "nl": "Kanaal III"
+                                            }
+                                        },
+                                        {
+                                            "id": "11",
+                                            "label": {
+                                                "en": "Channel IV",
+                                                "nl": "Kanaal IV"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "unit",
+                                    "type": "dropdown",
+                                    "values": [
+                                        {
+                                            "id": "00",
+                                            "label": {
+                                                "en": "Button 1",
+                                                "nl": "Knop 1"
+                                            }
+                                        },
+                                        {
+                                            "id": "01",
+                                            "label": {
+                                                "en": "Button 2",
+                                                "nl": "Knop 2"
+                                            }
+                                        },
+                                        {
+                                            "id": "10",
+                                            "label": {
+                                                "en": "Button 3",
+                                                "nl": "Knop 3"
+                                            }
+                                        },
+                                        {
+                                            "id": "11",
+                                            "label": {
+                                                "en": "Button 4",
+                                                "nl": "Knop 4"
+                                            }
+                                        },
+                                        {
+                                            "id": "g",
+                                            "label": {
+                                                "en": "Group Button",
+                                                "nl": "Groep Knop"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "state",
+                                    "type": "dropdown",
+                                    "values": [
+                                        {
+                                            "id": "1",
+                                            "label": {
+                                                "en": "On",
+                                                "nl": "Aan"
+                                            }
+                                        },
+                                        {
+                                            "id": "0",
+                                            "label": {
+                                                "en": "Off",
+                                                "nl": "Uit"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "devices": [
+                "YCT-102",
+                "AYCT-102"
+            ]
+        }
+    }
+}

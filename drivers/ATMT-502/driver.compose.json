@@ -1,0 +1,12 @@
+{
+    "id": "ATMT-502",
+    "name": {
+        "en": "ATMT-502"
+    },
+    "$extends": [
+        "defaults",
+        "kaku",
+        "remote",
+        "remote.flows.tmt"
+    ]
+}
