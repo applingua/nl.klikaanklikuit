@@ -1,51 +1,22 @@
 {
-    "id": "AMST-606",
-    "name": {
-        "en": "AMST-606"
-    },
-    "pair": [
-        {
-            "id": "rf.imitate",
-            "$template": "rf.imitate",
-            "options": {
-                "body": "rf.pair.imitate.body.AMST-606",
-                "svg": "{{driverPath}}/pair/assets/svg/pair.svg",
-                "title": "rf.pair.imitate.title.AMST-606",
-                "svgWidth": "50vw",
-                "initWithDeviceData": "[DEPRECATED]: false"
-            }
-        },
-        {
-            "id": "rf.test",
-            "$template": "rf.test",
-            "options": {
-                "body": "rf.pair.test.body.AMST-606",
-                "initWithDeviceData": true,
-                "svg": "{{driverPath}}/pair/assets/svg/test.svg",
-                "title": "rf.pair.test.title.AMST-606",
-                "svgWidth": "50vw"
-            }
-        },
-        {
-            "id": "rf.done",
-            "$template": "rf.done"
-        }
-    ],
-    "flows": {
-        "conditions": [
-            {
-                "id": "{{driverId}}:state",
-                "title": {
-                    "en": "[Deprecated] Sensor has !{{no contact|contact}}",
-                    "nl": "[Verouderd] Sensor heeft !{{geen contact|contact}}"
-                },
-                "args": []
-            }
-        ]
-    },
-    "$extends": [
-        "defaults",
-        "image.png",
-        "device.contact_sensor"
-    ]
+	"id": "AMST-606",
+	"name": {
+		"en": "AMST-606"
+	},
+	"pairOptins": {
+		"rf.imitate": {
+			"title": "rf.pair.imitate.title.AMST-606",
+			"body": "rf.pair.imitate.body.AMST-606"
+		},
+		"rf.test": {
+			"title": "rf.pair.test.title.AMST-606",
+			"body": "rf.pair.test.body.AMST-606"
+		}
+	},
+	"$extends": [
+		"defaults",
+		"image.png",
+		"device.contact_sensor",
+		"pair.sensor"
+	]
 }

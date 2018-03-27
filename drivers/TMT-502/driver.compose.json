@@ -7,6 +7,6 @@
         "defaults",
         "rf.kakuold",
         "pair.remote",
-        "flows.remote.tmt"
+        "flow.remote.tmt"
     ]
 }

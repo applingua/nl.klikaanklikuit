@@ -7,6 +7,6 @@
         "defaults",
         "pair.remote",
         "rf.kakuold",
-        "flows.switch.single"
+        "flow.switch.single"
     ]
 }

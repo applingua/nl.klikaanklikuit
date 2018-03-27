@@ -11,12 +11,12 @@
                     {
                         "name": "rf.pair.choice.buttons.imitate.ACDB-6600",
                         "view": "rf.imitate",
-                        "svg": "{{driverPath}}/pair/assets/svg/doorbell.svg"
+                        "svg": "assets/svg/doorbell.svg"
                     },
                     {
                         "name": "rf.pair.choice.buttons.generate.default",
                         "view": "rf.program",
-                        "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                        "svg": "assets/svg/pair.svg"
                     }
                 ]
             }
@@ -26,8 +26,10 @@
             "$template": "rf.imitate",
             "options": {
                 "body": "rf.pair.imitate.body.doorbell",
-                "svg": "{{driverPath}}/pair/assets/svg/doorbell.svg",
-                "initWithDeviceData": "[DEPRECATED]: false"
+                "svg": "assets/svg/doorbell.svg"
+            },
+            "navigation": {
+                "prev": "rf.choice"
             }
         },
         {
@@ -35,11 +37,14 @@
             "$template": "rf.test_button",
             "options": {
                 "initWithDeviceData": true,
-                "sendToggleOnInit": "[DEPRECATED]: false",
                 "title": "rf.pair.test_button.title.doorbell",
                 "body": "rf.pair.test_button.body.doorbell",
-                "svg": "{{driverPath}}/pair/assets/svg/test.svg",
+                "svg": "assets/svg/test.svg",
                 "buttonLabel": "test"
+            },
+            "navigation": {
+                "prev": "rf.imitate",
+                "next": "rf.done"
             }
         },
         {
@@ -47,7 +52,11 @@
             "$template": "rf.program",
             "options": {
                 "body": "rf.pair.program.body.socket",
-                "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                "svg": "assets/svg/pair.svg"
+            },
+            "navigation": {
+                "prev": "rf.choice",
+                "next": "rf.test_button"
             }
         },
         {
@@ -56,10 +65,13 @@
             "options": {
                 "title": "rf.pair.test_button.title.doorbell",
                 "body": "rf.pair.test_button.body.doorbell",
-                "svg": "{{driverPath}}/pair/assets/svg/test.svg",
+                "svg": "assets/svg/test.svg",
                 "initWithDeviceData": true,
-                "sendToggleOnInit": "[DEPRECATED]: false",
                 "buttonLabel": "test"
+            },
+            "navigation": {
+                "prev": "rf.program",
+                "next": "rf.done"
             }
         },
         {

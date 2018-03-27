@@ -32,7 +32,8 @@
                     "socket": "Copy your remote signal\u0000",
                     "motion_sensor": "Pair your motion sensor",
                     "ABST-604": "Pair your night sensor",
-                    "AMST-606": "Pair your constact sensor"
+                    "AMST-606": "Pair your contact sensor",
+                    "sensor": "Pair your sensor"
                 }
             },
             "test_switch": {
@@ -70,6 +71,15 @@
                 },
                 "body": {
                     "doorbell": "Use the button above to test your doorbell. Press next to continue."
+                }
+            },
+            "test": {
+                "title": {
+                    "sensor": "Test your sensor",
+                    "ABST-640": "Test your night sensor"
+                },
+                "body": {
+                    "body": "Trigger your sensor manually or use the LEARN switch on your sensor to test the signal. Press next to continue."
                 }
             }
         }

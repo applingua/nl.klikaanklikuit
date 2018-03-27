@@ -6,15 +6,18 @@
             "options": {
                 "title": "rf.pair.imitate.title.remote",
                 "body": "rf.pair.imitate.body.remote",
-                "svg": "{{driverPath}}/pair/assets/svg/pair.svg",
-                "initWithDeviceData": "[DEPRECATED]: false"
+                "svg": "assets/svg/pair.svg"
             }
         },
         {
             "id": "rf.test",
             "$template": "rf.test",
             "options": {
-                "svg": "{{driverPath}}/pair/assets/svg/test.svg"
+                "svg": "assets/svg/test.svg"
+            },
+            "navigation": {
+                "prev": "rf.imitate",
+                "next": "rf.done"
             }
         },
         {

@@ -11,12 +11,12 @@
                     {
                         "name": "rf.pair.choice.buttons.copy.default",
                         "view": "rf.imitate",
-                        "svg": "{{driverPath}}/pair/assets/svg/AYCT-102_pair.svg"
+                        "svg": "assets/svg/AYCT-102_pair.svg"
                     },
                     {
                         "name": "rf.pair.choice.buttons.generate.default",
                         "view": "rf.program",
-                        "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                        "svg": "assets/svg/pair.svg"
                     }
                 ]
             }
@@ -27,8 +27,10 @@
             "options": {
                 "title": "rf.pair.imitate.title.socket",
                 "body": "rf.pair.imitate.body.AFR-100",
-                "svg": "{{driverPath}}/pair/assets/svg/AYCT-102_pair.svg",
-                "initWithDeviceData": "[DEPRECATED]: false"
+                "svg": "assets/svg/AYCT-102_pair.svg"
+            },
+            "navigation": {
+                "prev": "rf.choice"
             }
         },
         {
@@ -36,9 +38,12 @@
             "$template": "rf.test_switch",
             "options": {
                 "initWithDeviceData": true,
-                "sendToggleOnInit": "[DEPRECATED]: false",
                 "title": "rf.pair.test_switch.title.socket",
                 "body": "rf.pair.test_switch.body.AFR-100"
+            },
+            "navigation": {
+                "prev": "rf.imitate",
+                "next": "rf.done"
             }
         },
         {
@@ -47,7 +52,11 @@
             "options": {
                 "title": "rf.pair.program.title.socket",
                 "body": "rf.pair.program.body.AFR-100",
-                "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                "svg": "assets/svg/pair.svg"
+            },
+            "navigation": {
+                "prev": "rf.choice",
+                "next": "rf.test_switch"
             }
         },
         {
@@ -56,8 +65,11 @@
             "options": {
                 "title": "rf.pair.test_switch.title.AFR-100",
                 "body": "rf.pair.test_switch.body.AFR-100",
-                "initWithDeviceData": true,
-                "sendToggleOnInit": "[DEPRECATED]: false"
+                "initWithDeviceData": true
+            },
+            "navigation": {
+                "prev": "rf.program",
+                "next": "rf.done"
             }
         },
         {

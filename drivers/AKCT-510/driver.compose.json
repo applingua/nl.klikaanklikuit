@@ -6,6 +6,6 @@
     "$extends": [
         "defaults",
         "pair.remote",
-        "flows.switch.single"
+        "flow.switch.single"
     ]
 }

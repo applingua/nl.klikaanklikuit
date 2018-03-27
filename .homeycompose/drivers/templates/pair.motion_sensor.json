@@ -5,9 +5,8 @@
             "$template": "rf.imitate",
             "options": {
                 "body": "rf.pair.imitate.body.sensor",
-                "svg": "{{driverPath}}/pair/assets/svg/pair.svg",
-                "title": "rf.pair.imitate.title.motion_sensor",
-                "initWithDeviceData": "[DEPRECATED]: false"
+                "svg": "assets/svg/pair.svg",
+                "title": "rf.pair.imitate.title.motion_sensor"
             }
         },
         {
@@ -16,8 +15,12 @@
             "options": {
                 "body": "rf.pair.test.body.sensor",
                 "initWithDeviceData": true,
-                "svg": "{{driverPath}}/pair/assets/svg/test.svg",
+                "svg": "assets/svg/test.svg",
                 "title": "rf.pair.test.title.motion_sensor"
+            },
+            "navigation": {
+                "prev": "rf.imitate",
+                "next": "rf.done"
             }
         },
         {

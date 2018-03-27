@@ -7,6 +7,6 @@
         "defaults",
         "device.doorbell",
         "pair.doorbell",
-        "flows.doorbell"
+        "flow.doorbell"
     ]
 }

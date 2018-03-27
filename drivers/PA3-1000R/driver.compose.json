@@ -3,7 +3,7 @@
     "name": {
         "en": "PA3-1000R"
     },
-    "flows": {
+    "flow": {
         "triggers": [
             {
                 "id": "{{driverId}}:received",

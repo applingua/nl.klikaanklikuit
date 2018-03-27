@@ -3,7 +3,7 @@
     "name": {
         "en": "APA2-2300R"
     },
-    "flows": {
+    "flow": {
         "triggers": [
             {
                 "id": "{{driverId}}:received",

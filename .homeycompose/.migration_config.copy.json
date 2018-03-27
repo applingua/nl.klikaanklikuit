@@ -17,12 +17,12 @@
                             {
                                 "name": "rf.pair.choice.buttons.copy.default",
                                 "view": "rf.imitate",
-                                "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                                "svg": "assets/svg/pair.svg"
                             },
                             {
                                 "name": "rf.pair.choice.buttons.codewheel.codewheel_switch",
                                 "view": "rf.codewheel",
-                                "svg": "{{driverPath}}/pair/assets/svg/SUN-500_pair.svg"
+                                "svg": "assets/svg/SUN-500_pair.svg"
                             }
                         ]
                     }
@@ -32,7 +32,7 @@
                     "$template": "rf.imitate",
                     "options": {
                         "body": "rf.pair.imitate.body.old_blinds",
-                        "svg": "{{driverPath}}/pair/assets/svg/pair.svg",
+                        "svg": "assets/svg/pair.svg",
                         "initWithDeviceData": "[DEPRECATED]: false"
                     }
                 },
@@ -49,7 +49,7 @@
                         ],
                         "title": "rf.pair.test_switch.title.blinds",
                         "body": "rf.pair.test_switch.body.blinds",
-                        "svg": "{{driverPath}}/pair/assets/svg/test.svg"
+                        "svg": "assets/svg/test.svg"
                     }
                 },
                 {
@@ -113,7 +113,7 @@
                                 "scripts": "[DEPRECATED]: \n$('<div>').append(\n\t$('<input id=\"invert-checkbox\" type=\"checkbox\" style=\"position: relative; bottom: 1px; vertical-align: middle;\">')\n\t\t.on('change', function(){ \n\t\t\tvar newSettings = { rotated: this.checked ? '180' : '0'};\n\t\t\tHomey.emit('set_settings', newSettings, function(){\n\t\t\t\tHomey.highlight(newSettings);\n\t\t\t});\n\t\t}),\n\t$('<label for=\"invert-checkbox\" style=\"padding: 0 1em;\">')\n\t\t.html(__('deviceClasses.blinds.settings.rotated.label'))\n).insertAfter('[data-id=\"generic_test_switch\"] .centered-container > #image-container')"
                             }
                         ],
-                        "svg": "{{driverPath}}/pair/assets/svg/test.svg",
+                        "svg": "assets/svg/test.svg",
                         "initWithDeviceData": true,
                         "sendToggleOnInit": "[DEPRECATED]: false"
                     }
@@ -172,12 +172,12 @@
                             {
                                 "name": "rf.pair.choice.buttons.copy.default",
                                 "view": "rf.imitate",
-                                "svg": "{{driverPath}}/pair/assets/svg/AYCT-102_pair.svg"
+                                "svg": "assets/svg/AYCT-102_pair.svg"
                             },
                             {
                                 "name": "rf.pair.choice.buttons.generate.default",
                                 "view": "rf.program",
-                                "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                                "svg": "assets/svg/pair.svg"
                             }
                         ]
                     }
@@ -187,7 +187,7 @@
                     "$template": "rf.imitate",
                     "options": {
                         "body": "rf.pair.imitate.body.blinds",
-                        "svg": "{{driverPath}}/pair/assets/svg/AYCT-102_pair.svg",
+                        "svg": "assets/svg/AYCT-102_pair.svg",
                         "initWithDeviceData": "[DEPRECATED]: false"
                     }
                 },
@@ -204,14 +204,14 @@
                         ],
                         "title": "rf.pair.test_switch.title.blinds",
                         "body": "rf.pair.test_switch.body.blinds",
-                        "svg": "{{driverPath}}/pair/assets/svg/test.svg"
+                        "svg": "assets/svg/test.svg"
                     }
                 },
                 {
                     "id": "rf.program",
                     "$template": "rf.program",
                     "options": {
-                        "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                        "svg": "assets/svg/pair.svg"
                     }
                 },
                 {
@@ -225,7 +225,7 @@
                                 "scripts": "[DEPRECATED]: \n$('<div>').append(\n\t$('<input id=\"invert-checkbox\" type=\"checkbox\" style=\"position: relative; bottom: 1px; vertical-align: middle;\">')\n\t\t.on('change', function(){ \n\t\t\tvar newSettings = { rotated: this.checked ? '180' : '0'};\n\t\t\tHomey.emit('set_settings', newSettings, function(){\n\t\t\t\tHomey.highlight(newSettings);\n\t\t\t});\n\t\t}),\n\t$('<label for=\"invert-checkbox\" style=\"padding: 0 1em;\">')\n\t\t.html(__('deviceClasses.blinds.settings.rotated.label'))\n).insertAfter('[data-id=\"generic_test_switch\"] .centered-container > #image-container')"
                             }
                         ],
-                        "svg": "{{driverPath}}/pair/assets/svg/test.svg",
+                        "svg": "assets/svg/test.svg",
                         "initWithDeviceData": true,
                         "sendToggleOnInit": "[DEPRECATED]: false"
                     }
@@ -457,12 +457,12 @@
                             {
                                 "name": "rf.pair.choice.buttons.copy.default",
                                 "view": "rf.imitate",
-                                "svg": "{{driverPath}}/pair/assets/svg/APA2-2300R_pair.svg"
+                                "svg": "assets/svg/APA2-2300R_pair.svg"
                             },
                             {
                                 "name": "rf.pair.choice.buttons.generate.default",
                                 "view": "rf.program",
-                                "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                                "svg": "assets/svg/pair.svg"
                             }
                         ]
                     }
@@ -473,7 +473,7 @@
                     "options": {
                         "title": "rf.pair.imitate.title.socket",
                         "body": "rf.pair.imitate.body.socket",
-                        "svg": "{{driverPath}}/pair/assets/svg/APA2-2300R_pair.svg",
+                        "svg": "assets/svg/APA2-2300R_pair.svg",
                         "initWithDeviceData": "[DEPRECATED]: false"
                     }
                 },
@@ -497,7 +497,7 @@
                     "options": {
                         "title": "rf.pair.program.title.socket",
                         "body": "rf.pair.program.body.simple_socket",
-                        "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                        "svg": "assets/svg/pair.svg"
                     }
                 },
                 {
@@ -735,12 +735,12 @@
                             {
                                 "name": "rf.pair.choice.buttons.copy.default",
                                 "view": "rf.imitate",
-                                "svg": "{{driverPath}}/pair/assets/svg/APA3-1500R_pair.svg"
+                                "svg": "assets/svg/APA3-1500R_pair.svg"
                             },
                             {
                                 "name": "rf.pair.choice.buttons.generate.default",
                                 "view": "rf.program",
-                                "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                                "svg": "assets/svg/pair.svg"
                             }
                         ]
                     }
@@ -751,7 +751,7 @@
                     "options": {
                         "title": "rf.pair.imitate.title.socket",
                         "body": "rf.pair.imitate.body.socket",
-                        "svg": "{{driverPath}}/pair/assets/svg/APA3-1500R_pair.svg",
+                        "svg": "assets/svg/APA3-1500R_pair.svg",
                         "initWithDeviceData": "[DEPRECATED]: false"
                     }
                 },
@@ -775,7 +775,7 @@
                     "options": {
                         "title": "rf.pair.program.title.socket",
                         "body": "rf.pair.program.body.simple_socket",
-                        "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                        "svg": "assets/svg/pair.svg"
                     }
                 },
                 {
@@ -819,7 +819,7 @@
                     "$template": "rf.imitate",
                     "options": {
                         "body": "rf.pair.imitate.body.sensor",
-                        "svg": "{{driverPath}}/pair/assets/svg/pair.svg",
+                        "svg": "assets/svg/pair.svg",
                         "title": "rf.pair.imitate.title.ABST-604",
                         "initWithDeviceData": "[DEPRECATED]: false"
                     }
@@ -830,7 +830,7 @@
                     "options": {
                         "body": "rf.pair.test.body.sensor",
                         "initWithDeviceData": true,
-                        "svg": "{{driverPath}}/pair/assets/svg/test.svg",
+                        "svg": "assets/svg/test.svg",
                         "title": "rf.pair.test.title.ABST-604"
                     }
                 },
@@ -916,7 +916,7 @@
                 "rf.program": {
                     "title": "rf.pair.program.title.socket",
                     "body": "rf.pair.program.body.ALED-003",
-                    "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                    "svg": "assets/svg/pair.svg"
                 }
             },
             "$extends": [
@@ -1425,7 +1425,7 @@
                     "$template": "rf.imitate",
                     "options": {
                         "body": "rf.pair.imitate.body.AMST-606",
-                        "svg": "{{driverPath}}/pair/assets/svg/pair.svg",
+                        "svg": "assets/svg/pair.svg",
                         "title": "rf.pair.imitate.title.AMST-606",
                         "svgWidth": "50vw",
                         "initWithDeviceData": "[DEPRECATED]: false"
@@ -1437,7 +1437,7 @@
                     "options": {
                         "body": "rf.pair.test.body.AMST-606",
                         "initWithDeviceData": true,
-                        "svg": "{{driverPath}}/pair/assets/svg/test.svg",
+                        "svg": "assets/svg/test.svg",
                         "title": "rf.pair.test.title.AMST-606",
                         "svgWidth": "50vw"
                     }
@@ -1498,12 +1498,12 @@
                             {
                                 "name": "rf.pair.choice.buttons.copy.default",
                                 "view": "rf.imitate",
-                                "svg": "{{driverPath}}/pair/assets/svg/PA3-1000R_pair.svg"
+                                "svg": "assets/svg/PA3-1000R_pair.svg"
                             },
                             {
                                 "name": "rf.pair.choice.buttons.codewheel.codewheel_switch",
                                 "view": "rf.codewheel",
-                                "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                                "svg": "assets/svg/pair.svg"
                             }
                         ]
                     }
@@ -1514,7 +1514,7 @@
                     "options": {
                         "title": "rf.pair.imitate.title.socket",
                         "body": "rf.pair.imitate.body.socket",
-                        "svg": "{{driverPath}}/pair/assets/svg/PA3-1000R_pair.svg",
+                        "svg": "assets/svg/PA3-1000R_pair.svg",
                         "initWithDeviceData": "[DEPRECATED]: false"
                     }
                 },
@@ -2153,12 +2153,12 @@
                                 {
                                     "name": "rf.pair.choice.buttons.copy.default",
                                     "view": "rf.imitate",
-                                    "svg": "{{driverPath}}/pair/assets/svg/AYCT-102_pair.svg"
+                                    "svg": "assets/svg/AYCT-102_pair.svg"
                                 },
                                 {
                                     "name": "rf.pair.choice.buttons.generate.default",
                                     "view": "rf.program",
-                                    "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                                    "svg": "assets/svg/pair.svg"
                                 }
                             ]
                         }
@@ -2169,7 +2169,7 @@
                         "options": {
                             "title": "rf.pair.imitate.title.socket",
                             "body": "rf.pair.imitate.body.socket",
-                            "svg": "{{driverPath}}/pair/assets/svg/AYCT-102_pair.svg",
+                            "svg": "assets/svg/AYCT-102_pair.svg",
                             "initWithDeviceData": "[DEPRECATED]: false"
                         }
                     },
@@ -2193,7 +2193,7 @@
                         "options": {
                             "title": "rf.pair.program.title.socket",
                             "body": "rf.pair.program.body.socket",
-                            "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                            "svg": "assets/svg/pair.svg"
                         }
                     },
                     {
@@ -2303,12 +2303,12 @@
                                 {
                                     "name": "rf.pair.choice.buttons.copy.default",
                                     "view": "rf.imitate",
-                                    "svg": "{{driverPath}}/pair/assets/svg/AYCT-102_pair.svg"
+                                    "svg": "assets/svg/AYCT-102_pair.svg"
                                 },
                                 {
                                     "name": "rf.pair.choice.buttons.generate.default",
                                     "view": "rf.program",
-                                    "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                                    "svg": "assets/svg/pair.svg"
                                 }
                             ]
                         }
@@ -2319,7 +2319,7 @@
                         "options": {
                             "title": "rf.pair.imitate.title.socket",
                             "body": "rf.pair.imitate.body.AFR-100",
-                            "svg": "{{driverPath}}/pair/assets/svg/AYCT-102_pair.svg",
+                            "svg": "assets/svg/AYCT-102_pair.svg",
                             "initWithDeviceData": "[DEPRECATED]: false"
                         }
                     },
@@ -2339,7 +2339,7 @@
                         "options": {
                             "title": "rf.pair.program.title.socket",
                             "body": "rf.pair.program.body.AFR-100",
-                            "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                            "svg": "assets/svg/pair.svg"
                         }
                     },
                     {
@@ -2409,7 +2409,7 @@
                         "options": {
                             "title": "rf.pair.imitate.title.wall_switch",
                             "body": "rf.pair.imitate.body.wall_switch",
-                            "svg": "{{driverPath}}/pair/assets/svg/pair.svg",
+                            "svg": "assets/svg/pair.svg",
                             "initWithDeviceData": "[DEPRECATED]: false"
                         }
                     },
@@ -2424,7 +2424,7 @@
                                     "scripts": "[DEPRECATED]: \n$('<div>').append(\n\t$('<input id=\"invert-checkbox\" type=\"checkbox\" style=\"position: relative; bottom: 1px; vertical-align: middle;\">')\n\t\t.on('change', function(){ \n\t\t\tvar newSettings = { rotated: this.checked ? '180' : '0'};\n\t\t\tHomey.emit('set_settings', newSettings, function(){\n\t\t\t\tHomey.highlight(newSettings);\n\t\t\t});\n\t\t}),\n\t$('<label for=\"invert-checkbox\" style=\"padding: 0 1em;\">')\n\t\t.html(__('deviceClasses.wall_switch.settings.rotated.label'))\n).insertAfter('[data-id=\"generic_test\"] .centered-container > #image-container')"
                                 }
                             ],
-                            "svg": "{{driverPath}}/pair/assets/svg/test.svg"
+                            "svg": "assets/svg/test.svg"
                         }
                     },
                     {
@@ -2515,7 +2515,7 @@
                         "options": {
                             "title": "rf.pair.imitate.title.remote",
                             "body": "rf.pair.imitate.body.remote",
-                            "svg": "{{driverPath}}/pair/assets/svg/pair.svg",
+                            "svg": "assets/svg/pair.svg",
                             "initWithDeviceData": "[DEPRECATED]: false"
                         }
                     },
@@ -2523,7 +2523,7 @@
                         "id": "rf.test",
                         "$template": "rf.test",
                         "options": {
-                            "svg": "{{driverPath}}/pair/assets/svg/test.svg"
+                            "svg": "assets/svg/test.svg"
                         }
                     },
                     {
@@ -2756,12 +2756,12 @@
                                 {
                                     "name": "rf.pair.choice.buttons.copy.default",
                                     "view": "rf.imitate",
-                                    "svg": "{{driverPath}}/pair/assets/svg/AYCT-102_pair.svg"
+                                    "svg": "assets/svg/AYCT-102_pair.svg"
                                 },
                                 {
                                     "name": "rf.pair.choice.buttons.generate.default",
                                     "view": "rf.program",
-                                    "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                                    "svg": "assets/svg/pair.svg"
                                 }
                             ]
                         }
@@ -2772,7 +2772,7 @@
                         "options": {
                             "title": "rf.pair.imitate.title.socket",
                             "body": "rf.pair.imitate.body.build_in",
-                            "svg": "{{driverPath}}/pair/assets/svg/AYCT-102_pair.svg",
+                            "svg": "assets/svg/AYCT-102_pair.svg",
                             "initWithDeviceData": "[DEPRECATED]: false"
                         }
                     },
@@ -2796,7 +2796,7 @@
                         "options": {
                             "title": "rf.pair.program.title.build_in",
                             "body": "rf.pair.program.body.build_in",
-                            "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                            "svg": "assets/svg/pair.svg"
                         }
                     },
                     {
@@ -2881,7 +2881,7 @@
                         "$template": "rf.imitate",
                         "options": {
                             "body": "rf.pair.imitate.body.sensor",
-                            "svg": "{{driverPath}}/pair/assets/svg/pair.svg",
+                            "svg": "assets/svg/pair.svg",
                             "title": "rf.pair.imitate.title.motion_sensor",
                             "initWithDeviceData": "[DEPRECATED]: false"
                         }
@@ -2892,7 +2892,7 @@
                         "options": {
                             "body": "rf.pair.test.body.sensor",
                             "initWithDeviceData": true,
-                            "svg": "{{driverPath}}/pair/assets/svg/test.svg",
+                            "svg": "assets/svg/test.svg",
                             "title": "rf.pair.test.title.motion_sensor"
                         }
                     },
@@ -3068,12 +3068,12 @@
                                 {
                                     "name": "rf.pair.choice.buttons.imitate.ACDB-6600",
                                     "view": "rf.imitate",
-                                    "svg": "{{driverPath}}/pair/assets/svg/doorbell.svg"
+                                    "svg": "assets/svg/doorbell.svg"
                                 },
                                 {
                                     "name": "rf.pair.choice.buttons.generate.default",
                                     "view": "rf.program",
-                                    "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                                    "svg": "assets/svg/pair.svg"
                                 }
                             ]
                         }
@@ -3083,7 +3083,7 @@
                         "$template": "rf.imitate",
                         "options": {
                             "body": "rf.pair.imitate.body.doorbell",
-                            "svg": "{{driverPath}}/pair/assets/svg/doorbell.svg",
+                            "svg": "assets/svg/doorbell.svg",
                             "initWithDeviceData": "[DEPRECATED]: false"
                         }
                     },
@@ -3095,7 +3095,7 @@
                             "sendToggleOnInit": "[DEPRECATED]: false",
                             "title": "rf.pair.test_button.title.doorbell",
                             "body": "rf.pair.test_button.body.doorbell",
-                            "svg": "{{driverPath}}/pair/assets/svg/test.svg",
+                            "svg": "assets/svg/test.svg",
                             "buttonLabel": "test"
                         }
                     },
@@ -3104,7 +3104,7 @@
                         "$template": "rf.program",
                         "options": {
                             "body": "rf.pair.program.body.socket",
-                            "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                            "svg": "assets/svg/pair.svg"
                         }
                     },
                     {
@@ -3113,7 +3113,7 @@
                         "options": {
                             "title": "rf.pair.test_button.title.doorbell",
                             "body": "rf.pair.test_button.body.doorbell",
-                            "svg": "{{driverPath}}/pair/assets/svg/test.svg",
+                            "svg": "assets/svg/test.svg",
                             "initWithDeviceData": true,
                             "sendToggleOnInit": "[DEPRECATED]: false",
                             "buttonLabel": "test"
@@ -3149,12 +3149,12 @@
                                 {
                                     "name": "rf.pair.choice.buttons.copy.default",
                                     "view": "rf.imitate",
-                                    "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                                    "svg": "assets/svg/pair.svg"
                                 },
                                 {
                                     "name": "rf.pair.choice.buttons.codewheel.codewheel_switch",
                                     "view": "rf.codewheel",
-                                    "svg": "{{driverPath}}/pair/assets/svg/YC-400_pair.svg"
+                                    "svg": "assets/svg/YC-400_pair.svg"
                                 }
                             ]
                         }
@@ -3165,7 +3165,7 @@
                         "options": {
                             "title": "rf.pair.imitate.title.socket",
                             "body": "rf.pair.imitate.body.socket",
-                            "svg": "{{driverPath}}/pair/assets/svg/pair.svg",
+                            "svg": "assets/svg/pair.svg",
                             "initWithDeviceData": "[DEPRECATED]: false"
                         }
                     },
@@ -3287,12 +3287,12 @@
                                 {
                                     "name": "rf.pair.choice.buttons.copy.default",
                                     "view": "rf.imitate",
-                                    "svg": "{{driverPath}}/pair/assets/svg/AYCT-102_pair.svg"
+                                    "svg": "assets/svg/AYCT-102_pair.svg"
                                 },
                                 {
                                     "name": "rf.pair.choice.buttons.generate.default",
                                     "view": "rf.program",
-                                    "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                                    "svg": "assets/svg/pair.svg"
                                 }
                             ]
                         }
@@ -3303,7 +3303,7 @@
                         "options": {
                             "title": "rf.pair.imitate.title.socket",
                             "body": "rf.pair.imitate.body.ALED-2709",
-                            "svg": "{{driverPath}}/pair/assets/svg/AYCT-102_pair.svg",
+                            "svg": "assets/svg/AYCT-102_pair.svg",
                             "initWithDeviceData": "[DEPRECATED]: false"
                         }
                     },
@@ -3323,7 +3323,7 @@
                         "options": {
                             "title": "rf.pair.program.title.socket",
                             "body": "rf.pair.program.body.ALED-2709",
-                            "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                            "svg": "assets/svg/pair.svg"
                         }
                     },
                     {

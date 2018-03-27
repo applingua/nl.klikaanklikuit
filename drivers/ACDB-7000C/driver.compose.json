@@ -8,6 +8,6 @@
         "image.png",
         "device.doorbell",
         "pair.doorbell",
-        "flows.doorbell"
+        "flow.doorbell"
     ]
 }

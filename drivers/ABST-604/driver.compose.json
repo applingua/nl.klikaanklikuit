@@ -3,47 +3,18 @@
     "name": {
         "en": "ABST-604"
     },
-    "pair": [
-        {
-            "id": "rf.imitate",
-            "$template": "rf.imitate",
-            "options": {
-                "body": "rf.pair.imitate.body.sensor",
-                "svg": "{{driverPath}}/pair/assets/svg/pair.svg",
-                "title": "rf.pair.imitate.title.ABST-604",
-                "initWithDeviceData": "[DEPRECATED]: false"
-            }
+    "pairOptions": {
+        "rf.imitate": {
+            "title": "rf.pair.imitate.title.ABST-604"
         },
-        {
-            "id": "rf.test",
-            "$template": "rf.test",
-            "options": {
-                "body": "rf.pair.test.body.sensor",
-                "initWithDeviceData": true,
-                "svg": "{{driverPath}}/pair/assets/svg/test.svg",
-                "title": "rf.pair.test.title.ABST-604"
-            }
-        },
-        {
-            "id": "rf.done",
-            "$template": "rf.done"
+        "rf.test": {
+            "title": "rf.pair.test.title.ABST-604"
         }
-    ],
-    "flows": {
-        "conditions": [
-            {
-                "id": "{{driverId}}:state",
-                "title": {
-                    "en": "[Deprecated] Sensor detects !{{night|day}}",
-                    "nl": "[Verouderd] Sensor detecteert !{{nacht|dag}}"
-                },
-                "args": []
-            }
-        ]
     },
     "$extends": [
         "defaults",
         "image.png",
-        "device.light_sensor"
+        "device.light_sensor",
+        "pair.sensor"
     ]
 }

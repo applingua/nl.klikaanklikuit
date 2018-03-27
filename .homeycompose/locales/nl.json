@@ -71,6 +71,15 @@
                 "body": {
                     "doorbell": "Gebruik de bovenstaande knop om de deurbel te testen. Klik op volgende om verder te gaan."
                 }
+            },
+            "test": {
+                "title": {
+                    "sensor": "Test de sensor",
+                    "ABST-640": "Test de nachtsensor"
+                },
+                "body": {
+                    "body": "Laat de sensor handmatig afgaan of gebruik de LEARN knop om het signaal te testen. Klik op volgende om verder te gaan."
+                }
             }
         }
     }

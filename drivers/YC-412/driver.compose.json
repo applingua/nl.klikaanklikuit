@@ -7,6 +7,6 @@
         "defaults",
         "device.socket",
         "rf.kakuold",
-        "pair.codewheel_switch"
+        "pair.switch.codewheel"
     ]
 }

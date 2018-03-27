@@ -1,0 +1,27 @@
+{
+  "name": "nl.klikaanklikuit",
+  "version": "1.0.0",
+  "description": "Adds support for Trust / CoCo / KlikAanKlikUit devices.",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "homey-log": "^1.0.5",
+    "homey-rfdriver": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/athombv/nl.klikaanklikuit.git"
+  },
+  "author": "Athom B.V.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/athombv/nl.klikaanklikuit/issues"
+  },
+  "homepage": "https://github.com/athombv/nl.klikaanklikuit#readme"
+}

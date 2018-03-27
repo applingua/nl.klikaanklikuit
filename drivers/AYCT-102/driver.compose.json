@@ -6,6 +6,6 @@
     "$extends": [
         "defaults",
         "pair.remote",
-        "flows.remote"
+        "flow.remote"
     ]
 }

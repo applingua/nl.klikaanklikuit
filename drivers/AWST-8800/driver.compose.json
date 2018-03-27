@@ -8,6 +8,6 @@
         "image.png",
         "settings.rotated.wall_switch",
         "pair.wall_switch.build_in",
-        "flows.switch.single"
+        "flow.switch.single"
     ]
 }

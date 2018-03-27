@@ -1,130 +1,131 @@
 {
-    "id": "SUN-650",
-    "name": {
-        "en": "SUN-500"
-    },
-    "pair": [
-        {
-            "id": "rf.choice",
-            "$template": "rf.choice",
-            "options": {
-                "title": "rf.pair.choice.title.switch",
-                "body": "rf.pair.choice.body.switch",
-                "svgHeight": "65vh",
-                "choices": [
-                    {
-                        "name": "rf.pair.choice.buttons.copy.default",
-                        "view": "rf.imitate",
-                        "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
-                    },
-                    {
-                        "name": "rf.pair.choice.buttons.codewheel.codewheel_switch",
-                        "view": "rf.codewheel",
-                        "svg": "{{driverPath}}/pair/assets/svg/SUN-500_pair.svg"
-                    }
-                ]
-            }
-        },
-        {
-            "id": "rf.imitate",
-            "$template": "rf.imitate",
-            "options": {
-                "body": "rf.pair.imitate.body.old_blinds",
-                "svg": "{{driverPath}}/pair/assets/svg/pair.svg",
-                "initWithDeviceData": "[DEPRECATED]: false"
-            }
-        },
-        {
-            "id": "rf.test_switch.2",
-            "$template": "rf.test_switch",
-            "options": {
-                "initWithDeviceData": true,
-                "sendToggleOnInit": "[DEPRECATED]: false",
-                "append": [
-                    {
-                        "scripts": "[DEPRECATED]: \n$('<div>').append(\n\t$('<input id=\"invert-checkbox\" type=\"checkbox\" style=\"position: relative; bottom: 1px; vertical-align: middle;\">')\n\t\t.on('change', function(){ \n\t\t\tvar newSettings = { rotated: this.checked ? '180' : '0'};\n\t\t\tHomey.emit('set_settings', newSettings, function(){\n\t\t\t\tHomey.highlight(newSettings);\n\t\t\t});\n\t\t}),\n\t$('<label for=\"invert-checkbox\" style=\"padding: 0 1em;\">')\n\t\t.html(__('deviceClasses.blinds.settings.rotated.label'))\n).insertAfter('[data-id=\"generic_test_switch_2\"] .centered-container > #image-container')"
-                    }
-                ],
-                "title": "rf.pair.test_switch.title.blinds",
-                "body": "rf.pair.test_switch.body.blinds",
-                "svg": "{{driverPath}}/pair/assets/svg/test.svg"
-            }
-        },
-        {
-            "id": "rf.codewheel",
-            "$template": "rf.codewheel",
-            "options": {
-                "codewheelList": [
-                    {
-                        "series": [
-                            "A",
-                            "B",
-                            "C",
-                            "D",
-                            "E",
-                            "F",
-                            "G",
-                            "H",
-                            "I",
-                            "J",
-                            "K",
-                            "L",
-                            "M",
-                            "N",
-                            "O",
-                            "P"
-                        ],
-                        "mapOddToDot": "[DEPRECATED]: true"
-                    },
-                    {
-                        "series": [
-                            "[DEPRECATED]: 1",
-                            "[DEPRECATED]: 2",
-                            "[DEPRECATED]: 3",
-                            "[DEPRECATED]: 4",
-                            "[DEPRECATED]: 5",
-                            "[DEPRECATED]: 6",
-                            "[DEPRECATED]: 7",
-                            "[DEPRECATED]: 8",
-                            "[DEPRECATED]: 9",
-                            "[DEPRECATED]: 10",
-                            "[DEPRECATED]: 11",
-                            "[DEPRECATED]: 12",
-                            "[DEPRECATED]: 13",
-                            "[DEPRECATED]: 14",
-                            "[DEPRECATED]: 15",
-                            "[DEPRECATED]: 16"
-                        ],
-                        "mapOddToDot": "[DEPRECATED]: true"
-                    }
-                ]
-            }
-        },
-        {
-            "id": "rf.test_switch",
-            "$template": "rf.test_switch",
-            "options": {
-                "title": "rf.pair.test_switch.title.blinds",
-                "body": "rf.pair.test_switch.body.blinds",
-                "append": [
-                    {
-                        "scripts": "[DEPRECATED]: \n$('<div>').append(\n\t$('<input id=\"invert-checkbox\" type=\"checkbox\" style=\"position: relative; bottom: 1px; vertical-align: middle;\">')\n\t\t.on('change', function(){ \n\t\t\tvar newSettings = { rotated: this.checked ? '180' : '0'};\n\t\t\tHomey.emit('set_settings', newSettings, function(){\n\t\t\t\tHomey.highlight(newSettings);\n\t\t\t});\n\t\t}),\n\t$('<label for=\"invert-checkbox\" style=\"padding: 0 1em;\">')\n\t\t.html(__('deviceClasses.blinds.settings.rotated.label'))\n).insertAfter('[data-id=\"generic_test_switch\"] .centered-container > #image-container')"
-                    }
-                ],
-                "svg": "{{driverPath}}/pair/assets/svg/test.svg",
-                "initWithDeviceData": true,
-                "sendToggleOnInit": "[DEPRECATED]: false"
-            }
-        },
-        {
-            "id": "rf.done",
-            "$template": "rf.done"
-        }
-    ],
-    "$extends": [
-        "defaults",
-        "device.windowcoverings",
-        "rf.kakuold",
-        "settings.rotated"
-    ]
+	"id": "SUN-650",
+	"name": {
+		"en": "SUN-500"
+	},
+	"pair": [
+		{
+			"id": "rf.choice",
+			"$template": "rf.choice",
+			"options": {
+				"title": "rf.pair.choice.title.switch",
+				"body": "rf.pair.choice.body.switch",
+				"svgHeight": "65vh",
+				"choices": [
+					{
+						"name": "rf.pair.choice.buttons.copy.default",
+						"view": "rf.imitate",
+						"svg": "assets/svg/pair.svg"
+					},
+					{
+						"name": "rf.pair.choice.buttons.codewheel.codewheel_switch",
+						"view": "rf.codewheel",
+						"svg": "assets/svg/SUN-500_pair.svg"
+					}
+				]
+			}
+		},
+		{
+			"id": "rf.imitate",
+			"$template": "rf.imitate",
+			"options": {
+				"body": "rf.pair.imitate.body.old_blinds",
+				"svg": "assets/svg/pair.svg"
+			},
+			"navigation": {
+				"prev": "rf.choice"
+			}
+		},
+		{
+			"id": "rf.test_switch.2",
+			"$template": "rf.test_switch",
+			"options": {
+				"initWithDeviceData": true,
+				"title": "rf.pair.test_switch.title.blinds",
+				"body": "rf.pair.test_switch.body.blinds",
+				"svg": "assets/svg/test.svg"
+			},
+			"navigation": {
+				"prev": "rf.imitate",
+				"next": "rf.done"
+			}
+		},
+		{
+			"id": "rf.codewheel",
+			"$template": "rf.codewheel",
+			"options": {
+				"codewheelList": [
+					{
+						"series": [
+							"A",
+							"B",
+							"C",
+							"D",
+							"E",
+							"F",
+							"G",
+							"H",
+							"I",
+							"J",
+							"K",
+							"L",
+							"M",
+							"N",
+							"O",
+							"P"
+						],
+						"mapOddToDot": true
+					},
+					{
+						"series": [
+							1,
+							2,
+							3,
+							4,
+							5,
+							6,
+							7,
+							8,
+							9,
+							10,
+							11,
+							12,
+							13,
+							14,
+							15,
+							16
+						],
+						"mapOddToDot": true
+					}
+				]
+			},
+			"navigation": {
+				"prev": "rf.choice"
+			}
+		},
+		{
+			"id": "rf.test_switch",
+			"$template": "rf.test_switch",
+			"options": {
+				"title": "rf.pair.test_switch.title.blinds",
+				"body": "rf.pair.test_switch.body.blinds",
+				"svg": "assets/svg/test.svg",
+				"initWithDeviceData": true
+			},
+			"navigation": {
+				"prev": "rf.codewheel",
+				"next": "rf.done"
+			}
+		},
+		{
+			"id": "rf.done",
+			"$template": "rf.done"
+		}
+	],
+	"$extends": [
+		"defaults",
+		"device.windowcoverings",
+		"rf.kakuold",
+		"settings.rotated"
+	]
 }

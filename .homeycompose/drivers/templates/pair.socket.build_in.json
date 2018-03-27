@@ -11,12 +11,12 @@
                     {
                         "name": "rf.pair.choice.buttons.copy.default",
                         "view": "rf.imitate",
-                        "svg": "{{driverPath}}/pair/assets/svg/AYCT-102_pair.svg"
+                        "svg": "assets/svg/AYCT-102_pair.svg"
                     },
                     {
                         "name": "rf.pair.choice.buttons.generate.default",
                         "view": "rf.program",
-                        "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                        "svg": "assets/svg/pair.svg"
                     }
                 ]
             }
@@ -27,8 +27,10 @@
             "options": {
                 "title": "rf.pair.imitate.title.socket",
                 "body": "rf.pair.imitate.body.build_in",
-                "svg": "{{driverPath}}/pair/assets/svg/AYCT-102_pair.svg",
-                "initWithDeviceData": "[DEPRECATED]: false"
+                "svg": "assets/svg/AYCT-102_pair.svg"
+            },
+            "navigation": {
+                "prev": "rf.choice"
             }
         },
         {
@@ -36,14 +38,21 @@
             "$template": "rf.test_switch",
             "options": {
                 "initWithDeviceData": true,
-                "sendToggleOnInit": "[DEPRECATED]: false",
                 "title": "rf.pair.test_switch.title.build_in",
                 "body": "rf.pair.test_switch.body.build_in"
+            },
+            "navigation": {
+                "prev": "rf.imitate",
+                "next": "choose_slave.2"
             }
         },
         {
             "id": "choose_slave.2",
-            "template": "choose_slave"
+            "template": "choose_slave",
+            "navigation": {
+                "prev": "rf.test_switch.2",
+                "next": "rf.done"
+            }
         },
         {
             "id": "rf.program",
@@ -51,7 +60,10 @@
             "options": {
                 "title": "rf.pair.program.title.build_in",
                 "body": "rf.pair.program.body.build_in",
-                "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                "svg": "assets/svg/pair.svg"
+            },
+            "navigation": {
+                "prev": "rf.choice"
             }
         },
         {
@@ -60,13 +72,20 @@
             "options": {
                 "title": "rf.pair.test_switch.title.build_in",
                 "body": "rf.pair.test_switch.body.build_in",
-                "initWithDeviceData": true,
-                "sendToggleOnInit": "[DEPRECATED]: false"
+                "initWithDeviceData": true
+            },
+            "navigation": {
+                "prev": "rf.program",
+                "next": "choose_slave"
             }
         },
         {
             "id": "choose_slave",
-            "template": "choose_slave"
+            "template": "choose_slave",
+            "navigation": {
+                "prev": "rf.test_switch",
+                "next": "rf.done"
+            }
         },
         {
             "id": "rf.done",
