@@ -124,9 +124,12 @@
                 }
             ],
             "$extends": [
-                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
-                "migrate.2.90196a7e090a63d1a116660f71786d35",
-                "migrate.1.84837b2352892393687d83b6d92129a6"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.1.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.5.90196a7e090a63d1a116660f71786d35",
+                "migrate.3.4fc80ebd925b7efe99c29326a48e968e",
+                "migrate.0.e02024d889bb80d0978fd2a4ebe7f2a0",
+                "migrate.2.84837b2352892393687d83b6d92129a6"
             ]
         },
         "ACD-3500": {
@@ -135,11 +138,12 @@
                 "en": "ACD-3500"
             },
             "$extends": [
-                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
-                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
-                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
-                "migrate.4.b5876e2af4a49af966af22dd27307657",
-                "migrate.6.9ac248f9555a15a013c70d0cf89e1397"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.8.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.10.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.6.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.7.b5876e2af4a49af966af22dd27307657",
+                "migrate.9.9ac248f9555a15a013c70d0cf89e1397"
             ]
         },
         "AC-3500": {
@@ -148,11 +152,12 @@
                 "en": "AC-3500"
             },
             "$extends": [
-                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
-                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
-                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
-                "migrate.4.b5876e2af4a49af966af22dd27307657",
-                "migrate.6.9ac248f9555a15a013c70d0cf89e1397"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.8.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.10.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.6.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.7.b5876e2af4a49af966af22dd27307657",
+                "migrate.9.9ac248f9555a15a013c70d0cf89e1397"
             ]
         },
         "ASUN-650": {
@@ -236,9 +241,12 @@
                 }
             ],
             "$extends": [
-                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
-                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
-                "migrate.1.84837b2352892393687d83b6d92129a6"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.10.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.6.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.3.4fc80ebd925b7efe99c29326a48e968e",
+                "migrate.0.e02024d889bb80d0978fd2a4ebe7f2a0",
+                "migrate.2.84837b2352892393687d83b6d92129a6"
             ]
         },
         "AFR-060": {
@@ -247,10 +255,12 @@
                 "en": "AFR-060"
             },
             "$extends": [
-                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
-                "migrate.4.b5876e2af4a49af966af22dd27307657",
-                "migrate.8.b173f1db96ed6fbbb23fc0e927601947",
-                "migrate.9.486eb345cfa24596731248e8894db30e"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.1.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.7.b5876e2af4a49af966af22dd27307657",
+                "migrate.13.17a37dd3bc4e0214585a478cdff675f0",
+                "migrate.11.b173f1db96ed6fbbb23fc0e927601947",
+                "migrate.12.486eb345cfa24596731248e8894db30e"
             ]
         },
         "AWMT-003": {
@@ -259,10 +269,13 @@
                 "en": "AWMT-003"
             },
             "$extends": [
-                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
-                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
-                "migrate.10.6da3080df4210ee54976a7aaa2fa45b8",
-                "migrate.11.1c6d7b58ef05decc8b5d9cbc6fe5a61c"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.1.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.10.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.14.09805695d27110d5ef16ea17b177159a",
+                "migrate.15.6da3080df4210ee54976a7aaa2fa45b8",
+                "migrate.16.6c2a5175878ceb6b98b3e3538dab124c",
+                "migrate.17.1c6d7b58ef05decc8b5d9cbc6fe5a61c"
             ]
         },
         "TMT-502": {
@@ -271,10 +284,12 @@
                 "en": "TMT-502"
             },
             "$extends": [
-                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
-                "migrate.2.90196a7e090a63d1a116660f71786d35",
-                "migrate.12.963ec48a1d59be252037f6fd9b6f0e2d",
-                "migrate.13.c9ea8a2b37803febfbef30d3d8e7daf7"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.1.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.14.09805695d27110d5ef16ea17b177159a",
+                "migrate.5.90196a7e090a63d1a116660f71786d35",
+                "migrate.18.963ec48a1d59be252037f6fd9b6f0e2d",
+                "migrate.19.c9ea8a2b37803febfbef30d3d8e7daf7"
             ]
         },
         "AC-1000": {
@@ -283,11 +298,12 @@
                 "en": "AC-1000"
             },
             "$extends": [
-                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
-                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
-                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
-                "migrate.4.b5876e2af4a49af966af22dd27307657",
-                "migrate.6.9ac248f9555a15a013c70d0cf89e1397"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.8.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.10.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.6.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.7.b5876e2af4a49af966af22dd27307657",
+                "migrate.9.9ac248f9555a15a013c70d0cf89e1397"
             ]
         },
         "ACM-300": {
@@ -296,10 +312,12 @@
                 "en": "ACM-300"
             },
             "$extends": [
-                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
-                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
-                "migrate.14.69e846f5eeb35647f55888c7dd75a803",
-                "migrate.15.12878468c6f5bfb6cef91df973d7610f"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.8.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.6.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.13.17a37dd3bc4e0214585a478cdff675f0",
+                "migrate.20.69e846f5eeb35647f55888c7dd75a803",
+                "migrate.21.12878468c6f5bfb6cef91df973d7610f"
             ]
         },
         "AGDR-300": {
@@ -308,10 +326,12 @@
                 "en": "AGDR-300"
             },
             "$extends": [
-                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
-                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
-                "migrate.14.69e846f5eeb35647f55888c7dd75a803",
-                "migrate.6.9ac248f9555a15a013c70d0cf89e1397"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.1.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.8.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.13.17a37dd3bc4e0214585a478cdff675f0",
+                "migrate.20.69e846f5eeb35647f55888c7dd75a803",
+                "migrate.9.9ac248f9555a15a013c70d0cf89e1397"
             ]
         },
         "APA2-2300R": {
@@ -377,10 +397,12 @@
                 ]
             },
             "$extends": [
-                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
-                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
-                "migrate.12.963ec48a1d59be252037f6fd9b6f0e2d",
-                "migrate.16.dcd7d67ff8183ba0ab5411142b3186fc"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.1.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.10.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.14.09805695d27110d5ef16ea17b177159a",
+                "migrate.18.963ec48a1d59be252037f6fd9b6f0e2d",
+                "migrate.22.dcd7d67ff8183ba0ab5411142b3186fc"
             ]
         },
         "APIR-2150": {
@@ -389,10 +411,14 @@
                 "en": "APIR-2150"
             },
             "$extends": [
-                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
-                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
-                "migrate.17.0f2343384df78404d5a53651bc54f9ac",
-                "migrate.18.eac8040c9f3665ec53560206a6b3f497"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.10.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.6.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.25.0f2343384df78404d5a53651bc54f9ac",
+                "migrate.23.54f07ee6fdf5d708bdedc36e833abb38",
+                "migrate.24.979d2af0fe612590a9042c276ec899c3",
+                "migrate.26.9616821bcd3b69f8e5a76c920dc6b714",
+                "migrate.27.eac8040c9f3665ec53560206a6b3f497"
             ]
         },
         "KCT-510": {
@@ -401,10 +427,12 @@
                 "en": "KCT-510"
             },
             "$extends": [
-                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
-                "migrate.2.90196a7e090a63d1a116660f71786d35",
-                "migrate.12.963ec48a1d59be252037f6fd9b6f0e2d",
-                "migrate.19.fbe6092a417bd082c9cdc106fcd05bcd"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.1.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.14.09805695d27110d5ef16ea17b177159a",
+                "migrate.5.90196a7e090a63d1a116660f71786d35",
+                "migrate.18.963ec48a1d59be252037f6fd9b6f0e2d",
+                "migrate.28.fbe6092a417bd082c9cdc106fcd05bcd"
             ]
         },
         "WST-8800": {
@@ -413,10 +441,13 @@
                 "en": "WST-8800"
             },
             "$extends": [
-                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
-                "migrate.2.90196a7e090a63d1a116660f71786d35",
-                "migrate.10.6da3080df4210ee54976a7aaa2fa45b8",
-                "migrate.19.fbe6092a417bd082c9cdc106fcd05bcd"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.6.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.14.09805695d27110d5ef16ea17b177159a",
+                "migrate.5.90196a7e090a63d1a116660f71786d35",
+                "migrate.15.6da3080df4210ee54976a7aaa2fa45b8",
+                "migrate.16.6c2a5175878ceb6b98b3e3538dab124c",
+                "migrate.28.fbe6092a417bd082c9cdc106fcd05bcd"
             ]
         },
         "AC-300N": {
@@ -425,10 +456,12 @@
                 "en": "AC-300"
             },
             "$extends": [
-                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
-                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
-                "migrate.14.69e846f5eeb35647f55888c7dd75a803",
-                "migrate.6.9ac248f9555a15a013c70d0cf89e1397"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.8.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.6.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.13.17a37dd3bc4e0214585a478cdff675f0",
+                "migrate.20.69e846f5eeb35647f55888c7dd75a803",
+                "migrate.9.9ac248f9555a15a013c70d0cf89e1397"
             ]
         },
         "AGDR-200": {
@@ -437,10 +470,12 @@
                 "en": "AGDR-200"
             },
             "$extends": [
-                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
-                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
-                "migrate.14.69e846f5eeb35647f55888c7dd75a803",
-                "migrate.6.9ac248f9555a15a013c70d0cf89e1397"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.1.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.8.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.13.17a37dd3bc4e0214585a478cdff675f0",
+                "migrate.20.69e846f5eeb35647f55888c7dd75a803",
+                "migrate.9.9ac248f9555a15a013c70d0cf89e1397"
             ]
         },
         "APA2-2300RS": {
@@ -520,11 +555,12 @@
                 }
             ],
             "$extends": [
-                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
-                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
-                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
-                "migrate.4.b5876e2af4a49af966af22dd27307657",
-                "migrate.16.dcd7d67ff8183ba0ab5411142b3186fc"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.1.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.8.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.10.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.7.b5876e2af4a49af966af22dd27307657",
+                "migrate.22.dcd7d67ff8183ba0ab5411142b3186fc"
             ]
         },
         "ACM-250": {
@@ -533,10 +569,12 @@
                 "en": "ACM-250"
             },
             "$extends": [
-                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
-                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
-                "migrate.14.69e846f5eeb35647f55888c7dd75a803",
-                "migrate.15.12878468c6f5bfb6cef91df973d7610f"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.8.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.6.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.13.17a37dd3bc4e0214585a478cdff675f0",
+                "migrate.20.69e846f5eeb35647f55888c7dd75a803",
+                "migrate.21.12878468c6f5bfb6cef91df973d7610f"
             ]
         },
         "ACM-LV24": {
@@ -545,10 +583,12 @@
                 "en": "ACM-LV24"
             },
             "$extends": [
-                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
-                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
-                "migrate.14.69e846f5eeb35647f55888c7dd75a803",
-                "migrate.15.12878468c6f5bfb6cef91df973d7610f"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.1.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.8.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.13.17a37dd3bc4e0214585a478cdff675f0",
+                "migrate.20.69e846f5eeb35647f55888c7dd75a803",
+                "migrate.21.12878468c6f5bfb6cef91df973d7610f"
             ]
         },
         "ACDB-7000C": {
@@ -557,8 +597,13 @@
                 "en": "ACDB-7000C"
             },
             "$extends": [
-                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
-                "migrate.20.689e722907fb7735d774938558373e60"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.6.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.29.c1fbcffa0247ae845701d7f8d3b1f727",
+                "migrate.30.1bb569a4a04ccf83472744cadc96abc2",
+                "migrate.31.b8cc021706477b4e25085a10379e9ac4",
+                "migrate.32.ab5ee73eb56b00b53fd0e5a2d7f7bc3e",
+                "migrate.33.689e722907fb7735d774938558373e60"
             ]
         },
         "ACDB-6600": {
@@ -567,8 +612,13 @@
                 "en": "ACDB-6600"
             },
             "$extends": [
-                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
-                "migrate.20.689e722907fb7735d774938558373e60"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.1.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.29.c1fbcffa0247ae845701d7f8d3b1f727",
+                "migrate.30.1bb569a4a04ccf83472744cadc96abc2",
+                "migrate.31.b8cc021706477b4e25085a10379e9ac4",
+                "migrate.32.ab5ee73eb56b00b53fd0e5a2d7f7bc3e",
+                "migrate.33.689e722907fb7735d774938558373e60"
             ]
         },
         "APCR-2300": {
@@ -577,11 +627,12 @@
                 "en": "APCR-2300"
             },
             "$extends": [
-                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
-                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
-                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
-                "migrate.4.b5876e2af4a49af966af22dd27307657",
-                "migrate.6.9ac248f9555a15a013c70d0cf89e1397"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.1.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.8.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.10.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.7.b5876e2af4a49af966af22dd27307657",
+                "migrate.9.9ac248f9555a15a013c70d0cf89e1397"
             ]
         },
         "YC-3500": {
@@ -590,11 +641,12 @@
                 "en": "YC-3500"
             },
             "$extends": [
-                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
-                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
-                "migrate.4.b5876e2af4a49af966af22dd27307657",
-                "migrate.2.90196a7e090a63d1a116660f71786d35",
-                "migrate.21.d95cdafc8c7529a6989173ed4551ef53"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.1.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.8.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.7.b5876e2af4a49af966af22dd27307657",
+                "migrate.5.90196a7e090a63d1a116660f71786d35",
+                "migrate.34.d95cdafc8c7529a6989173ed4551ef53"
             ]
         },
         "ACD-300": {
@@ -603,10 +655,12 @@
                 "en": "ACD-300"
             },
             "$extends": [
-                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
-                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
-                "migrate.14.69e846f5eeb35647f55888c7dd75a803",
-                "migrate.6.9ac248f9555a15a013c70d0cf89e1397"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.8.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.6.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.13.17a37dd3bc4e0214585a478cdff675f0",
+                "migrate.20.69e846f5eeb35647f55888c7dd75a803",
+                "migrate.9.9ac248f9555a15a013c70d0cf89e1397"
             ]
         },
         "AKCT-510": {
@@ -615,10 +669,12 @@
                 "en": "AKCT-510"
             },
             "$extends": [
-                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
-                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
-                "migrate.12.963ec48a1d59be252037f6fd9b6f0e2d",
-                "migrate.19.fbe6092a417bd082c9cdc106fcd05bcd"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.1.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.10.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.14.09805695d27110d5ef16ea17b177159a",
+                "migrate.18.963ec48a1d59be252037f6fd9b6f0e2d",
+                "migrate.28.fbe6092a417bd082c9cdc106fcd05bcd"
             ]
         },
         "AWMR-210": {
@@ -627,10 +683,12 @@
                 "en": "AWMR-210"
             },
             "$extends": [
-                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
-                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
-                "migrate.14.69e846f5eeb35647f55888c7dd75a803",
-                "migrate.15.12878468c6f5bfb6cef91df973d7610f"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.8.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.6.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.13.17a37dd3bc4e0214585a478cdff675f0",
+                "migrate.20.69e846f5eeb35647f55888c7dd75a803",
+                "migrate.21.12878468c6f5bfb6cef91df973d7610f"
             ]
         },
         "AWMD-250": {
@@ -639,10 +697,12 @@
                 "en": "AWMD-250"
             },
             "$extends": [
-                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
-                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
-                "migrate.14.69e846f5eeb35647f55888c7dd75a803",
-                "migrate.15.12878468c6f5bfb6cef91df973d7610f"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.8.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.6.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.13.17a37dd3bc4e0214585a478cdff675f0",
+                "migrate.20.69e846f5eeb35647f55888c7dd75a803",
+                "migrate.21.12878468c6f5bfb6cef91df973d7610f"
             ]
         },
         "AWST-8802": {
@@ -704,9 +764,12 @@
                 ]
             },
             "$extends": [
-                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
-                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
-                "migrate.10.6da3080df4210ee54976a7aaa2fa45b8"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.1.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.10.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.14.09805695d27110d5ef16ea17b177159a",
+                "migrate.15.6da3080df4210ee54976a7aaa2fa45b8",
+                "migrate.16.6c2a5175878ceb6b98b3e3538dab124c"
             ]
         },
         "WST-8700": {
@@ -715,10 +778,13 @@
                 "en": "WST-8700"
             },
             "$extends": [
-                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
-                "migrate.2.90196a7e090a63d1a116660f71786d35",
-                "migrate.10.6da3080df4210ee54976a7aaa2fa45b8",
-                "migrate.19.fbe6092a417bd082c9cdc106fcd05bcd"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.1.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.14.09805695d27110d5ef16ea17b177159a",
+                "migrate.5.90196a7e090a63d1a116660f71786d35",
+                "migrate.15.6da3080df4210ee54976a7aaa2fa45b8",
+                "migrate.16.6c2a5175878ceb6b98b3e3538dab124c",
+                "migrate.28.fbe6092a417bd082c9cdc106fcd05bcd"
             ]
         },
         "APA3-1500RS": {
@@ -798,11 +864,12 @@
                 }
             ],
             "$extends": [
-                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
-                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
-                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
-                "migrate.4.b5876e2af4a49af966af22dd27307657",
-                "migrate.22.1d05e86ad9bc9908256d38ab46598727"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.1.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.8.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.10.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.7.b5876e2af4a49af966af22dd27307657",
+                "migrate.35.1d05e86ad9bc9908256d38ab46598727"
             ]
         },
         "ABST-604": {
@@ -852,9 +919,10 @@
                 ]
             },
             "$extends": [
-                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
-                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
-                "migrate.17.0f2343384df78404d5a53651bc54f9ac"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.10.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.6.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.25.0f2343384df78404d5a53651bc54f9ac"
             ]
         },
         "ACM-100": {
@@ -863,10 +931,12 @@
                 "en": "ACM-100"
             },
             "$extends": [
-                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
-                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
-                "migrate.14.69e846f5eeb35647f55888c7dd75a803",
-                "migrate.15.12878468c6f5bfb6cef91df973d7610f"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.1.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.8.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.13.17a37dd3bc4e0214585a478cdff675f0",
+                "migrate.20.69e846f5eeb35647f55888c7dd75a803",
+                "migrate.21.12878468c6f5bfb6cef91df973d7610f"
             ]
         },
         "AWMT-230": {
@@ -875,10 +945,13 @@
                 "en": "AWMT-230"
             },
             "$extends": [
-                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
-                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
-                "migrate.10.6da3080df4210ee54976a7aaa2fa45b8",
-                "migrate.11.1c6d7b58ef05decc8b5d9cbc6fe5a61c"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.1.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.10.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.14.09805695d27110d5ef16ea17b177159a",
+                "migrate.15.6da3080df4210ee54976a7aaa2fa45b8",
+                "migrate.16.6c2a5175878ceb6b98b3e3538dab124c",
+                "migrate.17.1c6d7b58ef05decc8b5d9cbc6fe5a61c"
             ]
         },
         "ACM-1000": {
@@ -887,11 +960,12 @@
                 "en": "ACM-1000"
             },
             "$extends": [
-                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
-                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
-                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
-                "migrate.4.b5876e2af4a49af966af22dd27307657",
-                "migrate.15.12878468c6f5bfb6cef91df973d7610f"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.8.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.10.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.6.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.7.b5876e2af4a49af966af22dd27307657",
+                "migrate.21.12878468c6f5bfb6cef91df973d7610f"
             ]
         },
         "AWMR-230": {
@@ -900,11 +974,12 @@
                 "en": "AWMR-230"
             },
             "$extends": [
-                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
-                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
-                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
-                "migrate.4.b5876e2af4a49af966af22dd27307657",
-                "migrate.15.12878468c6f5bfb6cef91df973d7610f"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.8.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.10.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.6.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.7.b5876e2af4a49af966af22dd27307657",
+                "migrate.21.12878468c6f5bfb6cef91df973d7610f"
             ]
         },
         "ALED-003": {
@@ -912,18 +987,78 @@
             "name": {
                 "en": "ALED-003"
             },
-            "pairOptions": {
-                "rf.program": {
-                    "title": "rf.pair.program.title.socket",
-                    "body": "rf.pair.program.body.ALED-003",
-                    "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+            "pair": [
+                {
+                    "id": "rf.choice",
+                    "$template": "rf.choice",
+                    "options": {
+                        "title": "rf.pair.choice.title.switch",
+                        "body": "rf.pair.choice.body.switch",
+                        "svgHeight": "65vh",
+                        "choices": [
+                            {
+                                "name": "rf.pair.choice.buttons.copy.default",
+                                "view": "rf.imitate",
+                                "svg": "{{driverPath}}/pair/assets/svg/AYCT-102_pair.svg"
+                            },
+                            {
+                                "name": "rf.pair.choice.buttons.generate.default",
+                                "view": "rf.program",
+                                "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "rf.imitate",
+                    "$template": "rf.imitate",
+                    "options": {
+                        "title": "rf.pair.imitate.title.socket",
+                        "body": "rf.pair.imitate.body.ALED-2709",
+                        "svg": "{{driverPath}}/pair/assets/svg/AYCT-102_pair.svg",
+                        "initWithDeviceData": "[DEPRECATED]: false"
+                    }
+                },
+                {
+                    "id": "rf.test_switch.2",
+                    "$template": "rf.test_switch",
+                    "options": {
+                        "initWithDeviceData": true,
+                        "sendToggleOnInit": "[DEPRECATED]: false",
+                        "title": "rf.pair.test_switch.title.socket",
+                        "body": "rf.pair.test_switch.body.ALED-2709"
+                    }
+                },
+                {
+                    "id": "rf.program",
+                    "$template": "rf.program",
+                    "options": {
+                        "title": "rf.pair.program.title.socket",
+                        "body": "rf.pair.program.body.ALED-003",
+                        "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                    }
+                },
+                {
+                    "id": "rf.test_switch",
+                    "$template": "rf.test_switch",
+                    "options": {
+                        "title": "rf.pair.test_switch.title.ALED-2709",
+                        "body": "rf.pair.test_switch.body.ALED-2709",
+                        "initWithDeviceData": true,
+                        "sendToggleOnInit": "[DEPRECATED]: false"
+                    }
+                },
+                {
+                    "id": "rf.done",
+                    "$template": "rf.done"
                 }
-            },
+            ],
             "$extends": [
-                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
-                "migrate.4.b5876e2af4a49af966af22dd27307657",
-                "migrate.8.b173f1db96ed6fbbb23fc0e927601947",
-                "migrate.23.afbb809e3b9780fcdad8dab8adf01d34"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.1.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.7.b5876e2af4a49af966af22dd27307657",
+                "migrate.13.17a37dd3bc4e0214585a478cdff675f0",
+                "migrate.11.b173f1db96ed6fbbb23fc0e927601947"
             ]
         },
         "AYCT-202": {
@@ -1024,8 +1159,10 @@
                 ]
             },
             "$extends": [
-                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
-                "migrate.12.963ec48a1d59be252037f6fd9b6f0e2d"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.1.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.14.09805695d27110d5ef16ea17b177159a",
+                "migrate.18.963ec48a1d59be252037f6fd9b6f0e2d"
             ]
         },
         "ALED-2009": {
@@ -1034,10 +1171,12 @@
                 "en": "ALED-2009"
             },
             "$extends": [
-                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
-                "migrate.14.69e846f5eeb35647f55888c7dd75a803",
-                "migrate.8.b173f1db96ed6fbbb23fc0e927601947",
-                "migrate.23.afbb809e3b9780fcdad8dab8adf01d34"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.1.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.13.17a37dd3bc4e0214585a478cdff675f0",
+                "migrate.20.69e846f5eeb35647f55888c7dd75a803",
+                "migrate.11.b173f1db96ed6fbbb23fc0e927601947",
+                "migrate.36.afbb809e3b9780fcdad8dab8adf01d34"
             ]
         },
         "ACM-LV10": {
@@ -1046,10 +1185,12 @@
                 "en": "ACM-LV10"
             },
             "$extends": [
-                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
-                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
-                "migrate.14.69e846f5eeb35647f55888c7dd75a803",
-                "migrate.15.12878468c6f5bfb6cef91df973d7610f"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.1.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.8.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.13.17a37dd3bc4e0214585a478cdff675f0",
+                "migrate.20.69e846f5eeb35647f55888c7dd75a803",
+                "migrate.21.12878468c6f5bfb6cef91df973d7610f"
             ]
         },
         "ACM-2300H": {
@@ -1058,11 +1199,12 @@
                 "en": "ACM-2300H"
             },
             "$extends": [
-                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
-                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
-                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
-                "migrate.4.b5876e2af4a49af966af22dd27307657",
-                "migrate.15.12878468c6f5bfb6cef91df973d7610f"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.1.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.8.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.10.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.7.b5876e2af4a49af966af22dd27307657",
+                "migrate.21.12878468c6f5bfb6cef91df973d7610f"
             ]
         },
         "AC-300": {
@@ -1071,11 +1213,12 @@
                 "en": "YC-400"
             },
             "$extends": [
-                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
-                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
-                "migrate.4.b5876e2af4a49af966af22dd27307657",
-                "migrate.2.90196a7e090a63d1a116660f71786d35",
-                "migrate.21.d95cdafc8c7529a6989173ed4551ef53"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.1.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.8.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.7.b5876e2af4a49af966af22dd27307657",
+                "migrate.5.90196a7e090a63d1a116660f71786d35",
+                "migrate.34.d95cdafc8c7529a6989173ed4551ef53"
             ]
         },
         "AWST-8800": {
@@ -1084,10 +1227,13 @@
                 "en": "AWST-8800"
             },
             "$extends": [
-                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
-                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
-                "migrate.10.6da3080df4210ee54976a7aaa2fa45b8",
-                "migrate.19.fbe6092a417bd082c9cdc106fcd05bcd"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.10.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.6.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.14.09805695d27110d5ef16ea17b177159a",
+                "migrate.15.6da3080df4210ee54976a7aaa2fa45b8",
+                "migrate.16.6c2a5175878ceb6b98b3e3538dab124c",
+                "migrate.28.fbe6092a417bd082c9cdc106fcd05bcd"
             ]
         },
         "KCT-101": {
@@ -1096,10 +1242,12 @@
                 "en": "KCT-101"
             },
             "$extends": [
-                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
-                "migrate.2.90196a7e090a63d1a116660f71786d35",
-                "migrate.12.963ec48a1d59be252037f6fd9b6f0e2d",
-                "migrate.19.fbe6092a417bd082c9cdc106fcd05bcd"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.1.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.14.09805695d27110d5ef16ea17b177159a",
+                "migrate.5.90196a7e090a63d1a116660f71786d35",
+                "migrate.18.963ec48a1d59be252037f6fd9b6f0e2d",
+                "migrate.28.fbe6092a417bd082c9cdc106fcd05bcd"
             ]
         },
         "AWST-6000": {
@@ -1108,10 +1256,14 @@
                 "en": "AWST-6000"
             },
             "$extends": [
-                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
-                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
-                "migrate.17.0f2343384df78404d5a53651bc54f9ac",
-                "migrate.18.eac8040c9f3665ec53560206a6b3f497"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.10.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.6.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.25.0f2343384df78404d5a53651bc54f9ac",
+                "migrate.23.54f07ee6fdf5d708bdedc36e833abb38",
+                "migrate.24.979d2af0fe612590a9042c276ec899c3",
+                "migrate.26.9616821bcd3b69f8e5a76c920dc6b714",
+                "migrate.27.eac8040c9f3665ec53560206a6b3f497"
             ]
         },
         "YC-412": {
@@ -1120,11 +1272,12 @@
                 "en": "YC-412"
             },
             "$extends": [
-                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
-                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
-                "migrate.4.b5876e2af4a49af966af22dd27307657",
-                "migrate.2.90196a7e090a63d1a116660f71786d35",
-                "migrate.21.d95cdafc8c7529a6989173ed4551ef53"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.1.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.8.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.7.b5876e2af4a49af966af22dd27307657",
+                "migrate.5.90196a7e090a63d1a116660f71786d35",
+                "migrate.34.d95cdafc8c7529a6989173ed4551ef53"
             ]
         },
         "PA3-1000R": {
@@ -1193,9 +1346,11 @@
                 ]
             },
             "$extends": [
-                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
-                "migrate.2.90196a7e090a63d1a116660f71786d35",
-                "migrate.12.963ec48a1d59be252037f6fd9b6f0e2d"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.1.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.14.09805695d27110d5ef16ea17b177159a",
+                "migrate.5.90196a7e090a63d1a116660f71786d35",
+                "migrate.18.963ec48a1d59be252037f6fd9b6f0e2d"
             ]
         },
         "YCT-102": {
@@ -1204,10 +1359,12 @@
                 "en": "YCT-102"
             },
             "$extends": [
-                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
-                "migrate.2.90196a7e090a63d1a116660f71786d35",
-                "migrate.12.963ec48a1d59be252037f6fd9b6f0e2d",
-                "migrate.24.4558b77bbd94c3202e8104b430a3a590"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.6.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.14.09805695d27110d5ef16ea17b177159a",
+                "migrate.5.90196a7e090a63d1a116660f71786d35",
+                "migrate.18.963ec48a1d59be252037f6fd9b6f0e2d",
+                "migrate.37.4558b77bbd94c3202e8104b430a3a590"
             ]
         },
         "ATMT-502": {
@@ -1216,10 +1373,12 @@
                 "en": "ATMT-502"
             },
             "$extends": [
-                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
-                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
-                "migrate.12.963ec48a1d59be252037f6fd9b6f0e2d",
-                "migrate.13.c9ea8a2b37803febfbef30d3d8e7daf7"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.1.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.10.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.14.09805695d27110d5ef16ea17b177159a",
+                "migrate.18.963ec48a1d59be252037f6fd9b6f0e2d",
+                "migrate.19.c9ea8a2b37803febfbef30d3d8e7daf7"
             ]
         },
         "ALED-2709": {
@@ -1228,10 +1387,12 @@
                 "en": "ALED-2709"
             },
             "$extends": [
-                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
-                "migrate.14.69e846f5eeb35647f55888c7dd75a803",
-                "migrate.8.b173f1db96ed6fbbb23fc0e927601947",
-                "migrate.23.afbb809e3b9780fcdad8dab8adf01d34"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.1.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.13.17a37dd3bc4e0214585a478cdff675f0",
+                "migrate.20.69e846f5eeb35647f55888c7dd75a803",
+                "migrate.11.b173f1db96ed6fbbb23fc0e927601947",
+                "migrate.36.afbb809e3b9780fcdad8dab8adf01d34"
             ]
         },
         "AYCT-102": {
@@ -1240,10 +1401,12 @@
                 "en": "AYCT-102"
             },
             "$extends": [
-                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
-                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
-                "migrate.12.963ec48a1d59be252037f6fd9b6f0e2d",
-                "migrate.24.4558b77bbd94c3202e8104b430a3a590"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.1.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.10.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.14.09805695d27110d5ef16ea17b177159a",
+                "migrate.18.963ec48a1d59be252037f6fd9b6f0e2d",
+                "migrate.37.4558b77bbd94c3202e8104b430a3a590"
             ]
         },
         "AILS-3500": {
@@ -1252,11 +1415,12 @@
                 "en": "AILD-3500"
             },
             "$extends": [
-                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
-                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
-                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
-                "migrate.4.b5876e2af4a49af966af22dd27307657",
-                "migrate.15.12878468c6f5bfb6cef91df973d7610f"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.8.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.10.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.6.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.7.b5876e2af4a49af966af22dd27307657",
+                "migrate.21.12878468c6f5bfb6cef91df973d7610f"
             ]
         },
         "ALED-MR2705": {
@@ -1265,10 +1429,12 @@
                 "en": "ALED-MR2705"
             },
             "$extends": [
-                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
-                "migrate.14.69e846f5eeb35647f55888c7dd75a803",
-                "migrate.8.b173f1db96ed6fbbb23fc0e927601947",
-                "migrate.23.afbb809e3b9780fcdad8dab8adf01d34"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.1.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.13.17a37dd3bc4e0214585a478cdff675f0",
+                "migrate.20.69e846f5eeb35647f55888c7dd75a803",
+                "migrate.11.b173f1db96ed6fbbb23fc0e927601947",
+                "migrate.36.afbb809e3b9780fcdad8dab8adf01d34"
             ]
         },
         "YC-1000": {
@@ -1277,11 +1443,12 @@
                 "en": "YC-1000"
             },
             "$extends": [
-                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
-                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
-                "migrate.4.b5876e2af4a49af966af22dd27307657",
-                "migrate.2.90196a7e090a63d1a116660f71786d35",
-                "migrate.21.d95cdafc8c7529a6989173ed4551ef53"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.1.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.8.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.7.b5876e2af4a49af966af22dd27307657",
+                "migrate.5.90196a7e090a63d1a116660f71786d35",
+                "migrate.34.d95cdafc8c7529a6989173ed4551ef53"
             ]
         },
         "AFR-100": {
@@ -1290,10 +1457,12 @@
                 "en": "AFR-100"
             },
             "$extends": [
-                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
-                "migrate.14.69e846f5eeb35647f55888c7dd75a803",
-                "migrate.8.b173f1db96ed6fbbb23fc0e927601947",
-                "migrate.9.486eb345cfa24596731248e8894db30e"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.1.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.13.17a37dd3bc4e0214585a478cdff675f0",
+                "migrate.20.69e846f5eeb35647f55888c7dd75a803",
+                "migrate.11.b173f1db96ed6fbbb23fc0e927601947",
+                "migrate.12.486eb345cfa24596731248e8894db30e"
             ]
         },
         "ACD-1000": {
@@ -1302,11 +1471,12 @@
                 "en": "ACD-1000"
             },
             "$extends": [
-                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
-                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
-                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
-                "migrate.4.b5876e2af4a49af966af22dd27307657",
-                "migrate.6.9ac248f9555a15a013c70d0cf89e1397"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.8.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.10.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.6.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.7.b5876e2af4a49af966af22dd27307657",
+                "migrate.9.9ac248f9555a15a013c70d0cf89e1397"
             ]
         },
         "AWMR-300": {
@@ -1315,11 +1485,12 @@
                 "en": "AWMR-300"
             },
             "$extends": [
-                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
-                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
-                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
-                "migrate.4.b5876e2af4a49af966af22dd27307657",
-                "migrate.15.12878468c6f5bfb6cef91df973d7610f"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.1.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.8.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.10.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.7.b5876e2af4a49af966af22dd27307657",
+                "migrate.21.12878468c6f5bfb6cef91df973d7610f"
             ]
         },
         "AWS-3500": {
@@ -1328,11 +1499,12 @@
                 "en": "AWS-3500"
             },
             "$extends": [
-                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
-                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
-                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
-                "migrate.4.b5876e2af4a49af966af22dd27307657",
-                "migrate.15.12878468c6f5bfb6cef91df973d7610f"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.8.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.10.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.6.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.7.b5876e2af4a49af966af22dd27307657",
+                "migrate.21.12878468c6f5bfb6cef91df973d7610f"
             ]
         },
         "APA3-1500R": {
@@ -1405,10 +1577,12 @@
                 ]
             },
             "$extends": [
-                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
-                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
-                "migrate.12.963ec48a1d59be252037f6fd9b6f0e2d",
-                "migrate.22.1d05e86ad9bc9908256d38ab46598727"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.1.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.10.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.14.09805695d27110d5ef16ea17b177159a",
+                "migrate.18.963ec48a1d59be252037f6fd9b6f0e2d",
+                "migrate.35.1d05e86ad9bc9908256d38ab46598727"
             ]
         },
         "AMST-606": {
@@ -1464,8 +1638,9 @@
                 ]
             },
             "$extends": [
-                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
-                "migrate.17.0f2343384df78404d5a53651bc54f9ac"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.6.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.25.0f2343384df78404d5a53651bc54f9ac"
             ]
         },
         "AGDR-3500": {
@@ -1474,11 +1649,12 @@
                 "en": "AGDR-3500"
             },
             "$extends": [
-                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
-                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
-                "migrate.7.a1828884d4840bb84da012229b1c2eb8",
-                "migrate.4.b5876e2af4a49af966af22dd27307657",
-                "migrate.6.9ac248f9555a15a013c70d0cf89e1397"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.1.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.8.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.10.a1828884d4840bb84da012229b1c2eb8",
+                "migrate.7.b5876e2af4a49af966af22dd27307657",
+                "migrate.9.9ac248f9555a15a013c70d0cf89e1397"
             ]
         },
         "PAR-1000": {
@@ -1583,10 +1759,11 @@
                 }
             ],
             "$extends": [
-                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
-                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
-                "migrate.4.b5876e2af4a49af966af22dd27307657",
-                "migrate.2.90196a7e090a63d1a116660f71786d35"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.1.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.8.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.7.b5876e2af4a49af966af22dd27307657",
+                "migrate.5.90196a7e090a63d1a116660f71786d35"
             ]
         },
         "ALED-G2706": {
@@ -1595,10 +1772,12 @@
                 "en": "ALED-G2706"
             },
             "$extends": [
-                "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
-                "migrate.14.69e846f5eeb35647f55888c7dd75a803",
-                "migrate.8.b173f1db96ed6fbbb23fc0e927601947",
-                "migrate.23.afbb809e3b9780fcdad8dab8adf01d34"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.1.aac44d1a0001a0e1382d6edcad7a8a1b",
+                "migrate.13.17a37dd3bc4e0214585a478cdff675f0",
+                "migrate.20.69e846f5eeb35647f55888c7dd75a803",
+                "migrate.11.b173f1db96ed6fbbb23fc0e927601947",
+                "migrate.36.afbb809e3b9780fcdad8dab8adf01d34"
             ]
         },
         "ACD-200": {
@@ -1607,10 +1786,12 @@
                 "en": "ACD-200"
             },
             "$extends": [
-                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
-                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
-                "migrate.14.69e846f5eeb35647f55888c7dd75a803",
-                "migrate.6.9ac248f9555a15a013c70d0cf89e1397"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.8.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.6.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.13.17a37dd3bc4e0214585a478cdff675f0",
+                "migrate.20.69e846f5eeb35647f55888c7dd75a803",
+                "migrate.9.9ac248f9555a15a013c70d0cf89e1397"
             ]
         },
         "AILD-250": {
@@ -1619,10 +1800,12 @@
                 "en": "AILD-250"
             },
             "$extends": [
-                "migrate.5.66c6d3fca1cc30013cd40841d146d643",
-                "migrate.3.0aa53b09543a731c75c70d20127d66dc",
-                "migrate.14.69e846f5eeb35647f55888c7dd75a803",
-                "migrate.15.12878468c6f5bfb6cef91df973d7610f"
+                "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+                "migrate.8.66c6d3fca1cc30013cd40841d146d643",
+                "migrate.6.0aa53b09543a731c75c70d20127d66dc",
+                "migrate.13.17a37dd3bc4e0214585a478cdff675f0",
+                "migrate.20.69e846f5eeb35647f55888c7dd75a803",
+                "migrate.21.12878468c6f5bfb6cef91df973d7610f"
             ]
         }
     },
@@ -1906,14 +2089,25 @@
         }
     },
     "driverTemplates": {
-        "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b": {
-            "key": "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b",
+        "migrate.0.e02024d889bb80d0978fd2a4ebe7f2a0": {
+            "key": "migrate.0.e02024d889bb80d0978fd2a4ebe7f2a0",
+            "config": {
+                "capabilities": [
+                    "windowcoverings_state"
+                ]
+            },
+            "devices": [
+                "SUN-650",
+                "ASUN-650"
+            ]
+        },
+        "migrate.1.aac44d1a0001a0e1382d6edcad7a8a1b": {
+            "key": "migrate.1.aac44d1a0001a0e1382d6edcad7a8a1b",
             "config": {
                 "images": {
                     "large": "{{driverPath}}/assets/images/large.jpg",
                     "small": "{{driverPath}}/assets/images/small.jpg"
-                },
-                "icon": "{{driverPath}}/assets/icon.svg"
+                }
             },
             "devices": [
                 "SUN-650",
@@ -1957,13 +2151,19 @@
                 "ALED-G2706"
             ]
         },
-        "migrate.1.84837b2352892393687d83b6d92129a6": {
-            "key": "migrate.1.84837b2352892393687d83b6d92129a6",
+        "migrate.2.84837b2352892393687d83b6d92129a6": {
+            "key": "migrate.2.84837b2352892393687d83b6d92129a6",
             "config": {
-                "class": "windowcoverings",
-                "capabilities": [
-                    "windowcoverings_state"
-                ],
+                "class": "windowcoverings"
+            },
+            "devices": [
+                "SUN-650",
+                "ASUN-650"
+            ]
+        },
+        "migrate.3.4fc80ebd925b7efe99c29326a48e968e": {
+            "key": "migrate.3.4fc80ebd925b7efe99c29326a48e968e",
+            "config": {
                 "settings": [
                     {
                         "type": "group",
@@ -2006,8 +2206,80 @@
                 "ASUN-650"
             ]
         },
-        "migrate.2.90196a7e090a63d1a116660f71786d35": {
-            "key": "migrate.2.90196a7e090a63d1a116660f71786d35",
+        "migrate.4.874c2ce5d2614f3cde76afdca3993643": {
+            "key": "migrate.4.874c2ce5d2614f3cde76afdca3993643",
+            "config": {
+                "icon": "{{driverPath}}/assets/icon.svg"
+            },
+            "devices": [
+                "SUN-650",
+                "ACD-3500",
+                "AC-3500",
+                "ASUN-650",
+                "AFR-060",
+                "AWMT-003",
+                "TMT-502",
+                "AC-1000",
+                "ACM-300",
+                "AGDR-300",
+                "APA2-2300R",
+                "APIR-2150",
+                "KCT-510",
+                "WST-8800",
+                "AC-300N",
+                "AGDR-200",
+                "APA2-2300RS",
+                "ACM-250",
+                "ACM-LV24",
+                "ACDB-7000C",
+                "ACDB-6600",
+                "APCR-2300",
+                "YC-3500",
+                "ACD-300",
+                "AKCT-510",
+                "AWMR-210",
+                "AWMD-250",
+                "AWST-8802",
+                "WST-8700",
+                "APA3-1500RS",
+                "ABST-604",
+                "ACM-100",
+                "AWMT-230",
+                "ACM-1000",
+                "AWMR-230",
+                "ALED-003",
+                "AYCT-202",
+                "ALED-2009",
+                "ACM-LV10",
+                "ACM-2300H",
+                "AC-300",
+                "AWST-8800",
+                "KCT-101",
+                "AWST-6000",
+                "YC-412",
+                "PA3-1000R",
+                "YCT-102",
+                "ATMT-502",
+                "ALED-2709",
+                "AYCT-102",
+                "AILS-3500",
+                "ALED-MR2705",
+                "YC-1000",
+                "AFR-100",
+                "ACD-1000",
+                "AWMR-300",
+                "AWS-3500",
+                "APA3-1500R",
+                "AMST-606",
+                "AGDR-3500",
+                "PAR-1000",
+                "ALED-G2706",
+                "ACD-200",
+                "AILD-250"
+            ]
+        },
+        "migrate.5.90196a7e090a63d1a116660f71786d35": {
+            "key": "migrate.5.90196a7e090a63d1a116660f71786d35",
             "config": {
                 "rf": {
                     "debounceTimeout": 500,
@@ -2030,14 +2302,13 @@
                 "PAR-1000"
             ]
         },
-        "migrate.3.0aa53b09543a731c75c70d20127d66dc": {
-            "key": "migrate.3.0aa53b09543a731c75c70d20127d66dc",
+        "migrate.6.0aa53b09543a731c75c70d20127d66dc": {
+            "key": "migrate.6.0aa53b09543a731c75c70d20127d66dc",
             "config": {
                 "images": {
                     "large": "{{driverPath}}/assets/images/large.png",
                     "small": "{{driverPath}}/assets/images/small.png"
-                },
-                "icon": "{{driverPath}}/assets/icon.svg"
+                }
             },
             "devices": [
                 "ACD-3500",
@@ -2067,8 +2338,8 @@
                 "AILD-250"
             ]
         },
-        "migrate.4.b5876e2af4a49af966af22dd27307657": {
-            "key": "migrate.4.b5876e2af4a49af966af22dd27307657",
+        "migrate.7.b5876e2af4a49af966af22dd27307657": {
+            "key": "migrate.7.b5876e2af4a49af966af22dd27307657",
             "config": {
                 "capabilities": [
                     "onoff"
@@ -2098,8 +2369,8 @@
                 "PAR-1000"
             ]
         },
-        "migrate.5.66c6d3fca1cc30013cd40841d146d643": {
-            "key": "migrate.5.66c6d3fca1cc30013cd40841d146d643",
+        "migrate.8.66c6d3fca1cc30013cd40841d146d643": {
+            "key": "migrate.8.66c6d3fca1cc30013cd40841d146d643",
             "config": {
                 "class": "socket"
             },
@@ -2138,8 +2409,8 @@
                 "AILD-250"
             ]
         },
-        "migrate.6.9ac248f9555a15a013c70d0cf89e1397": {
-            "key": "migrate.6.9ac248f9555a15a013c70d0cf89e1397",
+        "migrate.9.9ac248f9555a15a013c70d0cf89e1397": {
+            "key": "migrate.9.9ac248f9555a15a013c70d0cf89e1397",
             "config": {
                 "pair": [
                     {
@@ -2230,8 +2501,8 @@
                 "ACD-200"
             ]
         },
-        "migrate.7.a1828884d4840bb84da012229b1c2eb8": {
-            "key": "migrate.7.a1828884d4840bb84da012229b1c2eb8",
+        "migrate.10.a1828884d4840bb84da012229b1c2eb8": {
+            "key": "migrate.10.a1828884d4840bb84da012229b1c2eb8",
             "config": {
                 "rf": {
                     "debounceTimeout": 500,
@@ -2268,15 +2539,10 @@
                 "AGDR-3500"
             ]
         },
-        "migrate.8.b173f1db96ed6fbbb23fc0e927601947": {
-            "key": "migrate.8.b173f1db96ed6fbbb23fc0e927601947",
+        "migrate.11.b173f1db96ed6fbbb23fc0e927601947": {
+            "key": "migrate.11.b173f1db96ed6fbbb23fc0e927601947",
             "config": {
-                "class": "light",
-                "rf": {
-                    "debounceTimeout": 500,
-                    "signal": "kakudim",
-                    "alternativeSignal": "kaku"
-                }
+                "class": "light"
             },
             "devices": [
                 "AFR-060",
@@ -2288,8 +2554,8 @@
                 "ALED-G2706"
             ]
         },
-        "migrate.9.486eb345cfa24596731248e8894db30e": {
-            "key": "migrate.9.486eb345cfa24596731248e8894db30e",
+        "migrate.12.486eb345cfa24596731248e8894db30e": {
+            "key": "migrate.12.486eb345cfa24596731248e8894db30e",
             "config": {
                 "pair": [
                     {
@@ -2363,8 +2629,65 @@
                 "AFR-100"
             ]
         },
-        "migrate.10.6da3080df4210ee54976a7aaa2fa45b8": {
-            "key": "migrate.10.6da3080df4210ee54976a7aaa2fa45b8",
+        "migrate.13.17a37dd3bc4e0214585a478cdff675f0": {
+            "key": "migrate.13.17a37dd3bc4e0214585a478cdff675f0",
+            "config": {
+                "rf": {
+                    "debounceTimeout": 500,
+                    "signal": "kakudim",
+                    "alternativeSignal": "kaku"
+                }
+            },
+            "devices": [
+                "AFR-060",
+                "ACM-300",
+                "AGDR-300",
+                "AC-300N",
+                "AGDR-200",
+                "ACM-250",
+                "ACM-LV24",
+                "ACD-300",
+                "AWMR-210",
+                "AWMD-250",
+                "ACM-100",
+                "ALED-003",
+                "ALED-2009",
+                "ACM-LV10",
+                "ALED-2709",
+                "ALED-MR2705",
+                "AFR-100",
+                "ALED-G2706",
+                "ACD-200",
+                "AILD-250"
+            ]
+        },
+        "migrate.14.09805695d27110d5ef16ea17b177159a": {
+            "key": "migrate.14.09805695d27110d5ef16ea17b177159a",
+            "config": {
+                "class": "other"
+            },
+            "devices": [
+                "AWMT-003",
+                "TMT-502",
+                "APA2-2300R",
+                "KCT-510",
+                "WST-8800",
+                "AKCT-510",
+                "AWST-8802",
+                "WST-8700",
+                "AWMT-230",
+                "AYCT-202",
+                "AWST-8800",
+                "KCT-101",
+                "PA3-1000R",
+                "YCT-102",
+                "ATMT-502",
+                "AYCT-102",
+                "APA3-1500R"
+            ]
+        },
+        "migrate.15.6da3080df4210ee54976a7aaa2fa45b8": {
+            "key": "migrate.15.6da3080df4210ee54976a7aaa2fa45b8",
             "config": {
                 "settings": [
                     {
@@ -2401,7 +2724,20 @@
                             }
                         ]
                     }
-                ],
+                ]
+            },
+            "devices": [
+                "AWMT-003",
+                "WST-8800",
+                "AWST-8802",
+                "WST-8700",
+                "AWMT-230",
+                "AWST-8800"
+            ]
+        },
+        "migrate.16.6c2a5175878ceb6b98b3e3538dab124c": {
+            "key": "migrate.16.6c2a5175878ceb6b98b3e3538dab124c",
+            "config": {
                 "pair": [
                     {
                         "id": "rf.imitate",
@@ -2431,8 +2767,7 @@
                         "id": "rf.done",
                         "$template": "rf.done"
                     }
-                ],
-                "class": "other"
+                ]
             },
             "devices": [
                 "AWMT-003",
@@ -2443,8 +2778,8 @@
                 "AWST-8800"
             ]
         },
-        "migrate.11.1c6d7b58ef05decc8b5d9cbc6fe5a61c": {
-            "key": "migrate.11.1c6d7b58ef05decc8b5d9cbc6fe5a61c",
+        "migrate.17.1c6d7b58ef05decc8b5d9cbc6fe5a61c": {
+            "key": "migrate.17.1c6d7b58ef05decc8b5d9cbc6fe5a61c",
             "config": {
                 "flows": {
                     "triggers": [
@@ -2505,8 +2840,8 @@
                 "AWMT-230"
             ]
         },
-        "migrate.12.963ec48a1d59be252037f6fd9b6f0e2d": {
-            "key": "migrate.12.963ec48a1d59be252037f6fd9b6f0e2d",
+        "migrate.18.963ec48a1d59be252037f6fd9b6f0e2d": {
+            "key": "migrate.18.963ec48a1d59be252037f6fd9b6f0e2d",
             "config": {
                 "pair": [
                     {
@@ -2530,8 +2865,7 @@
                         "id": "rf.done",
                         "$template": "rf.done"
                     }
-                ],
-                "class": "other"
+                ]
             },
             "devices": [
                 "TMT-502",
@@ -2547,8 +2881,8 @@
                 "APA3-1500R"
             ]
         },
-        "migrate.13.c9ea8a2b37803febfbef30d3d8e7daf7": {
-            "key": "migrate.13.c9ea8a2b37803febfbef30d3d8e7daf7",
+        "migrate.19.c9ea8a2b37803febfbef30d3d8e7daf7": {
+            "key": "migrate.19.c9ea8a2b37803febfbef30d3d8e7daf7",
             "config": {
                 "flows": {
                     "triggers": [
@@ -2707,18 +3041,13 @@
                 "ATMT-502"
             ]
         },
-        "migrate.14.69e846f5eeb35647f55888c7dd75a803": {
-            "key": "migrate.14.69e846f5eeb35647f55888c7dd75a803",
+        "migrate.20.69e846f5eeb35647f55888c7dd75a803": {
+            "key": "migrate.20.69e846f5eeb35647f55888c7dd75a803",
             "config": {
                 "capabilities": [
                     "onoff",
                     "dim"
-                ],
-                "rf": {
-                    "debounceTimeout": 500,
-                    "signal": "kakudim",
-                    "alternativeSignal": "kaku"
-                }
+                ]
             },
             "devices": [
                 "ACM-300",
@@ -2741,8 +3070,8 @@
                 "AILD-250"
             ]
         },
-        "migrate.15.12878468c6f5bfb6cef91df973d7610f": {
-            "key": "migrate.15.12878468c6f5bfb6cef91df973d7610f",
+        "migrate.21.12878468c6f5bfb6cef91df973d7610f": {
+            "key": "migrate.21.12878468c6f5bfb6cef91df973d7610f",
             "config": {
                 "pair": [
                     {
@@ -2836,8 +3165,8 @@
                 "AILD-250"
             ]
         },
-        "migrate.16.dcd7d67ff8183ba0ab5411142b3186fc": {
-            "key": "migrate.16.dcd7d67ff8183ba0ab5411142b3186fc",
+        "migrate.22.dcd7d67ff8183ba0ab5411142b3186fc": {
+            "key": "migrate.22.dcd7d67ff8183ba0ab5411142b3186fc",
             "config": {
                 "name": {
                     "en": "APA2-2300R"
@@ -2848,59 +3177,21 @@
                 "APA2-2300RS"
             ]
         },
-        "migrate.17.0f2343384df78404d5a53651bc54f9ac": {
-            "key": "migrate.17.0f2343384df78404d5a53651bc54f9ac",
+        "migrate.23.54f07ee6fdf5d708bdedc36e833abb38": {
+            "key": "migrate.23.54f07ee6fdf5d708bdedc36e833abb38",
             "config": {
-                "class": "sensor"
+                "capabilities": [
+                    "alarm_motion"
+                ]
             },
             "devices": [
                 "APIR-2150",
-                "ABST-604",
-                "AWST-6000",
-                "AMST-606"
+                "AWST-6000"
             ]
         },
-        "migrate.18.eac8040c9f3665ec53560206a6b3f497": {
-            "key": "migrate.18.eac8040c9f3665ec53560206a6b3f497",
+        "migrate.24.979d2af0fe612590a9042c276ec899c3": {
+            "key": "migrate.24.979d2af0fe612590a9042c276ec899c3",
             "config": {
-                "flows": {
-                    "conditions": [
-                        {
-                            "id": "{{driverId}}:state",
-                            "title": {
-                                "en": "[Deprecated] Sensor detects !{{motion|no motion}}",
-                                "nl": "[Verouderd] Sensor detecteert !{{beweging|geen beweging}}"
-                            },
-                            "args": []
-                        }
-                    ]
-                },
-                "pair": [
-                    {
-                        "id": "rf.imitate",
-                        "$template": "rf.imitate",
-                        "options": {
-                            "body": "rf.pair.imitate.body.sensor",
-                            "svg": "{{driverPath}}/pair/assets/svg/pair.svg",
-                            "title": "rf.pair.imitate.title.motion_sensor",
-                            "initWithDeviceData": "[DEPRECATED]: false"
-                        }
-                    },
-                    {
-                        "id": "rf.test",
-                        "$template": "rf.test",
-                        "options": {
-                            "body": "rf.pair.test.body.sensor",
-                            "initWithDeviceData": true,
-                            "svg": "{{driverPath}}/pair/assets/svg/test.svg",
-                            "title": "rf.pair.test.title.motion_sensor"
-                        }
-                    },
-                    {
-                        "id": "rf.done",
-                        "$template": "rf.done"
-                    }
-                ],
                 "settings": [
                     {
                         "type": "group",
@@ -2971,9 +3262,6 @@
                             }
                         ]
                     }
-                ],
-                "capabilities": [
-                    "alarm_motion"
                 ]
             },
             "devices": [
@@ -2981,8 +3269,76 @@
                 "AWST-6000"
             ]
         },
-        "migrate.19.fbe6092a417bd082c9cdc106fcd05bcd": {
-            "key": "migrate.19.fbe6092a417bd082c9cdc106fcd05bcd",
+        "migrate.25.0f2343384df78404d5a53651bc54f9ac": {
+            "key": "migrate.25.0f2343384df78404d5a53651bc54f9ac",
+            "config": {
+                "class": "sensor"
+            },
+            "devices": [
+                "APIR-2150",
+                "ABST-604",
+                "AWST-6000",
+                "AMST-606"
+            ]
+        },
+        "migrate.26.9616821bcd3b69f8e5a76c920dc6b714": {
+            "key": "migrate.26.9616821bcd3b69f8e5a76c920dc6b714",
+            "config": {
+                "pair": [
+                    {
+                        "id": "rf.imitate",
+                        "$template": "rf.imitate",
+                        "options": {
+                            "body": "rf.pair.imitate.body.sensor",
+                            "svg": "{{driverPath}}/pair/assets/svg/pair.svg",
+                            "title": "rf.pair.imitate.title.motion_sensor",
+                            "initWithDeviceData": "[DEPRECATED]: false"
+                        }
+                    },
+                    {
+                        "id": "rf.test",
+                        "$template": "rf.test",
+                        "options": {
+                            "body": "rf.pair.test.body.sensor",
+                            "initWithDeviceData": true,
+                            "svg": "{{driverPath}}/pair/assets/svg/test.svg",
+                            "title": "rf.pair.test.title.motion_sensor"
+                        }
+                    },
+                    {
+                        "id": "rf.done",
+                        "$template": "rf.done"
+                    }
+                ]
+            },
+            "devices": [
+                "APIR-2150",
+                "AWST-6000"
+            ]
+        },
+        "migrate.27.eac8040c9f3665ec53560206a6b3f497": {
+            "key": "migrate.27.eac8040c9f3665ec53560206a6b3f497",
+            "config": {
+                "flows": {
+                    "conditions": [
+                        {
+                            "id": "{{driverId}}:state",
+                            "title": {
+                                "en": "[Deprecated] Sensor detects !{{motion|no motion}}",
+                                "nl": "[Verouderd] Sensor detecteert !{{beweging|geen beweging}}"
+                            },
+                            "args": []
+                        }
+                    ]
+                }
+            },
+            "devices": [
+                "APIR-2150",
+                "AWST-6000"
+            ]
+        },
+        "migrate.28.fbe6092a417bd082c9cdc106fcd05bcd": {
+            "key": "migrate.28.fbe6092a417bd082c9cdc106fcd05bcd",
             "config": {
                 "flows": {
                     "triggers": [
@@ -3027,35 +3383,31 @@
                 "KCT-101"
             ]
         },
-        "migrate.20.689e722907fb7735d774938558373e60": {
-            "key": "migrate.20.689e722907fb7735d774938558373e60",
+        "migrate.29.c1fbcffa0247ae845701d7f8d3b1f727": {
+            "key": "migrate.29.c1fbcffa0247ae845701d7f8d3b1f727",
             "config": {
-                "flows": {
-                    "triggers": [
-                        {
-                            "id": "{{driverId}}:received",
-                            "title": {
-                                "en": "Doorbell is pressed",
-                                "nl": "Deurbel knop is ingedrukt"
-                            },
-                            "args": []
-                        }
-                    ],
-                    "actions": [
-                        {
-                            "id": "{{driverId}}:send",
-                            "title": {
-                                "en": "Trigger Doorbell",
-                                "nl": "Laat deurbel afgaan"
-                            },
-                            "args": []
-                        }
-                    ]
-                },
-                "rf": {
-                    "debounceTimeout": 1000,
-                    "signal": "kaku"
-                },
+                "capabilities": [
+                    "alarm_generic"
+                ]
+            },
+            "devices": [
+                "ACDB-7000C",
+                "ACDB-6600"
+            ]
+        },
+        "migrate.30.1bb569a4a04ccf83472744cadc96abc2": {
+            "key": "migrate.30.1bb569a4a04ccf83472744cadc96abc2",
+            "config": {
+                "class": "doorbell"
+            },
+            "devices": [
+                "ACDB-7000C",
+                "ACDB-6600"
+            ]
+        },
+        "migrate.31.b8cc021706477b4e25085a10379e9ac4": {
+            "key": "migrate.31.b8cc021706477b4e25085a10379e9ac4",
+            "config": {
                 "pair": [
                     {
                         "id": "rf.choice",
@@ -3123,19 +3475,59 @@
                         "id": "rf.done",
                         "$template": "rf.done"
                     }
-                ],
-                "capabilities": [
-                    "alarm_generic"
-                ],
-                "class": "doorbell"
+                ]
             },
             "devices": [
                 "ACDB-7000C",
                 "ACDB-6600"
             ]
         },
-        "migrate.21.d95cdafc8c7529a6989173ed4551ef53": {
-            "key": "migrate.21.d95cdafc8c7529a6989173ed4551ef53",
+        "migrate.32.ab5ee73eb56b00b53fd0e5a2d7f7bc3e": {
+            "key": "migrate.32.ab5ee73eb56b00b53fd0e5a2d7f7bc3e",
+            "config": {
+                "rf": {
+                    "debounceTimeout": 1000,
+                    "signal": "kaku"
+                }
+            },
+            "devices": [
+                "ACDB-7000C",
+                "ACDB-6600"
+            ]
+        },
+        "migrate.33.689e722907fb7735d774938558373e60": {
+            "key": "migrate.33.689e722907fb7735d774938558373e60",
+            "config": {
+                "flows": {
+                    "triggers": [
+                        {
+                            "id": "{{driverId}}:received",
+                            "title": {
+                                "en": "Doorbell is pressed",
+                                "nl": "Deurbel knop is ingedrukt"
+                            },
+                            "args": []
+                        }
+                    ],
+                    "actions": [
+                        {
+                            "id": "{{driverId}}:send",
+                            "title": {
+                                "en": "Trigger Doorbell",
+                                "nl": "Laat deurbel afgaan"
+                            },
+                            "args": []
+                        }
+                    ]
+                }
+            },
+            "devices": [
+                "ACDB-7000C",
+                "ACDB-6600"
+            ]
+        },
+        "migrate.34.d95cdafc8c7529a6989173ed4551ef53": {
+            "key": "migrate.34.d95cdafc8c7529a6989173ed4551ef53",
             "config": {
                 "pair": [
                     {
@@ -3260,8 +3652,8 @@
                 "YC-1000"
             ]
         },
-        "migrate.22.1d05e86ad9bc9908256d38ab46598727": {
-            "key": "migrate.22.1d05e86ad9bc9908256d38ab46598727",
+        "migrate.35.1d05e86ad9bc9908256d38ab46598727": {
+            "key": "migrate.35.1d05e86ad9bc9908256d38ab46598727",
             "config": {
                 "name": {
                     "en": "APA3-1500R"
@@ -3272,8 +3664,8 @@
                 "APA3-1500R"
             ]
         },
-        "migrate.23.afbb809e3b9780fcdad8dab8adf01d34": {
-            "key": "migrate.23.afbb809e3b9780fcdad8dab8adf01d34",
+        "migrate.36.afbb809e3b9780fcdad8dab8adf01d34": {
+            "key": "migrate.36.afbb809e3b9780fcdad8dab8adf01d34",
             "config": {
                 "pair": [
                     {
@@ -3349,8 +3741,8 @@
                 "ALED-G2706"
             ]
         },
-        "migrate.24.4558b77bbd94c3202e8104b430a3a590": {
-            "key": "migrate.24.4558b77bbd94c3202e8104b430a3a590",
+        "migrate.37.4558b77bbd94c3202e8104b430a3a590": {
+            "key": "migrate.37.4558b77bbd94c3202e8104b430a3a590",
             "config": {
                 "flows": {
                     "triggers": [

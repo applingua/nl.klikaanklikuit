@@ -5,6 +5,8 @@
     },
     "$extends": [
         "defaults",
-        "doorbell"
+        "device.doorbell",
+        "pair.doorbell",
+        "flows.doorbell"
     ]
 }

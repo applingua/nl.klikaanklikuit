@@ -5,8 +5,8 @@
     },
     "$extends": [
         "defaults",
-        "socket",
-        "dim",
-        "build_in.pair"
+        "device.socket",
+        "capabilities.dim",
+        "pair.socket.build_in"
     ]
 }

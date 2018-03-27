@@ -4,9 +4,11 @@
         "en": "WST-8800"
     },
     "$extends": [
-        "defaults.png",
-        "kakuold",
-        "wall_switch",
-        "wall_switch.flows.single"
+        "defaults",
+        "image.png",
+        "rf.kakuold",
+        "settings.rotated.wall_switch",
+        "pair.wall_switch.build_in",
+        "flows.switch.single"
     ]
 }

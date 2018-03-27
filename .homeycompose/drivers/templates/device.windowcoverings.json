@@ -1,0 +1,11 @@
+{
+    "class": "windowcoverings",
+    "capabilities": [
+        "windowcoverings_state"
+    ],
+    "$_devices": [
+        "SUN-650",
+        "ASUN-650"
+    ],
+    "$_hash": "migrate.0.e02024d889bb80d0978fd2a4ebe7f2a0"
+}

@@ -1,0 +1,34 @@
+{
+    "images": {
+        "large": "{{driverPath}}/assets/images/large.png",
+        "small": "{{driverPath}}/assets/images/small.png"
+    },
+    "$_devices": [
+        "ACD-3500",
+        "AC-3500",
+        "ASUN-650",
+        "AC-1000",
+        "ACM-300",
+        "APIR-2150",
+        "WST-8800",
+        "AC-300N",
+        "ACM-250",
+        "ACDB-7000C",
+        "ACD-300",
+        "AWMR-210",
+        "AWMD-250",
+        "ABST-604",
+        "ACM-1000",
+        "AWMR-230",
+        "AWST-8800",
+        "AWST-6000",
+        "YCT-102",
+        "AILS-3500",
+        "ACD-1000",
+        "AWS-3500",
+        "AMST-606",
+        "ACD-200",
+        "AILD-250"
+    ],
+    "$_hash": "migrate.6.0aa53b09543a731c75c70d20127d66dc"
+}

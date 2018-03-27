@@ -5,8 +5,9 @@
     },
     "$extends": [
         "defaults",
-        "kakuold",
-        "wall_switch",
-        "wall_switch.flows.single"
+        "rf.kakuold",
+        "settings.rotated.wall_switch",
+        "pair.wall_switch.build_in",
+        "flows.switch.single"
     ]
 }

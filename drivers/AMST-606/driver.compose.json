@@ -3,9 +3,6 @@
     "name": {
         "en": "AMST-606"
     },
-    "capabilities": [
-        "alarm_contact"
-    ],
     "pair": [
         {
             "id": "rf.imitate",
@@ -34,10 +31,6 @@
             "$template": "rf.done"
         }
     ],
-    "rf": {
-        "debounceTimeout": 500,
-        "signal": "kakulong"
-    },
     "flows": {
         "conditions": [
             {
@@ -51,7 +44,8 @@
         ]
     },
     "$extends": [
-        "defaults.png",
-        "sensor"
+        "defaults",
+        "image.png",
+        "device.contact_sensor"
     ]
 }

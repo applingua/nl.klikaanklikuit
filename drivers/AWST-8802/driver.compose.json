@@ -58,7 +58,7 @@
     },
     "$extends": [
         "defaults",
-        "kaku",
-        "wall_switch"
+        "settings.rotated.wall_switch",
+        "pair.wall_switch.build_in"
     ]
 }

@@ -1,0 +1,44 @@
+{
+    "flows": {
+        "triggers": [
+            {
+                "id": "{{driverId}}:received",
+                "title": {
+                    "en": "Button is pressed",
+                    "nl": "Knop is ingedrukt"
+                },
+                "args": [
+                    {
+                        "name": "state",
+                        "type": "dropdown",
+                        "values": [
+                            {
+                                "id": "1",
+                                "label": {
+                                    "en": "On",
+                                    "nl": "Aan"
+                                }
+                            },
+                            {
+                                "id": "0",
+                                "label": {
+                                    "en": "Off",
+                                    "nl": "Uit"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "$_devices": [
+        "KCT-510",
+        "WST-8800",
+        "AKCT-510",
+        "WST-8700",
+        "AWST-8800",
+        "KCT-101"
+    ],
+    "$_hash": "migrate.28.fbe6092a417bd082c9cdc106fcd05bcd"
+}

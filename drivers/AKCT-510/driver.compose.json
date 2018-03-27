@@ -5,8 +5,7 @@
     },
     "$extends": [
         "defaults",
-        "kaku",
-        "remote",
-        "wall_switch.flows.single"
+        "pair.remote",
+        "flows.switch.single"
     ]
 }

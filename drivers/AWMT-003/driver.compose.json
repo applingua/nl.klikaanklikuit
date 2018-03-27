@@ -5,8 +5,8 @@
     },
     "$extends": [
         "defaults",
-        "kaku",
-        "wall_switch",
-        "wall_switch.flows"
+        "settings.rotated.wall_switch",
+        "pair.wall_switch.build_in",
+        "flows.switch.double"
     ]
 }

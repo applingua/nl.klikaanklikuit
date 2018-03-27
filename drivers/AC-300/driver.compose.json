@@ -5,9 +5,8 @@
     },
     "$extends": [
         "defaults",
-        "socket",
-        "onoff",
-        "kakuold",
-        "codewheel.switch"
+        "device.socket",
+        "rf.kakuold",
+        "pair.codewheel_switch"
     ]
 }

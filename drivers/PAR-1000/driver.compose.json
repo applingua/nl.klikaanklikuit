@@ -101,8 +101,7 @@
     ],
     "$extends": [
         "defaults",
-        "socket",
-        "onoff",
-        "kakuold"
+        "device.socket",
+        "rf.kakuold"
     ]
 }

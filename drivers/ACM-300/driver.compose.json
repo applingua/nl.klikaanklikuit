@@ -4,9 +4,10 @@
         "en": "ACM-300"
     },
     "$extends": [
-        "socket",
-        "defaults.png",
-        "dim",
-        "build_in.pair"
+        "defaults",
+        "image.png",
+        "device.socket",
+        "capabilities.dim",
+        "pair.socket.build_in"
     ]
 }

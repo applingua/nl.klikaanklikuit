@@ -4,10 +4,9 @@
         "en": "AWMR-230"
     },
     "$extends": [
-        "socket",
-        "kaku",
-        "defaults.png",
-        "onoff",
-        "build_in.pair"
+        "defaults",
+        "image.png",
+        "device.socket",
+        "pair.socket.build_in"
     ]
 }

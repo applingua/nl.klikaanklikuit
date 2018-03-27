@@ -4,9 +4,10 @@
         "en": "AWST-6000"
     },
     "$extends": [
-        "kaku",
-        "defaults.png",
-        "sensor",
-        "motion_alarm"
+        "defaults",
+        "image.png",
+        "device.motion_alarm",
+        "settings.timeout.motion_alarm",
+        "pair.motion_sensor"
     ]
 }

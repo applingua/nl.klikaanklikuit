@@ -1,0 +1,33 @@
+{
+    "pair": [
+        {
+            "id": "rf.imitate",
+            "$template": "rf.imitate",
+            "options": {
+                "body": "rf.pair.imitate.body.sensor",
+                "svg": "{{driverPath}}/pair/assets/svg/pair.svg",
+                "title": "rf.pair.imitate.title.motion_sensor",
+                "initWithDeviceData": "[DEPRECATED]: false"
+            }
+        },
+        {
+            "id": "rf.test",
+            "$template": "rf.test",
+            "options": {
+                "body": "rf.pair.test.body.sensor",
+                "initWithDeviceData": true,
+                "svg": "{{driverPath}}/pair/assets/svg/test.svg",
+                "title": "rf.pair.test.title.motion_sensor"
+            }
+        },
+        {
+            "id": "rf.done",
+            "$template": "rf.done"
+        }
+    ],
+    "$_devices": [
+        "APIR-2150",
+        "AWST-6000"
+    ],
+    "$_hash": "migrate.26.9616821bcd3b69f8e5a76c920dc6b714"
+}

@@ -4,9 +4,10 @@
         "en": "AC-300"
     },
     "$extends": [
-        "socket",
-        "defaults.png",
-        "dim",
-        "socket.pair"
+        "defaults",
+        "image.png",
+        "device.socket",
+        "pair.socket",
+        "capabilities.dim"
     ]
 }

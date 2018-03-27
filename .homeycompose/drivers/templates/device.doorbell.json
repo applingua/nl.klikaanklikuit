@@ -1,0 +1,16 @@
+{
+    "class": "doorbell",
+    "capabilities": [
+        "alarm_generic"
+    ],
+    "rf": {
+        "debounceTimeout": 1000,
+        "signal": "kaku",
+        "sendToggleAfterTimeout": 4000
+    },
+    "$_devices": [
+        "ACDB-7000C",
+        "ACDB-6600"
+    ],
+    "$_hash": "migrate.29.c1fbcffa0247ae845701d7f8d3b1f727"
+}

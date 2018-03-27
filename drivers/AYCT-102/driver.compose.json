@@ -5,8 +5,7 @@
     },
     "$extends": [
         "defaults",
-        "kaku",
-        "remote",
-        "remote.flows"
+        "pair.remote",
+        "flows.remote"
     ]
 }

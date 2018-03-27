@@ -72,7 +72,6 @@
     },
     "$extends": [
         "defaults",
-        "kaku",
-        "remote"
+        "pair.remote"
     ]
 }

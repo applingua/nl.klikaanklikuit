@@ -79,8 +79,9 @@
         }
     ],
     "$extends": [
-        "kaku",
-        "defaults.png",
-        "windowcoverings"
+        "defaults",
+        "image.png",
+        "settings.rotated",
+        "device.windowcoverings"
     ]
 }

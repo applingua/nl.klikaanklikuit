@@ -5,8 +5,8 @@
     },
     "$extends": [
         "defaults",
-        "kakuold",
-        "remote",
-        "remote.flows.tmt"
+        "rf.kakuold",
+        "pair.remote",
+        "flows.remote.tmt"
     ]
 }

@@ -3,14 +3,20 @@
         "triggers": [
             {
                 "id": "{{driverId}}:received",
-                "title": "flow.triggers.received.title.doorbell",
+                "title": {
+                    "en": "Doorbell is pressed",
+                    "nl": "Deurbel knop is ingedrukt"
+                },
                 "args": []
             }
         ],
         "actions": [
             {
                 "id": "{{driverId}}:send",
-                "title": "flow.actions.send.title.doorbell",
+                "title": {
+                    "en": "Trigger Doorbell",
+                    "nl": "Laat deurbel afgaan"
+                },
                 "args": []
             }
         ]
@@ -87,13 +93,13 @@
             "$template": "rf.done"
         }
     ],
-    "class": "doorbell",
     "capabilities": [
         "alarm_generic"
     ],
-    "$devices": [
+    "class": "doorbell",
+    "$_devices": [
         "ACDB-7000C",
         "ACDB-6600"
     ],
-    "$hash": "migrate.21.56b27a86012cf2432078c7cddd548800"
+    "$_hash": "migrate.20.689e722907fb7735d774938558373e60"
 }

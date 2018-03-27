@@ -79,8 +79,6 @@
     ],
     "$extends": [
         "defaults",
-        "socket",
-        "kaku",
-        "onoff"
+        "device.socket"
     ]
 }

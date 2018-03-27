@@ -1,0 +1,75 @@
+{
+    "pair": [
+        {
+            "id": "rf.choice",
+            "$template": "rf.choice",
+            "options": {
+                "title": "rf.pair.choice.title.switch",
+                "body": "rf.pair.choice.body.doorbell",
+                "svgHeight": "65vh",
+                "choices": [
+                    {
+                        "name": "rf.pair.choice.buttons.imitate.ACDB-6600",
+                        "view": "rf.imitate",
+                        "svg": "{{driverPath}}/pair/assets/svg/doorbell.svg"
+                    },
+                    {
+                        "name": "rf.pair.choice.buttons.generate.default",
+                        "view": "rf.program",
+                        "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "rf.imitate",
+            "$template": "rf.imitate",
+            "options": {
+                "body": "rf.pair.imitate.body.doorbell",
+                "svg": "{{driverPath}}/pair/assets/svg/doorbell.svg",
+                "initWithDeviceData": "[DEPRECATED]: false"
+            }
+        },
+        {
+            "id": "rf.test_button.2",
+            "$template": "rf.test_button",
+            "options": {
+                "initWithDeviceData": true,
+                "sendToggleOnInit": "[DEPRECATED]: false",
+                "title": "rf.pair.test_button.title.doorbell",
+                "body": "rf.pair.test_button.body.doorbell",
+                "svg": "{{driverPath}}/pair/assets/svg/test.svg",
+                "buttonLabel": "test"
+            }
+        },
+        {
+            "id": "rf.program",
+            "$template": "rf.program",
+            "options": {
+                "body": "rf.pair.program.body.socket",
+                "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
+            }
+        },
+        {
+            "id": "rf.test_button",
+            "$template": "rf.test_button",
+            "options": {
+                "title": "rf.pair.test_button.title.doorbell",
+                "body": "rf.pair.test_button.body.doorbell",
+                "svg": "{{driverPath}}/pair/assets/svg/test.svg",
+                "initWithDeviceData": true,
+                "sendToggleOnInit": "[DEPRECATED]: false",
+                "buttonLabel": "test"
+            }
+        },
+        {
+            "id": "rf.done",
+            "$template": "rf.done"
+        }
+    ],
+    "$_devices": [
+        "ACDB-7000C",
+        "ACDB-6600"
+    ],
+    "$_hash": "migrate.31.b8cc021706477b4e25085a10379e9ac4"
+}

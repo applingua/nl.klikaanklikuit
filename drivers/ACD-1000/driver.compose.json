@@ -4,10 +4,9 @@
         "en": "ACD-1000"
     },
     "$extends": [
-        "socket",
-        "kaku",
-        "defaults.png",
-        "onoff",
-        "socket.pair"
+        "defaults",
+        "image.png",
+        "device.socket",
+        "pair.socket"
     ]
 }

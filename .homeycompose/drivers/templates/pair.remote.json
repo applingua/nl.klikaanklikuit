@@ -1,0 +1,39 @@
+{
+    "pair": [
+        {
+            "id": "rf.imitate",
+            "$template": "rf.imitate",
+            "options": {
+                "title": "rf.pair.imitate.title.remote",
+                "body": "rf.pair.imitate.body.remote",
+                "svg": "{{driverPath}}/pair/assets/svg/pair.svg",
+                "initWithDeviceData": "[DEPRECATED]: false"
+            }
+        },
+        {
+            "id": "rf.test",
+            "$template": "rf.test",
+            "options": {
+                "svg": "{{driverPath}}/pair/assets/svg/test.svg"
+            }
+        },
+        {
+            "id": "rf.done",
+            "$template": "rf.done"
+        }
+    ],
+    "$_devices": [
+        "TMT-502",
+        "APA2-2300R",
+        "KCT-510",
+        "AKCT-510",
+        "AYCT-202",
+        "KCT-101",
+        "PA3-1000R",
+        "YCT-102",
+        "ATMT-502",
+        "AYCT-102",
+        "APA3-1500R"
+    ],
+    "$_hash": "migrate.18.963ec48a1d59be252037f6fd9b6f0e2d"
+}

@@ -4,9 +4,10 @@
         "en": "YCT-102"
     },
     "$extends": [
-        "defaults.png",
-        "kakuold",
-        "remote",
-        "remote.flows"
+        "defaults",
+        "image.png",
+        "rf.kakuold",
+        "pair.remote",
+        "flows.remote"
     ]
 }

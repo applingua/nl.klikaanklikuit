@@ -97,6 +97,6 @@
     },
     "$extends": [
         "defaults",
-        "remote"
+        "pair.remote"
     ]
 }

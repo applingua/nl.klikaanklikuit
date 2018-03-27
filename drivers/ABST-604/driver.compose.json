@@ -3,9 +3,6 @@
     "name": {
         "en": "ABST-604"
     },
-    "capabilities": [
-        "alarm_night"
-    ],
     "pair": [
         {
             "id": "rf.imitate",
@@ -45,8 +42,8 @@
         ]
     },
     "$extends": [
-        "kaku",
-        "defaults.png",
-        "sensor"
+        "defaults",
+        "image.png",
+        "device.light_sensor"
     ]
 }

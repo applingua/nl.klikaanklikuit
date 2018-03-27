@@ -3249,7 +3249,7 @@ module.exports = {
 			},
 			id: 'ACDB-7000C',
 			debounceTimeout: 1000,
-			driver: '../433_generator/drivers/kaku/doorbell.js',
+			driver: '../433_generator/drivers/kaku/sensor.js',
 			signal: 'kaku',
 			class: 'doorbell',
 			triggers: [{
@@ -3433,7 +3433,7 @@ module.exports = {
 			},
 			id: 'ACDB-6600',
 			debounceTimeout: 1000,
-			driver: '../433_generator/drivers/kaku/doorbell.js',
+			driver: '../433_generator/drivers/kaku/sensor.js',
 			signal: 'kaku',
 			class: 'doorbell',
 			triggers: [{

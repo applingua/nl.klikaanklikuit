@@ -1,0 +1,11 @@
+{
+  "class": "sensor",
+  "capabilities": [
+    "alarm_motion"
+  ],
+  "$_devices": [
+    "APIR-2150",
+    "AWST-6000"
+  ],
+  "$_hash": "migrate.23.54f07ee6fdf5d708bdedc36e833abb38"
+}

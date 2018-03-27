@@ -5,8 +5,7 @@
     },
     "$extends": [
         "defaults",
-        "onoff",
-        "light",
-        "light.pair.afr"
+        "device.light",
+        "pair.light.socket"
     ]
 }

@@ -5,8 +5,8 @@
     },
     "$extends": [
         "defaults",
-        "kakuold",
-        "remote",
-        "wall_switch.flows.single"
+        "pair.remote",
+        "rf.kakuold",
+        "flows.switch.single"
     ]
 }

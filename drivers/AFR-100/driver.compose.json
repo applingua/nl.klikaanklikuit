@@ -5,8 +5,8 @@
     },
     "$extends": [
         "defaults",
-        "dim",
-        "light",
-        "light.pair.afr"
+        "device.light",
+        "capabilities.dim",
+        "pair.light.socket"
     ]
 }

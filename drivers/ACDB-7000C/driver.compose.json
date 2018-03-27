@@ -4,7 +4,10 @@
         "en": "ACDB-7000C"
     },
     "$extends": [
-        "defaults.png",
-        "doorbell"
+        "defaults",
+        "image.png",
+        "device.doorbell",
+        "pair.doorbell",
+        "flows.doorbell"
     ]
 }

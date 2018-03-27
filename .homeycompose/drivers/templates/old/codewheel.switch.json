@@ -11,7 +11,7 @@
                     {
                         "name": "rf.pair.choice.buttons.copy.default",
                         "view": "rf.imitate",
-                        "svg": "{{driverPath}}/pair/assets/svg/YCT-102_pair.svg"
+                        "svg": "{{driverPath}}/pair/assets/svg/pair.svg"
                     },
                     {
                         "name": "rf.pair.choice.buttons.codewheel.codewheel_switch",
@@ -38,8 +38,7 @@
                 "initWithDeviceData": true,
                 "sendToggleOnInit": "[DEPRECATED]: false",
                 "title": "rf.pair.test_switch.title.socket",
-                "body": "rf.pair.test_switch.body.socket",
-                "svg": "../../assets/433_generator/images/light.svg"
+                "body": "rf.pair.test_switch.body.socket"
             }
         },
         {
@@ -102,7 +101,6 @@
             "options": {
                 "title": "rf.pair.test_switch.title.socket",
                 "body": "rf.pair.test_switch.body.socket",
-                "svg": "../../assets/433_generator/images/light.svg",
                 "initWithDeviceData": true,
                 "sendToggleOnInit": "[DEPRECATED]: false"
             }
@@ -116,11 +114,11 @@
             "$template": "rf.done"
         }
     ],
-    "$devices": [
+    "$_devices": [
         "YC-3500",
         "AC-300",
         "YC-412",
         "YC-1000"
     ],
-    "$hash": "migrate.22.1af79aa16f055379273742087b63625f"
+    "$_hash": "migrate.21.d95cdafc8c7529a6989173ed4551ef53"
 }

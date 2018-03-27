@@ -5,8 +5,8 @@
     },
     "$extends": [
         "defaults",
-        "dim",
-        "light",
-        "light.pair"
+        "device.light",
+        "capabilities.dim",
+        "pair.light"
     ]
 }

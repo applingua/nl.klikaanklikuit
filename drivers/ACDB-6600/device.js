@@ -2,13 +2,13 @@
 
 const Homey = require('homey');
 const util = require('homey-rfdriver').util;
-const DoorbellDevice = require('../../lib/devices/kaku/doorbell.js')
+const SensorDevice = require('../../lib/devices/kaku/sensor.js');
 
 // To extend from another class change the line below to
 // module.exports = RFDevice => class ACDB6600Device extends MyGenericDevice(RFDevice) {
 // and define MyGenericDevice like so
 // module.exports = RFDevice => class MyGenericDevice extends RFDevice {
-module.exports = RFDevice => class ACDB6600Device extends DoorbellDevice(RFDriver) {
+module.exports = RFDevice => class ACDB6600Device extends SensorDevice(RFDevice) {
 
     onRFInit() {
         super.onRFInit();

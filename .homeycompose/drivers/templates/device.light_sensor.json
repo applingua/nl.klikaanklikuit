@@ -1,0 +1,9 @@
+{
+    "class": "sensor",
+    "capabilities": [
+        "alarm_night"
+    ],
+    "$_devices": [
+        "ABST-604"
+    ]
+}

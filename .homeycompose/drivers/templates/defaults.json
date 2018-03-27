@@ -4,7 +4,13 @@
         "small": "{{driverPath}}/assets/images/small.jpg"
     },
     "icon": "{{driverPath}}/assets/icon.svg",
-    "$devices": [
+    "capabilities": [],
+    "class": "other",
+    "rf": {
+        "debounceTimeout": 500,
+        "signal": "kaku"
+    },
+    "$_devices": [
         "SUN-650",
         "AFR-060",
         "AWMT-003",
@@ -45,5 +51,5 @@
         "PAR-1000",
         "ALED-G2706"
     ],
-    "$hash": "migrate.0.aac44d1a0001a0e1382d6edcad7a8a1b"
+    "$_hash": "migrate.1.aac44d1a0001a0e1382d6edcad7a8a1b"
 }
