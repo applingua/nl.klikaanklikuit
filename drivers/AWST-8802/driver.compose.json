@@ -3,7 +3,7 @@
     "name": {
         "en": "AWST-8802"
     },
-    "flow": {
+    "$flow": {
         "triggers": [
             {
                 "id": "{{driverId}}:received",

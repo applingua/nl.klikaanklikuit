@@ -7,7 +7,7 @@
         "debounceTimeout": 500,
         "signal": "kakudim"
     },
-    "flow": {
+    "$flow": {
         "triggers": [
             {
                 "id": "{{driverId}}:received",
