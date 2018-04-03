@@ -3,7 +3,7 @@
     "name": {
         "en": "ABST-604"
     },
-    "pairOptions": {
+    "$pairOptions": {
         "rf.imitate": {
             "title": "rf.pair.imitate.title.ABST-604"
         },
@@ -13,7 +13,7 @@
     },
     "$extends": [
         "defaults",
-        "image.png",
+        "images.png",
         "device.light_sensor",
         "pair.sensor"
     ]

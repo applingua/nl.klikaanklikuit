@@ -1254,7 +1254,9 @@
           "doorbell": "Test your doorbell",
           "blinds": "Test your blinds",
           "sensor": "Test your sensor",
-          "ABST-640": "Test your night sensor"
+          "ABST-640": "Test your night sensor",
+          "ABST-604": "Test your night sensor",
+          "AMST-606": "Test your contact sensor"
         },
         "body": {
           "default": "Press a random button on your device or click the button in the image above to test the signal. Press next to continue.",
@@ -1270,7 +1272,9 @@
           "doorbell": "Use your doorbell button or the button above to test your device. Press next to continue.",
           "svg_buttons": "Use your remote or the buttons in the image above to test your device. Press next to continue.",
           "blinds": "Use your remote or the buttons in the image above to test your blinds. Press next to continue.",
-          "body": "Trigger your sensor manually or use the LEARN switch on your sensor to test the signal. Press next to continue."
+          "body": "Trigger your sensor manually or use the LEARN switch on your sensor to test the signal. Press next to continue.",
+          "sensor": "Trigger your sensor manually or use the LEARN switch on your sensor to test the signal. Press next to continue.",
+          "AMST-606": "Trigger your sensor manually to test the signal. Press next to continue."
         }
       },
       "codewheel": {
@@ -1279,6 +1283,9 @@
         },
         "body": {
           "default": "Click the characters on the code wheel above or configure the wheels on the device so they match, then click next."
+        },
+        "programbutton": {
+          "default": "Program"
         }
       },
       "dipswitch": {

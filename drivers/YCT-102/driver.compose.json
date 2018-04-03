@@ -5,9 +5,9 @@
     },
     "$extends": [
         "defaults",
-        "image.png",
+        "images.png",
         "rf.kakuold",
         "pair.remote",
-        "flow.remote"
+        "flow.remote.old"
     ]
 }

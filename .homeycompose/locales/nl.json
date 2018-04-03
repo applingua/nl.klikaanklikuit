@@ -37,14 +37,12 @@
             },
             "test_switch": {
                 "title": {
-                    "blinds": "Test de zonnewering",
                     "socket": "Test je contactdoos\u0000",
                     "AFR-100": "Test de fitting",
                     "build_in": "Test je apparaat",
                     "ALED-2709": "Test de lamp"
                 },
                 "body": {
-                    "blinds": "Gebruik de bovenstaande knoppen om de zonnewering te testen. Klik op volgende om verder te gaan.",
                     "socket": "Gebruik de bovenstaande knop om je contactdoos te testen. Klik op volgende om verder te gaan.\u0000",
                     "AFR-100": "Gebruik de bovenstaande schakelaar om de fitting te testen. Klik op volgende om verder te gaan.",
                     "build_in": "Gebruik de bovenstaande knop om het apparaat te testen. Klik op volgende om verder te gaan.",
@@ -75,10 +73,14 @@
             "test": {
                 "title": {
                     "sensor": "Test de sensor",
-                    "ABST-640": "Test de nachtsensor"
+                    "blinds": "Test de zonnewering",
+                    "ABST-604": "Test de nachtsensor",
+                    "AMST-606": "Test de contactsensor"
                 },
                 "body": {
-                    "body": "Laat de sensor handmatig afgaan of gebruik de LEARN knop om het signaal te testen. Klik op volgende om verder te gaan."
+                    "blinds": "Gebruik de bovenstaande knoppen om de zonnewering te testen. Klik op volgende om verder te gaan.",
+                    "sensor": "Laat de sensor handmatig afgaan of gebruik de LEARN knop om het signaal te testen. Klik op volgende om verder te gaan.",
+                    "AMST-606": "Laat de sensor handmatig afgaan om het signaal te testen. Klik op volgende om verder te gaan."
                 }
             }
         }

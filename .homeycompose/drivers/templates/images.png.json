@@ -1,4 +1,5 @@
 {
+    "$disabled": true,
     "images": {
         "large": "{{driverPath}}/assets/images/large.png",
         "small": "{{driverPath}}/assets/images/small.png"

@@ -11,12 +11,12 @@
                     {
                         "name": "rf.pair.choice.buttons.copy.default",
                         "view": "rf.imitate",
-                        "svg": "assets/svg/pair.svg"
+                        "svg": "assets/svg/YCT-102_pair.svg"
                     },
                     {
                         "name": "rf.pair.choice.buttons.codewheel.codewheel_switch",
                         "view": "rf.codewheel",
-                        "svg": "assets/svg/YC-400_pair.svg"
+                        "svg": "assets/svg/pair.svg"
                     }
                 ]
             }
@@ -27,7 +27,7 @@
             "options": {
                 "title": "rf.pair.imitate.title.socket",
                 "body": "rf.pair.imitate.body.socket",
-                "svg": "assets/svg/pair.svg"
+                "svg": "assets/svg/YCT-102_pair.svg"
             },
             "navigation": {
                 "prev": "rf.choice"

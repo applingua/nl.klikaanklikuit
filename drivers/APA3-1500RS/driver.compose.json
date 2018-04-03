@@ -3,7 +3,7 @@
 	"name": {
 		"en": "APA3-1500R"
 	},
-	"pairOptions": {
+	"$pairOptions": {
 		"rf.choice": {
 			"choices": [
 				{

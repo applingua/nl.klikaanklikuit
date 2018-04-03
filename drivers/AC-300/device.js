@@ -8,7 +8,7 @@ const KakuDevice = require('../../lib/devices/kakuold/kaku.js');
 // module.exports = RFDevice => class AC300Device extends MyGenericDevice(RFDevice) {
 // and define MyGenericDevice like so
 // module.exports = RFDevice => class MyGenericDevice extends RFDevice {
-module.exports = RFDevice => class AC300Device extends KakuDevice(RFDevice) {
+module.exports = RFDevice => class YC400Device extends KakuDevice(RFDevice) {
 
     onRFInit() {
         super.onRFInit();

@@ -5,7 +5,7 @@
     },
     "$extends": [
         "defaults",
-        "image.png",
+        "images.png",
         "device.socket",
         "pair.socket"
     ]

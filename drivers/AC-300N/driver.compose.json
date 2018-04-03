@@ -1,13 +1,14 @@
 {
+    "$disabled": false,
     "id": "AC-300N",
     "name": {
         "en": "AC-300"
     },
     "$extends": [
         "defaults",
-        "image.png",
+        "images.png",
         "device.socket",
-        "pair.socket",
-        "capabilities.dim"
+        "rf.kakuold",
+        "pair.socket"
     ]
 }

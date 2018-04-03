@@ -1037,7 +1037,10 @@
           "wall_switch": "Test de wandschakelaar",
           "socket": "Test de contactdoos",
           "sensor": "Test de sensor",
-          "ABST-640": "Test de nachtsensor"
+          "ABST-640": "Test de nachtsensor",
+          "blinds": "Test de zonnewering",
+          "ABST-604": "Test de nachtsensor",
+          "AMST-606": "Test de contactsensor"
         },
         "body": {
           "default": "Druk op een willekeurige knop op het apparaat of op de knoppen in het bovenstaande plaatje om het signaal te testen. Klik op volgende om verder te gaan.",
@@ -1051,7 +1054,10 @@
           "switch": "Gebruik de afstandsbediening of de bovenstaande knop om het apparaat te testen. Klik op volgende om verder te gaan.",
           "doorbell_generated": "Gebruik de bovenstaande knop om de deurbel te testen. Klik op volgende om verder te gaan.",
           "doorbell": "Gebruik de deurbel of de bovenstaande knop om de deurbel te testen. Klik op volgende om verder te gaan.",
-          "body": "Laat de sensor handmatig afgaan of gebruik de LEARN knop om het signaal te testen. Klik op volgende om verder te gaan."
+          "body": "Laat de sensor handmatig afgaan of gebruik de LEARN knop om het signaal te testen. Klik op volgende om verder te gaan.",
+          "blinds": "Gebruik de bovenstaande knoppen om de zonnewering te testen. Klik op volgende om verder te gaan.",
+          "sensor": "Laat de sensor handmatig afgaan of gebruik de LEARN knop om het signaal te testen. Klik op volgende om verder te gaan.",
+          "AMST-606": "Laat de sensor handmatig afgaan om het signaal te testen. Klik op volgende om verder te gaan."
         }
       },
       "codewheel": {

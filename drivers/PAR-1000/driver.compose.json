@@ -3,7 +3,7 @@
     "name": {
         "en": "PAR-1000"
     },
-    "pairOptions": {
+    "$pairOptions": {
         "rf.choice": {
             "choices": [
                 {

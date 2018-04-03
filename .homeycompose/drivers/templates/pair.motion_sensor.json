@@ -15,7 +15,7 @@
             "options": {
                 "body": "rf.pair.test.body.sensor",
                 "initWithDeviceData": true,
-                "svg": "assets/svg/test.svg",
+                "svg": "motion",
                 "title": "rf.pair.test.title.motion_sensor"
             },
             "navigation": {

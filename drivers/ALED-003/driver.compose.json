@@ -3,7 +3,7 @@
 	"name": {
 		"en": "ALED-003"
 	},
-	"pairOptions": {
+	"$pairOptions": {
 		"rf.program": {
 			"body": "rf.pair.program.body.ALED-003"
 		}

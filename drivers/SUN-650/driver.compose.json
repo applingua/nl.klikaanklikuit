@@ -15,12 +15,12 @@
 					{
 						"name": "rf.pair.choice.buttons.copy.default",
 						"view": "rf.imitate",
-						"svg": "assets/svg/pair.svg"
+						"svg": "assets/svg/YCT-102_pair.svg"
 					},
 					{
 						"name": "rf.pair.choice.buttons.codewheel.codewheel_switch",
 						"view": "rf.codewheel",
-						"svg": "assets/svg/SUN-500_pair.svg"
+						"svg": "assets/svg/pair.svg"
 					}
 				]
 			}
@@ -30,20 +30,20 @@
 			"$template": "rf.imitate",
 			"options": {
 				"body": "rf.pair.imitate.body.old_blinds",
-				"svg": "assets/svg/pair.svg"
+				"svg": "assets/svg/YCT-102_pair.svg"
 			},
 			"navigation": {
 				"prev": "rf.choice"
 			}
 		},
 		{
-			"id": "rf.test_switch.2",
-			"$template": "rf.test_switch",
+			"id": "rf.test.2",
+			"$template": "rf.test",
 			"options": {
 				"initWithDeviceData": true,
-				"title": "rf.pair.test_switch.title.blinds",
-				"body": "rf.pair.test_switch.body.blinds",
-				"svg": "assets/svg/test.svg"
+				"title": "rf.pair.test.title.blinds",
+				"body": "rf.pair.test.body.blinds",
+				"svg": "blinds"
 			},
 			"navigation": {
 				"prev": "rf.imitate",
@@ -104,12 +104,12 @@
 			}
 		},
 		{
-			"id": "rf.test_switch",
-			"$template": "rf.test_switch",
+			"id": "rf.test",
+			"$template": "rf.test",
 			"options": {
-				"title": "rf.pair.test_switch.title.blinds",
-				"body": "rf.pair.test_switch.body.blinds",
-				"svg": "assets/svg/test.svg",
+				"title": "rf.pair.test.title.blinds",
+				"body": "rf.pair.test.body.blinds",
+				"svg": "blinds",
 				"initWithDeviceData": true
 			},
 			"navigation": {

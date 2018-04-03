@@ -39,7 +39,7 @@
 				"initWithDeviceData": true,
 				"title": "rf.pair.test_switch.title.blinds",
 				"body": "rf.pair.test_switch.body.blinds",
-				"svg": "assets/svg/test.svg"
+				"svg": "blinds"
 			},
 			"navigation": {
 				"prev": "rf.imitate",
@@ -62,7 +62,7 @@
 			"options": {
 				"title": "rf.pair.test_switch.title.blinds",
 				"body": "rf.pair.test_switch.body.blinds",
-				"svg": "assets/svg/test.svg",
+				"svg": "blinds",
 				"initWithDeviceData": true
 			},
 			"navigation": {

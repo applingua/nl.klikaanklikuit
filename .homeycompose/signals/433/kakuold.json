@@ -23,8 +23,8 @@
             380
         ]
     ],
-    "interval": 11000,
-    "repetitions": 20,
+    "interval": 11300,
+    "repetitions": 6,
     "sensitivity": 0.5,
     "minimalLength": 12,
     "maximalLength": 12

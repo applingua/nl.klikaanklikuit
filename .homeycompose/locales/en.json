@@ -38,14 +38,12 @@
             },
             "test_switch": {
                 "title": {
-                    "blinds": "Test your blinds",
                     "socket": "Test your socket\u0000",
                     "AFR-100": "Test your fitting",
                     "build_in": "Test your device",
                     "ALED-2709": "Test your lamp"
                 },
                 "body": {
-                    "blinds": "Use the buttons above to test your blinds. Press next to continue.",
                     "socket": "Use the switch above to test your socket. Press next to continue.\u0000",
                     "AFR-100": "Use the switch above to test your fitting. Press next to continue.",
                     "build_in": "Use the switch above to test your device. Press next to continue.",
@@ -76,10 +74,14 @@
             "test": {
                 "title": {
                     "sensor": "Test your sensor",
-                    "ABST-640": "Test your night sensor"
+                    "ABST-604": "Test your night sensor",
+                    "blinds": "Test your blinds",
+                    "AMST-606": "Test your contact sensor"
                 },
                 "body": {
-                    "body": "Trigger your sensor manually or use the LEARN switch on your sensor to test the signal. Press next to continue."
+                    "sensor": "Trigger your sensor manually or use the LEARN switch on your sensor to test the signal. Press next to continue.",
+                    "blinds": "Use the buttons above to test your blinds. Press next to continue.",
+                    "AMST-606": "Trigger your sensor manually to test the signal. Press next to continue."
                 }
             }
         }

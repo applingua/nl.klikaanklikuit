@@ -15,7 +15,7 @@
 	},
 	"$extends": [
 		"defaults",
-		"image.png",
+		"images.png",
 		"device.contact_sensor",
 		"pair.sensor"
 	]

@@ -1,22 +1,23 @@
 {
-    "rf": {
-        "debounceTimeout": 500,
-        "signal": "kakuold"
-    },
-    "$_devices": [
-        "SUN-650",
-        "TMT-502",
-        "KCT-510",
-        "WST-8800",
-        "YC-3500",
-        "WST-8700",
-        "AC-300",
-        "KCT-101",
-        "YC-412",
-        "PA3-1000R",
-        "YCT-102",
-        "YC-1000",
-        "PAR-1000"
-    ],
-    "$_hash": "migrate.5.90196a7e090a63d1a116660f71786d35"
+	"$disabled": true,
+	"rf": {
+		"debounceTimeout": 500,
+		"signal": "kakuold"
+	},
+	"$_devices": [
+		"SUN-650",
+		"TMT-502",
+		"KCT-510",
+		"WST-8800",
+		"YC-3500",
+		"WST-8700",
+		"AC-300",
+		"KCT-101",
+		"YC-412",
+		"PA3-1000R",
+		"YCT-102",
+		"YC-1000",
+		"PAR-1000"
+	],
+	"$_hash": "migrate.5.90196a7e090a63d1a116660f71786d35"
 }
