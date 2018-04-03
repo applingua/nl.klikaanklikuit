@@ -1385,13 +1385,7 @@
           }
         },
         {
-          "id": "rf.test_switch.2",
-          "options": {
-            "initWithDeviceData": true,
-            "title": "rf.pair.test_switch.title.blinds",
-            "body": "rf.pair.test_switch.body.blinds",
-            "svg": "blinds"
-          },
+          "id": "rf.test_blinds.2",
           "navigation": {
             "prev": "rf.imitate",
             "next": "rf.done"
@@ -1407,13 +1401,7 @@
           }
         },
         {
-          "id": "rf.test_switch",
-          "options": {
-            "title": "rf.pair.test_switch.title.blinds",
-            "body": "rf.pair.test_switch.body.blinds",
-            "svg": "blinds",
-            "initWithDeviceData": true
-          },
+          "id": "rf.test_blinds",
           "navigation": {
             "prev": "rf.program",
             "next": "rf.done"
