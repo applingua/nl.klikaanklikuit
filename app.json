@@ -29,17 +29,62 @@
   "drivers": [
     {
       "images": {
-        "large": "/drivers/AC-1000/assets/images/large.png",
-        "small": "/drivers/AC-1000/assets/images/small.png"
+        "large": "/drivers/ABST-604/assets/images/large.png",
+        "small": "/drivers/ABST-604/assets/images/small.png"
       },
-      "icon": "/drivers/AC-1000/assets/icon.svg",
+      "icon": "/drivers/ABST-604/assets/icon.svg",
+      "capabilities": [
+        "alarm_night"
+      ],
+      "class": "sensor",
+      "rf": {
+        "debounceTimeout": 500,
+        "signal": "kaku"
+      },
+      "pair": [
+        {
+          "id": "rf.imitate",
+          "options": {
+            "body": "rf.pair.imitate.body.sensor",
+            "svg": "assets/svg/pair.svg",
+            "title": "rf.pair.imitate.title.ABST-604"
+          }
+        },
+        {
+          "id": "rf.test",
+          "options": {
+            "body": "rf.pair.test.body.sensor",
+            "initWithDeviceData": true,
+            "svg": "assets/svg/test.svg",
+            "title": "rf.pair.test.title.ABST-604"
+          },
+          "navigation": {
+            "prev": "rf.imitate",
+            "next": "rf.done"
+          }
+        },
+        {
+          "id": "rf.done"
+        }
+      ],
+      "id": "ABST-604",
+      "name": {
+        "en": "ABST-604"
+      }
+    },
+    {
+      "images": {
+        "large": "/drivers/ACD-1000/assets/images/large.png",
+        "small": "/drivers/ACD-1000/assets/images/small.png"
+      },
+      "icon": "/drivers/ACD-1000/assets/icon.svg",
       "capabilities": [
         "onoff"
       ],
       "class": "socket",
       "rf": {
         "debounceTimeout": 500,
-        "signal": "kakuold"
+        "signal": "kaku"
       },
       "pair": [
         {
@@ -128,171 +173,26 @@
           "id": "rf.done"
         }
       ],
-      "id": "AC-1000",
+      "id": "ACD-1000",
       "name": {
-        "en": "AC-1000"
+        "en": "ACD-1000"
       }
     },
     {
       "images": {
-        "large": "/drivers/AC-300/assets/images/large.jpg",
-        "small": "/drivers/AC-300/assets/images/small.jpg"
+        "large": "/drivers/ACD-200/assets/images/large.png",
+        "small": "/drivers/ACD-200/assets/images/small.png"
       },
-      "icon": "/drivers/AC-300/assets/icon.svg",
+      "icon": "/drivers/ACD-200/assets/icon.svg",
       "capabilities": [
-        "onoff"
+        "onoff",
+        "dim"
       ],
       "class": "socket",
       "rf": {
         "debounceTimeout": 500,
-        "signal": "kakuold"
-      },
-      "pair": [
-        {
-          "id": "rf.choice",
-          "options": {
-            "title": "rf.pair.choice.title.switch",
-            "body": "rf.pair.choice.body.codewheel_switch",
-            "svgHeight": "65vh",
-            "choices": [
-              {
-                "name": "rf.pair.choice.buttons.copy.default",
-                "view": "rf.imitate",
-                "svg": "assets/svg/pair.svg"
-              },
-              {
-                "name": "rf.pair.choice.buttons.codewheel.codewheel_switch",
-                "view": "rf.codewheel",
-                "svg": "assets/svg/YC-400_pair.svg"
-              }
-            ]
-          }
-        },
-        {
-          "id": "rf.imitate",
-          "options": {
-            "title": "rf.pair.imitate.title.socket",
-            "body": "rf.pair.imitate.body.socket",
-            "svg": "assets/svg/pair.svg"
-          },
-          "navigation": {
-            "prev": "rf.choice"
-          }
-        },
-        {
-          "id": "rf.test_switch.2",
-          "options": {
-            "initWithDeviceData": true,
-            "title": "rf.pair.test_switch.title.socket",
-            "body": "rf.pair.test_switch.body.socket"
-          },
-          "navigation": {
-            "prev": "rf.imitate",
-            "next": "choose_slave.2"
-          }
-        },
-        {
-          "id": "choose_slave.2",
-          "template": "choose_slave",
-          "navigation": {
-            "prev": "rf.test_switch.2",
-            "next": "rf.done"
-          }
-        },
-        {
-          "id": "rf.codewheel",
-          "options": {
-            "codewheelList": [
-              {
-                "series": [
-                  "A",
-                  "B",
-                  "C",
-                  "D",
-                  "E",
-                  "F",
-                  "G",
-                  "H",
-                  "I",
-                  "J",
-                  "K",
-                  "L",
-                  "M",
-                  "N",
-                  "O",
-                  "P"
-                ],
-                "mapOddToDot": true
-              },
-              {
-                "series": [
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7,
-                  8,
-                  9,
-                  10,
-                  11,
-                  12,
-                  13,
-                  14,
-                  15,
-                  16
-                ],
-                "mapOddToDot": true
-              }
-            ]
-          },
-          "navigation": {
-            "prev": "rf.choice"
-          }
-        },
-        {
-          "id": "rf.test_switch",
-          "options": {
-            "title": "rf.pair.test_switch.title.socket",
-            "body": "rf.pair.test_switch.body.socket",
-            "initWithDeviceData": true
-          },
-          "navigation": {
-            "prev": "rf.codewheel",
-            "next": "choose_slave"
-          }
-        },
-        {
-          "id": "choose_slave",
-          "template": "choose_slave",
-          "navigation": {
-            "prev": "rf.test_switch",
-            "next": "rf.done"
-          }
-        },
-        {
-          "id": "rf.done"
-        }
-      ],
-      "id": "AC-300",
-      "name": {
-        "en": "YC-400"
-      }
-    },
-    {
-      "images": {
-        "large": "/drivers/AC-300N/assets/images/large.png",
-        "small": "/drivers/AC-300N/assets/images/small.png"
-      },
-      "icon": "/drivers/AC-300N/assets/icon.svg",
-      "capabilities": [
-        "onoff"
-      ],
-      "class": "socket",
-      "rf": {
-        "debounceTimeout": 500,
-        "signal": "kakuold"
+        "signal": "kakudim",
+        "alternativeSignal": "kaku"
       },
       "pair": [
         {
@@ -381,24 +281,26 @@
           "id": "rf.done"
         }
       ],
-      "id": "AC-300N",
+      "id": "ACD-200",
       "name": {
-        "en": "AC-300"
+        "en": "ACD-200"
       }
     },
     {
       "images": {
-        "large": "/drivers/AC-3500/assets/images/large.png",
-        "small": "/drivers/AC-3500/assets/images/small.png"
+        "large": "/drivers/ACD-300/assets/images/large.png",
+        "small": "/drivers/ACD-300/assets/images/small.png"
       },
-      "icon": "/drivers/AC-3500/assets/icon.svg",
+      "icon": "/drivers/ACD-300/assets/icon.svg",
       "capabilities": [
-        "onoff"
+        "onoff",
+        "dim"
       ],
       "class": "socket",
       "rf": {
         "debounceTimeout": 500,
-        "signal": "kakuold"
+        "signal": "kakudim",
+        "alternativeSignal": "kaku"
       },
       "pair": [
         {
@@ -487,12 +389,1736 @@
           "id": "rf.done"
         }
       ],
-      "id": "AC-3500",
+      "id": "ACD-300",
       "name": {
-        "en": "AC-3500"
+        "en": "ACD-300"
+      }
+    },
+    {
+      "images": {
+        "large": "/drivers/ACD-3500/assets/images/large.png",
+        "small": "/drivers/ACD-3500/assets/images/small.png"
+      },
+      "icon": "/drivers/ACD-3500/assets/icon.svg",
+      "capabilities": [
+        "onoff"
+      ],
+      "class": "socket",
+      "rf": {
+        "debounceTimeout": 500,
+        "signal": "kaku"
+      },
+      "pair": [
+        {
+          "id": "rf.choice",
+          "options": {
+            "title": "rf.pair.choice.title.switch",
+            "body": "rf.pair.choice.body.switch",
+            "svgHeight": "65vh",
+            "choices": [
+              {
+                "name": "rf.pair.choice.buttons.copy.default",
+                "view": "rf.imitate",
+                "svg": "assets/svg/AYCT-102_pair.svg"
+              },
+              {
+                "name": "rf.pair.choice.buttons.generate.default",
+                "view": "rf.program",
+                "svg": "assets/svg/pair.svg"
+              }
+            ]
+          }
+        },
+        {
+          "id": "rf.imitate",
+          "options": {
+            "title": "rf.pair.imitate.title.socket",
+            "body": "rf.pair.imitate.body.socket",
+            "svg": "assets/svg/AYCT-102_pair.svg"
+          },
+          "navigation": {
+            "prev": "rf.choice"
+          }
+        },
+        {
+          "id": "rf.test_switch.2",
+          "options": {
+            "initWithDeviceData": true,
+            "title": "rf.pair.test_switch.title.socket",
+            "body": "rf.pair.test_switch.body.socket"
+          },
+          "navigation": {
+            "prev": "rf.imitate",
+            "next": "choose_slave.2"
+          }
+        },
+        {
+          "id": "choose_slave.2",
+          "template": "choose_slave",
+          "navigation": {
+            "prev": "rf.test_switch.2",
+            "next": "rf.done"
+          }
+        },
+        {
+          "id": "rf.program",
+          "options": {
+            "title": "rf.pair.program.title.socket",
+            "body": "rf.pair.program.body.socket",
+            "svg": "assets/svg/pair.svg"
+          },
+          "navigation": {
+            "prev": "rf.choice"
+          }
+        },
+        {
+          "id": "rf.test_switch",
+          "options": {
+            "title": "rf.pair.test_switch.title.socket",
+            "body": "rf.pair.test_switch.body.socket",
+            "initWithDeviceData": true
+          },
+          "navigation": {
+            "prev": "rf.program",
+            "next": "choose_slave"
+          }
+        },
+        {
+          "id": "choose_slave",
+          "template": "choose_slave",
+          "navigation": {
+            "prev": "rf.test_switch",
+            "next": "rf.done"
+          }
+        },
+        {
+          "id": "rf.done"
+        }
+      ],
+      "id": "ACD-3500",
+      "name": {
+        "en": "ACD-3500"
+      }
+    },
+    {
+      "images": {
+        "large": "/drivers/ACDB-7000C/assets/images/large.png",
+        "small": "/drivers/ACDB-7000C/assets/images/small.png"
+      },
+      "icon": "/drivers/ACDB-7000C/assets/icon.svg",
+      "capabilities": [
+        "alarm_generic"
+      ],
+      "class": "doorbell",
+      "rf": {
+        "debounceTimeout": 1000,
+        "signal": "kaku",
+        "sendToggleAfterTimeout": 4000
+      },
+      "pair": [
+        {
+          "id": "rf.choice",
+          "options": {
+            "title": "rf.pair.choice.title.switch",
+            "body": "rf.pair.choice.body.doorbell",
+            "svgHeight": "65vh",
+            "choices": [
+              {
+                "name": "rf.pair.choice.buttons.imitate.ACDB-6600",
+                "view": "rf.imitate",
+                "svg": "assets/svg/doorbell.svg"
+              },
+              {
+                "name": "rf.pair.choice.buttons.generate.default",
+                "view": "rf.program",
+                "svg": "assets/svg/pair.svg"
+              }
+            ]
+          }
+        },
+        {
+          "id": "rf.imitate",
+          "options": {
+            "body": "rf.pair.imitate.body.doorbell",
+            "svg": "assets/svg/doorbell.svg"
+          },
+          "navigation": {
+            "prev": "rf.choice"
+          }
+        },
+        {
+          "id": "rf.test_button.2",
+          "options": {
+            "initWithDeviceData": true,
+            "title": "rf.pair.test_button.title.doorbell",
+            "body": "rf.pair.test_button.body.doorbell",
+            "svg": "doorbell",
+            "buttonLabel": "test",
+            "capability": "alarm_generic"
+          },
+          "navigation": {
+            "prev": "rf.imitate",
+            "next": "rf.done"
+          }
+        },
+        {
+          "id": "rf.program",
+          "options": {
+            "body": "rf.pair.program.body.socket",
+            "svg": "assets/svg/pair.svg"
+          },
+          "navigation": {
+            "prev": "rf.choice",
+            "next": "rf.test_button"
+          }
+        },
+        {
+          "id": "rf.test_button",
+          "options": {
+            "title": "rf.pair.test_button.title.doorbell",
+            "body": "rf.pair.test_button.body.doorbell",
+            "svg": "doorbell",
+            "initWithDeviceData": true,
+            "buttonLabel": "test",
+            "capability": "alarm_generic"
+          },
+          "navigation": {
+            "prev": "rf.program",
+            "next": "rf.done"
+          }
+        },
+        {
+          "id": "rf.done"
+        }
+      ],
+      "id": "ACDB-7000C",
+      "name": {
+        "en": "ACDB-7000C"
+      }
+    },
+    {
+      "images": {
+        "large": "/drivers/ACM-1000/assets/images/large.png",
+        "small": "/drivers/ACM-1000/assets/images/small.png"
+      },
+      "icon": "/drivers/ACM-1000/assets/icon.svg",
+      "capabilities": [
+        "onoff"
+      ],
+      "class": "socket",
+      "rf": {
+        "debounceTimeout": 500,
+        "signal": "kaku"
+      },
+      "pair": [
+        {
+          "id": "rf.choice",
+          "options": {
+            "title": "rf.pair.choice.title.switch",
+            "body": "rf.pair.choice.body.switch",
+            "svgHeight": "65vh",
+            "choices": [
+              {
+                "name": "rf.pair.choice.buttons.copy.default",
+                "view": "rf.imitate",
+                "svg": "assets/svg/AYCT-102_pair.svg"
+              },
+              {
+                "name": "rf.pair.choice.buttons.generate.default",
+                "view": "rf.program",
+                "svg": "assets/svg/pair.svg"
+              }
+            ]
+          }
+        },
+        {
+          "id": "rf.imitate",
+          "options": {
+            "title": "rf.pair.imitate.title.socket",
+            "body": "rf.pair.imitate.body.build_in",
+            "svg": "assets/svg/AYCT-102_pair.svg"
+          },
+          "navigation": {
+            "prev": "rf.choice"
+          }
+        },
+        {
+          "id": "rf.test_switch.2",
+          "options": {
+            "initWithDeviceData": true,
+            "title": "rf.pair.test_switch.title.build_in",
+            "body": "rf.pair.test_switch.body.build_in"
+          },
+          "navigation": {
+            "prev": "rf.imitate",
+            "next": "choose_slave.2"
+          }
+        },
+        {
+          "id": "choose_slave.2",
+          "template": "choose_slave",
+          "navigation": {
+            "prev": "rf.test_switch.2",
+            "next": "rf.done"
+          }
+        },
+        {
+          "id": "rf.program",
+          "options": {
+            "title": "rf.pair.program.title.build_in",
+            "body": "rf.pair.program.body.build_in",
+            "svg": "assets/svg/pair.svg"
+          },
+          "navigation": {
+            "prev": "rf.choice"
+          }
+        },
+        {
+          "id": "rf.test_switch",
+          "options": {
+            "title": "rf.pair.test_switch.title.build_in",
+            "body": "rf.pair.test_switch.body.build_in",
+            "initWithDeviceData": true
+          },
+          "navigation": {
+            "prev": "rf.program",
+            "next": "choose_slave"
+          }
+        },
+        {
+          "id": "choose_slave",
+          "template": "choose_slave",
+          "navigation": {
+            "prev": "rf.test_switch",
+            "next": "rf.done"
+          }
+        },
+        {
+          "id": "rf.done"
+        }
+      ],
+      "id": "ACM-1000",
+      "name": {
+        "en": "ACM-1000"
+      }
+    },
+    {
+      "images": {
+        "large": "/drivers/ACM-250/assets/images/large.png",
+        "small": "/drivers/ACM-250/assets/images/small.png"
+      },
+      "icon": "/drivers/ACM-250/assets/icon.svg",
+      "capabilities": [
+        "onoff",
+        "dim"
+      ],
+      "class": "socket",
+      "rf": {
+        "debounceTimeout": 500,
+        "signal": "kakudim",
+        "alternativeSignal": "kaku"
+      },
+      "pair": [
+        {
+          "id": "rf.choice",
+          "options": {
+            "title": "rf.pair.choice.title.switch",
+            "body": "rf.pair.choice.body.switch",
+            "svgHeight": "65vh",
+            "choices": [
+              {
+                "name": "rf.pair.choice.buttons.copy.default",
+                "view": "rf.imitate",
+                "svg": "assets/svg/AYCT-102_pair.svg"
+              },
+              {
+                "name": "rf.pair.choice.buttons.generate.default",
+                "view": "rf.program",
+                "svg": "assets/svg/pair.svg"
+              }
+            ]
+          }
+        },
+        {
+          "id": "rf.imitate",
+          "options": {
+            "title": "rf.pair.imitate.title.socket",
+            "body": "rf.pair.imitate.body.build_in",
+            "svg": "assets/svg/AYCT-102_pair.svg"
+          },
+          "navigation": {
+            "prev": "rf.choice"
+          }
+        },
+        {
+          "id": "rf.test_switch.2",
+          "options": {
+            "initWithDeviceData": true,
+            "title": "rf.pair.test_switch.title.build_in",
+            "body": "rf.pair.test_switch.body.build_in"
+          },
+          "navigation": {
+            "prev": "rf.imitate",
+            "next": "choose_slave.2"
+          }
+        },
+        {
+          "id": "choose_slave.2",
+          "template": "choose_slave",
+          "navigation": {
+            "prev": "rf.test_switch.2",
+            "next": "rf.done"
+          }
+        },
+        {
+          "id": "rf.program",
+          "options": {
+            "title": "rf.pair.program.title.build_in",
+            "body": "rf.pair.program.body.build_in",
+            "svg": "assets/svg/pair.svg"
+          },
+          "navigation": {
+            "prev": "rf.choice"
+          }
+        },
+        {
+          "id": "rf.test_switch",
+          "options": {
+            "title": "rf.pair.test_switch.title.build_in",
+            "body": "rf.pair.test_switch.body.build_in",
+            "initWithDeviceData": true
+          },
+          "navigation": {
+            "prev": "rf.program",
+            "next": "choose_slave"
+          }
+        },
+        {
+          "id": "choose_slave",
+          "template": "choose_slave",
+          "navigation": {
+            "prev": "rf.test_switch",
+            "next": "rf.done"
+          }
+        },
+        {
+          "id": "rf.done"
+        }
+      ],
+      "id": "ACM-250",
+      "name": {
+        "en": "ACM-250"
+      }
+    },
+    {
+      "images": {
+        "large": "/drivers/ACM-300/assets/images/large.png",
+        "small": "/drivers/ACM-300/assets/images/small.png"
+      },
+      "icon": "/drivers/ACM-300/assets/icon.svg",
+      "capabilities": [
+        "onoff",
+        "dim"
+      ],
+      "class": "socket",
+      "rf": {
+        "debounceTimeout": 500,
+        "signal": "kakudim",
+        "alternativeSignal": "kaku"
+      },
+      "pair": [
+        {
+          "id": "rf.choice",
+          "options": {
+            "title": "rf.pair.choice.title.switch",
+            "body": "rf.pair.choice.body.switch",
+            "svgHeight": "65vh",
+            "choices": [
+              {
+                "name": "rf.pair.choice.buttons.copy.default",
+                "view": "rf.imitate",
+                "svg": "assets/svg/AYCT-102_pair.svg"
+              },
+              {
+                "name": "rf.pair.choice.buttons.generate.default",
+                "view": "rf.program",
+                "svg": "assets/svg/pair.svg"
+              }
+            ]
+          }
+        },
+        {
+          "id": "rf.imitate",
+          "options": {
+            "title": "rf.pair.imitate.title.socket",
+            "body": "rf.pair.imitate.body.build_in",
+            "svg": "assets/svg/AYCT-102_pair.svg"
+          },
+          "navigation": {
+            "prev": "rf.choice"
+          }
+        },
+        {
+          "id": "rf.test_switch.2",
+          "options": {
+            "initWithDeviceData": true,
+            "title": "rf.pair.test_switch.title.build_in",
+            "body": "rf.pair.test_switch.body.build_in"
+          },
+          "navigation": {
+            "prev": "rf.imitate",
+            "next": "choose_slave.2"
+          }
+        },
+        {
+          "id": "choose_slave.2",
+          "template": "choose_slave",
+          "navigation": {
+            "prev": "rf.test_switch.2",
+            "next": "rf.done"
+          }
+        },
+        {
+          "id": "rf.program",
+          "options": {
+            "title": "rf.pair.program.title.build_in",
+            "body": "rf.pair.program.body.build_in",
+            "svg": "assets/svg/pair.svg"
+          },
+          "navigation": {
+            "prev": "rf.choice"
+          }
+        },
+        {
+          "id": "rf.test_switch",
+          "options": {
+            "title": "rf.pair.test_switch.title.build_in",
+            "body": "rf.pair.test_switch.body.build_in",
+            "initWithDeviceData": true
+          },
+          "navigation": {
+            "prev": "rf.program",
+            "next": "choose_slave"
+          }
+        },
+        {
+          "id": "choose_slave",
+          "template": "choose_slave",
+          "navigation": {
+            "prev": "rf.test_switch",
+            "next": "rf.done"
+          }
+        },
+        {
+          "id": "rf.done"
+        }
+      ],
+      "id": "ACM-300",
+      "name": {
+        "en": "ACM-300"
+      }
+    },
+    {
+      "images": {
+        "large": "/drivers/AILD-250/assets/images/large.png",
+        "small": "/drivers/AILD-250/assets/images/small.png"
+      },
+      "icon": "/drivers/AILD-250/assets/icon.svg",
+      "capabilities": [
+        "onoff",
+        "dim"
+      ],
+      "class": "socket",
+      "rf": {
+        "debounceTimeout": 500,
+        "signal": "kakudim",
+        "alternativeSignal": "kaku"
+      },
+      "pair": [
+        {
+          "id": "rf.choice",
+          "options": {
+            "title": "rf.pair.choice.title.switch",
+            "body": "rf.pair.choice.body.switch",
+            "svgHeight": "65vh",
+            "choices": [
+              {
+                "name": "rf.pair.choice.buttons.copy.default",
+                "view": "rf.imitate",
+                "svg": "assets/svg/AYCT-102_pair.svg"
+              },
+              {
+                "name": "rf.pair.choice.buttons.generate.default",
+                "view": "rf.program",
+                "svg": "assets/svg/pair.svg"
+              }
+            ]
+          }
+        },
+        {
+          "id": "rf.imitate",
+          "options": {
+            "title": "rf.pair.imitate.title.socket",
+            "body": "rf.pair.imitate.body.build_in",
+            "svg": "assets/svg/AYCT-102_pair.svg"
+          },
+          "navigation": {
+            "prev": "rf.choice"
+          }
+        },
+        {
+          "id": "rf.test_switch.2",
+          "options": {
+            "initWithDeviceData": true,
+            "title": "rf.pair.test_switch.title.build_in",
+            "body": "rf.pair.test_switch.body.build_in"
+          },
+          "navigation": {
+            "prev": "rf.imitate",
+            "next": "choose_slave.2"
+          }
+        },
+        {
+          "id": "choose_slave.2",
+          "template": "choose_slave",
+          "navigation": {
+            "prev": "rf.test_switch.2",
+            "next": "rf.done"
+          }
+        },
+        {
+          "id": "rf.program",
+          "options": {
+            "title": "rf.pair.program.title.build_in",
+            "body": "rf.pair.program.body.build_in",
+            "svg": "assets/svg/pair.svg"
+          },
+          "navigation": {
+            "prev": "rf.choice"
+          }
+        },
+        {
+          "id": "rf.test_switch",
+          "options": {
+            "title": "rf.pair.test_switch.title.build_in",
+            "body": "rf.pair.test_switch.body.build_in",
+            "initWithDeviceData": true
+          },
+          "navigation": {
+            "prev": "rf.program",
+            "next": "choose_slave"
+          }
+        },
+        {
+          "id": "choose_slave",
+          "template": "choose_slave",
+          "navigation": {
+            "prev": "rf.test_switch",
+            "next": "rf.done"
+          }
+        },
+        {
+          "id": "rf.done"
+        }
+      ],
+      "id": "AILD-250",
+      "name": {
+        "en": "AILD-250"
+      }
+    },
+    {
+      "images": {
+        "large": "/drivers/AILS-3500/assets/images/large.png",
+        "small": "/drivers/AILS-3500/assets/images/small.png"
+      },
+      "icon": "/drivers/AILS-3500/assets/icon.svg",
+      "capabilities": [
+        "onoff"
+      ],
+      "class": "socket",
+      "rf": {
+        "debounceTimeout": 500,
+        "signal": "kaku"
+      },
+      "pair": [
+        {
+          "id": "rf.choice",
+          "options": {
+            "title": "rf.pair.choice.title.switch",
+            "body": "rf.pair.choice.body.switch",
+            "svgHeight": "65vh",
+            "choices": [
+              {
+                "name": "rf.pair.choice.buttons.copy.default",
+                "view": "rf.imitate",
+                "svg": "assets/svg/AYCT-102_pair.svg"
+              },
+              {
+                "name": "rf.pair.choice.buttons.generate.default",
+                "view": "rf.program",
+                "svg": "assets/svg/pair.svg"
+              }
+            ]
+          }
+        },
+        {
+          "id": "rf.imitate",
+          "options": {
+            "title": "rf.pair.imitate.title.socket",
+            "body": "rf.pair.imitate.body.build_in",
+            "svg": "assets/svg/AYCT-102_pair.svg"
+          },
+          "navigation": {
+            "prev": "rf.choice"
+          }
+        },
+        {
+          "id": "rf.test_switch.2",
+          "options": {
+            "initWithDeviceData": true,
+            "title": "rf.pair.test_switch.title.build_in",
+            "body": "rf.pair.test_switch.body.build_in"
+          },
+          "navigation": {
+            "prev": "rf.imitate",
+            "next": "choose_slave.2"
+          }
+        },
+        {
+          "id": "choose_slave.2",
+          "template": "choose_slave",
+          "navigation": {
+            "prev": "rf.test_switch.2",
+            "next": "rf.done"
+          }
+        },
+        {
+          "id": "rf.program",
+          "options": {
+            "title": "rf.pair.program.title.build_in",
+            "body": "rf.pair.program.body.build_in",
+            "svg": "assets/svg/pair.svg"
+          },
+          "navigation": {
+            "prev": "rf.choice"
+          }
+        },
+        {
+          "id": "rf.test_switch",
+          "options": {
+            "title": "rf.pair.test_switch.title.build_in",
+            "body": "rf.pair.test_switch.body.build_in",
+            "initWithDeviceData": true
+          },
+          "navigation": {
+            "prev": "rf.program",
+            "next": "choose_slave"
+          }
+        },
+        {
+          "id": "choose_slave",
+          "template": "choose_slave",
+          "navigation": {
+            "prev": "rf.test_switch",
+            "next": "rf.done"
+          }
+        },
+        {
+          "id": "rf.done"
+        }
+      ],
+      "id": "AILS-3500",
+      "name": {
+        "en": "AILD-3500"
+      }
+    },
+    {
+      "images": {
+        "large": "/drivers/AMST-606/assets/images/large.png",
+        "small": "/drivers/AMST-606/assets/images/small.png"
+      },
+      "icon": "/drivers/AMST-606/assets/icon.svg",
+      "capabilities": [
+        "alarm_contact"
+      ],
+      "class": "sensor",
+      "rf": {
+        "debounceTimeout": 500,
+        "signal": "kakulong"
+      },
+      "pair": [
+        {
+          "id": "rf.imitate",
+          "options": {
+            "body": "rf.pair.imitate.body.sensor",
+            "svg": "assets/svg/pair.svg",
+            "title": "rf.pair.imitate.title.sensor"
+          }
+        },
+        {
+          "id": "rf.test",
+          "options": {
+            "body": "rf.pair.test.body.sensor",
+            "initWithDeviceData": true,
+            "svg": "assets/svg/test.svg",
+            "title": "rf.pair.test.title.sensor"
+          },
+          "navigation": {
+            "prev": "rf.imitate",
+            "next": "rf.done"
+          }
+        },
+        {
+          "id": "rf.done"
+        }
+      ],
+      "id": "AMST-606",
+      "name": {
+        "en": "AMST-606"
+      },
+      "pairOptions": {
+        "rf.imitate": {
+          "title": "rf.pair.imitate.title.AMST-606",
+          "body": "rf.pair.imitate.body.AMST-606"
+        },
+        "rf.test": {
+          "title": "rf.pair.test.title.AMST-606",
+          "body": "rf.pair.test.body.AMST-606"
+        }
+      }
+    },
+    {
+      "images": {
+        "large": "/drivers/APIR-2150/assets/images/large.png",
+        "small": "/drivers/APIR-2150/assets/images/small.png"
+      },
+      "icon": "/drivers/APIR-2150/assets/icon.svg",
+      "capabilities": [
+        "alarm_motion"
+      ],
+      "class": "sensor",
+      "rf": {
+        "debounceTimeout": 500,
+        "signal": "kaku"
+      },
+      "settings": [
+        {
+          "type": "group",
+          "label": {
+            "en": "Advanced settings",
+            "nl": "Geadvanceerde instellingen"
+          },
+          "children": [
+            {
+              "id": "timeout",
+              "type": "dropdown",
+              "value": "0",
+              "label": {
+                "en": "Force stop motion after",
+                "nl": "Forceer stop beweging na"
+              },
+              "values": [
+                {
+                  "id": "0",
+                  "label": {
+                    "en": "never",
+                    "nl": "nooit"
+                  }
+                },
+                {
+                  "id": "1",
+                  "label": {
+                    "en": "1 Minute",
+                    "nl": "1 Minuut"
+                  }
+                },
+                {
+                  "id": "2",
+                  "label": {
+                    "en": "2 Minutes",
+                    "nl": "2 Minuten"
+                  }
+                },
+                {
+                  "id": "5",
+                  "label": {
+                    "en": "5 Minutes",
+                    "nl": "5 Minuten"
+                  }
+                },
+                {
+                  "id": "10",
+                  "label": {
+                    "en": "10 Minutes",
+                    "nl": "10 Minuten"
+                  }
+                },
+                {
+                  "id": "15",
+                  "label": {
+                    "en": "15 Minutes",
+                    "nl": "15 Minuten"
+                  }
+                },
+                {
+                  "id": "30",
+                  "label": {
+                    "en": "30 Minutes",
+                    "nl": "30 Minuten"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pair": [
+        {
+          "id": "rf.imitate",
+          "options": {
+            "body": "rf.pair.imitate.body.sensor",
+            "svg": "assets/svg/pair.svg",
+            "title": "rf.pair.imitate.title.motion_sensor"
+          }
+        },
+        {
+          "id": "rf.test",
+          "options": {
+            "body": "rf.pair.test.body.sensor",
+            "initWithDeviceData": true,
+            "svg": "motion",
+            "title": "rf.pair.test.title.motion_sensor"
+          },
+          "navigation": {
+            "prev": "rf.imitate",
+            "next": "rf.done"
+          }
+        },
+        {
+          "id": "rf.done"
+        }
+      ],
+      "id": "APIR-2150",
+      "name": {
+        "en": "APIR-2150"
+      }
+    },
+    {
+      "images": {
+        "large": "/drivers/ASUN-650/assets/images/large.png",
+        "small": "/drivers/ASUN-650/assets/images/small.png"
+      },
+      "icon": "/drivers/ASUN-650/assets/icon.svg",
+      "capabilities": [
+        "windowcoverings_state"
+      ],
+      "class": "windowcoverings",
+      "rf": {
+        "debounceTimeout": 500,
+        "signal": "kaku"
+      },
+      "settings": [
+        {
+          "type": "group",
+          "label": {
+            "en": "General settings",
+            "nl": "Algemene instellingen"
+          },
+          "children": [
+            {
+              "id": "rotated",
+              "type": "radio",
+              "value": "0",
+              "label": {
+                "en": "Invert up/down signal",
+                "nl": "Inverteer omhoog/omlaag signaal"
+              },
+              "values": [
+                {
+                  "id": "0",
+                  "label": {
+                    "en": "No",
+                    "nl": "Nee"
+                  }
+                },
+                {
+                  "id": "180",
+                  "label": {
+                    "en": "Yes",
+                    "nl": "Ja"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pair": [
+        {
+          "id": "rf.choice",
+          "options": {
+            "title": "rf.pair.choice.title.switch",
+            "body": "rf.pair.choice.body.switch",
+            "svgHeight": "65vh",
+            "choices": [
+              {
+                "name": "rf.pair.choice.buttons.copy.default",
+                "view": "rf.imitate",
+                "svg": "assets/svg/AYCT-102_pair.svg"
+              },
+              {
+                "name": "rf.pair.choice.buttons.generate.default",
+                "view": "rf.program",
+                "svg": "assets/svg/pair.svg"
+              }
+            ]
+          }
+        },
+        {
+          "id": "rf.imitate",
+          "options": {
+            "body": "rf.pair.imitate.body.blinds",
+            "svg": "assets/svg/AYCT-102_pair.svg"
+          },
+          "navigation": {
+            "prev": "rf.choice"
+          }
+        },
+        {
+          "id": "rf.test_switch.2",
+          "options": {
+            "initWithDeviceData": true,
+            "title": "rf.pair.test_switch.title.blinds",
+            "body": "rf.pair.test_switch.body.blinds",
+            "svg": "blinds"
+          },
+          "navigation": {
+            "prev": "rf.imitate",
+            "next": "rf.done"
+          }
+        },
+        {
+          "id": "rf.program",
+          "options": {
+            "svg": "assets/svg/pair.svg"
+          },
+          "navigation": {
+            "prev": "rf.choice"
+          }
+        },
+        {
+          "id": "rf.test_switch",
+          "options": {
+            "title": "rf.pair.test_switch.title.blinds",
+            "body": "rf.pair.test_switch.body.blinds",
+            "svg": "blinds",
+            "initWithDeviceData": true
+          },
+          "navigation": {
+            "prev": "rf.program",
+            "next": "rf.done"
+          }
+        },
+        {
+          "id": "rf.done"
+        }
+      ],
+      "id": "ASUN-650",
+      "name": {
+        "en": "ASUN-650"
+      }
+    },
+    {
+      "images": {
+        "large": "/drivers/AWMD-250/assets/images/large.png",
+        "small": "/drivers/AWMD-250/assets/images/small.png"
+      },
+      "icon": "/drivers/AWMD-250/assets/icon.svg",
+      "capabilities": [
+        "onoff",
+        "dim"
+      ],
+      "class": "socket",
+      "rf": {
+        "debounceTimeout": 500,
+        "signal": "kakudim",
+        "alternativeSignal": "kaku"
+      },
+      "pair": [
+        {
+          "id": "rf.choice",
+          "options": {
+            "title": "rf.pair.choice.title.switch",
+            "body": "rf.pair.choice.body.switch",
+            "svgHeight": "65vh",
+            "choices": [
+              {
+                "name": "rf.pair.choice.buttons.copy.default",
+                "view": "rf.imitate",
+                "svg": "assets/svg/AYCT-102_pair.svg"
+              },
+              {
+                "name": "rf.pair.choice.buttons.generate.default",
+                "view": "rf.program",
+                "svg": "assets/svg/pair.svg"
+              }
+            ]
+          }
+        },
+        {
+          "id": "rf.imitate",
+          "options": {
+            "title": "rf.pair.imitate.title.socket",
+            "body": "rf.pair.imitate.body.build_in",
+            "svg": "assets/svg/AYCT-102_pair.svg"
+          },
+          "navigation": {
+            "prev": "rf.choice"
+          }
+        },
+        {
+          "id": "rf.test_switch.2",
+          "options": {
+            "initWithDeviceData": true,
+            "title": "rf.pair.test_switch.title.build_in",
+            "body": "rf.pair.test_switch.body.build_in"
+          },
+          "navigation": {
+            "prev": "rf.imitate",
+            "next": "choose_slave.2"
+          }
+        },
+        {
+          "id": "choose_slave.2",
+          "template": "choose_slave",
+          "navigation": {
+            "prev": "rf.test_switch.2",
+            "next": "rf.done"
+          }
+        },
+        {
+          "id": "rf.program",
+          "options": {
+            "title": "rf.pair.program.title.build_in",
+            "body": "rf.pair.program.body.build_in",
+            "svg": "assets/svg/pair.svg"
+          },
+          "navigation": {
+            "prev": "rf.choice"
+          }
+        },
+        {
+          "id": "rf.test_switch",
+          "options": {
+            "title": "rf.pair.test_switch.title.build_in",
+            "body": "rf.pair.test_switch.body.build_in",
+            "initWithDeviceData": true
+          },
+          "navigation": {
+            "prev": "rf.program",
+            "next": "choose_slave"
+          }
+        },
+        {
+          "id": "choose_slave",
+          "template": "choose_slave",
+          "navigation": {
+            "prev": "rf.test_switch",
+            "next": "rf.done"
+          }
+        },
+        {
+          "id": "rf.done"
+        }
+      ],
+      "id": "AWMD-250",
+      "name": {
+        "en": "AWMD-250"
+      }
+    },
+    {
+      "images": {
+        "large": "/drivers/AWMR-210/assets/images/large.png",
+        "small": "/drivers/AWMR-210/assets/images/small.png"
+      },
+      "icon": "/drivers/AWMR-210/assets/icon.svg",
+      "capabilities": [
+        "onoff",
+        "dim"
+      ],
+      "class": "socket",
+      "rf": {
+        "debounceTimeout": 500,
+        "signal": "kakudim",
+        "alternativeSignal": "kaku"
+      },
+      "pair": [
+        {
+          "id": "rf.choice",
+          "options": {
+            "title": "rf.pair.choice.title.switch",
+            "body": "rf.pair.choice.body.switch",
+            "svgHeight": "65vh",
+            "choices": [
+              {
+                "name": "rf.pair.choice.buttons.copy.default",
+                "view": "rf.imitate",
+                "svg": "assets/svg/AYCT-102_pair.svg"
+              },
+              {
+                "name": "rf.pair.choice.buttons.generate.default",
+                "view": "rf.program",
+                "svg": "assets/svg/pair.svg"
+              }
+            ]
+          }
+        },
+        {
+          "id": "rf.imitate",
+          "options": {
+            "title": "rf.pair.imitate.title.socket",
+            "body": "rf.pair.imitate.body.build_in",
+            "svg": "assets/svg/AYCT-102_pair.svg"
+          },
+          "navigation": {
+            "prev": "rf.choice"
+          }
+        },
+        {
+          "id": "rf.test_switch.2",
+          "options": {
+            "initWithDeviceData": true,
+            "title": "rf.pair.test_switch.title.build_in",
+            "body": "rf.pair.test_switch.body.build_in"
+          },
+          "navigation": {
+            "prev": "rf.imitate",
+            "next": "choose_slave.2"
+          }
+        },
+        {
+          "id": "choose_slave.2",
+          "template": "choose_slave",
+          "navigation": {
+            "prev": "rf.test_switch.2",
+            "next": "rf.done"
+          }
+        },
+        {
+          "id": "rf.program",
+          "options": {
+            "title": "rf.pair.program.title.build_in",
+            "body": "rf.pair.program.body.build_in",
+            "svg": "assets/svg/pair.svg"
+          },
+          "navigation": {
+            "prev": "rf.choice"
+          }
+        },
+        {
+          "id": "rf.test_switch",
+          "options": {
+            "title": "rf.pair.test_switch.title.build_in",
+            "body": "rf.pair.test_switch.body.build_in",
+            "initWithDeviceData": true
+          },
+          "navigation": {
+            "prev": "rf.program",
+            "next": "choose_slave"
+          }
+        },
+        {
+          "id": "choose_slave",
+          "template": "choose_slave",
+          "navigation": {
+            "prev": "rf.test_switch",
+            "next": "rf.done"
+          }
+        },
+        {
+          "id": "rf.done"
+        }
+      ],
+      "id": "AWMR-210",
+      "name": {
+        "en": "AWMR-210"
+      }
+    },
+    {
+      "images": {
+        "large": "/drivers/AWMR-230/assets/images/large.png",
+        "small": "/drivers/AWMR-230/assets/images/small.png"
+      },
+      "icon": "/drivers/AWMR-230/assets/icon.svg",
+      "capabilities": [
+        "onoff"
+      ],
+      "class": "socket",
+      "rf": {
+        "debounceTimeout": 500,
+        "signal": "kaku"
+      },
+      "pair": [
+        {
+          "id": "rf.choice",
+          "options": {
+            "title": "rf.pair.choice.title.switch",
+            "body": "rf.pair.choice.body.switch",
+            "svgHeight": "65vh",
+            "choices": [
+              {
+                "name": "rf.pair.choice.buttons.copy.default",
+                "view": "rf.imitate",
+                "svg": "assets/svg/AYCT-102_pair.svg"
+              },
+              {
+                "name": "rf.pair.choice.buttons.generate.default",
+                "view": "rf.program",
+                "svg": "assets/svg/pair.svg"
+              }
+            ]
+          }
+        },
+        {
+          "id": "rf.imitate",
+          "options": {
+            "title": "rf.pair.imitate.title.socket",
+            "body": "rf.pair.imitate.body.build_in",
+            "svg": "assets/svg/AYCT-102_pair.svg"
+          },
+          "navigation": {
+            "prev": "rf.choice"
+          }
+        },
+        {
+          "id": "rf.test_switch.2",
+          "options": {
+            "initWithDeviceData": true,
+            "title": "rf.pair.test_switch.title.build_in",
+            "body": "rf.pair.test_switch.body.build_in"
+          },
+          "navigation": {
+            "prev": "rf.imitate",
+            "next": "choose_slave.2"
+          }
+        },
+        {
+          "id": "choose_slave.2",
+          "template": "choose_slave",
+          "navigation": {
+            "prev": "rf.test_switch.2",
+            "next": "rf.done"
+          }
+        },
+        {
+          "id": "rf.program",
+          "options": {
+            "title": "rf.pair.program.title.build_in",
+            "body": "rf.pair.program.body.build_in",
+            "svg": "assets/svg/pair.svg"
+          },
+          "navigation": {
+            "prev": "rf.choice"
+          }
+        },
+        {
+          "id": "rf.test_switch",
+          "options": {
+            "title": "rf.pair.test_switch.title.build_in",
+            "body": "rf.pair.test_switch.body.build_in",
+            "initWithDeviceData": true
+          },
+          "navigation": {
+            "prev": "rf.program",
+            "next": "choose_slave"
+          }
+        },
+        {
+          "id": "choose_slave",
+          "template": "choose_slave",
+          "navigation": {
+            "prev": "rf.test_switch",
+            "next": "rf.done"
+          }
+        },
+        {
+          "id": "rf.done"
+        }
+      ],
+      "id": "AWMR-230",
+      "name": {
+        "en": "AWMR-230"
+      }
+    },
+    {
+      "images": {
+        "large": "/drivers/AWS-3500/assets/images/large.png",
+        "small": "/drivers/AWS-3500/assets/images/small.png"
+      },
+      "icon": "/drivers/AWS-3500/assets/icon.svg",
+      "capabilities": [
+        "onoff"
+      ],
+      "class": "socket",
+      "rf": {
+        "debounceTimeout": 500,
+        "signal": "kaku"
+      },
+      "pair": [
+        {
+          "id": "rf.choice",
+          "options": {
+            "title": "rf.pair.choice.title.switch",
+            "body": "rf.pair.choice.body.switch",
+            "svgHeight": "65vh",
+            "choices": [
+              {
+                "name": "rf.pair.choice.buttons.copy.default",
+                "view": "rf.imitate",
+                "svg": "assets/svg/AYCT-102_pair.svg"
+              },
+              {
+                "name": "rf.pair.choice.buttons.generate.default",
+                "view": "rf.program",
+                "svg": "assets/svg/pair.svg"
+              }
+            ]
+          }
+        },
+        {
+          "id": "rf.imitate",
+          "options": {
+            "title": "rf.pair.imitate.title.socket",
+            "body": "rf.pair.imitate.body.build_in",
+            "svg": "assets/svg/AYCT-102_pair.svg"
+          },
+          "navigation": {
+            "prev": "rf.choice"
+          }
+        },
+        {
+          "id": "rf.test_switch.2",
+          "options": {
+            "initWithDeviceData": true,
+            "title": "rf.pair.test_switch.title.build_in",
+            "body": "rf.pair.test_switch.body.build_in"
+          },
+          "navigation": {
+            "prev": "rf.imitate",
+            "next": "choose_slave.2"
+          }
+        },
+        {
+          "id": "choose_slave.2",
+          "template": "choose_slave",
+          "navigation": {
+            "prev": "rf.test_switch.2",
+            "next": "rf.done"
+          }
+        },
+        {
+          "id": "rf.program",
+          "options": {
+            "title": "rf.pair.program.title.build_in",
+            "body": "rf.pair.program.body.build_in",
+            "svg": "assets/svg/pair.svg"
+          },
+          "navigation": {
+            "prev": "rf.choice"
+          }
+        },
+        {
+          "id": "rf.test_switch",
+          "options": {
+            "title": "rf.pair.test_switch.title.build_in",
+            "body": "rf.pair.test_switch.body.build_in",
+            "initWithDeviceData": true
+          },
+          "navigation": {
+            "prev": "rf.program",
+            "next": "choose_slave"
+          }
+        },
+        {
+          "id": "choose_slave",
+          "template": "choose_slave",
+          "navigation": {
+            "prev": "rf.test_switch",
+            "next": "rf.done"
+          }
+        },
+        {
+          "id": "rf.done"
+        }
+      ],
+      "id": "AWS-3500",
+      "name": {
+        "en": "AWS-3500"
+      }
+    },
+    {
+      "images": {
+        "large": "/drivers/AWST-6000/assets/images/large.png",
+        "small": "/drivers/AWST-6000/assets/images/small.png"
+      },
+      "icon": "/drivers/AWST-6000/assets/icon.svg",
+      "capabilities": [
+        "alarm_motion"
+      ],
+      "class": "sensor",
+      "rf": {
+        "debounceTimeout": 500,
+        "signal": "kaku"
+      },
+      "settings": [
+        {
+          "type": "group",
+          "label": {
+            "en": "Advanced settings",
+            "nl": "Geadvanceerde instellingen"
+          },
+          "children": [
+            {
+              "id": "timeout",
+              "type": "dropdown",
+              "value": "0",
+              "label": {
+                "en": "Force stop motion after",
+                "nl": "Forceer stop beweging na"
+              },
+              "values": [
+                {
+                  "id": "0",
+                  "label": {
+                    "en": "never",
+                    "nl": "nooit"
+                  }
+                },
+                {
+                  "id": "1",
+                  "label": {
+                    "en": "1 Minute",
+                    "nl": "1 Minuut"
+                  }
+                },
+                {
+                  "id": "2",
+                  "label": {
+                    "en": "2 Minutes",
+                    "nl": "2 Minuten"
+                  }
+                },
+                {
+                  "id": "5",
+                  "label": {
+                    "en": "5 Minutes",
+                    "nl": "5 Minuten"
+                  }
+                },
+                {
+                  "id": "10",
+                  "label": {
+                    "en": "10 Minutes",
+                    "nl": "10 Minuten"
+                  }
+                },
+                {
+                  "id": "15",
+                  "label": {
+                    "en": "15 Minutes",
+                    "nl": "15 Minuten"
+                  }
+                },
+                {
+                  "id": "30",
+                  "label": {
+                    "en": "30 Minutes",
+                    "nl": "30 Minuten"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pair": [
+        {
+          "id": "rf.imitate",
+          "options": {
+            "body": "rf.pair.imitate.body.sensor",
+            "svg": "assets/svg/pair.svg",
+            "title": "rf.pair.imitate.title.motion_sensor"
+          }
+        },
+        {
+          "id": "rf.test",
+          "options": {
+            "body": "rf.pair.test.body.sensor",
+            "initWithDeviceData": true,
+            "svg": "motion",
+            "title": "rf.pair.test.title.motion_sensor"
+          },
+          "navigation": {
+            "prev": "rf.imitate",
+            "next": "rf.done"
+          }
+        },
+        {
+          "id": "rf.done"
+        }
+      ],
+      "id": "AWST-6000",
+      "name": {
+        "en": "AWST-6000"
+      }
+    },
+    {
+      "images": {
+        "large": "/drivers/AWST-8800/assets/images/large.png",
+        "small": "/drivers/AWST-8800/assets/images/small.png"
+      },
+      "icon": "/drivers/AWST-8800/assets/icon.svg",
+      "capabilities": [],
+      "class": "other",
+      "rf": {
+        "debounceTimeout": 500,
+        "signal": "kaku"
+      },
+      "settings": [
+        {
+          "type": "group",
+          "label": {
+            "en": "General settings",
+            "nl": "Algemene instellingen"
+          },
+          "children": [
+            {
+              "id": "rotated",
+              "type": "radio",
+              "value": "0",
+              "label": {
+                "en": "Rotate wall switch",
+                "nl": "Roteer wandschakelaar"
+              },
+              "values": [
+                {
+                  "id": "0",
+                  "label": {
+                    "en": "Right Side Up",
+                    "nl": "Rechtop"
+                  }
+                },
+                {
+                  "id": "180",
+                  "label": {
+                    "en": "Upside Down",
+                    "nl": "Ondersteboven"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pair": [
+        {
+          "id": "rf.imitate",
+          "options": {
+            "title": "rf.pair.imitate.title.wall_switch",
+            "body": "rf.pair.imitate.body.wall_switch",
+            "svg": "assets/svg/pair.svg"
+          }
+        },
+        {
+          "id": "rf.test",
+          "options": {
+            "title": "rf.pair.test.title.wall_switch",
+            "body": "rf.pair.test.body.wall_switch",
+            "svg": "assets/svg/test.svg"
+          },
+          "navigation": {
+            "prev": "rf.imitate",
+            "next": "rf.done"
+          }
+        },
+        {
+          "id": "rf.done"
+        }
+      ],
+      "id": "AWST-8800",
+      "name": {
+        "en": "AWST-8800"
       }
     }
   ],
+  "flow": {
+    "triggers": [
+      {
+        "id": "ACDB-7000C:received",
+        "title": {
+          "en": "Doorbell is pressed",
+          "nl": "Deurbel knop is ingedrukt"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=ACDB-7000C"
+          }
+        ]
+      },
+      {
+        "id": "AWST-8800:received",
+        "title": {
+          "en": "Button is pressed",
+          "nl": "Knop is ingedrukt"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=AWST-8800"
+          },
+          {
+            "name": "state",
+            "type": "dropdown",
+            "values": [
+              {
+                "id": "1",
+                "label": {
+                  "en": "On",
+                  "nl": "Aan"
+                }
+              },
+              {
+                "id": "0",
+                "label": {
+                  "en": "Off",
+                  "nl": "Uit"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "ACDB-7000C:send",
+        "title": {
+          "en": "Trigger Doorbell",
+          "nl": "Laat deurbel afgaan"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=ACDB-7000C"
+          }
+        ]
+      }
+    ]
+  },
   "signals": {
     "433": {
       "kaku": {

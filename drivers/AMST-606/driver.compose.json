@@ -3,7 +3,7 @@
 	"name": {
 		"en": "AMST-606"
 	},
-	"pairOptins": {
+	"pairOptions": {
 		"rf.imitate": {
 			"title": "rf.pair.imitate.title.AMST-606",
 			"body": "rf.pair.imitate.body.AMST-606"

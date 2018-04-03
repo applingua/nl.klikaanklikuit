@@ -11,7 +11,7 @@
                     {
                         "name": "rf.pair.choice.buttons.copy.default",
                         "view": "rf.imitate",
-                        "svg": "assets/svg/AYCT-102_pair.svg"
+                        "svg": "assets/svg/YCT-102_pair.svg"
                     },
                     {
                         "name": "rf.pair.choice.buttons.generate.default",
@@ -27,7 +27,7 @@
             "options": {
                 "title": "rf.pair.imitate.title.socket",
                 "body": "rf.pair.imitate.body.socket",
-                "svg": "assets/svg/AYCT-102_pair.svg"
+                "svg": "assets/svg/YCT-102_pair.svg"
             },
             "navigation": {
                 "prev": "rf.choice"
@@ -93,14 +93,9 @@
         }
     ],
     "$_devices": [
-        "ACD-3500",
-        "AGDR-300",
-        "AGDR-200",
-        "APCR-2300",
-        "ACD-300",
-        "ACD-1000",
-        "AGDR-3500",
-        "ACD-200"
+        "AC-3500",
+        "AC-1000",
+        "AC-300N"
     ],
     "$_hash": "migrate.9.9ac248f9555a15a013c70d0cf89e1397"
 }

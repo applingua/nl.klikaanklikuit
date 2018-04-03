@@ -1,5 +1,4 @@
 {
-    "$disabled": false,
     "id": "AC-1000",
     "name": {
         "en": "AC-1000"
@@ -9,6 +8,6 @@
         "images.png",
         "device.socket",
         "rf.kakuold",
-        "pair.socket"
+        "pair.socket.old"
     ]
 }

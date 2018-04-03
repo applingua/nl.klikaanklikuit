@@ -39,8 +39,9 @@
                 "initWithDeviceData": true,
                 "title": "rf.pair.test_button.title.doorbell",
                 "body": "rf.pair.test_button.body.doorbell",
-                "svg": "assets/svg/test.svg",
-                "buttonLabel": "test"
+                "svg": "doorbell",
+                "buttonLabel": "test",
+                "capability": "alarm_generic"
             },
             "navigation": {
                 "prev": "rf.imitate",
@@ -65,9 +66,10 @@
             "options": {
                 "title": "rf.pair.test_button.title.doorbell",
                 "body": "rf.pair.test_button.body.doorbell",
-                "svg": "assets/svg/test.svg",
+                "svg": "doorbell",
                 "initWithDeviceData": true,
-                "buttonLabel": "test"
+                "buttonLabel": "test",
+                "capability": "alarm_generic"
             },
             "navigation": {
                 "prev": "rf.program",
