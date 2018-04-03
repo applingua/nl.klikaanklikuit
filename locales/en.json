@@ -1,595 +1,4 @@
 {
-  "deviceClasses": {
-    "wall_switch": {
-      "settings": {
-        "groups": {
-          "general": "General settings"
-        },
-        "rotated": {
-          "0": "Right Side Up",
-          "180": "Upside Down",
-          "label": "Rotate wall switch"
-        }
-      }
-    },
-    "sensor": {
-      "views": {
-        "generic_imitate": {
-          "body": "Trigger your sensor manually or toggle the learn switch to DEL and then back to SET."
-        },
-        "generic_test_remote": {
-          "body": "Trigger your sensor manually or use the LEARN switch on your sensor to test the signal. Press next to continue."
-        }
-      },
-      "conditions": {
-        "state": {
-          "title": "[Deprecated] Sensor is !{{triggered|not triggered}}"
-        }
-      }
-    },
-    "socket": {
-      "views": {
-        "generic_imitate": {
-          "body": "Press the button that is paired to your socket.<p class=\"notice\">(Note. Homey only supports transmitters of which the product code starts with an A. If you use an old remote for this device please let Homey generate a new signal for the device)</p>"
-        },
-        "generic_program": {
-          "body": "Press the program button on your socket, the light on your socket should start blinking when you release the button. When it is in pairing mode click next.<p class=\"notice\">(Note. If you experience difficulties pairing try to reset your device by holding the program button for 10 seconds when it is blinking and then pressing the program button once.)</p>"
-        }
-      }
-    },
-    "blinds": {
-      "views": {
-        "generic_imitate": {
-          "body": "Press the up/down button that is paired to your blinds.<p class=\"notice\">(Note. For this device Homey only supports transmitters of which the product code starts with an A. If you use an old remote for this device please let Homey generate a new signal for the device)</p>"
-        },
-        "generic_test_switch": {
-          "title": "Test your blinds",
-          "body": "Use the buttons above to test your blinds. Press next to continue."
-        },
-        "generic_test_switch_2": {
-          "body": "Use your remote or the buttons above to test your blinds. Press next to continue."
-        }
-      },
-      "settings": {
-        "rotated": {
-          "0": "No",
-          "180": "Yes",
-          "label": "Invert up/down signal"
-        }
-      }
-    },
-    "doorbell": {
-      "views": {
-        "generic_choice": {
-          "body": "Choose if you want to copy the signal from your doorbell or if you want to generate a new signal to pair your doorbell with."
-        },
-        "generic_imitate": {
-          "body": "Press your doorbell button."
-        },
-        "generic_test_button": {
-          "title": "Test your doorbell",
-          "body": "Use the button above to test your doorbell. Press next to continue."
-        },
-        "generic_test_button_2": {
-          "body": "Use your doorbell or the button above to test your doorbell. Press next to continue."
-        }
-      },
-      "triggers": {
-        "received": {
-          "title": "Doorbell is pressed"
-        },
-        "send": {
-          "title": "Trigger Doorbell"
-        }
-      }
-    },
-    "simple_socket": {
-      "views": {
-        "generic_program": {
-          "body": "Unplug the socket for a couple of seconds and plug it back in, the light should now be blinking. When it is in pairing mode click next.<p class=\"notice\">(Note. If you experience diffuculties pairing try to reset your device by putting it in pairing mode and holding the group button on the remote for 5 seconds. All addresses should now be cleared from the socket.)</p>"
-        }
-      }
-    },
-    "build_in": {
-      "views": {
-        "generic_imitate": {
-          "body": "Press the button that is paired to your device."
-        },
-        "generic_program": {
-          "title": "Put the device in pairing mode",
-          "body": "Press the program button on your device to put it in pairing mode, then click next.<p class=\"notice\">(Note. If you experience difficulties pairing try to reset your device by holding the program button for 10 seconds when it is blinking and then pressing the program button once.)</p>"
-        },
-        "generic_test_switch": {
-          "title": "Test your device",
-          "body": "Use the switch above to test your device. Press next to continue."
-        },
-        "generic_test_switch_2": {
-          "body": "Use your remote or the switch above to test your device. Press next to continue."
-        }
-      }
-    },
-    "old_blinds": {
-      "views": {
-        "generic_imitate": {
-          "body": "Press the up/down button that is paired to your blinds."
-        }
-      }
-    },
-    "motion_sensor": {
-      "views": {
-        "generic_imitate": {
-          "title": "Pair your motion sensor"
-        },
-        "generic_test_remote": {
-          "title": "Test your motion sensor"
-        }
-      },
-      "conditions": {
-        "state": {
-          "title": "[Deprecated] Sensor detects !{{motion|no motion}}"
-        }
-      },
-      "settings": {
-        "groups": {
-          "advanced": "Advanced settings"
-        },
-        "timeout": {
-          "0": "never",
-          "1": "1 Minute",
-          "2": "2 Minutes",
-          "5": "5 Minutes",
-          "10": "10 Minutes",
-          "15": "15 Minutes",
-          "30": "30 Minutes",
-          "label": "Force stop motion after"
-        }
-      }
-    },
-    "generic_switch": {
-      "views": {
-        "generic_choice": {
-          "title": "Copy signal from remote or pair device with Homey\u0000",
-          "body": "Choose if you want to copy an existing signal from a paired remote or if you want to generate a new signal to pair this device.\u0000"
-        }
-      }
-    },
-    "generic_codewheel_switch": {
-      "views": {
-        "generic_choice": {
-          "buttons": {
-            "generic_codewheel": "Manually set codewheels\u0000"
-          },
-          "body": "Choose if you want to copy an existing signal from a paired remote or if you want manually set the codewheels to pair this device.\u0000"
-        }
-      }
-    },
-    "generic_socket": {
-      "views": {
-        "generic_imitate": {
-          "title": "Copy your remote signal\u0000",
-          "body": "Press the button that is paired to your socket.\u0000"
-        },
-        "generic_test_switch": {
-          "title": "Test your socket\u0000",
-          "body": "Use the switch above to test your socket. Press next to continue.\u0000"
-        },
-        "generic_test_switch_2": {
-          "body": "Use your remote or the switch above to test your socket. Press next to continue.\u0000"
-        },
-        "generic_program": {
-          "title": "Put the socket in pairing mode\u0000"
-        }
-      }
-    },
-    "generic_wall_switch": {
-      "views": {
-        "generic_imitate": {
-          "title": "Identify your wall switch\u0000",
-          "body": "Press a random button on your wall switch to pair it.\u0000"
-        },
-        "generic_test_remote": {
-          "title": "Test your wall switch\u0000",
-          "body": "Press a random button on your wall switch or click the buttons in the image above to test the signal. Press next to continue.\u0000"
-        }
-      }
-    },
-    "generic_remote": {
-      "views": {
-        "generic_imitate": {
-          "title": "Identify your remote\u0000",
-          "body": "Click a button on your remote to pair it.\u0000"
-        }
-      }
-    },
-    "kaku_dimming_remote": {
-      "generic": {
-        "triggers": {
-          "dimup": "Increase Brightness",
-          "dimdown": "Decrease Brightness"
-        }
-      }
-    }
-  },
-  "devices": {
-    "AWST-8800": {
-      "name": "AWST-8800"
-    },
-    "AWST-6000": {
-      "name": "AWST-6000"
-    },
-    "ABST-604": {
-      "name": "ABST-604",
-      "views": {
-        "generic_imitate": {
-          "title": "Pair your night sensor"
-        },
-        "generic_test_remote": {
-          "title": "Test your night sensor"
-        }
-      },
-      "conditions": {
-        "state": {
-          "title": "[Deprecated] Sensor detects !{{night|day}}"
-        }
-      }
-    },
-    "PA3-1000R": {
-      "name": "PA3-1000R"
-    },
-    "APA2-2300RS": {
-      "name": "APA2-2300R"
-    },
-    "YCT-102": {
-      "name": "YCT-102"
-    },
-    "AWST-8802": {
-      "name": "AWST-8802"
-    },
-    "WST-8700": {
-      "name": "WST-8700"
-    },
-    "AYCT-102": {
-      "name": "AYCT-102"
-    },
-    "ASUN-650": {
-      "name": "ASUN-650"
-    },
-    "AFR-100": {
-      "name": "AFR-100",
-      "views": {
-        "generic_imitate": {
-          "body": "Press the button that is paired to your fitting."
-        },
-        "generic_program": {
-          "body": "Press the program button on your fitting, the light on your fitting should start blinking when you release the button. When it is in pairing mode click next.<p class=\"notice\">(Note. If you experience difficulties pairing try to reset your device by holding the program button for 10 seconds when it is blinking and then pressing the program button once.)</p>"
-        },
-        "generic_test_switch": {
-          "title": "Test your fitting",
-          "body": "Use the switch above to test your fitting. Press next to continue."
-        },
-        "generic_test_switch_2": {
-          "body": "Use your remote or the switch above to test your fitting. Press next to continue."
-        }
-      }
-    },
-    "ACDB-7000C": {
-      "name": "ACDB-7000C"
-    },
-    "APA3-1500RS": {
-      "name": "APA3-1500R"
-    },
-    "ACDB-6600": {
-      "name": "ACDB-6600",
-      "views": {
-        "generic_choice": {
-          "buttons": {
-            "generic_imitate": "Copy doorbell signal"
-          }
-        }
-      }
-    },
-    "APA3-1500R": {
-      "name": "APA3-1500R"
-    },
-    "AGDR-300": {
-      "name": "AGDR-300"
-    },
-    "AMST-606": {
-      "name": "AMST-606",
-      "views": {
-        "generic_imitate": {
-          "title": "Pair your constact sensor",
-          "body": "Connect and then disconnect the two parts of your sensor."
-        },
-        "generic_test_remote": {
-          "title": "Test your contact sensor",
-          "body": "Use your contact sensor to test the signal. Press next to continue."
-        }
-      },
-      "conditions": {
-        "state": {
-          "title": "[Deprecated] Sensor has !{{no contact|contact}}"
-        }
-      }
-    },
-    "ALMST-2000": {
-      "name": "ALMST-2000"
-    },
-    "KCT-510": {
-      "name": "KCT-510"
-    },
-    "APA2-2300R": {
-      "name": "APA2-2300R"
-    },
-    "APIR-2150": {
-      "name": "APIR-2150"
-    },
-    "AKCT-510": {
-      "name": "AKCT-510"
-    },
-    "ACD-200": {
-      "name": "ACD-200"
-    },
-    "WST-8800": {
-      "name": "WST-8800"
-    },
-    "AC-300": {
-      "name": "AC-300"
-    },
-    "KCT-101": {
-      "name": "KCT-101"
-    },
-    "YC-400": {
-      "name": "YC-400"
-    },
-    "SUN-500": {
-      "name": "SUN-500"
-    },
-    "ACD-3500": {
-      "name": "ACD-3500"
-    },
-    "AC-3500": {
-      "name": "AC-3500"
-    },
-    "ACD-1000": {
-      "name": "ACD-1000"
-    },
-    "AC-1000": {
-      "name": "AC-1000"
-    },
-    "AGDR-3500": {
-      "name": "AGDR-3500"
-    },
-    "ACD-300": {
-      "name": "ACD-300"
-    },
-    "YC-412": {
-      "name": "YC-412"
-    },
-    "YC-1000": {
-      "name": "YC-1000"
-    },
-    "YC-3500": {
-      "name": "YC-3500"
-    },
-    "PAR-1000": {
-      "name": "PAR-1000"
-    },
-    "AFR-060": {
-      "name": "AFR-060"
-    },
-    "AWMT-003": {
-      "name": "AWMT-003"
-    },
-    "ACM-300": {
-      "name": "ACM-300"
-    },
-    "ACM-250": {
-      "name": "ACM-250"
-    },
-    "AWMR-210": {
-      "name": "AWMR-210"
-    },
-    "AWMD-250": {
-      "name": "AWMD-250"
-    },
-    "AWMT-230": {
-      "name": "AWMT-230"
-    },
-    "ACM-1000": {
-      "name": "ACM-1000"
-    },
-    "AWMR-230": {
-      "name": "AWMR-230"
-    },
-    "AILD-3500": {
-      "name": "AILD-3500"
-    },
-    "AWS-3500": {
-      "name": "AWS-3500"
-    },
-    "AILD-250": {
-      "name": "AILD-250"
-    },
-    "ALED-2709": {
-      "name": "ALED-2709",
-      "views": {
-        "generic_imitate": {
-          "body": "Press the button that is paired to your lamp."
-        },
-        "generic_program": {
-          "body": "Turn the power to the light on and off 3 times, or turn the light on and off with your remote 5 times, within 15 seconds to put the lamp in pairing mode. The lamp should now be blinking. Then click next."
-        },
-        "generic_test_switch": {
-          "title": "Test your lamp",
-          "body": "Use the switch above to test your lamp. Press next to continue."
-        },
-        "generic_test_switch_2": {
-          "body": "Use your remote or the switch above to test your lamp. Press next to continue."
-        }
-      }
-    },
-    "AYCT-202": {
-      "name": "AYCT-202"
-    },
-    "TMT-502": {
-      "name": "TMT-502"
-    },
-    "AGDR-200": {
-      "name": "AGDR-200"
-    },
-    "ACM-100": {
-      "name": "ACM-100"
-    },
-    "ALED-2009": {
-      "name": "ALED-2009"
-    },
-    "ACM-2300H": {
-      "name": "ACM-2300H"
-    },
-    "ALED-MR2705": {
-      "name": "ALED-MR2705"
-    },
-    "AWMR-300": {
-      "name": "AWMR-300"
-    },
-    "ALED-G2706": {
-      "name": "ALED-G2706"
-    },
-    "ACM-LV24": {
-      "name": "ACM-LV24"
-    },
-    "ACM-LV10": {
-      "name": "ACM-LV10"
-    },
-    "ATMT-502": {
-      "name": "ATMT-502"
-    },
-    "ALED-003": {
-      "views": {
-        "generic_program": {
-          "body": "Remove the one battery from the lamp and insert it again to put it in pairing mode. The light should now slowly blink. Then click next."
-        }
-      },
-      "name": "ALED-003"
-    },
-    "APCR-2300": {
-      "name": "APCR-2300"
-    }
-  },
-  "433_generator": {
-    "generic": {
-      "buttons": {
-        "1": "Button 1\u0000",
-        "2": "Button 2\u0000",
-        "3": "Button 3\u0000",
-        "4": "Button 4\u0000",
-        "5": "Button 5\u0000",
-        "6": "Button 6\u0000",
-        "7": "Button 7\u0000",
-        "8": "Button 8\u0000",
-        "9": "Button 9\u0000",
-        "10": "Button 10\u0000",
-        "11": "Button 11\u0000",
-        "12": "Button 12\u0000",
-        "13": "Button 13\u0000",
-        "14": "Button 14\u0000",
-        "15": "Button 15\u0000",
-        "16": "Button 16\u0000",
-        "G": "Group Button\u0000",
-        "A": "Button A\u0000",
-        "B": "Button B\u0000",
-        "C": "Button C\u0000",
-        "D": "Button D\u0000",
-        "E": "Button E\u0000",
-        "all": "All Button\u0000",
-        "bright": "Bright Button\u0000",
-        "dim": "Dim Button\u0000",
-        "left": "Left Button\u0000",
-        "middle": "Middle Button\u0000",
-        "right": "Right Button\u0000",
-        "F": "Button F\u0000"
-      },
-      "on": "On\u0000",
-      "off": "Off\u0000",
-      "left": "Left\u0000",
-      "middle": "Middle\u0000",
-      "right": "Right\u0000",
-      "up": "Up\u0000",
-      "down": "Down\u0000",
-      "button_pressed": "Button is pressed\u0000",
-      "channels": {
-        "1": "Channel 1\u0000",
-        "2": "Channel 2\u0000",
-        "3": "Channel 3\u0000",
-        "4": "Channel 4\u0000",
-        "5": "Channel 5\u0000",
-        "I": "Channel I\u0000",
-        "II": "Channel II\u0000",
-        "III": "Channel III\u0000",
-        "IV": "Channel IV\u0000",
-        "V": "Channel V\u0000",
-        "A": "Channel A\u0000",
-        "B": "Channel B\u0000",
-        "C": "Channel C\u0000",
-        "D": "Channel D\u0000",
-        "E": "Channel E\u0000",
-        "F": "Channel F\u0000"
-      },
-      "units": {
-        "1": "Unit 1\u0000",
-        "2": "Unit 2\u0000",
-        "3": "Unit 3\u0000",
-        "4": "Unit 4\u0000",
-        "5": "Unit 5\u0000",
-        "6": "Unit 6\u0000",
-        "7": "Unit 7\u0000",
-        "8": "Unit 8\u0000",
-        "9": "Unit 9\u0000",
-        "10": "Unit 10\u0000",
-        "11": "Unit 11\u0000",
-        "12": "Unit 12\u0000",
-        "13": "Unit 13\u0000",
-        "14": "Unit 14\u0000",
-        "15": "Unit 15\u0000",
-        "16": "Unit 16\u0000"
-      }
-    },
-    "error": {
-      "device_exists": "This device is already paired with Homey.\u0000",
-      "no_device": "No device set to pair. Please close the pairing wizard and try again.\u0000",
-      "no_settings": "No settings object. Please try again.\u0000",
-      "invalid_device": "The device that was created is invalid. Please remove it and try pairing it again.\u0000",
-      "cannot_register_signal": "Signal could not be registered. Please reset Homey by pulling the power for 10 seconds and try again.\u0000"
-    }
-  },
-  "views": {
-    "generic_choice": {
-      "buttons": {
-        "copy": "Copy a remote\u0000",
-        "generate": "Generate signal\u0000"
-      }
-    },
-    "generic_imitate": {
-      "title": "Copy your remote signal\u0000"
-    },
-    "generic_codewheel": {
-      "title": "Configure your device code\u0000",
-      "body": "Click the characters on the code wheel above or configure the wheels on the device so they match, then click next.\u0000"
-    },
-    "generic_done": {
-      "title": "Adding device!\u0000"
-    },
-    "generic_program": {
-      "title": "Pair your device with Homey\u0000",
-      "body": "Put your device in pairing mode, then click next to pair your device with Homey.\u0000"
-    },
-    "generic_test_remote": {
-      "title": "Test your remote\u0000",
-      "body": "Press a random button on your remote or click the button in the image above to test the signal. Press next to continue.\u0000"
-    }
-  },
-  "deprecated": "This driver is deprecated. Please remove this device and pair it again in the pair wizard.",
   "rf": {
     "commands": null,
     "pair": {
@@ -642,26 +51,23 @@
         },
         "title": {
           "socket": "Copy your remote signal\u0000",
-          "motion_sensor": "Pair your motion sensor",
           "ABST-604": "Pair your night sensor",
           "AMST-606": "Pair your contact sensor",
+          "sensor": "Pair your sensor",
           "default": "Copy your remote signal",
           "remote": "Identify your remote",
           "wall_switch": "Identify your wall switch",
-          "doorbell": "Identify your doorbell",
-          "sensor": "Pair your sensor"
+          "doorbell": "Identify your doorbell"
         }
       },
       "test_switch": {
         "title": {
-          "blinds": "Test your blinds",
           "socket": "Test your socket\u0000",
           "AFR-100": "Test your fitting",
           "build_in": "Test your device",
           "ALED-2709": "Test your lamp"
         },
         "body": {
-          "blinds": "Use the buttons above to test your blinds. Press next to continue.",
           "socket": "Use the switch above to test your socket. Press next to continue.\u0000",
           "AFR-100": "Use the switch above to test your fitting. Press next to continue.",
           "build_in": "Use the switch above to test your device. Press next to continue.",
@@ -695,6 +101,37 @@
           "doorbell": "Use the button above to test your doorbell. Press next to continue."
         }
       },
+      "test": {
+        "title": {
+          "sensor": "Test your sensor",
+          "ABST-604": "Test your night sensor",
+          "motion_sensor": "Pair your motion sensor",
+          "blinds": "Test your blinds",
+          "AMST-606": "Test your contact sensor",
+          "default": "Test your device",
+          "remote": "Test your remote",
+          "wall_switch": "Test your wall switch",
+          "socket": "Test your socket",
+          "doorbell": "Test your doorbell"
+        },
+        "body": {
+          "sensor": "Trigger your sensor manually or use the LEARN switch on your sensor to test the signal. Press next to continue.",
+          "blinds": "Use the buttons above to test your blinds. Press next to continue.",
+          "AMST-606": "Trigger your sensor manually to test the signal. Press next to continue.",
+          "default": "Press a random button on your device or click the button in the image above to test the signal. Press next to continue.",
+          "remote": "Press a random button on your remote or click the button in the image above to test the signal. Press next to continue.",
+          "wall_switch": "Press a random button on your wall switch or click the buttons in the image above to test the signal. Press next to continue.",
+          "socket_generated": "Use the switch above to test your socket. Press next to continue.",
+          "socket": "Use your remote or the switch above to test your socket. Press next to continue.",
+          "button_generated": "Use the button above to test your device. Press next to continue.",
+          "button": "Use your remote or the button above to test your device. Press next to continue.",
+          "switch_generated": "Use the switch above to test your device. Press next to continue.",
+          "switch": "Use your remote or the switch above to test your device. Press next to continue.",
+          "doorbell_generated": "Use the button above to test your doorbell. Press next to continue.",
+          "doorbell": "Use your doorbell button or the button above to test your device. Press next to continue.",
+          "svg_buttons": "Use your remote or the buttons in the image above to test your device. Press next to continue."
+        }
+      },
       "info": {
         "title": {
           "default": "info",
@@ -707,48 +144,15 @@
           "codewheel": "Locate the codewheels on your device like displayed above, then click next."
         }
       },
-      "test": {
-        "title": {
-          "default": "Test your device",
-          "remote": "Test your remote",
-          "wall_switch": "Test your wall switch",
-          "socket": "Test your socket",
-          "doorbell": "Test your doorbell",
-          "blinds": "Test your blinds",
-          "sensor": "Test your sensor",
-          "ABST-640": "Test your night sensor",
-          "ABST-604": "Test your night sensor",
-          "AMST-606": "Test your contact sensor",
-          "motion_sensor": "Pair your motion sensor"
-        },
-        "body": {
-          "default": "Press a random button on your device or click the button in the image above to test the signal. Press next to continue.",
-          "remote": "Press a random button on your remote or click the button in the image above to test the signal. Press next to continue.",
-          "wall_switch": "Press a random button on your wall switch or click the buttons in the image above to test the signal. Press next to continue.",
-          "socket_generated": "Use the switch above to test your socket. Press next to continue.",
-          "socket": "Use your remote or the switch above to test your socket. Press next to continue.",
-          "button_generated": "Use the button above to test your device. Press next to continue.",
-          "button": "Use your remote or the button above to test your device. Press next to continue.",
-          "switch_generated": "Use the switch above to test your device. Press next to continue.",
-          "switch": "Use your remote or the switch above to test your device. Press next to continue.",
-          "doorbell_generated": "Use the button above to test your doorbell. Press next to continue.",
-          "doorbell": "Use your doorbell button or the button above to test your device. Press next to continue.",
-          "svg_buttons": "Use your remote or the buttons in the image above to test your device. Press next to continue.",
-          "blinds": "Use the buttons above to test your blinds. Press next to continue.",
-          "body": "Trigger your sensor manually or use the LEARN switch on your sensor to test the signal. Press next to continue.",
-          "sensor": "Trigger your sensor manually or use the LEARN switch on your sensor to test the signal. Press next to continue.",
-          "AMST-606": "Trigger your sensor manually to test the signal. Press next to continue."
-        }
-      },
       "codewheel": {
+        "programbutton": {
+          "default": "Program"
+        },
         "title": {
           "default": "Configure your device code"
         },
         "body": {
           "default": "Click the characters on the code wheel above or configure the wheels on the device so they match, then click next."
-        },
-        "programbutton": {
-          "default": "Program"
         }
       },
       "dipswitch": {
