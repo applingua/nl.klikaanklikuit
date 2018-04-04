@@ -191,8 +191,7 @@
       "class": "socket",
       "rf": {
         "debounceTimeout": 500,
-        "signal": "kakudim",
-        "alternativeSignal": "kaku"
+        "signal": "kakudim"
       },
       "pair": [
         {
@@ -299,8 +298,7 @@
       "class": "socket",
       "rf": {
         "debounceTimeout": 500,
-        "signal": "kakudim",
-        "alternativeSignal": "kaku"
+        "signal": "kakudim"
       },
       "pair": [
         {
@@ -715,8 +713,7 @@
       "class": "socket",
       "rf": {
         "debounceTimeout": 500,
-        "signal": "kakudim",
-        "alternativeSignal": "kaku"
+        "signal": "kakudim"
       },
       "pair": [
         {
@@ -823,8 +820,7 @@
       "class": "socket",
       "rf": {
         "debounceTimeout": 500,
-        "signal": "kakudim",
-        "alternativeSignal": "kaku"
+        "signal": "kakudim"
       },
       "pair": [
         {
@@ -931,8 +927,7 @@
       "class": "socket",
       "rf": {
         "debounceTimeout": 500,
-        "signal": "kakudim",
-        "alternativeSignal": "kaku"
+        "signal": "kakudim"
       },
       "pair": [
         {
@@ -1144,7 +1139,7 @@
       "class": "sensor",
       "rf": {
         "debounceTimeout": 500,
-        "signal": "kakulong"
+        "signal": "kaku"
       },
       "pair": [
         {
@@ -1429,8 +1424,7 @@
       "class": "socket",
       "rf": {
         "debounceTimeout": 500,
-        "signal": "kakudim",
-        "alternativeSignal": "kaku"
+        "signal": "kakudim"
       },
       "pair": [
         {
@@ -1537,8 +1531,7 @@
       "class": "socket",
       "rf": {
         "debounceTimeout": 500,
-        "signal": "kakudim",
-        "alternativeSignal": "kaku"
+        "signal": "kakudim"
       },
       "pair": [
         {
@@ -2037,6 +2030,162 @@
       "name": {
         "en": "AWST-8800"
       }
+    },
+    {
+      "images": {
+        "large": "/drivers/SUN-650/assets/images/large.jpg",
+        "small": "/drivers/SUN-650/assets/images/small.jpg"
+      },
+      "icon": "/drivers/SUN-650/assets/icon.svg",
+      "capabilities": [
+        "windowcoverings_state"
+      ],
+      "class": "windowcoverings",
+      "rf": {
+        "debounceTimeout": 500,
+        "signal": "kakuold"
+      },
+      "settings": [
+        {
+          "type": "group",
+          "label": {
+            "en": "General settings",
+            "nl": "Algemene instellingen"
+          },
+          "children": [
+            {
+              "id": "rotated",
+              "type": "radio",
+              "value": "0",
+              "label": {
+                "en": "Invert up/down signal",
+                "nl": "Inverteer omhoog/omlaag signaal"
+              },
+              "values": [
+                {
+                  "id": "0",
+                  "label": {
+                    "en": "No",
+                    "nl": "Nee"
+                  }
+                },
+                {
+                  "id": "180",
+                  "label": {
+                    "en": "Yes",
+                    "nl": "Ja"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "SUN-650",
+      "name": {
+        "en": "SUN-500"
+      },
+      "pair": [
+        {
+          "id": "rf.choice",
+          "options": {
+            "title": "rf.pair.choice.title.switch",
+            "body": "rf.pair.choice.body.switch",
+            "svgHeight": "65vh",
+            "choices": [
+              {
+                "name": "rf.pair.choice.buttons.copy.default",
+                "view": "rf.imitate",
+                "svg": "assets/svg/YCT-102_pair.svg"
+              },
+              {
+                "name": "rf.pair.choice.buttons.codewheel.codewheel_switch",
+                "view": "rf.codewheel",
+                "svg": "assets/svg/pair.svg"
+              }
+            ]
+          }
+        },
+        {
+          "id": "rf.imitate",
+          "options": {
+            "body": "rf.pair.imitate.body.old_blinds",
+            "svg": "assets/svg/YCT-102_pair.svg"
+          },
+          "navigation": {
+            "prev": "rf.choice"
+          }
+        },
+        {
+          "id": "rf.test_blinds.2",
+          "navigation": {
+            "prev": "rf.imitate",
+            "next": "rf.done"
+          }
+        },
+        {
+          "id": "rf.codewheel",
+          "options": {
+            "codewheelList": [
+              {
+                "series": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H",
+                  "I",
+                  "J",
+                  "K",
+                  "L",
+                  "M",
+                  "N",
+                  "O",
+                  "P"
+                ],
+                "mapOddToDot": true
+              },
+              {
+                "series": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16
+                ],
+                "mapOddToDot": true
+              }
+            ]
+          },
+          "navigation": {
+            "prev": "rf.choice"
+          }
+        },
+        {
+          "id": "rf.test_blinds",
+          "navigation": {
+            "prev": "rf.codewheel",
+            "next": "rf.done"
+          }
+        },
+        {
+          "id": "rf.done"
+        }
+      ]
     }
   ],
   "flow": {

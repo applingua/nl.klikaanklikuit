@@ -37,14 +37,8 @@
 			}
 		},
 		{
-			"id": "rf.test.2",
-			"$template": "rf.test",
-			"options": {
-				"initWithDeviceData": true,
-				"title": "rf.pair.test.title.blinds",
-				"body": "rf.pair.test.body.blinds",
-				"svg": "blinds"
-			},
+			"id": "rf.test_blinds.2",
+			"$template": "rf.test_blinds",
 			"navigation": {
 				"prev": "rf.imitate",
 				"next": "rf.done"
@@ -104,14 +98,8 @@
 			}
 		},
 		{
-			"id": "rf.test",
-			"$template": "rf.test",
-			"options": {
-				"title": "rf.pair.test.title.blinds",
-				"body": "rf.pair.test.body.blinds",
-				"svg": "blinds",
-				"initWithDeviceData": true
-			},
+			"id": "rf.test_blinds",
+			"$template": "rf.test_blinds",
 			"navigation": {
 				"prev": "rf.codewheel",
 				"next": "rf.done"

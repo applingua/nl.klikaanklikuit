@@ -5,8 +5,7 @@
     ],
     "rf": {
         "debounceTimeout": 500,
-        "signal": "kakudim",
-        "alternativeSignal": "kaku"
+        "signal": "kakudim"
     },
     "$_devices": [
         "ACM-300",

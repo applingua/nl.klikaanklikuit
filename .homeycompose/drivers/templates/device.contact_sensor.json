@@ -3,10 +3,6 @@
     "capabilities": [
         "alarm_contact"
     ],
-    "rf": {
-        "debounceTimeout": 500,
-        "signal": "kakulong"
-    },
     "$_devices": [
         "AMST-606"
     ]
