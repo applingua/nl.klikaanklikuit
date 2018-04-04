@@ -5,6 +5,7 @@
     ],
     "rf": {
         "debounceTimeout": 500,
+        "minTxInterval": 1000,
         "signal": "kakudim"
     },
     "$_devices": [

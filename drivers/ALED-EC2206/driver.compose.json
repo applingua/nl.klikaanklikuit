@@ -1,0 +1,12 @@
+{
+    "id": "ALED-EC2206",
+    "name": {
+        "en": "ALED-EC2206"
+    },
+    "$extends": [
+        "defaults",
+        "device.light",
+        "capabilities.dim",
+        "pair.light"
+    ]
+}

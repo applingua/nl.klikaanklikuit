@@ -1,5 +1,5 @@
 .idea
 .git
 *@backup*
-433_generator/assets/*/images/
 env.json
+drivers/*/assets/images/*
