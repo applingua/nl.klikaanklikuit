@@ -37,7 +37,7 @@
       "imitate": {
         "body": {
           "old_blinds": "Press the up/down button that is paired to your blinds.",
-          "socket": "Press the button that is paired to your socket.<p class=\"notice\">(Note. Homey only supports transmitters of which the product code starts with an A. If you use an old remote for this device please let Homey generate a new signal for the device)</p>",
+          "socket": "Press the button that is paired to your socket.<p class=\"notice\">(Note. For this device Homey only supports transmitters of which the product code starts with an A. If you use an old remote for this device please let Homey generate a new signal for the device)</p>",
           "blinds": "Press the up/down button that is paired to your blinds.<p class=\"notice\">(Note. For this device Homey only supports transmitters of which the product code starts with an A. If you use an old remote for this device please let Homey generate a new signal for the device)</p>",
           "AFR-100": "Press the button that is paired to your fitting.",
           "build_in": "Press the button that is paired to your device.",
@@ -267,7 +267,8 @@
       "invalid_device_data": "The device that was created is invalid. Please remove it and try pairing it again.",
       "data_no_object": "Data must be an object!",
       "pairdevice_invalid_data": "New pairing device data is invalid, changes are reverted.",
-      "invalid_send_data": "Invalid data send request. Please contact the developer."
+      "invalid_send_data": "Invalid data send request. Please contact the developer.",
+      "cannot_pair_with_group_button": "Cannot pair device using the group button."
     }
   }
 }

@@ -5,7 +5,8 @@
     ],
     "rf": {
         "debounceTimeout": 500,
-        "minTxInterval": 1000,
+        "minTxInterval": 2000,
+        "dropPendingPayload": true,
         "signal": "kakudim"
     },
     "$_devices": [

@@ -1,8 +1,8 @@
 {
-	"$disabled": true,
 	"rf": {
 		"debounceTimeout": 500,
 		"minTxInterval": 1000,
+		"dropPendingPayload": true,
 		"signal": "kakuold"
 	},
 	"$_devices": [

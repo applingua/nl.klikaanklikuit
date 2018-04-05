@@ -19,8 +19,8 @@
             "imitate": {
                 "body": {
                     "old_blinds": "Druk op de omhoog/omlaag knop van de afstandsbediening waarmee de zonnewering gekoppeld is.",
-                    "socket": "Druk op de knop van de afstandsbediening waarmee het apparaat gekoppeld is.<p class=\"notice\">(Let op. Homey ondersteund voor dit apparaat alleen afstandsbedieningen waarvan de productcode begint met een A. Als u een oude afstandsbediening gebruikt laat Homey dan zelf een nieuw signaal genereren voor het apparaat)</p>",
-                    "blinds": "Druk op de omhoog/omlaag knop van de afstandsbediening waarmee de zonnewering gekoppeld is.<p class=\"notice\">(Let op. Homey ondersteund voor dit apparaat alleen afstandsbedieningen waarvan de productcode begint met een A. Als u een oude afstandsbediening gebruikt laat Homey dan zelf een nieuw signaal genereren voor het apparaat)</p>",
+                    "socket": "Druk op de knop van de afstandsbediening waarmee het apparaat gekoppeld is.<p class=\"notice\">(Let op. Voor dit apparaat ondersteund Homey alleen afstandsbedieningen waarvan de productcode begint met een A. Als u een oude afstandsbediening gebruikt laat Homey dan zelf een nieuw signaal genereren voor het apparaat)</p>",
+                    "blinds": "Druk op de omhoog/omlaag knop van de afstandsbediening waarmee de zonnewering gekoppeld is.<p class=\"notice\">(Let op.  Voor dit apparaat ondersteund Homey alleen afstandsbedieningen waarvan de productcode begint met een A. Als u een oude afstandsbediening gebruikt laat Homey dan zelf een nieuw signaal genereren voor het apparaat)</p>",
                     "AFR-100": "Druk op de knop die gekoppeld is met de fitting.",
                     "build_in": "Druk op de knop van de afstandsbediening waarmee het apparaat gekoppeld is.",
                     "sensor": "Schuif de LEARN knop naar DEL en terug naar SET.",
@@ -83,6 +83,9 @@
                     "AMST-606": "Laat de sensor handmatig afgaan om het signaal te testen. Klik op volgende om verder te gaan."
                 }
             }
+        },
+        "error": {
+            "cannot_pair_with_group_button": "Kan apparaat niet pairen met groep knop."
         }
     }
 }

@@ -1,0 +1,78 @@
+{
+	"pair": [
+		{
+			"id": "rf.codewheel",
+			"$template": "rf.codewheel",
+			"options": {
+				"codewheelList": [
+					{
+						"series": [
+							"A",
+							"B",
+							"C",
+							"D",
+							"E",
+							"F",
+							"G",
+							"H",
+							"I",
+							"J",
+							"K",
+							"L",
+							"M",
+							"N",
+							"O",
+							"P"
+						],
+						"mapOddToDot": true
+					},
+					{
+						"series": [
+							1,
+							2,
+							3,
+							4,
+							5,
+							6,
+							7,
+							8,
+							9,
+							10,
+							11,
+							12,
+							13,
+							14,
+							15,
+							16
+						],
+						"mapOddToDot": true
+					}
+				]
+			}
+		},
+		{
+			"id": "rf.test",
+			"$template": "rf.test",
+			"options": {
+				"body": "rf.pair.test.body.sensor",
+				"initWithDeviceData": true,
+				"capability": "alarm_motion",
+				"svg": "motion",
+				"title": "rf.pair.test.title.motion_sensor"
+			},
+			"navigation": {
+				"prev": "rf.codewheel",
+				"next": "rf.done"
+			}
+		},
+		{
+			"id": "rf.done",
+			"$template": "rf.done"
+		}
+	],
+	"$_devices": [
+		"APIR-2150",
+		"AWST-6000"
+	],
+	"$_hash": "migrate.26.9616821bcd3b69f8e5a76c920dc6b714"
+}

@@ -19,7 +19,7 @@
             "imitate": {
                 "body": {
                     "old_blinds": "Press the up/down button that is paired to your blinds.",
-                    "socket": "Press the button that is paired to your socket.<p class=\"notice\">(Note. Homey only supports transmitters of which the product code starts with an A. If you use an old remote for this device please let Homey generate a new signal for the device)</p>",
+                    "socket": "Press the button that is paired to your socket.<p class=\"notice\">(Note. For this device Homey only supports transmitters of which the product code starts with an A. If you use an old remote for this device please let Homey generate a new signal for the device)</p>",
                     "blinds": "Press the up/down button that is paired to your blinds.<p class=\"notice\">(Note. For this device Homey only supports transmitters of which the product code starts with an A. If you use an old remote for this device please let Homey generate a new signal for the device)</p>",
                     "AFR-100": "Press the button that is paired to your fitting.",
                     "build_in": "Press the button that is paired to your device.",
@@ -84,6 +84,9 @@
                     "AMST-606": "Trigger your sensor manually to test the signal. Press next to continue."
                 }
             }
+        },
+        "error": {
+            "cannot_pair_with_group_button": "Cannot pair device using the group button."
         }
     }
 }

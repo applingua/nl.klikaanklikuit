@@ -1,0 +1,62 @@
+{
+	"id": "AMU-500",
+	"name": {
+		"en": "AMU-500"
+	},
+	"settings": [
+		{
+			"type": "group",
+			"label": {
+				"en": "Advanced settings",
+				"nl": "Geadvanceerde instellingen"
+			},
+			"children": [
+				{
+					"id": "timeout",
+					"type": "dropdown",
+					"value": "0",
+					"label": {
+						"en": "Automatically toggle off after",
+						"nl": "Zet automatisch uit na"
+					},
+					"values": [
+						{
+							"id": "0",
+							"label": {
+								"en": "never",
+								"nl": "nooit"
+							}
+						},
+						{
+							"id": "1000",
+							"label": {
+								"en": "1 Second",
+								"nl": "1 Seconde"
+							}
+						},
+						{
+							"id": "5000",
+							"label": {
+								"en": "5 Seconds",
+								"nl": "5 Seconden"
+							}
+						},
+						{
+							"id": "120000",
+							"label": {
+								"en": "2 Minutes",
+								"nl": "2 Minuten"
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"$extends": [
+		"defaults",
+		"rf.kaku.timeout",
+		"device.socket",
+		"pair.socket.build_in"
+	]
+}

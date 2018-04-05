@@ -24,6 +24,13 @@
                             }
                         },
                         {
+                            "id": "5000",
+                            "label": {
+                                "en": "5 Seconds",
+                                "nl": "5 Seconden"
+                            }
+                        },
+                        {
                             "id": "1",
                             "label": {
                                 "en": "1 Minute",

@@ -20,6 +20,9 @@
 		},
 		"rf.imitate": {
 			"svg": "assets/svg/APA2-2300R_pair.svg"
+		},
+		"rf.program": {
+			"body": "rf.pair.program.body.simple_socket"
 		}
 	},
 	"$extends": [

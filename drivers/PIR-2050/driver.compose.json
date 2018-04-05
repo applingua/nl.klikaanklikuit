@@ -1,0 +1,13 @@
+{
+    "id": "PIR-2050",
+    "name": {
+        "en": "PIR-2050"
+    },
+    "$extends": [
+        "defaults",
+        "rf.kakuold.timeout",
+        "device.motion_alarm",
+        "settings.timeout.motion_alarm",
+        "pair.motion_sensor.pir"
+    ]
+}

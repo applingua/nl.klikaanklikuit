@@ -6,6 +6,7 @@
     "$extends": [
         "defaults",
         "images.png",
+        "rf.kaku.timeout",
         "device.motion_alarm",
         "settings.timeout.motion_alarm",
         "pair.motion_sensor"

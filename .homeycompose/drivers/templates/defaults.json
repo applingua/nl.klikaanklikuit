@@ -1,5 +1,4 @@
 {
-    "$disabled": true,
     "images": {
         "large": "{{driverPath}}/assets/images/large.jpg",
         "small": "{{driverPath}}/assets/images/small.jpg"
@@ -10,6 +9,7 @@
     "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 1000,
+        "dropPendingPayload": true,
         "signal": "kaku"
     },
     "$_devices": [

@@ -16,6 +16,7 @@
                 "body": "rf.pair.test.body.sensor",
                 "initWithDeviceData": true,
                 "svg": "motion",
+                "capability": "alarm_motion",
                 "title": "rf.pair.test.title.motion_sensor"
             },
             "navigation": {
