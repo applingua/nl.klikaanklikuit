@@ -5347,7 +5347,8 @@
         "debounceTimeout": 500,
         "minTxInterval": 1000,
         "dropPendingPayload": true,
-        "signal": "kaku"
+        "signal": "kaku",
+        "buttonCount": 2
       },
       "settings": [
         {

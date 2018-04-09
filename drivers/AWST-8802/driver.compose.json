@@ -59,6 +59,7 @@
     "$extends": [
         "defaults",
         "settings.rotated.wall_switch",
-        "pair.wall_switch.build_in"
+        "pair.wall_switch",
+        "rf.wall_switch.double"
     ]
 }
