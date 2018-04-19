@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "homey-log": "^1.0.5",
-    "homey-rfdriver": "^2.0.13"
+    "homey-rfdriver": "^2.0.14"
   },
   "devDependencies": {},
   "scripts": {
