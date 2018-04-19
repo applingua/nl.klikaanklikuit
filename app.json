@@ -1049,8 +1049,7 @@
             "svg": "assets/svg/pair.svg"
           },
           "navigation": {
-            "prev": "rf.choice",
-            "next": "rf.test_button"
+            "prev": "rf.choice"
           }
         },
         {
@@ -1145,8 +1144,7 @@
             "svg": "assets/svg/pair.svg"
           },
           "navigation": {
-            "prev": "rf.choice",
-            "next": "rf.test_button"
+            "prev": "rf.choice"
           }
         },
         {
@@ -2002,8 +2000,7 @@
             "svg": "assets/svg/pair.svg"
           },
           "navigation": {
-            "prev": "rf.choice",
-            "next": "rf.test_switch"
+            "prev": "rf.choice"
           }
         },
         {
@@ -2096,8 +2093,7 @@
             "svg": "assets/svg/pair.svg"
           },
           "navigation": {
-            "prev": "rf.choice",
-            "next": "rf.test_switch"
+            "prev": "rf.choice"
           }
         },
         {
