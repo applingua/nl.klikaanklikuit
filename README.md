@@ -14,4 +14,3 @@ This update also added some more devices to the app:
 * AMU-500
 * PIR-2050
 * APC3-2300R
-
