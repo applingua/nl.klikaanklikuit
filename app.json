@@ -3283,18 +3283,18 @@
         {
           "id": "rf.imitate",
           "options": {
-            "body": "rf.pair.imitate.body.sensor",
+            "body": "rf.pair.imitate.body.AMST-606",
             "svg": "assets/svg/pair.svg",
-            "title": "rf.pair.imitate.title.sensor"
+            "title": "rf.pair.imitate.title.AMST-606"
           }
         },
         {
           "id": "rf.test",
           "options": {
-            "body": "rf.pair.test.body.sensor",
+            "body": "rf.pair.test.body.AMST-606",
             "initWithDeviceData": true,
             "svg": "assets/svg/test.svg",
-            "title": "rf.pair.test.title.sensor"
+            "title": "rf.pair.test.title.AMST-606"
           },
           "navigation": {
             "prev": "rf.imitate",
@@ -3308,16 +3308,6 @@
       "id": "AMST-606",
       "name": {
         "en": "AMST-606"
-      },
-      "pairOptions": {
-        "rf.imitate": {
-          "title": "rf.pair.imitate.title.AMST-606",
-          "body": "rf.pair.imitate.body.AMST-606"
-        },
-        "rf.test": {
-          "title": "rf.pair.test.title.AMST-606",
-          "body": "rf.pair.test.body.AMST-606"
-        }
       },
       "settings": [
         {
@@ -7508,36 +7498,36 @@
               {
                 "id": "00",
                 "label": {
-                  "en": "Button 1",
-                  "nl": "Knop 1"
+                  "en": "Channel 1",
+                  "nl": "Kanaal 1"
                 }
               },
               {
                 "id": "10",
                 "label": {
-                  "en": "Button 2",
-                  "nl": "Knop 2"
+                  "en": "Channel 2",
+                  "nl": "Kanaal 2"
                 }
               },
               {
                 "id": "01",
                 "label": {
-                  "en": "Button 3",
-                  "nl": "Knop 3"
+                  "en": "Channel 3",
+                  "nl": "Kanaal 3"
                 }
               },
               {
                 "id": "11",
                 "label": {
-                  "en": "Button 4",
-                  "nl": "Knop 4"
+                  "en": "Channel 4",
+                  "nl": "Kanaal 4"
                 }
               },
               {
                 "id": "g",
                 "label": {
-                  "en": "Group Button",
-                  "nl": "Groep Knop"
+                  "en": "All (G)",
+                  "nl": "Alles (G)"
                 }
               }
             ]
