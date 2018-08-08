@@ -8,6 +8,12 @@
         "signal": "kaku",
         "sendToggleAfterTimeout": 4000
     },
+    "$pairOptions": {
+        "rf.program": {
+            "title": "rf.pair.program.title.build_in",
+            "body": "rf.pair.program.body.doorbell"
+        }
+    },
     "$_devices": [
         "ACDB-7000C",
         "ACDB-6600"
