@@ -549,6 +549,114 @@
     },
     {
       "images": {
+        "large": "/drivers/ACC-2300/assets/images/large.jpg",
+        "small": "/drivers/ACC-2300/assets/images/small.jpg"
+      },
+      "icon": "/drivers/ACC-2300/assets/icon.svg",
+      "capabilities": [
+        "onoff"
+      ],
+      "class": "socket",
+      "rf": {
+        "debounceTimeout": 500,
+        "minTxInterval": 1000,
+        "dropPendingPayload": false,
+        "signal": "kaku"
+      },
+      "pair": [
+        {
+          "id": "rf.choice",
+          "options": {
+            "title": "rf.pair.choice.title.switch",
+            "body": "rf.pair.choice.body.switch",
+            "svgHeight": "65vh",
+            "choices": [
+              {
+                "name": "rf.pair.choice.buttons.copy.default",
+                "view": "rf.imitate",
+                "svg": "assets/svg/ACC-2300_pair.svg"
+              },
+              {
+                "name": "rf.pair.choice.buttons.generate.default",
+                "view": "rf.program",
+                "svg": "assets/svg/pair.svg"
+              }
+            ]
+          }
+        },
+        {
+          "id": "rf.imitate",
+          "options": {
+            "title": "rf.pair.imitate.title.socket",
+            "body": "rf.pair.imitate.body.socket",
+            "svg": "assets/svg/ACC-2300_pair.svg"
+          },
+          "navigation": {
+            "prev": "rf.choice"
+          }
+        },
+        {
+          "id": "rf.test_switch.2",
+          "options": {
+            "initWithDeviceData": true,
+            "title": "rf.pair.test_switch.title.socket",
+            "body": "rf.pair.test_switch.body.socket"
+          },
+          "navigation": {
+            "prev": "rf.imitate",
+            "next": "choose_slave.2"
+          }
+        },
+        {
+          "id": "choose_slave.2",
+          "template": "choose_slave",
+          "navigation": {
+            "prev": "rf.test_switch.2",
+            "next": "rf.done"
+          }
+        },
+        {
+          "id": "rf.program",
+          "options": {
+            "title": "rf.pair.program.title.socket",
+            "body": "rf.pair.program.body.simple_socket",
+            "svg": "assets/svg/pair.svg"
+          },
+          "navigation": {
+            "prev": "rf.choice"
+          }
+        },
+        {
+          "id": "rf.test_switch",
+          "options": {
+            "title": "rf.pair.test_switch.title.socket",
+            "body": "rf.pair.test_switch.body.socket",
+            "initWithDeviceData": true
+          },
+          "navigation": {
+            "prev": "rf.program",
+            "next": "choose_slave"
+          }
+        },
+        {
+          "id": "choose_slave",
+          "template": "choose_slave",
+          "navigation": {
+            "prev": "rf.test_switch",
+            "next": "rf.done"
+          }
+        },
+        {
+          "id": "rf.done"
+        }
+      ],
+      "id": "ACC-2300",
+      "name": {
+        "en": "ACC-2300"
+      }
+    },
+    {
+      "images": {
         "large": "/drivers/ACD-1000/assets/images/large.png",
         "small": "/drivers/ACD-1000/assets/images/small.png"
       },
