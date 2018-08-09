@@ -1,6 +1,6 @@
 {
   "id": "nl.klikaanklikuit",
-  "version": "4.0.7",
+  "version": "4.0.8",
   "compatibility": ">=1.5.3",
   "sdk": 2,
   "category": [
@@ -777,7 +777,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 2000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakudim"
       },
       "pair": [
@@ -886,7 +886,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 2000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakudim"
       },
       "pair": [
@@ -1295,7 +1295,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 2000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakudim"
       },
       "pair": [
@@ -1620,7 +1620,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 2000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakudim"
       },
       "pair": [
@@ -1729,7 +1729,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 2000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakudim"
       },
       "pair": [
@@ -1838,7 +1838,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 2000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakudim"
       },
       "pair": [
@@ -1947,7 +1947,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 2000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakudim"
       },
       "pair": [
@@ -2148,7 +2148,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 2000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakudim"
       },
       "pair": [
@@ -2241,7 +2241,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 2000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakudim"
       },
       "pair": [
@@ -2350,7 +2350,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 2000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakudim"
       },
       "pair": [
@@ -2567,7 +2567,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 2000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakudim"
       },
       "pair": [
@@ -2918,7 +2918,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 2000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakudim"
       },
       "pair": [
@@ -3011,7 +3011,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 2000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakudim"
       },
       "pair": [
@@ -3104,7 +3104,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 2000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakudim"
       },
       "pair": [
@@ -3197,7 +3197,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 2000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakudim"
       },
       "pair": [
@@ -3290,7 +3290,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 2000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakudim"
       },
       "pair": [
@@ -4540,7 +4540,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 2000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakudim"
       },
       "pair": [
@@ -4649,7 +4649,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 2000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakudim"
       },
       "pair": [
