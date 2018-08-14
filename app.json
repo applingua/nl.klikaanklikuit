@@ -1,6 +1,6 @@
 {
   "id": "nl.klikaanklikuit",
-  "version": "4.0.9",
+  "version": "4.0.10",
   "compatibility": ">=1.5.3",
   "sdk": 2,
   "category": [
@@ -8359,7 +8359,7 @@
         "sensitivity": 0.5,
         "repetitions": 20,
         "minimalLength": 32,
-        "maximalLength": 32
+        "maximalLength": 36
       },
       "kakuold": {
         "sof": [],

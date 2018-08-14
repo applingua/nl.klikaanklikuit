@@ -4,6 +4,11 @@ Adds support for Trust / CoCo / KlikAanKlikUit devices.
 
 ## What's new
 
+### v4.0.10
+Added ACM3500 driver
+Changed dimmer signal, dimmer remotes should be working now.
+Fixed the issue that a doorbell would not trigger in a flow.
+
 ### v4.0.7
 Fixed issues with sockets not responding in flows.
 Added a fallback for sending the signal. The error related to device data should be fixed.
