@@ -1,6 +1,6 @@
 {
   "id": "nl.klikaanklikuit",
-  "version": "4.0.2",
+  "version": "4.0.11",
   "compatibility": ">=1.5.3",
   "sdk": 2,
   "category": [
@@ -40,7 +40,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 1000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kaku"
       },
       "pair": [
@@ -87,7 +87,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 1000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakuold"
       },
       "pair": [
@@ -195,7 +195,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 1000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakuold"
       },
       "pair": [
@@ -344,7 +344,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 1000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakuold"
       },
       "pair": [
@@ -452,7 +452,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 1000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakuold"
       },
       "pair": [
@@ -549,6 +549,114 @@
     },
     {
       "images": {
+        "large": "/drivers/ACC-2300/assets/images/large.jpg",
+        "small": "/drivers/ACC-2300/assets/images/small.jpg"
+      },
+      "icon": "/drivers/ACC-2300/assets/icon.svg",
+      "capabilities": [
+        "onoff"
+      ],
+      "class": "socket",
+      "rf": {
+        "debounceTimeout": 500,
+        "minTxInterval": 1000,
+        "dropPendingPayload": false,
+        "signal": "kaku"
+      },
+      "pair": [
+        {
+          "id": "rf.choice",
+          "options": {
+            "title": "rf.pair.choice.title.switch",
+            "body": "rf.pair.choice.body.switch",
+            "svgHeight": "65vh",
+            "choices": [
+              {
+                "name": "rf.pair.choice.buttons.copy.default",
+                "view": "rf.imitate",
+                "svg": "assets/svg/ACC-2300_pair.svg"
+              },
+              {
+                "name": "rf.pair.choice.buttons.generate.default",
+                "view": "rf.program",
+                "svg": "assets/svg/pair.svg"
+              }
+            ]
+          }
+        },
+        {
+          "id": "rf.imitate",
+          "options": {
+            "title": "rf.pair.imitate.title.socket",
+            "body": "rf.pair.imitate.body.socket",
+            "svg": "assets/svg/ACC-2300_pair.svg"
+          },
+          "navigation": {
+            "prev": "rf.choice"
+          }
+        },
+        {
+          "id": "rf.test_switch.2",
+          "options": {
+            "initWithDeviceData": true,
+            "title": "rf.pair.test_switch.title.socket",
+            "body": "rf.pair.test_switch.body.socket"
+          },
+          "navigation": {
+            "prev": "rf.imitate",
+            "next": "choose_slave.2"
+          }
+        },
+        {
+          "id": "choose_slave.2",
+          "template": "choose_slave",
+          "navigation": {
+            "prev": "rf.test_switch.2",
+            "next": "rf.done"
+          }
+        },
+        {
+          "id": "rf.program",
+          "options": {
+            "title": "rf.pair.program.title.socket",
+            "body": "rf.pair.program.body.simple_socket",
+            "svg": "assets/svg/pair.svg"
+          },
+          "navigation": {
+            "prev": "rf.choice"
+          }
+        },
+        {
+          "id": "rf.test_switch",
+          "options": {
+            "title": "rf.pair.test_switch.title.socket",
+            "body": "rf.pair.test_switch.body.socket",
+            "initWithDeviceData": true
+          },
+          "navigation": {
+            "prev": "rf.program",
+            "next": "choose_slave"
+          }
+        },
+        {
+          "id": "choose_slave",
+          "template": "choose_slave",
+          "navigation": {
+            "prev": "rf.test_switch",
+            "next": "rf.done"
+          }
+        },
+        {
+          "id": "rf.done"
+        }
+      ],
+      "id": "ACC-2300",
+      "name": {
+        "en": "ACC-2300"
+      }
+    },
+    {
+      "images": {
         "large": "/drivers/ACD-1000/assets/images/large.png",
         "small": "/drivers/ACD-1000/assets/images/small.png"
       },
@@ -560,7 +668,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 1000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kaku"
       },
       "pair": [
@@ -669,7 +777,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 2000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakudim"
       },
       "pair": [
@@ -778,7 +886,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 2000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakudim"
       },
       "pair": [
@@ -886,7 +994,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 1000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kaku"
       },
       "pair": [
@@ -1045,8 +1153,9 @@
         {
           "id": "rf.program",
           "options": {
-            "body": "rf.pair.program.body.socket",
-            "svg": "assets/svg/pair.svg"
+            "body": "rf.pair.program.body.doorbell",
+            "svg": "assets/svg/pair.svg",
+            "title": "rf.pair.program.title.build_in"
           },
           "navigation": {
             "prev": "rf.choice"
@@ -1140,8 +1249,9 @@
         {
           "id": "rf.program",
           "options": {
-            "body": "rf.pair.program.body.socket",
-            "svg": "assets/svg/pair.svg"
+            "body": "rf.pair.program.body.doorbell",
+            "svg": "assets/svg/pair.svg",
+            "title": "rf.pair.program.title.build_in"
           },
           "navigation": {
             "prev": "rf.choice"
@@ -1185,7 +1295,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 2000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakudim"
       },
       "pair": [
@@ -1293,7 +1403,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 1000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kaku"
       },
       "pair": [
@@ -1401,7 +1511,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 1000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kaku"
       },
       "pair": [
@@ -1510,7 +1620,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 2000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakudim"
       },
       "pair": [
@@ -1619,7 +1729,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 2000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakudim"
       },
       "pair": [
@@ -1716,6 +1826,114 @@
     },
     {
       "images": {
+        "large": "/drivers/ACM-3500/assets/images/large.png",
+        "small": "/drivers/ACM-3500/assets/images/small.png"
+      },
+      "icon": "/drivers/ACM-3500/assets/icon.svg",
+      "capabilities": [
+        "onoff"
+      ],
+      "class": "socket",
+      "rf": {
+        "debounceTimeout": 500,
+        "minTxInterval": 1000,
+        "dropPendingPayload": false,
+        "signal": "kaku"
+      },
+      "pair": [
+        {
+          "id": "rf.choice",
+          "options": {
+            "title": "rf.pair.choice.title.switch",
+            "body": "rf.pair.choice.body.switch",
+            "svgHeight": "65vh",
+            "choices": [
+              {
+                "name": "rf.pair.choice.buttons.copy.default",
+                "view": "rf.imitate",
+                "svg": "assets/svg/AYCT-102_pair.svg"
+              },
+              {
+                "name": "rf.pair.choice.buttons.generate.default",
+                "view": "rf.program",
+                "svg": "assets/svg/pair.svg"
+              }
+            ]
+          }
+        },
+        {
+          "id": "rf.imitate",
+          "options": {
+            "title": "rf.pair.imitate.title.socket",
+            "body": "rf.pair.imitate.body.socket",
+            "svg": "assets/svg/AYCT-102_pair.svg"
+          },
+          "navigation": {
+            "prev": "rf.choice"
+          }
+        },
+        {
+          "id": "rf.test_switch.2",
+          "options": {
+            "initWithDeviceData": true,
+            "title": "rf.pair.test_switch.title.socket",
+            "body": "rf.pair.test_switch.body.socket"
+          },
+          "navigation": {
+            "prev": "rf.imitate",
+            "next": "choose_slave.2"
+          }
+        },
+        {
+          "id": "choose_slave.2",
+          "template": "choose_slave",
+          "navigation": {
+            "prev": "rf.test_switch.2",
+            "next": "rf.done"
+          }
+        },
+        {
+          "id": "rf.program",
+          "options": {
+            "title": "rf.pair.program.title.default",
+            "body": "rf.pair.program.body.multiswitch",
+            "svg": "assets/svg/pair.svg"
+          },
+          "navigation": {
+            "prev": "rf.choice"
+          }
+        },
+        {
+          "id": "rf.test_switch",
+          "options": {
+            "title": "rf.pair.test_switch.title.socket",
+            "body": "rf.pair.test_switch.body.socket",
+            "initWithDeviceData": true
+          },
+          "navigation": {
+            "prev": "rf.program",
+            "next": "choose_slave"
+          }
+        },
+        {
+          "id": "choose_slave",
+          "template": "choose_slave",
+          "navigation": {
+            "prev": "rf.test_switch",
+            "next": "rf.done"
+          }
+        },
+        {
+          "id": "rf.done"
+        }
+      ],
+      "id": "ACM-3500",
+      "name": {
+        "en": "ACM-3500"
+      }
+    },
+    {
+      "images": {
         "large": "/drivers/ACM-LV10/assets/images/large.jpg",
         "small": "/drivers/ACM-LV10/assets/images/small.jpg"
       },
@@ -1728,7 +1946,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 2000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakudim"
       },
       "pair": [
@@ -1837,7 +2055,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 2000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakudim"
       },
       "pair": [
@@ -1945,7 +2163,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 1000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kaku"
       },
       "pair": [
@@ -2038,7 +2256,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 2000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakudim"
       },
       "pair": [
@@ -2131,7 +2349,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 2000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakudim"
       },
       "pair": [
@@ -2240,7 +2458,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 2000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakudim"
       },
       "pair": [
@@ -2348,7 +2566,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 1000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kaku"
       },
       "pair": [
@@ -2457,7 +2675,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 2000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakudim"
       },
       "pair": [
@@ -2565,7 +2783,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 1000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kaku"
       },
       "pair": [
@@ -2671,7 +2889,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 1000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kaku"
       },
       "pair": [
@@ -2715,7 +2933,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 1000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kaku"
       },
       "pair": [
@@ -2808,7 +3026,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 2000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakudim"
       },
       "pair": [
@@ -2901,7 +3119,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 2000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakudim"
       },
       "pair": [
@@ -2994,7 +3212,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 2000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakudim"
       },
       "pair": [
@@ -3087,7 +3305,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 2000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakudim"
       },
       "pair": [
@@ -3180,7 +3398,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 2000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakudim"
       },
       "pair": [
@@ -3283,18 +3501,18 @@
         {
           "id": "rf.imitate",
           "options": {
-            "body": "rf.pair.imitate.body.sensor",
+            "body": "rf.pair.imitate.body.AMST-606",
             "svg": "assets/svg/pair.svg",
-            "title": "rf.pair.imitate.title.sensor"
+            "title": "rf.pair.imitate.title.AMST-606"
           }
         },
         {
           "id": "rf.test",
           "options": {
-            "body": "rf.pair.test.body.sensor",
+            "body": "rf.pair.test.body.AMST-606",
             "initWithDeviceData": true,
             "svg": "assets/svg/test.svg",
-            "title": "rf.pair.test.title.sensor"
+            "title": "rf.pair.test.title.AMST-606"
           },
           "navigation": {
             "prev": "rf.imitate",
@@ -3308,16 +3526,6 @@
       "id": "AMST-606",
       "name": {
         "en": "AMST-606"
-      },
-      "pairOptions": {
-        "rf.imitate": {
-          "title": "rf.pair.imitate.title.AMST-606",
-          "body": "rf.pair.imitate.body.AMST-606"
-        },
-        "rf.test": {
-          "title": "rf.pair.test.title.AMST-606",
-          "body": "rf.pair.test.body.AMST-606"
-        }
       },
       "settings": [
         {
@@ -3585,7 +3793,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 1000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kaku"
       },
       "pair": [
@@ -3629,7 +3837,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 1000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kaku"
       },
       "pair": [
@@ -3735,7 +3943,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 1000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kaku"
       },
       "pair": [
@@ -3779,7 +3987,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 1000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kaku"
       },
       "pair": [
@@ -3885,7 +4093,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 1000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kaku"
       },
       "pair": [
@@ -3929,7 +4137,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 1000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kaku"
       },
       "pair": [
@@ -4037,7 +4245,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 1000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kaku"
       },
       "pair": [
@@ -4184,6 +4392,13 @@
                   }
                 },
                 {
+                  "id": "10000",
+                  "label": {
+                    "en": "5 Seconds",
+                    "nl": "5 Seconden"
+                  }
+                },
+                {
                   "id": "1",
                   "label": {
                     "en": "1 Minute",
@@ -4275,7 +4490,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 1000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kaku"
       },
       "settings": [
@@ -4388,7 +4603,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 1000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kaku"
       },
       "pair": [
@@ -4433,7 +4648,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 2000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakudim"
       },
       "pair": [
@@ -4542,7 +4757,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 2000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakudim"
       },
       "pair": [
@@ -4650,7 +4865,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 1000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kaku"
       },
       "pair": [
@@ -4758,7 +4973,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 1000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kaku"
       },
       "pair": [
@@ -4864,7 +5079,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 1000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kaku"
       },
       "settings": [
@@ -4944,7 +5159,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 1000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kaku"
       },
       "settings": [
@@ -5026,7 +5241,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 1000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kaku"
       },
       "pair": [
@@ -5173,6 +5388,13 @@
                   }
                 },
                 {
+                  "id": "10000",
+                  "label": {
+                    "en": "5 Seconds",
+                    "nl": "5 Seconden"
+                  }
+                },
+                {
                   "id": "1",
                   "label": {
                     "en": "1 Minute",
@@ -5262,7 +5484,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 1000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kaku"
       },
       "settings": [
@@ -5423,7 +5645,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 1000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kaku"
       },
       "pair": [
@@ -5505,7 +5727,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 1000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakuold"
       },
       "pair": [
@@ -5547,7 +5769,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 1000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakuold"
       },
       "pair": [
@@ -5589,7 +5811,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 1000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakuold"
       },
       "pair": [
@@ -5633,7 +5855,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 1000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakuold"
       },
       "pair": [
@@ -5802,6 +6024,13 @@
                   }
                 },
                 {
+                  "id": "10000",
+                  "label": {
+                    "en": "5 Seconds",
+                    "nl": "5 Seconden"
+                  }
+                },
+                {
                   "id": "1",
                   "label": {
                     "en": "1 Minute",
@@ -5934,7 +6163,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 1000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakuold"
       },
       "settings": [
@@ -6090,7 +6319,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 1000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakuold"
       },
       "pair": [
@@ -6132,7 +6361,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 1000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakuold"
       },
       "settings": [
@@ -6212,7 +6441,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 1000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakuold"
       },
       "settings": [
@@ -6294,7 +6523,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 1000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakuold"
       },
       "pair": [
@@ -6443,7 +6672,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 1000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakuold"
       },
       "pair": [
@@ -6592,7 +6821,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 1000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakuold"
       },
       "pair": [
@@ -6739,7 +6968,7 @@
       "rf": {
         "debounceTimeout": 500,
         "minTxInterval": 1000,
-        "dropPendingPayload": true,
+        "dropPendingPayload": false,
         "signal": "kakuold"
       },
       "pair": [
@@ -7508,36 +7737,36 @@
               {
                 "id": "00",
                 "label": {
-                  "en": "Button 1",
-                  "nl": "Knop 1"
+                  "en": "Channel 1",
+                  "nl": "Kanaal 1"
                 }
               },
               {
                 "id": "10",
                 "label": {
-                  "en": "Button 2",
-                  "nl": "Knop 2"
+                  "en": "Channel 2",
+                  "nl": "Kanaal 2"
                 }
               },
               {
                 "id": "01",
                 "label": {
-                  "en": "Button 3",
-                  "nl": "Knop 3"
+                  "en": "Channel 3",
+                  "nl": "Kanaal 3"
                 }
               },
               {
                 "id": "11",
                 "label": {
-                  "en": "Button 4",
-                  "nl": "Knop 4"
+                  "en": "Channel 4",
+                  "nl": "Kanaal 4"
                 }
               },
               {
                 "id": "g",
                 "label": {
-                  "en": "Group Button",
-                  "nl": "Groep Knop"
+                  "en": "All (G)",
+                  "nl": "Alles (G)"
                 }
               }
             ]
@@ -8094,7 +8323,7 @@
         ],
         "interval": 10150,
         "sensitivity": 0.5,
-        "repetitions": 20,
+        "repetitions": 10,
         "minimalLength": 32,
         "maximalLength": 36
       },

@@ -1,0 +1,18 @@
+{
+    "id": "ACM-3500",
+    "name": {
+        "en": "ACM-3500"
+    },
+    "$extends": [
+        "defaults",
+        "images.png",
+        "device.socket",
+        "pair.socket"
+    ],
+    "$pairOptions": {
+        "rf.program": {
+            "title": "rf.pair.program.title.default",
+            "body": "rf.pair.program.body.multiswitch"
+        }
+    }
+}
