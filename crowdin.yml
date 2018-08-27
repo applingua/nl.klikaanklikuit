@@ -3,3 +3,5 @@ files:
     translation: /locales/%two_letters_code%.json
   - source: /.homeycompose/locales/en.*
     translation: /.homeycompose/locales/%two_letters_code%.json
+  - source: /.homeycompose/drivers/templates/flow.*
+    translation: /.homeycompose/drivers/templates/%osx_code%.json
