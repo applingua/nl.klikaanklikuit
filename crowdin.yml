@@ -2,6 +2,4 @@ files:
   - source: /locales/en.json
     translation: /locales/%two_letters_code%.json
   - source: /.homeycompose/locales/en.*
-    translation: /.homeycompose/locales/%two_letters_code%.json
-  - source: /.homeycompose/drivers/templates/flow.*
-    translation: /.homeycompose/drivers/templates/%osx_code%.json
+    translation: /.homeycompose/locales/%two_letters_code%.%file_name%.json
