@@ -8,13 +8,13 @@
             "codewheel_switch": "Manually set codewheels\u0000"
           },
           "imitate": {
-            "ACDB-6600": "Copy doorbell signal"
+            "ACDB-6600": "Türklingelsignal kopieren"
           },
           "copy": {
-            "default": "Copy a paired remote"
+            "default": "Gekoppelte Fernbedienung kopieren"
           },
           "generate": {
-            "default": "Generate a new signal",
+            "default": "Ein neues Signal generieren",
             "codewheel": "Manually set codewheels",
             "dipswitch": "Set the dipswitches"
           }
