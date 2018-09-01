@@ -20,7 +20,7 @@
           }
         },
         "body": {
-          "doorbell": "Choose if you want to copy the signal from your doorbell or if you want to generate a new signal to pair your doorbell with.",
+          "doorbell": "Wähle aus, ob Du das Signal deiner Türklingel kopieren oder lieber ein neues Signal generieren möchtest, das Du mit deiner Türklingel verbinden kannst.",
           "codewheel_switch": "Choose if you want to copy an existing signal from a paired remote or if you want manually set the codewheels to pair this device.\u0000",
           "default": "Click one of the buttons above to proceed.",
           "switch": "Choose if you want to copy an existing signal from a paired remote or if you want to generate a new signal to pair this device.",
