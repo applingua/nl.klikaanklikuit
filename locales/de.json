@@ -44,7 +44,7 @@
           "sensor": "Trigger your sensor manually or toggle the learn switch to DEL and then back to SET.",
           "doorbell": "Press your doorbell button.",
           "ALED-2709": "Press the button that is paired to your lamp.",
-          "AMST-606": "Connect and then disconnect the two parts of your sensor.",
+          "AMST-606": "Verbinde die zwei Teile Deines Sensors und trenne die Verbindung dann wieder.",
           "default": "Click the button on your remote that is paired to your device.",
           "remote": "Click a button on your remote to pair it.",
           "wall_switch": "Press a random button on your wall switch to pair it."
