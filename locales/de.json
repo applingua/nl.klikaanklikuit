@@ -23,12 +23,12 @@
           "doorbell": "Wähle aus, ob Du das Signal deiner Türklingel kopieren oder lieber ein neues Signal generieren möchtest, das Du mit deiner Türklingel verbinden kannst.",
           "codewheel_switch": "Choose if you want to copy an existing signal from a paired remote or if you want manually set the codewheels to pair this device.\u0000",
           "default": "Click one of the buttons above to proceed.",
-          "switch": "Choose if you want to copy an existing signal from a paired remote or if you want to generate a new signal to pair this device.",
+          "switch": "Wähle aus, ob Du ein bereits bestehendes Signal von einer gekoppelten Fernbedienung kopieren oder lieber ein neues Signal generieren möchtest, das Du mit diesem Gerät verbinden kannst.",
           "codewheel": "Choose if you want to copy an existing signal from a paired remote or if you want to set the codewheels manually to pair this device.",
           "dipswitch": "Choose if you want to copy an existing signal from a paired remote or if you want to set the dipswitches manually to pair this device."
         },
         "title": {
-          "default": "Choose one of the following options",
+          "default": "Wähle eine der folgenden Optionen",
           "switch": "Copy signal from remote or pair device with Homey",
           "codewheel": "Copy signal from remote or set the codewheels manually",
           "dipswitch": "Copy signal from remote or set the dipswitches manually"
@@ -36,9 +36,9 @@
       },
       "imitate": {
         "body": {
-          "old_blinds": "Press the up/down button that is paired to your blinds.",
-          "socket": "Press the button that is paired to your socket.<p class=\"notice\">(Note. For this device Homey only supports transmitters of which the product code starts with an A. If you use an old remote for this device please let Homey generate a new signal for the device)</p>",
-          "blinds": "Press the up/down button that is paired to your blinds.<p class=\"notice\">(Note. For this device Homey only supports transmitters of which the product code starts with an A. If you use an old remote for this device please let Homey generate a new signal for the device)</p>",
+          "old_blinds": "Drücke auf die Hoch-/Runter-Schaltfläche, die mit Deinen Jalousien gekoppelt ist.",
+          "socket": "Drücke die Schaltfläche, die mit Deiner Steckdose gekoppelt ist.<p class=\"notice\">(Achtung: Für dieses Gerät unterstützt Homey nur Transmitter, deren Produkt-Code mit A beginnt. Falls Du eine alte Fernbedienung für dieses Gerät benutzt, dann lass Homey bitte ein neues Signal für das Gerät generieren.)</p>",
+          "blinds": "Drücke auf die Hoch-/Runter-Schaltfläche, die mit Deinen Jalousien gekoppelt ist.<p class=\"notice\">(Achtung: Für dieses Gerät unterstützt Homey nur Transmitter, deren Produkt-Code mit A beginnt. Falls Du eine alte Fernbedienung für dieses Gerät benutzt, dann lass Homey bitte ein neues Signal für das Gerät generieren.)</p>",
           "AFR-100": "Press the button that is paired to your fitting.",
           "build_in": "Press the button that is paired to your device.",
           "sensor": "Trigger your sensor manually or toggle the learn switch to DEL and then back to SET.",
