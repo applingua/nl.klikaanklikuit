@@ -136,12 +136,12 @@
       },
       "info": {
         "title": {
-          "default": "info",
+          "default": "Info",
           "dipswitch": "Locate the dipswitches on your device",
           "codewheel": "Locate the codewheels on your device"
         },
         "body": {
-          "default": "info message",
+          "default": "Info-Meldung",
           "dipswitch": "Locate the dipswitches on your device like displayed above, then click next.",
           "codewheel": "Locate the codewheels on your device like displayed above, then click next."
         }
@@ -225,22 +225,22 @@
         "right": "Right Button"
       },
       "channels": {
-        "1": "Channel 1",
-        "2": "Channel 2",
-        "3": "Channel 3",
-        "4": "Channel 4",
-        "5": "Channel 5",
-        "I": "Channel I",
-        "II": "Channel II",
-        "III": "Channel III",
-        "IV": "Channel IV",
-        "V": "Channel V",
-        "A": "Channel A",
-        "B": "Channel B",
-        "C": "Channel C",
-        "D": "Channel D",
-        "E": "Channel E",
-        "F": "Channel F"
+        "1": "Kanal 1",
+        "2": "Kanal 2",
+        "3": "Kanal 3",
+        "4": "Kanal 4",
+        "5": "Kanal 5",
+        "I": "Kanal I",
+        "II": "Kanal II",
+        "III": "Kanal III",
+        "IV": "Kanal IV",
+        "V": "Kanal V",
+        "A": "Kanal A",
+        "B": "Kanal B",
+        "C": "Kanal C",
+        "D": "Kanal D",
+        "E": "Kanal E",
+        "F": "Kanal F"
       },
       "units": {
         "1": "Unit 1",
@@ -262,7 +262,7 @@
       }
     },
     "error": {
-      "device_exists": "This device is already paired with Homey.",
+      "device_exists": "Dieses Gerät ist bereits mit Homey gekoppelt.",
       "no_device": "No device set to pair. Please close the pairing wizard and try again.",
       "no_settings": "No settings object. Please try again.",
       "invalid_device": "Could not connect to the microcontroller. Please try restarting Homey by pulling the plug of Homey.",
