@@ -265,11 +265,11 @@
       "device_exists": "Dieses Gerät ist bereits mit Homey gekoppelt.",
       "no_device": "No device set to pair. Please close the pairing wizard and try again.",
       "no_settings": "No settings object. Please try again.",
-      "invalid_device": "Could not connect to the microcontroller. Please try restarting Homey by pulling the plug of Homey.",
-      "invalid_device_data": "The device that was created is invalid. Please remove it and try pairing it again.",
-      "data_no_object": "Data must be an object!",
-      "pairdevice_invalid_data": "New pairing device data is invalid, changes are reverted.",
-      "invalid_send_data": "Invalid data send request. Please contact the developer.",
+      "invalid_device": "Verbindung zum Mikrocontroller fehlgeschlagen. Bitte starte Homey neu, indem Du es kurz vom Strom nimmst.",
+      "invalid_device_data": "Das angelegte Gerät ist ungültig. Bitte entferne es und starte die Kopplung erneut.",
+      "data_no_object": "Daten müssen ein Objekt sein!",
+      "pairdevice_invalid_data": "Die Daten des neu gekoppelten Geräts sind ungültig, Änderungen werden zurückgesetzt.",
+      "invalid_send_data": "Ungültiger Datensendeauftrag. Bitte kontaktieren Sie den Hersteller.",
       "cannot_pair_with_group_button": "Cannot pair device using the group button."
     }
   }
