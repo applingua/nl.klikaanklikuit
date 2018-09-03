@@ -24,24 +24,24 @@
           "codewheel_switch": "Wähle aus, ob Du ein bereits bestehendes Signal von einer gekoppelten Fernbedienung kopieren oder lieber manuell die Coderäder einstellen möchtest, um dieses Gerät zu koppeln.",
           "default": "Click one of the buttons above to proceed.",
           "switch": "Wähle aus, ob Du ein bereits bestehendes Signal von einer gekoppelten Fernbedienung kopieren oder lieber ein neues Signal generieren möchtest, um dieses Gerät zu koppeln.",
-          "codewheel": "Choose if you want to copy an existing signal from a paired remote or if you want to set the codewheels manually to pair this device.",
-          "dipswitch": "Choose if you want to copy an existing signal from a paired remote or if you want to set the dipswitches manually to pair this device."
+          "codewheel": "Wähle aus, ob Du ein bereits bestehendes Signal von einer gekoppelten Fernbedienung kopieren oder lieber manuell die Coderäder einstellen möchtest, um dieses Gerät zu koppeln.",
+          "dipswitch": "Wähle aus, ob Du ein bereits bestehendes Signal von einer gekoppelten Fernbedienung kopieren oder lieber manuell die DIP-Schalter einstellen möchtest, um dieses Gerät zu koppeln."
         },
         "title": {
-          "default": "Wähle eine der folgenden Optionen",
-          "switch": "Copy signal from remote or pair device with Homey",
-          "codewheel": "Copy signal from remote or set the codewheels manually",
-          "dipswitch": "Copy signal from remote or set the dipswitches manually"
+          "default": "Wähle eine der folgenden Optionen:",
+          "switch": "Kopiere das Signal einer Fernbedienung oder kopple ein Gerät mit Homey.",
+          "codewheel": "Kopiere das Signal einer Fernbedienung oder stelle die Coderäder manuell ein.",
+          "dipswitch": "Kopiere das Signal einer Fernbedienung oder stelle die DIP-Schalter manuell ein."
         }
       },
       "imitate": {
         "body": {
-          "old_blinds": "Press the up/down button that is paired to your blinds.",
+          "old_blinds": "Drücke auf den Hoch-/Runter-Knopf, der mit Deinen Jalousien gekoppelt ist.",
           "socket": "Press the button that is paired to your socket.<p class=\"notice\">(Note. For this device Homey only supports transmitters of which the product code starts with an A. If you use an old remote for this device please let Homey generate a new signal for the device)</p>",
-          "blinds": "Press the up/down button that is paired to your blinds.<p class=\"notice\">(Note. For this device Homey only supports transmitters of which the product code starts with an A. If you use an old remote for this device please let Homey generate a new signal for the device)</p>",
+          "blinds": "Drücke auf den Hoch-/Runter-Knopf, der mit Deinen Jalousien gekoppelt ist.<p class=\"notice\">(Achtung: Für dieses Gerät unterstützt Homey nur Transmitter, deren Produkt-Code mit A beginnt. Falls Du eine alte Fernbedienung für dieses Gerät benutzt, dann lass Homey bitte ein neues Signal für das Gerät generieren.)</p>",
           "AFR-100": "Press the button that is paired to your fitting.",
           "build_in": "Press the button that is paired to your device.",
-          "sensor": "Trigger your sensor manually or toggle the learn switch to DEL and then back to SET.",
+          "sensor": "Löse Deinen Sensor manuell aus oder stelle den LEARN-Schalter auf DEL und dann zurück auf SET.",
           "doorbell": "Press your doorbell button.",
           "ALED-2709": "Press the button that is paired to your lamp.",
           "AMST-606": "Verbinde die zwei Teile Deines Sensors und trenne die Verbindung dann wieder.",
@@ -50,7 +50,7 @@
           "wall_switch": "Press a random button on your wall switch to pair it."
         },
         "title": {
-          "socket": "Copy your remote signal\u0000",
+          "socket": "Kopiere das Signal Deiner Fernbedienung.",
           "ABST-604": "Pair your night sensor",
           "AMST-606": "Pair your contact sensor",
           "sensor": "Pair your sensor",
