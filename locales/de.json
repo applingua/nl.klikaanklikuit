@@ -84,12 +84,12 @@
           "simple_socket": "Trenne die Steckdose für ein paar Sekunden vom Strom und verbinde sie dann wieder. Die Leuchte sollte nun blinken. Wenn der Koppelungsmodus aktiv ist, drücke „Programm“.<p class=\"notice\">(Achtung: Falls Du bei der Koppelung Schwierigkeiten hast, dann setze Dein Gerät zurück, indem Du es in den Koppelungsmodus versetzt und die Gruppe-Taste auf der Fernbedienung 5 Sekunden lang gedrückt hältst. Nun sollten alle Adressen aus der Steckdose gelöscht sein.)</p>",
           "ALED-003": "Remove the one battery from the lamp and insert it again to put it in pairing mode. The light should now slowly blink. Then click 'Program'.",
           "ALED-2709": "Schalte das Licht innerhalb von 15 Sekunden 3-mal manuell oder 5-mal mit deiner Fernbedienung ein und wieder aus, um die Lampe in den Kopplungsmodus zu versetzen. Sie sollte nun blinken. Drücke dann auf „Programmieren“.<p class=\"notice\">(Achtung: Falls die Koppelung fehlschlägt und sich die Lampe nach dem Drücken auf die Programmieren-Taste 5-mal statt 2-mal an- und ausschaltet, dann ist der Speicher Deiner Lampe voll. Du kannst den Speicher zurücksetzen, indem Du die Lampe in den Koppelungsmodus versetzt und die Ausschalttaste einer KlikAanKlikUit-Fernbedienung 5-mal drückst. Falls dies nicht funktioniert, sieh bitte im Handbuch zu dem Gerät nach, wie man den Speicher zurücksetzt.)</p>",
-          "default": "Put your device in pairing mode, then click the 'Program' button to pair your device with Homey."
+          "default": "Versetze Dein Gerät in den Koppelungsmodus und drücke dann die Programmieren-Taste, um Dein Gerät mit Homey zu koppeln."
         },
         "title": {
-          "build_in": "Put the device in pairing mode",
-          "default": "Pair your device with Homey",
-          "socket": "Put the socket in pairing mode"
+          "build_in": "Versetze das Gerät in den Koppelungsmodus.",
+          "default": "Kopple Dein Gerät mit Homey.",
+          "socket": "Versetze die Steckdose in den Koppelungsmodus."
         },
         "programbutton": {
           "default": "Programmieren"
@@ -97,41 +97,41 @@
       },
       "test_button": {
         "title": {
-          "doorbell": "Test your doorbell"
+          "doorbell": "Teste Deine Türklingel."
         },
         "body": {
-          "doorbell": "Use the button above to test your doorbell. Press next to continue."
+          "doorbell": "Verwende die Taste oben, um Deine Türklingel zu testen. Drücke auf „weiter“, um fortzufahren."
         }
       },
       "test": {
         "title": {
-          "sensor": "Test your sensor",
-          "ABST-604": "Test your night sensor",
-          "motion_sensor": "Pair your motion sensor",
-          "blinds": "Test your blinds",
-          "AMST-606": "Test your contact sensor",
+          "sensor": "Teste Deinen Sensor.",
+          "ABST-604": "Teste Deinen Nachtsensor.",
+          "motion_sensor": "Kopple Deinen Bewegungssensor.",
+          "blinds": "Teste Deine Jalousien.",
+          "AMST-606": "Teste Deinen Kontaktsensor.",
           "default": "Teste Dein Gerät.",
-          "remote": "Test your remote",
-          "wall_switch": "Test your wall switch",
-          "socket": "Test your socket",
-          "doorbell": "Test your doorbell"
+          "remote": "Teste Deine Fernbedienung.",
+          "wall_switch": "Teste Deinen Wandschalter.",
+          "socket": "Teste Deine Steckdose.",
+          "doorbell": "Teste Deine Türklingel."
         },
         "body": {
-          "sensor": "Trigger your sensor manually or use the LEARN switch on your sensor to test the signal. Press next to continue.",
-          "blinds": "Use the buttons above to test your blinds. Press next to continue.",
-          "AMST-606": "Trigger your sensor manually to test the signal. Press next to continue.",
-          "default": "Press a random button on your device or click the button in the image above to test the signal. Press next to continue.",
-          "remote": "Press a random button on your remote or click the button in the image above to test the signal. Press next to continue.",
-          "wall_switch": "Press a random button on your wall switch or click the buttons in the image above to test the signal. Press next to continue.",
-          "socket_generated": "Use the switch above to test your socket. Press next to continue.",
-          "socket": "Use your remote or the switch above to test your socket. Press next to continue.",
-          "button_generated": "Use the button above to test your device. Press next to continue.",
-          "button": "Use your remote or the button above to test your device. Press next to continue.",
+          "sensor": "Löse den Sensor manuell aus oder verwende den LEARN-Schalter auf Deinem Sensor, um das Signal zu testen. Drücke auf „weiter“, um fortzufahren.",
+          "blinds": "Verwende die Tasten oben, um Deine Jalousien zu testen. Drücke auf „weiter“, um fortzufahren.",
+          "AMST-606": "Löse Deinen Sensor manuell aus, um das Signal zu testen. Drücke auf „weiter“, um fortzufahren.",
+          "default": "Drücke eine beliebige Taste auf Deinem Gerät oder drücke auf die Taste in dem Bild oben, um das Signal zu testen. Drücke auf „weiter“, um fortzufahren.",
+          "remote": "Drücke eine beliebige Taste auf Deiner Fernbedienung oder drücke auf die Taste in dem Bild oben, um das Signal zu testen. Drücke auf „weiter“, um fortzufahren.",
+          "wall_switch": "Drücke eine beliebige Taste auf Deinem Wandschalter oder drücke auf die Tasten in dem Bild oben, um das Signal zu testen. Drücke auf „weiter“, um fortzufahren.",
+          "socket_generated": "Verwende den Schalter oben, um Deine Steckdose zu testen. Drücke auf „weiter“, um fortzufahren.",
+          "socket": "Verwende Deine Fernbedienung oder den Schalter oben, um Deine Steckdose zu testen. Drücke auf „weiter“, um fortzufahren.",
+          "button_generated": "Verwende die Taste oben, um Dein Gerät zu testen. Drücke auf „weiter“, um fortzufahren.",
+          "button": "Verwende Deine Fernbedienung oder die Taste oben, um Dein Gerät zu testen. Drücke auf „weiter“, um fortzufahren.",
           "switch_generated": "Verwende den Schalter oben, um Dein Gerät zu testen. Drücke auf „weiter“, um fortzufahren.",
-          "switch": "Use your remote or the switch above to test your device. Press next to continue.",
-          "doorbell_generated": "Use the button above to test your doorbell. Press next to continue.",
-          "doorbell": "Use your doorbell button or the button above to test your device. Press next to continue.",
-          "svg_buttons": "Use your remote or the buttons in the image above to test your device. Press next to continue."
+          "switch": "Verwende Deine Fernbedienung oder den Schalter oben, um Dein Gerät zu testen. Drücke auf „weiter“, um fortzufahren.",
+          "doorbell_generated": "Verwende die Taste oben, um Deine Türklingel zu testen. Drücke auf „weiter“, um fortzufahren.",
+          "doorbell": "Verwende Deine Türklingel-Taste oder die Taste oben, um Dein Gerät zu testen. Drücke auf „weiter“, um fortzufahren.",
+          "svg_buttons": "Verwende Deine Fernbedienung oder die Tasten in dem Bild oben, um Dein Gerät zu testen. Drücke auf „weiter“, um fortzufahren."
         }
       },
       "info": {
