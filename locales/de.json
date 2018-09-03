@@ -22,7 +22,7 @@
         "body": {
           "doorbell": "Wähle aus, ob Du das Signal deiner Türklingel kopieren oder lieber ein neues Signal für die Koppelung mit Deiner Türklingel generieren möchtest.",
           "codewheel_switch": "Wähle aus, ob Du ein bereits bestehendes Signal von einer gekoppelten Fernbedienung kopieren oder lieber manuell die Coderäder einstellen möchtest, um dieses Gerät zu koppeln.",
-          "default": "Click one of the buttons above to proceed.",
+          "default": "Drücke auf eine der Tasten oben, um fortzufahren.",
           "switch": "Wähle aus, ob Du ein bereits bestehendes Signal von einer gekoppelten Fernbedienung kopieren oder lieber ein neues Signal generieren möchtest, um dieses Gerät zu koppeln.",
           "codewheel": "Wähle aus, ob Du ein bereits bestehendes Signal von einer gekoppelten Fernbedienung kopieren oder lieber manuell die Coderäder einstellen möchtest, um dieses Gerät zu koppeln.",
           "dipswitch": "Wähle aus, ob Du ein bereits bestehendes Signal von einer gekoppelten Fernbedienung kopieren oder lieber manuell die DIP-Schalter einstellen möchtest, um dieses Gerät zu koppeln."
@@ -36,7 +36,7 @@
       },
       "imitate": {
         "body": {
-          "old_blinds": "Press the up/down button that is paired to your blinds.",
+          "old_blinds": "Drücke auf die Hoch-/Runter-Taste, die mit Deinen Jalousien gekoppelt ist.",
           "socket": "Drücke auf die Taste, die mit Deiner Steckdose gekoppelt ist.<p class=\"notice\">(Achtung: Für dieses Gerät unterstützt Homey nur Transmitter, deren Produkt-Code mit A beginnt. Falls Du eine alte Fernbedienung für dieses Gerät benutzt, dann lass Homey bitte ein neues Signal für das Gerät generieren.)</p>",
           "blinds": "Drücke auf die Hoch-/Runter-Taste, die mit Deinen Jalousien gekoppelt ist.<p class=\"notice\">(Achtung: Für dieses Gerät unterstützt Homey nur Transmitter, deren Produkt-Code mit A beginnt. Falls Du eine alte Fernbedienung für dieses Gerät benutzt, dann lass Homey bitte ein neues Signal für das Gerät generieren.)</p>",
           "AFR-100": "Drücke auf die Taste, die mit Deinem Verbindungsstück gekoppelt ist.",
@@ -46,7 +46,7 @@
           "ALED-2709": "Drücke auf die Taste, die mit Deiner Lampe gekoppelt ist.",
           "AMST-606": "Verbinde die zwei Teile Deines Sensors und trenne die Verbindung dann wieder.",
           "default": "Drücke auf die Taste auf Deiner Fernbedienung, die mit dem Gerät gekoppelt ist.",
-          "remote": "Click a button on your remote to pair it.",
+          "remote": "Drücke auf eine Taste auf deiner Fernbedienung, um sie zu koppeln.",
           "wall_switch": "Drücke auf eine beliebige Taste an Deinem Wandschalter, um ihn zu koppeln."
         },
         "title": {
@@ -76,14 +76,14 @@
       },
       "program": {
         "body": {
-          "multiswitch": "Drücke auf die Programmieren-Taste für den Kanal, den Du koppeln möchtest. Die Leuchte für den gewählten Kanal sollte zu blinken beginnen, wenn Du die Taste loslässt. Wenn der Kopplungsmodus aktiv ist, drücke „Programmieren“.<p class=\"notice\">(Achtung: Falls Du bei der Koppelung Schwierigkeiten hast, dann setze Dein Gerät zurück, indem Du die Programmieren-Taste 10 Sekunden lang gedrückt hältst, bis die Leuchte blinkt. Drücke dann noch einmal die Programmieren-Taste.)</p>",
+          "multiswitch": "Press the program button for the channel you want to pair. The light for the chosen channel should start blinking when you release the button. When it is in pairing mode click 'Program'.<p class=\"notice\">(Note. If you experience difficulties pairing try to reset your device by holding the program button for 10 seconds when it is blinking and then pressing the program button once.)</p>",
           "doorbell": "Drücke auf die Programmieren-Taste an Deiner Türklingel. Die Leuchte an der Türklingel sollte zu blinken beginnen, wenn Du die Taste loslässt. Wenn der Koppelungsmodus aktiv ist, drücke „Programmieren“.<p class=\"notice\">(Achtung: Falls Du bei der Koppelung Schwierigkeiten hast, dann setze die Türklingel zurück, indem Du die LEARN-Taste so lange gedrückt hältst, bis die Leuchte blinkt. Drücke dann noch einmal die LEARN-Taste, um den Speicher zu löschen.)</p>",
           "socket": "Press the program button on your socket, the light on your socket should start blinking when you release the button. When it is in pairing mode click 'Program'.<p class=\"notice\">(Note. If you experience difficulties pairing try to reset your device by holding the program button for 10 seconds when it is blinking and then pressing the program button once.)</p>",
           "AFR-100": "Press the program button on your fitting, the light on your fitting should start blinking when you release the button. When it is in pairing mode click 'Program'.<p class=\"notice\">(Note. If you experience difficulties pairing try to reset your device by holding the program button for 10 seconds when it is blinking and then pressing the program button once.)</p>",
           "build_in": "Press the program button on your device to put it in pairing mode, then click 'Program'.<p class=\"notice\">(Note. If you experience difficulties pairing try to reset your device by holding the program button for 10 seconds when it is blinking and then pressing the program button once.)</p>",
           "simple_socket": "Trenne die Steckdose für ein paar Sekunden vom Strom und verbinde sie dann wieder. Die Leuchte sollte nun blinken. Wenn der Koppelungsmodus aktiv ist, drücke „Programm“.<p class=\"notice\">(Achtung: Falls Du bei der Koppelung Schwierigkeiten hast, dann setze Dein Gerät zurück, indem Du es in den Koppelungsmodus versetzt und die Gruppe-Taste auf der Fernbedienung 5 Sekunden lang gedrückt hältst. Nun sollten alle Adressen aus der Steckdose gelöscht sein.)</p>",
-          "ALED-003": "Entferne die eine Batterie aus der Lampe und setze sie erneut ein, um die Lampe in den Koppelungsmodus zu versetzen. Die Leuchte sollte nun langsam blinken. Drücke nun auf „Programm“.",
-          "ALED-2709": "Turn the power to the light on and off 3 times, or turn the light on and off with your remote 5 times, within 15 seconds to put the lamp in pairing mode. The lamp should now be blinking. Then click 'Program'.<p class=\"notice\">(Note. If pairing fails and after pressing the program button the lamp goes on/off for 5 times instead of 2 the memory of your lamp is full. You can reset the memory by putting your lamp in pairing mode and pressing the off button of a KlikAanKlikUit remote 5 times. If this does not work, please consult the manual of your device for instructions on how to reset the memory.)</p>",
+          "ALED-003": "Remove the one battery from the lamp and insert it again to put it in pairing mode. The light should now slowly blink. Then click 'Program'.",
+          "ALED-2709": "Schalte das Licht innerhalb von 15 Sekunden 3-mal manuell oder 5-mal mit deiner Fernbedienung ein und wieder aus, um die Lampe in den Kopplungsmodus zu versetzen. Sie sollte nun blinken. Drücke dann auf „Programmieren“.<p class=\"notice\">(Achtung: Falls die Koppelung fehlschlägt und sich die Lampe nach dem Drücken auf die Programmieren-Taste 5-mal statt 2-mal an- und ausschaltet, dann ist der Speicher Deiner Lampe voll. Du kannst den Speicher zurücksetzen, indem Du die Lampe in den Koppelungsmodus versetzt und die Ausschalttaste einer KlikAanKlikUit-Fernbedienung 5-mal drückst. Falls dies nicht funktioniert, sieh bitte im Handbuch zu dem Gerät nach, wie man den Speicher zurücksetzt.)</p>",
           "default": "Put your device in pairing mode, then click the 'Program' button to pair your device with Homey."
         },
         "title": {
