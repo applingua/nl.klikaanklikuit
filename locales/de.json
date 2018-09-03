@@ -81,7 +81,7 @@
           "socket": "Press the program button on your socket, the light on your socket should start blinking when you release the button. When it is in pairing mode click 'Program'.<p class=\"notice\">(Note. If you experience difficulties pairing try to reset your device by holding the program button for 10 seconds when it is blinking and then pressing the program button once.)</p>",
           "AFR-100": "Press the program button on your fitting, the light on your fitting should start blinking when you release the button. When it is in pairing mode click 'Program'.<p class=\"notice\">(Note. If you experience difficulties pairing try to reset your device by holding the program button for 10 seconds when it is blinking and then pressing the program button once.)</p>",
           "build_in": "Press the program button on your device to put it in pairing mode, then click 'Program'.<p class=\"notice\">(Note. If you experience difficulties pairing try to reset your device by holding the program button for 10 seconds when it is blinking and then pressing the program button once.)</p>",
-          "simple_socket": "Trenne die Steckdose für ein paar Sekunden vom Strom und verbinde sie dann wieder. Die Leuchte sollte nun blinken. Wenn der Koppelungsmodus aktiv ist, drücke „Programm“.<p class=\"notice\">(Achtung: Falls Du bei der Koppelung Schwierigkeiten hast, dann setze Dein Gerät zurück, indem Du es in den Koppelungsmodus versetzt und die Gruppe-Taste auf der Fernbedienung 5 Sekunden lang gedrückt hältst. Nun sollten alle Adressen aus der Steckdose gelöscht sein.)</p>",
+          "simple_socket": "Trenne die Steckdose für ein paar Sekunden vom Strom und verbinde sie dann wieder. Die Leuchte sollte nun blinken. Wenn der Koppelungsmodus aktiv ist, drücke „Programmieren“.<p class=\"notice\">(Achtung: Falls Du bei der Koppelung Schwierigkeiten hast, dann setze Dein Gerät zurück, indem Du es in den Koppelungsmodus versetzt und die Gruppe-Taste auf der Fernbedienung 5 Sekunden lang gedrückt hältst. Nun sollten alle Adressen aus der Steckdose gelöscht sein.)</p>",
           "ALED-003": "Remove the one battery from the lamp and insert it again to put it in pairing mode. The light should now slowly blink. Then click 'Program'.",
           "ALED-2709": "Schalte das Licht innerhalb von 15 Sekunden 3-mal manuell oder 5-mal mit deiner Fernbedienung ein und wieder aus, um die Lampe in den Kopplungsmodus zu versetzen. Sie sollte nun blinken. Drücke dann auf „Programmieren“.<p class=\"notice\">(Achtung: Falls die Koppelung fehlschlägt und sich die Lampe nach dem Drücken auf die Programmieren-Taste 5-mal statt 2-mal an- und ausschaltet, dann ist der Speicher Deiner Lampe voll. Du kannst den Speicher zurücksetzen, indem Du die Lampe in den Koppelungsmodus versetzt und die Ausschalttaste einer KlikAanKlikUit-Fernbedienung 5-mal drückst. Falls dies nicht funktioniert, sieh bitte im Handbuch zu dem Gerät nach, wie man den Speicher zurücksetzt.)</p>",
           "default": "Versetze Dein Gerät in den Koppelungsmodus und drücke dann die Programmieren-Taste, um Dein Gerät mit Homey zu koppeln."
@@ -137,13 +137,13 @@
       "info": {
         "title": {
           "default": "Info",
-          "dipswitch": "Locate the dipswitches on your device",
-          "codewheel": "Locate the codewheels on your device"
+          "dipswitch": "Finde die DIP-Schalter an Deinem Gerät.",
+          "codewheel": "Finde die Coderäder an Deinem Gerät."
         },
         "body": {
           "default": "Info-Meldung",
-          "dipswitch": "Locate the dipswitches on your device like displayed above, then click next.",
-          "codewheel": "Locate the codewheels on your device like displayed above, then click next."
+          "dipswitch": "Finde die DIP-Schalter an Deinem Gerät, wie oben angezeigt, und drücke dann auf „weiter“.",
+          "codewheel": "Finde die Coderäder an Deinem Gerät, wie oben angezeigt, und drücke dann auf „weiter“."
         }
       },
       "codewheel": {
@@ -151,10 +151,10 @@
           "default": "Programmieren"
         },
         "title": {
-          "default": "Configure your device code"
+          "default": "Konfiguriere Deinen Gerätecode."
         },
         "body": {
-          "default": "Click the characters on the code wheel above or configure the wheels on the device so they match, then click next."
+          "default": "Drücke auf die Zeichen auf dem Coderad oben oder konfiguriere die Räder an dem Gerät, sodass sie übereinstimmen, und drücke dann auf „weiter“."
         }
       },
       "dipswitch": {
@@ -162,67 +162,67 @@
           "default": "Programmieren"
         },
         "title": {
-          "default": "Configure your device dipswitches"
+          "default": "Konfiguriere die DIP-Schalter Deines Geräts."
         },
         "body": {
-          "default": "Click on the dipswitches above to put them in the same arrangement as those of your device, then click program."
+          "default": "Drücke auf die DIP-Schalter oben, um sie so anzuordnen wie auf Deinem Gerät, und drücke dann auf „Programmieren“."
         }
       },
       "done": {
         "title": {
-          "default": "Adding device!"
+          "default": "Gerät wird hinzugefügt!"
         }
       }
     },
     "settings": {
       "groups": {
-        "general": "General Settings"
+        "general": "Generelle Einstellungen"
       },
       "rotated": {
-        "0": "No",
-        "180": "Yes",
-        "label": "Invert signal"
+        "0": "Nein",
+        "180": "Ja",
+        "label": "Signal umkehren"
       }
     },
     "generic": {
-      "on": "On",
-      "off": "Off",
-      "left": "Left",
-      "middle": "Middle",
-      "right": "Right",
-      "up": "Up",
-      "down": "Down",
-      "button_pressed": "Button is pressed",
+      "on": "An",
+      "off": "Aus",
+      "left": "Links",
+      "middle": "Mitte",
+      "right": "Rechts",
+      "up": "Hoch",
+      "down": "Runter",
+      "button_pressed": "Taste ist gedrückt.",
       "buttons": {
-        "1": "Button 1",
-        "2": "Button 2",
-        "3": "Button 3",
-        "4": "Button 4",
-        "5": "Button 5",
-        "6": "Button 6",
-        "7": "Button 7",
-        "8": "Button 8",
-        "9": "Button 9",
-        "10": "Button 10",
-        "11": "Button 11",
-        "12": "Button 12",
-        "13": "Button 13",
-        "14": "Button 14",
-        "15": "Button 15",
-        "16": "Button 16",
-        "A": "Button A",
-        "B": "Button B",
-        "C": "Button C",
-        "D": "Button D",
-        "E": "Button E",
-        "F": "Button F",
-        "G": "Group Button",
-        "all": "All Button",
-        "bright": "Bright Button",
-        "dim": "Dim Button",
-        "left": "Left Button",
-        "middle": "Middle Button",
-        "right": "Right Button"
+        "1": "Taste 1",
+        "2": "Taste 2",
+        "3": "Taste 3",
+        "4": "Taste 4",
+        "5": "Taste 5",
+        "6": "Taste 6",
+        "7": "Taste 7",
+        "8": "Taste 8",
+        "9": "Taste 9",
+        "10": "Taste 10",
+        "11": "Taste 11",
+        "12": "Taste 12",
+        "13": "Taste 13",
+        "14": "Taste 14",
+        "15": "Taste 15",
+        "16": "Taste 16",
+        "A": "Taste A",
+        "B": "Taste B",
+        "C": "Taste C",
+        "D": "Taste D",
+        "E": "Taste E",
+        "F": "Taste F",
+        "G": "Gruppe-Taste",
+        "all": "Alle-Taste",
+        "bright": "Heller-Taste",
+        "dim": "Dunkler-Taste",
+        "left": "Links-Taste",
+        "middle": "Mitte-Taste",
+        "right": "Rechts-Taste"
       },
       "channels": {
         "1": "Kanal 1",
@@ -243,34 +243,34 @@
         "F": "Kanal F"
       },
       "units": {
-        "1": "Unit 1",
-        "2": "Unit 2",
-        "3": "Unit 3",
-        "4": "Unit 4",
-        "5": "Unit 5",
-        "6": "Unit 6",
-        "7": "Unit 7",
-        "8": "Unit 8",
-        "9": "Unit 9",
-        "10": "Unit 10",
-        "11": "Unit 11",
-        "12": "Unit 12",
-        "13": "Unit 13",
-        "14": "Unit 14",
-        "15": "Unit 15",
-        "16": "Unit 16"
+        "1": "Element 1",
+        "2": "Element 2",
+        "3": "Element 3",
+        "4": "Element 4",
+        "5": "Element 5",
+        "6": "Element 6",
+        "7": "Element 7",
+        "8": "Element 8",
+        "9": "Element 9",
+        "10": "Element 10",
+        "11": "Element 11",
+        "12": "Element 12",
+        "13": "Element 13",
+        "14": "Element 14",
+        "15": "Element 15",
+        "16": "Element 16"
       }
     },
     "error": {
       "device_exists": "Dieses Gerät ist bereits mit Homey gekoppelt.",
       "no_device": "No device set to pair. Please close the pairing wizard and try again.",
-      "no_settings": "No settings object. Please try again.",
+      "no_settings": "Keine Einstellungen gefunden. Bitte versuche es erneut.",
       "invalid_device": "Verbindung zum Mikrocontroller fehlgeschlagen. Bitte starte Homey neu, indem Du es kurz vom Strom nimmst.",
       "invalid_device_data": "Das angelegte Gerät ist ungültig. Bitte entferne es und starte die Kopplung erneut.",
       "data_no_object": "Daten müssen ein Objekt sein!",
       "pairdevice_invalid_data": "Die Daten des neu gekoppelten Geräts sind ungültig, Änderungen werden zurückgesetzt.",
       "invalid_send_data": "Ungültiger Datensendeauftrag. Bitte kontaktieren Sie den Hersteller.",
-      "cannot_pair_with_group_button": "Cannot pair device using the group button."
+      "cannot_pair_with_group_button": "Gerät kann nicht über die Gruppe-Taste gekoppelt werden."
     }
   }
 }
