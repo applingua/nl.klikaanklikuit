@@ -36,13 +36,13 @@
       },
       "imitate": {
         "body": {
-          "old_blinds": "Drücke auf den Hoch-/Runter-Knopf, der mit Deinen Jalousien gekoppelt ist.",
-          "socket": "Press the button that is paired to your socket.<p class=\"notice\">(Note. For this device Homey only supports transmitters of which the product code starts with an A. If you use an old remote for this device please let Homey generate a new signal for the device)</p>",
-          "blinds": "Drücke auf den Hoch-/Runter-Knopf, der mit Deinen Jalousien gekoppelt ist.<p class=\"notice\">(Achtung: Für dieses Gerät unterstützt Homey nur Transmitter, deren Produkt-Code mit A beginnt. Falls Du eine alte Fernbedienung für dieses Gerät benutzt, dann lass Homey bitte ein neues Signal für das Gerät generieren.)</p>",
-          "AFR-100": "Press the button that is paired to your fitting.",
-          "build_in": "Press the button that is paired to your device.",
+          "old_blinds": "Press the up/down button that is paired to your blinds.",
+          "socket": "Drücke auf die Taste, die mit Deiner Steckdose gekoppelt ist.<p class=\"notice\">(Achtung: Für dieses Gerät unterstützt Homey nur Transmitter, deren Produkt-Code mit A beginnt. Falls Du eine alte Fernbedienung für dieses Gerät benutzt, dann lass Homey bitte ein neues Signal für das Gerät generieren.)</p>",
+          "blinds": "Drücke auf die Hoch-/Runter-Taste, die mit Deinen Jalousien gekoppelt ist.<p class=\"notice\">(Achtung: Für dieses Gerät unterstützt Homey nur Transmitter, deren Produkt-Code mit A beginnt. Falls Du eine alte Fernbedienung für dieses Gerät benutzt, dann lass Homey bitte ein neues Signal für das Gerät generieren.)</p>",
+          "AFR-100": "Drücke auf die Taste, die mit Deinem Verbindungsstück gekoppelt ist.",
+          "build_in": "Drücke auf die Taste, die mit Deinem Gerät gekoppelt ist.",
           "sensor": "Löse Deinen Sensor manuell aus oder stelle den LEARN-Schalter auf DEL und dann zurück auf SET.",
-          "doorbell": "Press your doorbell button.",
+          "doorbell": "Drücke auf die Taste für Deine Türklingel.",
           "ALED-2709": "Press the button that is paired to your lamp.",
           "AMST-606": "Verbinde die zwei Teile Deines Sensors und trenne die Verbindung dann wieder.",
           "default": "Click the button on your remote that is paired to your device.",
@@ -51,25 +51,25 @@
         },
         "title": {
           "socket": "Kopiere das Signal Deiner Fernbedienung.",
-          "ABST-604": "Pair your night sensor",
-          "AMST-606": "Pair your contact sensor",
-          "sensor": "Pair your sensor",
-          "default": "Copy your remote signal",
-          "remote": "Identify your remote",
-          "wall_switch": "Identify your wall switch",
-          "doorbell": "Identify your doorbell"
+          "ABST-604": "Kopple Deinen Nachtsensor.",
+          "AMST-606": "Kopple Deinen Kontaktsensor.",
+          "sensor": "Kopple Deinen Sensor.",
+          "default": "Kopiere das Signal Deiner Fernbedienung.",
+          "remote": "Identifiziere Deine Fernbedienung.",
+          "wall_switch": "Identifiziere Deinen Wandschalter.",
+          "doorbell": "Identifiziere Deine Türklingel."
         }
       },
       "test_switch": {
         "title": {
-          "socket": "Test your socket\u0000",
-          "AFR-100": "Test your fitting",
+          "socket": "Teste Deine Steckdose.",
+          "AFR-100": "Teste Dein Verbindungsstück.",
           "build_in": "Test your device",
           "ALED-2709": "Test your lamp"
         },
         "body": {
           "socket": "Use the switch above to test your socket. Press next to continue.\u0000",
-          "AFR-100": "Use the switch above to test your fitting. Press next to continue.",
+          "AFR-100": "Verwende den Schalter oben, um Dein Verbindungsstück zu testen. Drücke auf „weiter“, um fortzufahren.",
           "build_in": "Use the switch above to test your device. Press next to continue.",
           "ALED-2709": "Use the switch above to test your lamp. Press next to continue."
         }
@@ -79,7 +79,7 @@
           "multiswitch": "Press the program button for the channel you want to pair. The light for the chosen channel should start blinking when you release the button. When it is in pairing mode click 'Program'.<p class=\"notice\">(Note. If you experience difficulties pairing try to reset your device by holding the program button for 10 seconds when it is blinking and then pressing the program button once.)</p>",
           "doorbell": "Press the program button on your doorbell, the light on your doorbell should start blinking when you release the button. When it is in pairing mode click 'Program'<p class=\"notice\">(Note. If you experience difficulties pairing try to reset the doorbell by pushing the learn button until the led starts flashing. Then push the learn button once more to empty the memory.)</p>.",
           "socket": "Press the program button on your socket, the light on your socket should start blinking when you release the button. When it is in pairing mode click 'Program'.<p class=\"notice\">(Note. If you experience difficulties pairing try to reset your device by holding the program button for 10 seconds when it is blinking and then pressing the program button once.)</p>",
-          "AFR-100": "Press the program button on your fitting, the light on your fitting should start blinking when you release the button. When it is in pairing mode click 'Program'.<p class=\"notice\">(Note. If you experience difficulties pairing try to reset your device by holding the program button for 10 seconds when it is blinking and then pressing the program button once.)</p>",
+          "AFR-100": "Drücke auf die Programmtaste an Deinem Verbindungsstück. Die Leuchte an dem Verbindungsstück sollte zu blinken beginnen, wenn Du die Taste loslässt.",
           "build_in": "Press the program button on your device to put it in pairing mode, then click 'Program'.<p class=\"notice\">(Note. If you experience difficulties pairing try to reset your device by holding the program button for 10 seconds when it is blinking and then pressing the program button once.)</p>",
           "simple_socket": "Unplug the socket for a couple of seconds and plug it back in, the light should now be blinking. When it is in pairing mode click 'Program'.<p class=\"notice\">(Note. If you experience difficulties pairing try to reset your device by putting it in pairing mode and holding the group button on the remote for 5 seconds. All addresses should now be cleared from the socket.)</p>",
           "ALED-003": "Remove the one battery from the lamp and insert it again to put it in pairing mode. The light should now slowly blink. Then click 'Program'.",
