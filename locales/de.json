@@ -5,23 +5,23 @@
       "choice": {
         "buttons": {
           "codewheel": {
-            "codewheel_switch": "Manually set codewheels\u0000"
+            "codewheel_switch": "Stelle die Coderäder manuell ein."
           },
           "imitate": {
-            "ACDB-6600": "Copy doorbell signal"
+            "ACDB-6600": "Kopiere das Türklingelsignal."
           },
           "copy": {
-            "default": "Copy a paired remote"
+            "default": "Kopiere eine gekoppelte Fernbedienung."
           },
           "generate": {
-            "default": "Generate a new signal",
-            "codewheel": "Manually set codewheels",
-            "dipswitch": "Set the dipswitches"
+            "default": "Generiere ein neues Signal.",
+            "codewheel": "Stelle die Coderäder manuell ein.",
+            "dipswitch": "Stelle die DIP-Schalter ein."
           }
         },
         "body": {
           "doorbell": "Wähle aus, ob Du das Signal deiner Türklingel kopieren oder lieber ein neues Signal für die Koppelung mit Deiner Türklingel generieren möchtest.",
-          "codewheel_switch": "Choose if you want to copy an existing signal from a paired remote or if you want manually set the codewheels to pair this device.\u0000",
+          "codewheel_switch": "Wähle aus, ob Du ein bereits bestehendes Signal von einer gekoppelten Fernbedienung kopieren oder lieber manuell die Coderäder einstellen möchtest, um dieses Gerät zu koppeln.",
           "default": "Click one of the buttons above to proceed.",
           "switch": "Wähle aus, ob Du ein bereits bestehendes Signal von einer gekoppelten Fernbedienung kopieren oder lieber ein neues Signal generieren möchtest, um dieses Gerät zu koppeln.",
           "codewheel": "Choose if you want to copy an existing signal from a paired remote or if you want to set the codewheels manually to pair this device.",
