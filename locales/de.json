@@ -83,7 +83,7 @@
           "build_in": "Drücke auf die Programmieren-Taste an Deinem Gerät, um es in den Koppelungsmodus zu versetzen, und drücke dann auf „Programmieren“.<p class=\"notice\">(Achtung: Falls Du bei der Koppelung Schwierigkeiten hast, dann setze Dein Gerät zurück, indem Du die Programmieren-Taste 10 Sekunden lang gedrückt hältst, bis die Leuchte blinkt. Drücke dann noch einmal die Programmieren-Taste.)</p>",
           "simple_socket": "Trenne die Steckdose für ein paar Sekunden vom Strom und verbinde sie dann wieder. Die Leuchte sollte nun blinken. Wenn der Koppelungsmodus aktiv ist, drücke „Programmieren“.<p class=\"notice\">(Achtung: Falls Du bei der Koppelung Schwierigkeiten hast, dann setze Dein Gerät zurück, indem Du es in den Koppelungsmodus versetzt und die Gruppe-Taste auf der Fernbedienung 5 Sekunden lang gedrückt hältst. Nun sollten alle Adressen aus der Steckdose gelöscht sein.)</p>",
           "ALED-003": "Entferne die eine Batterie aus der Lampe und setze sie erneut ein, um die Lampe in den Koppelungsmodus zu versetzen. Die Leuchte sollte nun langsam blinken. Drücke nun auf „Programmieren“.",
-          "ALED-2709": "Schalte das Licht innerhalb von 15 Sekunden 3-mal manuell oder 5-mal mit deiner Fernbedienung ein und wieder aus, um die Lampe in den Kopplungsmodus zu versetzen. Sie sollte nun blinken. Drücke dann auf „Programmieren“.<p class=\"notice\">(Achtung: Falls die Koppelung fehlschlägt und sich die Lampe nach dem Drücken auf die Programmieren-Taste 5-mal statt 2-mal an- und ausschaltet, dann ist der Speicher Deiner Lampe voll. Du kannst den Speicher zurücksetzen, indem Du die Lampe in den Koppelungsmodus versetzt und die Ausschalttaste einer KlikAanKlikUit-Fernbedienung 5-mal drückst. Falls dies nicht funktioniert, sieh bitte im Handbuch zu dem Gerät nach, wie man den Speicher zurücksetzt.)</p>",
+          "ALED-2709": "Schalte das Licht innerhalb von 15 Sekunden 3-mal manuell oder 5-mal mit deiner Fernbedienung ein und wieder aus, um die Lampe in den Koppelungsmodus zu versetzen. Sie sollte nun blinken. Drücke dann auf „Programmieren“.<p class=\"notice\">(Achtung: Falls die Koppelung fehlschlägt und sich die Lampe nach dem Drücken auf die Programmieren-Taste 5-mal statt 2-mal an- und ausschaltet, dann ist der Speicher Deiner Lampe voll. Du kannst den Speicher zurücksetzen, indem Du die Lampe in den Koppelungsmodus versetzt und die Ausschalttaste einer KlikAanKlikUit-Fernbedienung 5-mal drückst. Falls dies nicht funktioniert, sieh bitte im Handbuch zu dem Gerät nach, wie man den Speicher zurücksetzt.)</p>",
           "default": "Versetze Dein Gerät in den Koppelungsmodus und drücke dann die Programmieren-Taste, um Dein Gerät mit Homey zu koppeln."
         },
         "title": {
@@ -142,8 +142,8 @@
         },
         "body": {
           "default": "Info-Meldung",
-          "dipswitch": "Finde die DIP-Schalter an Deinem Gerät, wie oben angezeigt, und drücke dann auf „weiter“.",
-          "codewheel": "Finde die Coderäder an Deinem Gerät, wie oben angezeigt, und drücke dann auf „weiter“."
+          "dipswitch": "Finde die DIP-Schalter an Deinem Gerät wie oben angezeigt, und drücke dann auf „weiter“.",
+          "codewheel": "Finde die Coderäder an Deinem Gerät wie oben angezeigt, und drücke dann auf „weiter“."
         }
       },
       "codewheel": {
