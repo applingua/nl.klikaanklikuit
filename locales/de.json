@@ -266,10 +266,10 @@
       "no_device": "Kein Gerät zur Koppelung aktiviert. Bitte schließe den Koppelungsassistenten und versuche es erneut.",
       "no_settings": "Keine Einstellungen gefunden. Bitte versuche es erneut.",
       "invalid_device": "Verbindung zum Mikrocontroller fehlgeschlagen. Bitte starte Homey neu, indem Du es kurz vom Strom nimmst.",
-      "invalid_device_data": "Das angelegte Gerät ist ungültig. Bitte entferne es und starte die Kopplung erneut.",
+      "invalid_device_data": "Das angelegte Gerät ist ungültig. Bitte entferne es und starte die Koppelung erneut.",
       "data_no_object": "Daten müssen ein Objekt sein!",
       "pairdevice_invalid_data": "Die Daten des neu gekoppelten Geräts sind ungültig, Änderungen werden zurückgesetzt.",
-      "invalid_send_data": "Ungültiger Datensendeauftrag. Bitte kontaktieren Sie den Hersteller.",
+      "invalid_send_data": "Ungültiger Datensendeauftrag. Bitte kontaktiere den Hersteller.",
       "cannot_pair_with_group_button": "Gerät kann nicht über die Gruppe-Taste gekoppelt werden."
     }
   }
