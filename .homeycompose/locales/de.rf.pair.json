@@ -8,7 +8,7 @@
     },
     "body": {
       "default": "Drücke auf die Taste auf Deiner Fernbedienung, die mit dem Gerät gekoppelt ist.",
-      "blinds": "Drücke auf die Herauf-/Herunter-Taste auf der Fernbedienung, die mit Deinen Jalousien gekoppelt ist.",
+      "blinds": "Drücke auf die Hoch-/Runter-Taste auf Deiner Fernbedienung, die mit Deinen Jalousien gekoppelt ist.",
       "remote": "Drücke auf eine Taste auf deiner Fernbedienung, um sie zu koppeln.",
       "wall_switch": "Drücke auf eine beliebige Taste an Deinem Wandschalter, um ihn zu koppeln.",
       "socket": "Drücke auf die Taste, die mit Deiner Steckdose gekoppelt ist.",
@@ -47,8 +47,8 @@
     },
     "body": {
       "default": "Info-Meldung",
-      "dipswitch": "Finde die DIP-Schalter an Deinem Gerät, wie oben angezeigt, und drücke dann auf „weiter“.",
-      "codewheel": "Finde die Coderäder an Deinem Gerät, wie oben angezeigt, und drücke dann auf „weiter“."
+      "dipswitch": "Finde die DIP-Schalter an Deinem Gerät wie oben angezeigt, und drücke dann auf „weiter“.",
+      "codewheel": "Finde die Coderäder an Deinem Gerät wie oben angezeigt, und drücke dann auf „weiter“."
     }
   },
   "program": {
