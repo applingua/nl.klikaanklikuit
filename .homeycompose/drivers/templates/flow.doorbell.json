@@ -5,7 +5,8 @@
                 "id": "{{driverId}}:received",
                 "title": {
                     "en": "Doorbell is pressed",
-                    "nl": "Deurbel knop is ingedrukt"
+                    "nl": "Deurbel knop is ingedrukt",
+                    "de": "Türklingel ist gedrückt"
                 },
                 "args": []
             }
@@ -15,7 +16,8 @@
                 "id": "{{driverId}}:send",
                 "title": {
                     "en": "Trigger Doorbell",
-                    "nl": "Laat deurbel afgaan"
+                    "nl": "Laat deurbel afgaan",
+                    "de": "Türklingel auslösen"
                 },
                 "args": []
             }
