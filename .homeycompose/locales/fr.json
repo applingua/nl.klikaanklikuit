@@ -1,0 +1,92 @@
+{
+    "rf": {
+        "commands": null,
+        "pair": {
+            "choice": {
+                "buttons": {
+                    "codewheel": {
+                        "codewheel_switch": "Manually set codewheels\u0000"
+                    },
+                    "imitate": {
+                        "ACDB-6600": "Copy doorbell signal"
+                    }
+                },
+                "body": {
+                    "doorbell": "Choose if you want to copy the signal from your doorbell or if you want to generate a new signal to pair your doorbell with.",
+                    "codewheel_switch": "Choose if you want to copy an existing signal from a paired remote or if you want manually set the codewheels to pair this device.\u0000"
+                }
+            },
+            "imitate": {
+                "body": {
+                    "old_blinds": "Press the up/down button that is paired to your blinds.",
+                    "socket": "Press the button that is paired to your socket.<p class=\"notice\">(Note. For this device Homey only supports transmitters of which the product code starts with an A. If you use an old remote for this device please let Homey generate a new signal for the device)</p>",
+                    "blinds": "Press the up/down button that is paired to your blinds.<p class=\"notice\">(Note. For this device Homey only supports transmitters of which the product code starts with an A. If you use an old remote for this device please let Homey generate a new signal for the device)</p>",
+                    "AFR-100": "Press the button that is paired to your fitting.",
+                    "build_in": "Press the button that is paired to your device.",
+                    "sensor": "Trigger your sensor manually or toggle the learn switch to DEL and then back to SET.",
+                    "doorbell": "Press your doorbell button.",
+                    "ALED-2709": "Press the button that is paired to your lamp.",
+                    "AMST-606": "Connect and then disconnect the two parts of your sensor."
+                },
+                "title": {
+                    "socket": "Copy your remote signal\u0000",
+                    "ABST-604": "Pair your night sensor",
+                    "AMST-606": "Pair your contact sensor",
+                    "sensor": "Pair your sensor"
+                }
+            },
+            "test_switch": {
+                "title": {
+                    "socket": "Test your socket\u0000",
+                    "AFR-100": "Test your fitting",
+                    "build_in": "Test your device",
+                    "ALED-2709": "Test your lamp"
+                },
+                "body": {
+                    "socket": "Use the switch above to test your socket. Press next to continue.\u0000",
+                    "AFR-100": "Use the switch above to test your fitting. Press next to continue.",
+                    "build_in": "Use the switch above to test your device. Press next to continue.",
+                    "ALED-2709": "Use the switch above to test your lamp. Press next to continue."
+                }
+            },
+            "program": {
+                "body": {
+                    "socket": "Press the program button on your socket, the light on your socket should start blinking when you release the button. When it is in pairing mode click 'Program'.<p class=\"notice\">(Note. If you experience difficulties pairing try to reset your device by holding the program button for 10 seconds when it is blinking and then pressing the program button once.)</p>",
+                    "AFR-100": "Press the program button on your fitting, the light on your fitting should start blinking when you release the button. When it is in pairing mode click 'Program'.<p class=\"notice\">(Note. If you experience difficulties pairing try to reset your device by holding the program button for 10 seconds when it is blinking and then pressing the program button once.)</p>",
+                    "build_in": "Press the program button on your device to put it in pairing mode, then click 'Program'.<p class=\"notice\">(Note. If you experience difficulties pairing try to reset your device by holding the program button for 10 seconds when it is blinking and then pressing the program button once.)</p>",
+                    "simple_socket": "Unplug the socket for a couple of seconds and plug it back in, the light should now be blinking. When it is in pairing mode click 'Program'.<p class=\"notice\">(Note. If you experience difficulties pairing try to reset your device by putting it in pairing mode and holding the group button on the remote for 5 seconds. All addresses should now be cleared from the socket.)</p>",
+                    "ALED-003": "Remove the one battery from the lamp and insert it again to put it in pairing mode. The light should now slowly blink. Then click 'Program'.",
+                    "ALED-2709": "Turn the power to the light on and off 3 times, or turn the light on and off with your remote 5 times, within 15 seconds to put the lamp in pairing mode. The lamp should now be blinking. Then click 'Program'.<p class=\"notice\">(Note. If pairing fails and after pressing the program button the lamp goes on/off for 5 times instead of 2 the memory of your lamp is full. You can reset the memory by putting your lamp in pairing mode and pressing the off button of a KlikAanKlikUit remote 5 times. If this does not work, please consult the manual of your device for instructions on how to reset the memory.)</p>"
+                },
+                "title": {
+                    "build_in": "Put the device in pairing mode"
+                }
+            },
+            "test_button": {
+                "title": {
+                    "doorbell": "Test your doorbell"
+                },
+                "body": {
+                    "doorbell": "Use the button above to test your doorbell. Press next to continue."
+                }
+            },
+            "test": {
+                "title": {
+                    "sensor": "Test your sensor",
+                    "ABST-604": "Test your night sensor",
+                    "motion_sensor": "Pair your motion sensor",
+                    "blinds": "Test your blinds",
+                    "AMST-606": "Test your contact sensor"
+                },
+                "body": {
+                    "sensor": "Trigger your sensor manually or use the LEARN switch on your sensor to test the signal. Press next to continue.",
+                    "blinds": "Use the buttons above to test your blinds. Press next to continue.",
+                    "AMST-606": "Trigger your sensor manually to test the signal. Press next to continue."
+                }
+            }
+        },
+        "error": {
+            "cannot_pair_with_group_button": "Cannot pair device using the group button."
+        }
+    }
+}
